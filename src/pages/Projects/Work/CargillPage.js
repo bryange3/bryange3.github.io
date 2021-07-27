@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 function CargillPage(props) {
     window.scrollTo(0, 0);
-    const width = 8;
+    const width = 7;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
@@ -36,11 +36,6 @@ function CargillPage(props) {
                             <br />3 Software Engineering Interns
                             <br />1 Product Coach
                             <br />1 Technical Coach
-                        </Col>
-                        <Col sm>
-                            <b>Client</b>
-                            <br />
-                            Cargill's McDonald's Business Unit
                         </Col>
                         <Col sm>
                             <b>Design Tools</b>

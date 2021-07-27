@@ -70,7 +70,7 @@ class App extends React.Component {
         {
           id: 0,
           projectTitle: 'Cargill — UX/UI Design Internship',
-          description: 'Culinary innovation dashboard to hold a leading quick service restaurant brand\'s menu item idea portfolio.',
+          description: 'Culinary innovation dashboard holding a leading quick service restaurant brand\'s menu item idea portfolio.',
           roles: 'UX/UI Design',
           type: 'Summer 2021 Internship',
           imgSrc: cargill,
