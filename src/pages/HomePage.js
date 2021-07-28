@@ -37,7 +37,9 @@ function HomePage(props) {
                         <div className="home-positions">
                             <h3 className="font-weight-normal role">UX/UI Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
 
-                            <h3 className="font-weight-normal role">National Operations Strategist at <a className="link-underline" href="https://hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
+                            <h3 className="font-weight-normal role">Product Designer at <a className="link-underline" href="https://www.connecttutors.org/" target="_blank" rel="noreferrer">Connect Tutors</a> through <a className="link-underline" href="https://www.developforgood.org/" target="_blank" rel="noreferrer">Develop For Good</a></h3>
+
+                            <h3 className="font-weight-normal role">National Board Operations & Design Member at <a className="link-underline" href="https://hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
 
                             <h3 className="font-weight-normal role">Rising Sophomore at UIUC studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a></h3>
                         </div>

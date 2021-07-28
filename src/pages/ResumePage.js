@@ -51,7 +51,7 @@ function ResumePage(props) {
                     Collaborating with software engineers to develop a culinary innovation dashboard for a leading quick service restaurant brand.
 
                     <h3 className="resume-point">
-                        Develop For Good<span className="resume-company"> — Product Designer</span>
+                        Connect Tutors<span className="resume-company"> — Product Designer</span>
                     </h3>
                     <p className="resume-date">July 2021 - Present</p>
                     Redesigning Connect Tutor’s website to serve as a central hub for volunteer tutors, students, school districts, and donors.
@@ -77,7 +77,7 @@ function ResumePage(props) {
                     </p>
 
                     <h3 className="resume-point">
-                        National Hack4Impact<span className="resume-company"> — Operations Strategist</span>
+                        Hack4Impact<span className="resume-company"> — National Board Operations & Design Member</span>
                     </h3>
                     <p className="resume-date">April 2021 - Present</p>
                     Hack4Impact is an organization that builds nonprofit software for social good. Currently working on internal chapter growth and mentorship initiatives.
