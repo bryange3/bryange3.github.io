@@ -28,7 +28,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            I’m currently a rising sophomore at the University of Illinois at Urbana-Champaign majoring in <a className="link-underline" target="_blank" rel="noreferrer" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science">Statistics and Computer Science</a> and minoring in Business and Informatics. I am heavily involved in the design community on campus, especially through <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.designinnovationillinois.com/">Design Innovation</a> and <a className="link-underline" target="_blank" rel="noreferrer" href="http://wcs.illinois.edu/">Women in Computer Science</a> student organizations.
+                            I’m a rising sophomore at the University of Illinois at Urbana-Champaign majoring in CS + Statistics and minoring in Business and Informatics.
                         </p>
 
                         <p className="about-subtitle">
@@ -36,11 +36,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            I am an Operations Strategist on the <a className="link-underline" target="_blank" rel="noreferrer" href="https://hack4impact.org/">National Hack4Impact</a> board working on improving the way Hack4Impact runs at its 14 chapters across the nation. Currently, I am revamping the syllabus to increase the level of organization, communication, and engagement within chapters. I am also developing workshops for our Hack4Impact Alumni Mentorship Program. These events include  career growth, social responsibility, and mental health.
-                        </p>
-
-                        <p>
-                            I am interning at <a className="link-underline" target="_blank" rel="noreferrer" href="https://cargill.com/">Cargill</a> as a UX/UI Designer this summer! More details to come. :)
+                            Currently, I am a UX/UI Design Intern at Cargill working on an internal dashboard tool to hold culinary innovation ideas. I'm also a Product Designer at Connect Tutors (via Develop For Good) working on improving the tutor and student registration experience.
                         </p>
 
                         <p className="about-subtitle">

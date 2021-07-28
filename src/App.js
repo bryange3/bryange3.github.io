@@ -133,9 +133,9 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link className="nav-link default" to="/">Work</Link>
                 {/* <Link className="nav-link default" to="/for-fun">For Fun</Link> */}
-                <Link className="nav-link default" to="/photography">Photography</Link>
                 <Link className="nav-link default" to="/about">About</Link>
                 <Link className="nav-link default" to="/resume">Resume</Link>
+                <Link className="nav-link default" to="/photography">Photography</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

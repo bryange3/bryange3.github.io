@@ -374,11 +374,11 @@ blockquote {
 
 .right {
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .left {
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -390,7 +390,7 @@ blockquote {
 
 .profile-image {
   display: block;
-  max-height: 25em;
+  max-height: 20em;
   border-radius: 300px;
   width: auto;
   height: auto;
