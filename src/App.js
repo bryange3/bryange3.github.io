@@ -11,19 +11,19 @@ import cargill from './assets/cargill.png';
 import cargillcover from './assets/project/cargillcover.png';
 import leaf from './assets/leaf.png';
 import leafproject from './assets/project/leafproject.png';
-import iot from './assets/iot.png';
-import iotproject from './assets/project/iot/iotproject.png';
-import das from './assets/dascover.png';
-import dasproject from './assets/project/dasproject.png';
-import mfb from './assets/miningforbias.png';
-import mfbproject from './assets/project/mfbproject.png';
+// import iot from './assets/iot.png';
+// import iotproject from './assets/project/iot/iotproject.png';
+// import das from './assets/dascover.png';
+// import dasproject from './assets/project/dasproject.png';
+// import mfb from './assets/miningforbias.png';
+// import mfbproject from './assets/project/mfbproject.png';
 import trill from './assets/trill.png';
 import trillcover from './assets/project/trill/trillcover.png';
-import safewalks from './assets/safewalks.png';
-import safewalkscover from './assets/project/safewalks/safewalkscover.png';
+// import safewalks from './assets/safewalks.png';
+// import safewalkscover from './assets/project/safewalks/safewalkscover.png';
 
-import taskcal from './assets/taskcal.png';
-import taskcalcover from './assets/project/taskcal/taskcalcover.png';
+// import taskcal from './assets/taskcal.png';
+// import taskcalcover from './assets/project/taskcal/taskcalcover.png';
 import nour from './assets/nour.png';
 import nourcover from './assets/project/nour/nourcover.png';
 
@@ -35,16 +35,16 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import LeafPage from './pages/Projects/Work/LeafPage.js';
-import SafeWalksPage from './pages/Projects/Fun/SafeWalksPage.js';
+// import SafeWalksPage from './pages/Projects/Fun/SafeWalksPage.js';
 import NourPage from './pages/Projects/Work/NourPage.js';
-import DasPage from './pages/Projects/Work/DasPage.js';
-import MiningForBiasPage from './pages/Projects/Work/MiningForBiasPage.js';
-import IotPage from './pages/Projects/Work/IotPage.js';
+// import DasPage from './pages/Projects/Work/DasPage.js';
+// import MiningForBiasPage from './pages/Projects/Work/MiningForBiasPage.js';
+// import IotPage from './pages/Projects/Work/IotPage.js';
 import TrillPage from './pages/Projects/Work/TrillPage.js';
 import CargillPage from './pages/Projects/Work/CargillPage.js';
-import TaskCalPage from './pages/Projects/Fun/TaskCalPage.js';
+// import TaskCalPage from './pages/Projects/Fun/TaskCalPage.js';
 import PhotographyPage from './pages/PhotographyPage';
-import PlayPage from './pages/PlayPage';
+// import PlayPage from './pages/PlayPage';
 
 class App extends React.Component {
   constructor(props) {
@@ -53,7 +53,7 @@ class App extends React.Component {
       title: "Bryan Ge | Portfolio",
       home: {
         animated: '👋🏻',
-        title: 'Product designer + developer by day, Minecraft gamer playing cake wars by night.',
+        title: 'Product designer + developer by day, Minecraft gamer by night.',
       },
       play: {
         title: '🤓 For Fun',
@@ -117,71 +117,6 @@ class App extends React.Component {
           teamMembers: '2 Product Designers + Frontend Developers, 1 Backend Developer, 1 Financial Analyst',
           timeline: '2 days',
           location: 'Remote'
-        },
-        {
-          id: 4,
-          projectTitle: 'Internet of Things Playground',
-          description: 'Website where students can code Internet of Things devices and share them with the world.',
-          roles: 'UI Design',
-          type: 'Passion Project',
-          imgSrc: iot,
-          cover: iotproject,
-          path: '/iot-playground',
-          teamMembers: '1 Design Lead, 3 UI Designers',
-          timeline: 'September 2020 - December 2020',
-          location: 'Remote'
-        },
-        {
-          id: 5,
-          projectTitle: 'Daily Awareness Society',
-          description: 'Blog dedicated to spreading awareness on social issues.',
-          roles: 'Web Development, UI Design, Content Creation',
-          type: 'Passion Project',
-          imgSrc: das,
-          cover: dasproject,
-          path: '/daily-awareness-society',
-          teamMembers: '4 team members',
-          timeline: 'September 2019 - January 2021',
-          location: 'Denton, TX'
-        },
-        {
-          id: 6,
-          projectTitle: 'Mining for Bias',
-          description: 'Program that gives users bias information on news articles.',
-          roles: 'Software Development',
-          type: 'Class Project',
-          imgSrc: mfb,
-          cover: mfbproject,
-          path: '/mining-for-bias',
-          teamMembers: '1 Project Manager, 5 Software Developers',
-          timeline: 'September 2020 - December 2020',
-          location: 'Remote'
-        }
-      ],
-      playProjects: [
-        {
-          id: 0,
-          projectTitle: 'TaskCal',
-          description: 'Personal exploration of user interactions in a mobile time-management system.',
-          roles: 'Interaction Design',
-          type: 'Passion Project',
-          imgSrc: taskcal,
-          cover: taskcalcover,
-          path: '/taskcal',
-          timeline: '2 weeks',
-        },
-        {
-          id: 1,
-          projectTitle: 'University SafeWalks',
-          description: 'Mobile app where students can coordinate walks to safely reach their destinations on campus.',
-          roles: 'UX/UI Design',
-          type: 'Passion Project',
-          imgSrc: safewalks,
-          cover: safewalkscover,
-          path: '/university-safewalks',
-          teamMembers: '2 UX/UI designers',
-          timeline: 'January 2021 - March 2021',
-          location: 'Champaign, IL'
         }
       ]
     }
@@ -216,9 +151,6 @@ class App extends React.Component {
           <Route path={this.state.workProjects[1].path} render={() => <NourPage info={this.state.workProjects[1]} />} />
           <Route path={this.state.workProjects[2].path} render={() => <TrillPage info={this.state.workProjects[2]} />} />
           <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
-          <Route path={this.state.workProjects[4].path} render={() => <IotPage info={this.state.workProjects[4]} />} />
-          <Route path={this.state.workProjects[5].path} render={() => <DasPage info={this.state.workProjects[5]} />} />
-          <Route path={this.state.workProjects[6].path} render={() => <MiningForBiasPage info={this.state.workProjects[6]} />} />
 
           <ScrollArrow />
           <Footer />
