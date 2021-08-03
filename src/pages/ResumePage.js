@@ -80,7 +80,7 @@ function ResumePage(props) {
                         Hack4Impact<span className="resume-company"> — National Board Operations & Design Member</span>
                     </h3>
                     <p className="resume-date">April 2021 - Present</p>
-                    Hack4Impact is an organization that builds nonprofit software for social good. Currently working on internal chapter growth and mentorship initiatives.
+                    Hack4Impact is an organization that builds nonprofit software for social good. Currently building project and design resources for 14 chapters across the nation.
 
                     <h3 className="resume-point">
                         Design Innovation<span className="resume-company"> — UI Designer</span>
