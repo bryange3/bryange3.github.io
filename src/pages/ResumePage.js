@@ -103,12 +103,6 @@ function ResumePage(props) {
                     </p>
 
                     <h3 className="resume-point">
-                        Design Buddies<span className="resume-company"> — Product Splash Participant</span>
-                    </h3>
-                    <p className="resume-date">July 2021 - Present</p>
-                    Product Splash is a 5-week immersive program for product designers and product managers to conceptualize and pitch a new product idea.
-
-                    <h3 className="resume-point">
                         The Trevor Project<span className="resume-company"> — Design Vision Sprint Participant</span>
                     </h3>
                     <p className="resume-date">May 2021</p>
