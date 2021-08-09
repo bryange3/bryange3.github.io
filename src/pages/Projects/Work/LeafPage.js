@@ -20,7 +20,6 @@ function LeafPage(props) {
                             <br />UX Design
                             <br />UI Design
                             <br />User Research
-                            <br />User Testing
                             <br />Frontend Development
                         </Col>
                         <Col sm>

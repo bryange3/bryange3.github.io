@@ -9,6 +9,8 @@ import './App.css';
 
 import cargill from './assets/cargill.png';
 import cargillcover from './assets/project/cargillcover.png';
+import connecttutors from './assets/connect-tutors.png';
+import connecttutorscover from './assets/project/connecttutors-cover.png';
 import leaf from './assets/leaf.png';
 import leafproject from './assets/project/leafproject.png';
 // import iot from './assets/iot.png';
@@ -42,6 +44,7 @@ import NourPage from './pages/Projects/Work/NourPage.js';
 // import IotPage from './pages/Projects/Work/IotPage.js';
 import TrillPage from './pages/Projects/Work/TrillPage.js';
 import CargillPage from './pages/Projects/Work/CargillPage.js';
+import ConnectTutorsPage from './pages/Projects/Work/ConnectTutorsPage.js';
 // import TaskCalPage from './pages/Projects/Fun/TaskCalPage.js';
 import PhotographyPage from './pages/PhotographyPage';
 // import PlayPage from './pages/PlayPage';
@@ -82,7 +85,20 @@ class App extends React.Component {
         },
         {
           id: 1,
-          projectTitle: 'HackDuke Ideate Designathon',
+          projectTitle: 'Connect Tutors — Nonprofit Project',
+          description: 'Organization that pairs volunteer tutors with high school students seeking college application essay support.',
+          roles: 'Product Design, Website Development',
+          type: 'Nonprofit Project',
+          imgSrc: connecttutors,
+          cover: connecttutorscover,
+          path: '/connect-tutors',
+          teamMembers: '2 Design + Developers, 3 Designers, 1 Project Manager',
+          timeline: 'July 2021 - Present',
+          location: 'Remote'
+        },
+        {
+          id: 2,
+          projectTitle: 'Nour — HackDuke Designathon',
           description: 'Social platform connecting the elderly.',
           roles: 'Product Design',
           type: 'Designathon Project',
@@ -94,7 +110,7 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 2,
+          id: 3,
           projectTitle: 'Trill Project — Design Internship',
           description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
           roles: 'UI Design, Web Design',
@@ -106,8 +122,8 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 3,
-          projectTitle: 'UChicago Francis & Rose Yuen East Asia Hackathon',
+          id: 4,
+          projectTitle: 'Leaf — UChicago Hackathon',
           description: 'Educational web app for the future generation to learn about their carbon footprint.',
           roles: 'Product Design, Frontend Development',
           type: 'Hackathon Project',
@@ -148,9 +164,10 @@ class App extends React.Component {
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
 
           <Route path={this.state.workProjects[0].path} render={() => <CargillPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} render={() => <NourPage info={this.state.workProjects[1]} />} />
-          <Route path={this.state.workProjects[2].path} render={() => <TrillPage info={this.state.workProjects[2]} />} />
-          <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <ConnectTutorsPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <NourPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <TrillPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[4].path} render={() => <LeafPage info={this.state.workProjects[4]} />} />
 
           <ScrollArrow />
           <Footer />

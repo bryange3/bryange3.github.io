@@ -51,7 +51,7 @@ function NourPage(props) {
                     </Row>
 
                     <br />
-                    Our project received the following prizes for the 2021 HackDuke Ideate Designathon:
+                    Our project received the following prizes for the HackDuke Ideate 2021 Designathon:
                     <ul>
                         <li>
                             1st Place for Huawei Innovation Awards
@@ -249,7 +249,8 @@ function NourPage(props) {
                         This was the first time that I was given a design prompt where I knew almost nothing about the target audience. Building an app for people who are naturally unfamiliar with technology proved difficult. However, through online research and Medium articles, I gained some knowledge about accessible design.
 
                         <p className="paragraph">
-                            I certainly have a lot more to learn regarding designing for all and designing inclusively, but I'm glad that this designathon gave me an introduction to it. Thank you to all the mentors who provided me with their input during the ideation process and to my team for being amazing!                        </p>
+                            I certainly have a lot more to learn regarding designing for all and designing inclusively, but I'm glad that this designathon gave me an introduction to it. Thank you to all the mentors who provided me with their input during the ideation process and to my team for being amazing!
+                        </p>
                     </p>
 
                     <img src={team} alt="Team" className="project-img" />

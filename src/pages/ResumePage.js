@@ -45,17 +45,17 @@ function ResumePage(props) {
                     </p>
 
                     <h3 className="resume-point">
-                        Cargill<span className="resume-company"> — UX/UI Design Intern</span>
-                    </h3>
-                    <p className="resume-date">May 2021 - Present</p>
-                    Collaborating with software engineers to develop a culinary innovation dashboard for a leading quick service restaurant brand.
-
-                    <h3 className="resume-point">
                         Connect Tutors<span className="resume-company"> — Product Designer</span>
                     </h3>
                     <p className="resume-date">July 2021 - Present</p>
                     Redesigning Connect Tutor’s website to serve as a central hub for volunteer tutors, students, school districts, and donors.
-                    
+
+                    <h3 className="resume-point">
+                        Cargill<span className="resume-company"> — UX/UI Design Intern</span>
+                    </h3>
+                    <p className="resume-date">May 2021 - August 2021</p>
+                    Collaborated with software engineers to develop a culinary innovation dashboard for a leading quick-service restaurant brand.
+
                     <h3 className="resume-point">
                         Trill Project<span className="resume-company"> — Design Intern</span>
                     </h3>
@@ -83,6 +83,18 @@ function ResumePage(props) {
                     Hack4Impact is an organization that builds nonprofit software for social good. Currently building project and design resources for 14 chapters across the nation.
 
                     <h3 className="resume-point">
+                        Capital One<span className="resume-company"> — Software Engineering Summiteer</span>
+                    </h3>
+                    <p className="resume-date">August 2021</p>
+                    Attended workshops on iOS development, AWS, machine learning, and AR.
+
+                    <h3 className="resume-point">
+                        The Trevor Project<span className="resume-company"> — Design Vision Sprint Participant</span>
+                    </h3>
+                    <p className="resume-date">May 2021</p>
+                    The Trevor Project is the world’s largest suicide prevention and crisis intervention organization for LGBTQ youth.
+
+                    <h3 className="resume-point">
                         Design Innovation<span className="resume-company"> — UI Designer</span>
                     </h3>
                     <p className="resume-date">September 2020 - December 2020</p>
@@ -101,12 +113,6 @@ function ResumePage(props) {
                     <p className="section">
                         Projects
                     </p>
-
-                    <h3 className="resume-point">
-                        The Trevor Project<span className="resume-company"> — Design Vision Sprint Participant</span>
-                    </h3>
-                    <p className="resume-date">May 2021</p>
-                    The Trevor Project is the world’s largest suicide prevention and crisis intervention organization for LGBTQ youth.
 
                     <h3 className="resume-point">
                         HackDuke <span className="resume-company"> — 1st Place at Ideate Designathon</span>
