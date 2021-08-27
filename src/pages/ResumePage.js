@@ -45,6 +45,11 @@ function ResumePage(props) {
                     </p>
 
                     <h3 className="resume-point">
+                        State Farm<span className="resume-company"> — Enterprise Technology Intern</span>
+                    </h3>
+                    <p className="resume-date">August 2021 - Present</p>
+
+                    <h3 className="resume-point">
                         Connect Tutors<span className="resume-company"> — Product Designer</span>
                     </h3>
                     <p className="resume-date">July 2021 - Present</p>
@@ -83,10 +88,10 @@ function ResumePage(props) {
                     Hack4Impact is an organization that builds nonprofit software for social good. Currently building project and design resources for 14 chapters across the nation.
 
                     <h3 className="resume-point">
-                        Capital One<span className="resume-company"> — Software Engineering Summiteer</span>
+                        UIUC<span className="resume-company"> — Orientation Leader</span>
                     </h3>
                     <p className="resume-date">August 2021</p>
-                    Attended workshops on iOS development, AWS, machine learning, and AR.
+                    Guided students and parents through campus tours. Facilitated new student orientation social and informational events.
 
                     <h3 className="resume-point">
                         The Trevor Project<span className="resume-company"> — Design Vision Sprint Participant</span>
@@ -111,7 +116,7 @@ function ResumePage(props) {
 
                 <p className="paragraph">
                     <p className="section">
-                        Projects
+                        Honors
                     </p>
 
                     <h3 className="resume-point">
@@ -125,6 +130,12 @@ function ResumePage(props) {
                     </h3>
                     <p className="resume-date">December 2020</p>
                     Developed an educational and interactive web app in a team of 4 using HTML, CSS, JavaScript, Python, and Amazon Rekognition API for children to learn about the effects of carbon emissions starting with a new generation.
+
+                    <h3 className="resume-point">
+                        Capital One<span className="resume-company"> — Software Engineering Summiteer</span>
+                    </h3>
+                    <p className="resume-date">August 2021</p>
+                    Attended workshops on iOS development, AWS, machine learning, and AR.
                 </p>
 
                 <hr className="rounded" />
