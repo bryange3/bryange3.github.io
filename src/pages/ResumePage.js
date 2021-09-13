@@ -45,9 +45,10 @@ function ResumePage(props) {
                     </p>
 
                     <h3 className="resume-point">
-                        State Farm<span className="resume-company"> — Enterprise Technology Intern</span>
+                        State Farm<span className="resume-company"> — Software Engineering Intern</span>
                     </h3>
                     <p className="resume-date">August 2021 - Present</p>
+                    Enterprise Technology - Agent Experience Team
 
                     <h3 className="resume-point">
                         Connect Tutors<span className="resume-company"> — Product Designer</span>
@@ -56,7 +57,7 @@ function ResumePage(props) {
                     Redesigning Connect Tutor’s website to serve as a central hub for volunteer tutors, students, school districts, and donors.
 
                     <h3 className="resume-point">
-                        Cargill<span className="resume-company"> — UX/UI Design Intern</span>
+                        Cargill<span className="resume-company"> — User Experience Design Intern</span>
                     </h3>
                     <p className="resume-date">May 2021 - August 2021</p>
                     Collaborated with software engineers to develop a culinary innovation dashboard for a leading quick-service restaurant brand.
@@ -174,23 +175,23 @@ function ResumePage(props) {
                         <Row>
                             <Col sm>
                                 <ul>
-                                    <li>Introduction to Computer Systems (Fall 2021)</li>
+                                    <li>Introduction to Computer Systems (C, Python)</li>
                                     <li>Data Structures (C++)</li>
-                                    <li>Software Design Studio (Java/C++)</li>
+                                    <li>Software Design Studio (Java, C++)</li>
                                     <li>Freshman Honors - Semester Project Course (Python, React.js)</li>
                                 </ul>
                             </Col>
                             <Col sm>
                                 <ul>
-                                    <li>Statistics Programming Methods (Fall 2021)</li>
-                                    <li>Statistics & Probability II (Fall 2021)</li>
+                                    <li>Statistics Programming Methods (R)</li>
+                                    <li>Statistics & Probability II</li>
                                     <li>Statistics & Probability I</li>
                                     <li>Data Science Discovery (Python)</li>
                                 </ul>
                             </Col>
                             <Col sm>
                                 <ul>
-                                    <li>Design for Social Impact (Fall 2021)</li>
+                                    <li>Design for Social Impact</li>
                                     <li>Principles of Marketing</li>
                                 </ul>
                             </Col>

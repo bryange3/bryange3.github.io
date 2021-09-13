@@ -72,32 +72,32 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
-          projectTitle: 'Cargill — UX/UI Design Internship',
+          projectTitle: 'Cargill — User Experience Design Internship',
           description: 'Culinary innovation dashboard holding a leading quick service restaurant brand\'s menu item idea portfolio.',
           roles: 'Product Design',
           type: 'Summer 2021 Internship',
           imgSrc: cargill,
           cover: cargillcover,
           path: '/cargill-internship',
-          teamMembers: '1 Design Intern, 3 Software Engineer Interns, 2 Product Coaches',
+          teamMembers: '1 Design Intern, 3 Software Engineering Interns, 2 Product Coaches',
           timeline: 'May 2021 - Present',
           location: 'Remote'
         },
+        // {
+        //   id: 1,
+        //   projectTitle: 'Connect Tutors — Nonprofit Project',
+        //   description: 'Organization that pairs volunteer tutors with high school students seeking college application essay support.',
+        //   roles: 'Product Design',
+        //   type: 'Nonprofit Project',
+        //   imgSrc: connecttutors,
+        //   cover: connecttutorscover,
+        //   path: '/connect-tutors',
+        //   teamMembers: '2 Design + Developers, 3 Designers, 1 Project Manager',
+        //   timeline: 'July 2021 - Present',
+        //   location: 'Remote'
+        // },
         {
           id: 1,
-          projectTitle: 'Connect Tutors — Nonprofit Project',
-          description: 'Organization that pairs volunteer tutors with high school students seeking college application essay support.',
-          roles: 'Product Design',
-          type: 'Nonprofit Project',
-          imgSrc: connecttutors,
-          cover: connecttutorscover,
-          path: '/connect-tutors',
-          teamMembers: '2 Design + Developers, 3 Designers, 1 Project Manager',
-          timeline: 'July 2021 - Present',
-          location: 'Remote'
-        },
-        {
-          id: 2,
           projectTitle: 'Nour — HackDuke Designathon',
           description: 'Social platform connecting the elderly.',
           roles: 'Product Design',
@@ -110,7 +110,7 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 3,
+          id: 2,
           projectTitle: 'Trill Project — Design Internship',
           description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
           roles: 'UI Design, Web Design',
@@ -122,7 +122,7 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 4,
+          id: 3,
           projectTitle: 'Leaf — UChicago Hackathon',
           description: 'Educational web app for the future generation to learn about their carbon footprint.',
           roles: 'Product Design, Frontend Development',
@@ -164,10 +164,10 @@ class App extends React.Component {
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
 
           <Route path={this.state.workProjects[0].path} render={() => <CargillPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} render={() => <ConnectTutorsPage info={this.state.workProjects[1]} />} />
-          <Route path={this.state.workProjects[2].path} render={() => <NourPage info={this.state.workProjects[2]} />} />
-          <Route path={this.state.workProjects[3].path} render={() => <TrillPage info={this.state.workProjects[3]} />} />
-          <Route path={this.state.workProjects[4].path} render={() => <LeafPage info={this.state.workProjects[4]} />} />
+          {/* <Route path={this.state.workProjects[1].path} render={() => <ConnectTutorsPage info={this.state.workProjects[1]} />} /> */}
+          <Route path={this.state.workProjects[1].path} render={() => <NourPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <TrillPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
 
           <ScrollArrow />
           <Footer />

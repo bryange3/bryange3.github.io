@@ -37,8 +37,8 @@ function HomePage(props) {
                         {/* {props.subTitle && <h2 className="display-5 font-weight-normal">{props.subTitle}</h2>} */}
                         <div className="home-positions">
                             <h3 className="font-weight-normal role">Product Designer at <a className="link-underline" href="https://www.connecttutors.org/" target="_blank" rel="noreferrer">Connect Tutors</a></h3>
-                            <h3 className="font-weight-normal role">Enterprise Technology Intern at <a className="link-underline" href="https://www.statefarm.com/" target="_blank" rel="noreferrer">State Farm</a></h3>
-                            <h3 className="font-weight-normal role">Previous UX/UI Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
+                            <h3 className="font-weight-normal role">Software Engineering Intern at <a className="link-underline" href="https://www.statefarm.com/" target="_blank" rel="noreferrer">State Farm</a></h3>
+                            <h3 className="font-weight-normal role">Previous User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
                         </div>
                         <a href="mailto:bryange3@gmail.com">
                             <Button buttonStyle="btn--primary" buttonSize="btn--medium">Email</Button>

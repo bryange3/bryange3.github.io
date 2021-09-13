@@ -32,7 +32,7 @@ function CargillPage(props) {
                         <Col sm>
                             <b>Team Members</b>
                             <br />
-                            1 UX/UI Design Intern
+                            1 Design Intern
                             <br />3 Software Engineering Interns
                             <br />1 Product Coach
                             <br />1 Technical Coach
