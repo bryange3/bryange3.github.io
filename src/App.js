@@ -53,10 +53,10 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: "Bryan Ge | Portfolio",
+      title: "Bryan Ge",
       home: {
         animated: '👋🏻',
-        title: 'Product designer + developer by day, Minecraft gamer by night.',
+        title: 'Product designer + developer studying at UIUC.',
       },
       play: {
         title: '🤓 For Fun',
@@ -73,7 +73,7 @@ class App extends React.Component {
         {
           id: 0,
           projectTitle: 'Cargill — User Experience Design Internship',
-          description: 'Culinary innovation dashboard holding a leading quick service restaurant brand\'s menu item idea portfolio.',
+          description: 'Dashboard to hold new menu item ideas for a leading fast-food restaurant.',
           roles: 'Product Design',
           type: 'Summer 2021 Internship',
           imgSrc: cargill,

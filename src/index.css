@@ -186,13 +186,14 @@ code {
   border-radius: 10px;
   background-size: cover;
   background-position: center;
-  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3); */
   transition: box-shadow 0.5s;
   will-change: transform;
 }
 
 .project-card-image:hover {
-  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4); */
+  
 }
 
 .project-card-info {

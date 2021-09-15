@@ -18,8 +18,8 @@ function Card(props) {
                     id="image"
                     class="project-card-image"
                     // onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
-                    onMouseMove={() => set({ xys: [0, 0, 1.04] })}
-                    onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                    // onMouseMove={() => set({ xys: [0, 0, 1.04] })}
+                    // onMouseLeave={() => set({ xys: [0, 0, 1] })}
                     style={{ transform: springProps.xys.interpolate(trans) }}
                     src={props.item.imgSrc}
                     alt={props.item.imgSrc}

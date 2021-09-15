@@ -27,7 +27,7 @@ function HomePage(props) {
             {/* <Jumbotron className="bg-transparent jumbotron-fluid hero"> */}
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
-                    <Col md={width - 4} sm={12}>
+                    <Col md={width - 2} sm={12}>
                         <div class="home-images">
                             <a href="https://www.bryange.com/about" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
                             <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>

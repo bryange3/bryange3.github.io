@@ -28,15 +28,16 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            I’m a rising sophomore at the University of Illinois at Urbana-Champaign majoring in CS + Statistics and minoring in Business and Informatics.
+                            I’m a rising sophomore at the University of Illinois at Urbana-Champaign majoring in CS + Statistics.
                         </p>
 
                         <p className="about-subtitle">
-                            What am I up to right now?
+                            What am I up to?
                         </p>
 
                         <p>
-                            Currently, I am a UX/UI Design Intern at Cargill working on an internal dashboard tool to hold culinary innovation ideas. I'm also a Product Designer at Connect Tutors (via Develop For Good) working on improving the tutor and student registration experience.
+                            I'm currently a Product Designer at Connect Tutors (via Develop For Good) working on improving the tutor and student registration experience. This past summer, I was a User Experience Design Intern at Cargill working on an  dashboard tool to hold menu item ideas for a leading fast food restaurant company.
+
                         </p>
 
                         <p className="about-subtitle">
