@@ -45,6 +45,12 @@ function ResumePage(props) {
                     </p>
 
                     <h3 className="resume-point">
+                        Hack4Impact @ UIUC<span className="resume-company"> — Product Designer</span>
+                    </h3>
+                    <p className="resume-date">September 2021 - Present</p>
+                    Student organization that builds software for nonprofits.
+
+                    <h3 className="resume-point">
                         State Farm<span className="resume-company"> — Software Engineering Intern</span>
                     </h3>
                     <p className="resume-date">August 2021 - Present</p>
@@ -101,7 +107,7 @@ function ResumePage(props) {
                     The Trevor Project is the world’s largest suicide prevention and crisis intervention organization for LGBTQ youth.
 
                     <h3 className="resume-point">
-                        Design Innovation<span className="resume-company"> — UI Designer</span>
+                        Design Innovation<span className="resume-company"> — User Interface Designer</span>
                     </h3>
                     <p className="resume-date">September 2020 - December 2020</p>
                     Redesigned website for Professor Matthew Caesar that enables students to code and share Internet of Things Projects.
@@ -184,7 +190,6 @@ function ResumePage(props) {
                             <Col sm>
                                 <ul>
                                     <li>Statistics Programming Methods (R)</li>
-                                    <li>Statistics & Probability II</li>
                                     <li>Statistics & Probability I</li>
                                     <li>Data Science Discovery (Python)</li>
                                 </ul>
