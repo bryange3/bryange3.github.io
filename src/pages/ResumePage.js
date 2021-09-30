@@ -15,7 +15,7 @@ function ResumePage(props) {
             <Hero title={props.title} width={width} />
             <Content width={width}>
                 <p className="paragraph impact-statement">
-                    📄 I'm currently seeking 2022 spring + summer internships! Connect with me through <a className="link-underline" href="mailto:bryange3@gmail.com">email</a> and download a PDF of my <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="link-underline">resume</a>.
+                    📄 I'm currently seeking a summer 2022 internship! Connect with me through <a className="link-underline" href="mailto:bryange3@gmail.com">email</a> and download a PDF of my <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="link-underline">resume</a>.
                 </p>
                 <p className="paragraph">
                     <p className="section">
@@ -45,6 +45,11 @@ function ResumePage(props) {
                     </p>
 
                     <h3 className="resume-point">
+                        Cargill<span className="resume-company"> — Incoming User Experience Design Intern</span>
+                    </h3>
+                    <p className="resume-date">Spring 2022 (January - April)</p>
+
+                    <h3 className="resume-point">
                         Hack4Impact @ UIUC<span className="resume-company"> — Product Designer</span>
                     </h3>
                     <p className="resume-date">September 2021 - Present</p>
@@ -59,7 +64,7 @@ function ResumePage(props) {
                     <h3 className="resume-point">
                         Connect Tutors<span className="resume-company"> — Product Designer</span>
                     </h3>
-                    <p className="resume-date">July 2021 - Present</p>
+                    <p className="resume-date">July 2021 - October 2021</p>
                     Redesigning Connect Tutor’s website to serve as a central hub for volunteer tutors, students, school districts, and donors.
 
                     <h3 className="resume-point">
@@ -181,7 +186,6 @@ function ResumePage(props) {
                         <Row>
                             <Col sm>
                                 <ul>
-                                    <li>Introduction to Computer Systems (C, Python)</li>
                                     <li>Data Structures (C++)</li>
                                     <li>Software Design Studio (Java, C++)</li>
                                     <li>Freshman Honors - Semester Project Course (Python, React.js)</li>

@@ -24,11 +24,17 @@ function AboutPage(props) {
                     </div>
                     <div class="right">
                         <p className="about-subtitle">
-                            Hi there! I'm Bryan Ge and my pronouns are he/him.
+                            Hi there! I'm Bryan Ge (he/him).
+                        </p>
+                        <p>
+                            I’m a sophomore at the University of Illinois at Urbana-Champaign studying Computer Science + Statistics.
                         </p>
 
+                        <p className="about-subtitle">
+                            How did I get into product design?
+                        </p>
                         <p>
-                            I’m a rising sophomore at the University of Illinois at Urbana-Champaign majoring in CS + Statistics.
+                            I've always been intrigued by technology and how it affects our lives. Throughout high school and college, I've sought opportunities to learn about computer science. In this journey, I became exposed to the world of product where I learned about other product roles and the world of user experience / product design. Since my first design project at a student organization my freshman year, I've been hooked in the process of research, understanding users, and prototyping!
                         </p>
 
                         <p className="about-subtitle">
@@ -36,7 +42,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            I'm currently a Product Designer at Connect Tutors (via Develop For Good) working on improving the tutor and student registration experience. This past summer, I was a User Experience Design Intern at Cargill working on an  dashboard tool to hold menu item ideas for a leading fast food restaurant company.
+                            Currently, I am involved in Hack4Impact at the national and UIUC level. I'm a product designer for a Chicago news nonprofit, South Side Weekly and a committee member of the design and operations functions of National Hack4Impact. I'm working on growing the design community and culture at Hack4Impact. I am also a Product Designer at Connect Tutors (via Develop For Good) working on improving the tutor and student registration experience.
 
                         </p>
 

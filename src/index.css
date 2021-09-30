@@ -384,9 +384,9 @@ blockquote {
 }
 
 .left {
-  margin-left: 10%;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-left: 5%;
+  margin-top: 0;
+  /* margin-bottom: auto; */
 }
 
 .about-subtitle {
