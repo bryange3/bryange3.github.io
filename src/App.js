@@ -72,6 +72,19 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
+          projectTitle: 'Nour — 1st at HackDuke Designathon',
+          description: 'Social platform connecting the elderly.',
+          roles: 'Product Design',
+          type: 'Designathon Project',
+          imgSrc: nour,
+          cover: nourcover,
+          path: '/duke-ideate-designathon',
+          teamMembers: '3 Designers, 1 Product Marketer',
+          timeline: '24 hours',
+          location: 'Remote'
+        },
+        {
+          id: 1,
           projectTitle: 'Cargill — User Experience Design Internship',
           description: 'Dashboard to hold new menu item ideas for a leading fast-food restaurant.',
           roles: 'Product Design',
@@ -81,32 +94,6 @@ class App extends React.Component {
           path: '/cargill-internship',
           teamMembers: '1 Design Intern, 3 Software Engineering Interns, 2 Product Coaches',
           timeline: 'May 2021 - Present',
-          location: 'Remote'
-        },
-        // {
-        //   id: 1,
-        //   projectTitle: 'Connect Tutors — Nonprofit Project',
-        //   description: 'Organization that pairs volunteer tutors with high school students seeking college application essay support.',
-        //   roles: 'Product Design',
-        //   type: 'Nonprofit Project',
-        //   imgSrc: connecttutors,
-        //   cover: connecttutorscover,
-        //   path: '/connect-tutors',
-        //   teamMembers: '2 Design + Developers, 3 Designers, 1 Project Manager',
-        //   timeline: 'July 2021 - Present',
-        //   location: 'Remote'
-        // },
-        {
-          id: 1,
-          projectTitle: 'Nour — HackDuke Designathon',
-          description: 'Social platform connecting the elderly.',
-          roles: 'Product Design',
-          type: 'Designathon Project',
-          imgSrc: nour,
-          cover: nourcover,
-          path: '/duke-ideate-designathon',
-          teamMembers: '3 Designers, 1 Product Marketer',
-          timeline: '24 hours',
           location: 'Remote'
         },
         {
@@ -123,7 +110,7 @@ class App extends React.Component {
         },
         {
           id: 3,
-          projectTitle: 'Leaf — UChicago Hackathon',
+          projectTitle: 'Leaf — Winner of UChicago Hackathon',
           description: 'Educational web app for the future generation to learn about their carbon footprint.',
           roles: 'Product Design, Frontend Development',
           type: 'Hackathon Project',
@@ -163,9 +150,8 @@ class App extends React.Component {
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
 
-          <Route path={this.state.workProjects[0].path} render={() => <CargillPage info={this.state.workProjects[0]} />} />
-          {/* <Route path={this.state.workProjects[1].path} render={() => <ConnectTutorsPage info={this.state.workProjects[1]} />} /> */}
-          <Route path={this.state.workProjects[1].path} render={() => <NourPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[0].path} render={() => <NourPage info={this.state.workProjects[0]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <CargillPage info={this.state.workProjects[1]} />} />
           <Route path={this.state.workProjects[2].path} render={() => <TrillPage info={this.state.workProjects[2]} />} />
           <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
 
