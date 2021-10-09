@@ -42,7 +42,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            Currently, I am involved in Hack4Impact at the national and UIUC level. I'm a product designer for a Chicago news nonprofit, South Side Weekly and a committee member of the design and operations functions of National Hack4Impact. I'm working on growing the design community and culture at Hack4Impact. I am also a Product Designer at Connect Tutors (via Develop For Good) working on improving the tutor and student registration experience.
+                            Currently, I am involved in Hack4Impact at the national and UIUC level. I'm a product designer for a Chicago news nonprofit, South Side Weekly, and a committee member of the design and operations functions of National Hack4Impact. I'm working on growing the design community and culture at Hack4Impact.
 
                         </p>
 
