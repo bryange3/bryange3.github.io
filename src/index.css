@@ -9,11 +9,8 @@
     display: none !important;
   }
   [class*="home-image-cursor"] {
-    max-width: 15em !important;
-    left: 120px !important;
-  }
-  [class*="role"] {
-    font-size: 18px !important;
+    max-width: 12em !important;
+    left: 80px !important;
   }
   [class*="left"] {
     margin-left: 0% !important;
@@ -28,10 +25,10 @@
     height: 100% !important;
   }
   [class*="project-card-subtitle"] {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   [class*="project-card-role"] {
-    font-size: 12px !important;
+    font-size: 13px !important;
   }
   [class*="small-description"] {
     font-size: 16px !important;
