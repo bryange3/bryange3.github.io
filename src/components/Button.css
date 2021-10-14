@@ -3,7 +3,7 @@
 }
 
 .btn {
-    background-color: #5f97af !important;
+    background-color: #2183BE !important;
     color: #FCFBF6 !important;
     padding: 8px 20px;
     border-radius: 10px !important;
@@ -16,7 +16,7 @@
 .btn:hover {
     /* padding: 8px 20px; */
     transition: all 0.3s ease-out !important;
-    background-color: #6cadc9 !important;
+    background-color: #48a4dd !important;
 }
 
 .btn--outline:hover {

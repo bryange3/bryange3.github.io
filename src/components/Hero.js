@@ -22,7 +22,7 @@ function Hero(props) {
                 <Row className="justify-content-center py-5">
                     <Col md={props.width} sm={12} className="hero">
                         {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>}
-                        {props.title && <h1 className="display-5 font-weight-bolder">{props.title}</h1>}
+                        {props.title && <h3 className="display-5 font-weight-bolder">{props.title}</h3>}
                         {props.subTitle && <h4 className="display-5 font-weight-normal">{props.subTitle}</h4>}
 
                         {props.projectTitle && <h2 className="case-title text-center">{props.projectTitle}</h2>}

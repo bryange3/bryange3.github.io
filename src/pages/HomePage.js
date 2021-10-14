@@ -24,7 +24,6 @@ function HomePage(props) {
     window.scrollTo(0, 0);
     return (
         <FadeIn delay={300} className="background">
-            {/* <Jumbotron className="bg-transparent jumbotron-fluid hero"> */}
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={width - 2} sm={12}>
@@ -32,26 +31,25 @@ function HomePage(props) {
                             <a href="https://www.bryange.com/about" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
                             <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
                         </div>
-                        {/* {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>} */}
-                        {props.title && <h2 className="display-5 font-weight-bolder home-title">{props.title}</h2>}
-                        {/* {props.subTitle && <h2 className="display-5 font-weight-normal">{props.subTitle}</h2>} */}
+
+                        {props.title && <h3 className="display-6 font-weight-bolder home-title">{props.title}</h3>}
                         <div className="home-positions">
                             <h3 className="font-weight-normal role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
-                            <h3 className="font-weight-normal role">Software Engineering Intern at <a className="link-underline" href="https://www.statefarm.com/" target="_blank" rel="noreferrer">State Farm</a></h3>
                             <h3 className="font-weight-normal role">Previous User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
+                            <h3 className="font-weight-normal role">Sophomore Studying CS + Statistics at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
                         </div>
-                        <a href="mailto:bryange3@gmail.com">
+                        {/* <a href="mailto:bryange3@gmail.com">
                             <Button buttonStyle="btn--primary" buttonSize="btn--medium">Email</Button>
                         </a>
                         <a href="https://bryange.com/resume" rel="noreferrer">
                             <Button buttonStyle="btn--outline" buttonSize="btn--medium">Resume</Button>
-                        </a>
+                        </a> */}
                     </Col>
                 </Row>
             </Container>
-            {/* </Jumbotron> */}
-
-            <Grid projects={props.projects} />
+            <Col md={18} sm={30}>
+                <Grid projects={props.projects} />
+            </Col>
         </FadeIn >
     );
 }

@@ -5,27 +5,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
-// import Navbar from "./components/Navbar/Navbar.js"
-
 import cargill from './assets/cargill.png';
 import cargillcover from './assets/project/cargillcover.png';
-import connecttutors from './assets/connect-tutors.png';
-import connecttutorscover from './assets/project/connecttutors-cover.png';
 import leaf from './assets/leaf.png';
 import leafproject from './assets/project/leafproject.png';
-// import iot from './assets/iot.png';
-// import iotproject from './assets/project/iot/iotproject.png';
-// import das from './assets/dascover.png';
-// import dasproject from './assets/project/dasproject.png';
-// import mfb from './assets/miningforbias.png';
-// import mfbproject from './assets/project/mfbproject.png';
+
 import trill from './assets/trill.png';
 import trillcover from './assets/project/trill/trillcover.png';
-// import safewalks from './assets/safewalks.png';
-// import safewalkscover from './assets/project/safewalks/safewalkscover.png';
 
-// import taskcal from './assets/taskcal.png';
-// import taskcalcover from './assets/project/taskcal/taskcalcover.png';
 import nour from './assets/nour.png';
 import nourcover from './assets/project/nour/nourcover.png';
 
@@ -37,17 +24,10 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import LeafPage from './pages/Projects/Work/LeafPage.js';
-// import SafeWalksPage from './pages/Projects/Fun/SafeWalksPage.js';
 import NourPage from './pages/Projects/Work/NourPage.js';
-// import DasPage from './pages/Projects/Work/DasPage.js';
-// import MiningForBiasPage from './pages/Projects/Work/MiningForBiasPage.js';
-// import IotPage from './pages/Projects/Work/IotPage.js';
 import TrillPage from './pages/Projects/Work/TrillPage.js';
 import CargillPage from './pages/Projects/Work/CargillPage.js';
-import ConnectTutorsPage from './pages/Projects/Work/ConnectTutorsPage.js';
-// import TaskCalPage from './pages/Projects/Fun/TaskCalPage.js';
 import PhotographyPage from './pages/PhotographyPage';
-// import PlayPage from './pages/PlayPage';
 
 class App extends React.Component {
   constructor(props) {
@@ -56,7 +36,7 @@ class App extends React.Component {
       title: "Bryan Ge",
       home: {
         animated: '👋🏻',
-        title: 'Product designer + developer studying at UIUC.',
+        title: 'Product designer with a love for baking and social good!',
       },
       play: {
         title: '🤓 For Fun',
