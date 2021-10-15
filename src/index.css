@@ -6,7 +6,7 @@
     font-size: 24px !important;
   }
   [class*="profile-image"] {
-    display: none !important;
+    max-height: 12em !important;
   }
   [class*="home-image-cursor"] {
     max-width: 12em !important;
@@ -31,7 +31,7 @@
     font-size: 13px !important;
   }
   [class*="small-description"] {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
   footer ul li {
     padding-right: 1em !important;
@@ -40,7 +40,7 @@
     font-size: 18px !important;
   }
   [class*="about-text"] {
-    font-size: 16px !important;
+    font-size: 14px !important;
     margin: 0px !important;
   }
   [class*="cover-image"] {
@@ -85,8 +85,9 @@ h1, h2, h3 {
 
 body {
   margin: 0;
-  font-size: 15px !important;
-  font-family: 'Chivo', -apple-system, BlinkMacSystemFont, 'Helvetica', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 14px !important;
+  font-weight:600;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   animation: fadeInAnimation ease 2s;
@@ -135,7 +136,7 @@ li {
 }
 
 code {
-  font-family: 'Chivo', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .default {
@@ -157,20 +158,16 @@ code {
 }
 
 .my-font {
-  font-family: 'Chivo', -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
 }
 
 .nav-link {
   padding-left: 24px !important;
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
 
 .sticky {
   position: fixed;
-}
-
-.project-grid {
-  
 }
 
 .project-card {
@@ -214,7 +211,7 @@ code {
 
 .project-card-subtitle {
   max-width: 547.2px;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 6px;
   margin-bottom: 2px;
   color: #635f54;
@@ -233,7 +230,7 @@ code {
 .project-card-type {
   margin-top: 10px;
   max-width: 547.2px;
-  font-size: 15px;
+  font-size: 14px;
   color: #000000;
   background-color: #e1eaee;
   border-radius: 5px;
@@ -321,14 +318,14 @@ hr.rounded {
   margin-top: 1%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 15px;
+  font-size: 14px;
   color: #828282;
 }
 
 .image-caption-center {
   margin-top: 1%;
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
   color: #828282;
 }
 
@@ -392,8 +389,9 @@ blockquote {
 }
 
 .about-subtitle {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
+  margin-top: 2em;
 }
 
 .profile-image {
@@ -402,6 +400,8 @@ blockquote {
   border-radius: 300px;
   width: auto;
   height: auto;
+  margin-bottom: 4em;
+  margin-top: 2em;
 }
 
 .sticky-header {
@@ -426,7 +426,7 @@ footer li {
   list-style-type: none;
   line-height: 9px;
   height: 11px;
-  padding: 0px 15px;
+  padding: 0px 14px;
   display: inline;
 }
 
@@ -537,7 +537,7 @@ footer {
 }
 
 .toggle-text {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   padding: 10px;
 }
@@ -581,7 +581,7 @@ footer {
 }
 
 .role {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -595,16 +595,9 @@ footer {
   margin-bottom: 20px;
   font-weight: 700;
   color: #2183BE;
-  font-size: medium;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-}
-
-.subsection {
-  margin-top: 35px;
-  margin-bottom: 20px !important;
-  font-weight: 600;
-  font-size: 20px;
 }
 
 .resume-point {
@@ -625,10 +618,10 @@ footer {
   margin-bottom: 10px !important;
 }
 
-.subsubsection {
+.subsection {
   margin-top: 35px;
   margin-bottom: 20px !important;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
 }
 

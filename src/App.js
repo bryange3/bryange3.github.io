@@ -22,7 +22,6 @@ import Footer from './components/Footer';
 import ScrollArrow from './components/ScrollArrow';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import ResumePage from './pages/ResumePage';
 import LeafPage from './pages/Projects/Work/LeafPage.js';
 import NourPage from './pages/Projects/Work/NourPage.js';
 import TrillPage from './pages/Projects/Work/TrillPage.js';
@@ -35,8 +34,7 @@ class App extends React.Component {
     this.state = {
       title: "Bryan Ge",
       home: {
-        animated: '👋🏻',
-        title: 'Product designer with a love for baking and social good!',
+        title: 'Product designer + developer with a love for baking and social good!',
       },
       play: {
         title: '🤓 For Fun',
@@ -117,18 +115,23 @@ class App extends React.Component {
                 <Link className="nav-link default" to="/">Work</Link>
                 {/* <Link className="nav-link default" to="/for-fun">For Fun</Link> */}
                 <Link className="nav-link default" to="/about">About</Link>
-                <Link className="nav-link default" to="/resume">Resume</Link>
+                <a className="nav-link default" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing">
+                  Resume
+                </a>
                 <Link className="nav-link default" to="/photography">Photography</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-          {/* <Navbar /> */}
 
-          <Route path="/" exact render={() => <HomePage animated={this.state.home.animated} title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
+          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
           {/* <Route path="/for-fun" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} /> */}
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
-          <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
+          
+          <Route path='/spotify' component={() => {
+            window.location.href = 'https://bryange.notion.site/Why-Spotify-8a51071b106b4098a4232d7c182fab8a';
+            return null;
+          }} />
 
           <Route path={this.state.workProjects[0].path} render={() => <NourPage info={this.state.workProjects[0]} />} />
           <Route path={this.state.workProjects[1].path} render={() => <CargillPage info={this.state.workProjects[1]} />} />

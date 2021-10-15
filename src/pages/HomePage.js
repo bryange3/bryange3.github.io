@@ -1,7 +1,5 @@
 import React from 'react';
 import Grid from '../components/Grid';
-import { Button } from "../components/Button";
-import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -38,10 +36,7 @@ function HomePage(props) {
                             <h3 className="font-weight-normal role">Previous User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
                             <h3 className="font-weight-normal role">Sophomore Studying CS + Statistics at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
                         </div>
-                        {/* <a href="mailto:bryange3@gmail.com">
-                            <Button buttonStyle="btn--primary" buttonSize="btn--medium">Email</Button>
-                        </a>
-                        <a href="https://bryange.com/resume" rel="noreferrer">
+                        {/* <a href="https://bryange.com/resume" rel="noreferrer">
                             <Button buttonStyle="btn--outline" buttonSize="btn--medium">Resume</Button>
                         </a> */}
                     </Col>

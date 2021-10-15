@@ -10,7 +10,7 @@ function Footer() {
                 <li><a href="https://instagram.com/omgebryan" target="_blank" rel="noreferrer" className="default" alt="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                 <li><a href="https://open.spotify.com/user/omgebryan?si=AzsYGAQnQmS8m6Jlg-cUMw" target="_blank" rel="noreferrer" className="default" alt="Spotify"><i class="fab fa-spotify" aria-hidden="true"></i></a></li>
             </ul>
-            <br />© Bryan Ge 2021
+            <br />Made with 🤍 and chai!
         </footer>
     )
 }
