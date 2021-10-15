@@ -119,7 +119,7 @@ function NourPage(props) {
 
                     <p className="paragraph">
                         <h3 className="subsection">
-                            Simple and Efficient Onboarding
+                            Users do not need to remember login details during sign in.
                         </h3>
 
                         Typical login processes involve:
@@ -139,7 +139,7 @@ function NourPage(props) {
 
                     <p className="paragraph">
                         <h3 className="subsection">
-                            Accessibility Preferences
+                            Users can adjust their accessibility preferences.
                         </h3>
 
                         When designing our "Clubhouse for Elders", <mark>we focused on accessibility and understandability</mark>. Since our target audience is seniors and our goal is to connect those within various medical support communities, making Nour easy-to-use and intuitive was our largest challenge. I chose to design <mark>accessibility preferences for those with visual and hearing difficulties</mark>, making our platform more inclusive than other competitors.
@@ -149,7 +149,7 @@ function NourPage(props) {
 
                     <p className="paragraph">
                         <h3 className="subsection">
-                            Video / Voice Call Room Discovery
+                            For easy discovery, users can hear conversations happening in rooms before joining.
                         </h3>
 
                         Users can discover and preview rooms one at a time. While browsing the various rooms, the <mark>audio from inside the room is played aloud so users can decide whether or not they want to hop in and join the conversation</mark>.
@@ -159,7 +159,7 @@ function NourPage(props) {
 
                     <p className="paragraph">
                         <h3 className="subsection">
-                            Type & Voice Search Methods
+                            Search via typing or voice.
                         </h3>
 
                         I also decided to implement voice search alongside the traditional type search method for those who may find it easier to speak what type of video call room they would like to join.
@@ -229,6 +229,10 @@ function NourPage(props) {
                         <p className="section">
                             Next Steps
                         </p>
+
+                        <h3 className="subsection">
+                            If we continued this project, we would conduct usability testing and user interviews with elderly home patients.
+                        </h3>
 
                         Our next steps for Nour involve <mark>testing our app on patients of elderly homes</mark>. I plan on conducting <mark>usability tests to learn how our target audience navigates the app</mark>. I will also work with the home care facilities to conduct <mark>user interviews to learn more about our users' pain points with the app</mark> and any wants that are not being fulfilled by Nour.
 
