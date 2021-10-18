@@ -17,7 +17,6 @@ function LeafPage(props) {
                     <Row>
                         <Col sm>
                             <b>Role</b>
-                            <br />UX Design
                             <br />UI Design
                             <br />User Research
                             <br />Frontend Development
@@ -38,7 +37,6 @@ function LeafPage(props) {
                                 <Col>
                                     <b>Design Tools</b>
                                     <br />Figma
-                                    <br />Procreate
                                 </Col>
                             </Row>
                             <br />

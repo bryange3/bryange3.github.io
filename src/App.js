@@ -90,7 +90,7 @@ class App extends React.Component {
           id: 3,
           projectTitle: 'Leaf — Winner of UChicago Hackathon',
           description: 'Educational web app for the future generation to learn about their carbon footprint.',
-          roles: 'Product Design, Frontend Development',
+          roles: 'UI Design, Frontend Development',
           type: 'Hackathon Project',
           imgSrc: leaf,
           cover: leafproject,

@@ -18,9 +18,9 @@ function CargillPage(props) {
                     <Row>
                         <Col sm>
                             <b>Role</b>
+                            <br />User Research
                             <br />UX Design
                             <br />UI Design
-                            <br />User Research
                             <br />User Testing
                             <br />Client Presentation
                         </Col>
