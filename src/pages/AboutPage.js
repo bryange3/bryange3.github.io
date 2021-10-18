@@ -1,6 +1,8 @@
 import React from 'react';
 import AOS from 'aos';
 import aboutpic from '../assets/aboutprofpic.jpg';
+import designjourney from '../assets/design-journey.png';
+
 import Content from '../components/Content';
 import Container from 'react-bootstrap/Container';
 import FadeIn from 'react-fade-in';
@@ -33,6 +35,16 @@ function AboutPage(props) {
                         <p>
                             I've always been intrigued by technology and how it affects our lives. Throughout high school and college, I've sought opportunities to learn about computer science. In this journey, I became exposed to the world of product where I learned about other product roles and the world of user experience / product design. Since my first design project at a student organization my freshman year, I've been hooked in the process of research, understanding users, and prototyping!
                         </p>
+
+                        <br />
+
+                        <img
+                            class="project-img-small center"
+                            alt="Design Journey"
+                            src={designjourney}
+                        />
+
+                        <br />
 
                         <p className="about-subtitle">
                             🖋 What am I up to?
@@ -69,9 +81,7 @@ function AboutPage(props) {
                                 <li>Incoming UX Design Intern @ Cargill (Spring 2022)</li>
                                 <li>Product Designer @ Hack4Impact (Fall 2021)</li>
                                 <li>Software Engineering Intern @ State Farm (Fall 2021)</li>
-                                <li>Product Designer @ Connect Tutors (Summer - Fall 2021)</li>
                                 <li>UX Design Intern @ Cargill (Summer 2021)</li>
-                                <li>Design Intern @ Trill Project (Spring 2021)</li>
                                 <li>Data Science Discovery Course Assistant @ UIUC (Spring 2021)</li>
                             </ul>
                         </p>
@@ -85,7 +95,8 @@ function AboutPage(props) {
                                 <li>National Board Operations & Design Member @ Hack4Impact</li>
                                 <li>Orientation Leader @ UIUC</li>
                                 <li>Design Vision Sprint Participant @ The Trevor Project</li>
-                                <li>Executive @ TAMS Sexuality and Gender Alliance</li>
+                                <li>UI Designer @ Design Innovation (Fall 2020)</li>
+                                <li>Executive @ TAMS Sexuality and Gender Alliance (Fall 2019 - Spring 2020)</li>
                             </ul>
                         </p>
 
