@@ -63,7 +63,7 @@ class App extends React.Component {
         },
         {
           id: 1,
-          projectTitle: 'Cargill — UX Design Internship',
+          projectTitle: 'Cargill — UX Design Internship (NDA)',
           description: 'Dashboard to hold new menu item ideas for a leading fast-food restaurant.',
           roles: 'Product Design',
           type: 'Summer 2021 Internship',
