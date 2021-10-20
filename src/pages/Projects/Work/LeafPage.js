@@ -1,7 +1,7 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
-import leafzoom from '../../../assets/project/leafzoom.png';
+import leafzoom from '../../../assets/project/leaf/leafzoom.png';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';

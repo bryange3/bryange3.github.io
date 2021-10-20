@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-import backtotop from '../assets/backtotop.png';
+import backtotop from '../assets/other/backtotop.png';
 
 const ScrollArrow = () => {
 

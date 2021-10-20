@@ -5,18 +5,18 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
-import cargill from './assets/cargill.png';
-import cargillcover from './assets/project/cargillcover.png';
-import leaf from './assets/leaf.png';
-import leafproject from './assets/project/leafproject.png';
+import cargill from './assets/project/cargill/cargill.png';
+import cargillcover from './assets/project/cargill/cargillcover.png';
+import leaf from './assets/project/leaf/leaf.png';
+import leafproject from './assets/project/leaf/leafproject.png';
 
-import trill from './assets/trill.png';
+import trill from './assets/project/trill/trill.png';
 import trillcover from './assets/project/trill/trillcover.png';
 
-import nour from './assets/nour.png';
+import nour from './assets/project/nour/nour.png';
 import nourcover from './assets/project/nour/nourcover.png';
 
-import bglogo from './assets/BGlogo.svg';
+import bglogo from './assets/other/BGlogo.svg';
 
 import Footer from './components/Footer';
 import ScrollArrow from './components/ScrollArrow';

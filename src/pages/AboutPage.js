@@ -1,7 +1,7 @@
 import React from 'react';
 import AOS from 'aos';
-import aboutpic from '../assets/aboutprofpic.jpg';
-import designjourney from '../assets/design-journey.png';
+import aboutpic from '../assets/other/aboutprofpic.jpg';
+import designjourney from '../assets/other/design-journey.png';
 
 import Content from '../components/Content';
 import Container from 'react-bootstrap/Container';

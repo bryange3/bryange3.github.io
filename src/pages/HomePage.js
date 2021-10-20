@@ -7,9 +7,8 @@ import FadeIn from 'react-fade-in';
 import { merge, fadeInRight, fadeInDown } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 
-// import homeimage from '../assets/HomeImage.png';
-import bottomimage from '../assets/bottomimage.png';
-import topcursor from '../assets/topcursor.png';
+import bottomimage from '../assets/other/bottomimage.png';
+import topcursor from '../assets/other/topcursor.png';
 
 // Animation code derived from: https://www.npmjs.com/package/react-animations
 const myAnimation = keyframes`${merge(fadeInDown, fadeInRight)}`;
@@ -36,9 +35,6 @@ function HomePage(props) {
                             <h3 className="font-weight-normal role">Previous User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
                             <h3 className="font-weight-normal role">Sophomore Studying CS + Statistics at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
                         </div>
-                        {/* <a href="https://bryange.com/resume" rel="noreferrer">
-                            <Button buttonStyle="btn--outline" buttonSize="btn--medium">Resume</Button>
-                        </a> */}
                     </Col>
                 </Row>
             </Container>
