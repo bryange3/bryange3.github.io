@@ -49,7 +49,7 @@ function TrillPage(props) {
                         </p>
                     </p>
 
-                    <iframe className="project-img center" width="500" height="500" src="https://www.youtube-nocookie.com/embed/29cF85m_jjE?autoplay=1&mute=1&loop=1&playlist=29cF85m_jjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe className="project-img center" width="500" height="500" src="https://www.youtube-nocookie.com/embed/29cF85m_jjE?autoplay=1&mute=1&loop=1&controls=0&modestbranding&playlist=29cF85m_jjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <br />
 

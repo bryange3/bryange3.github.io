@@ -6,11 +6,11 @@ import ProjectTitle from '../../../components/ProjectTitle.js';
 import accessibilityiterations from '../../../assets/project/nour/AccessibilityIterations.png';
 import loginiterations from '../../../assets/project/nour/LoginIterations.png';
 
-// import accessibilitypreferences from '../../../assets/project/nour/AccessibilityPreferences.png';
+import accessibilitypreferences from '../../../assets/project/nour/AccessibilityPreferences.png';
 import accessibilitypreferences_vid from '../../../assets/project/nour/AccessibilityPreferencesVid.mov';
 
 import onboarding_vid from '../../../assets/project/nour/LoginQR.mov';
-// import onboarding from '../../../assets/project/nour/Onboarding.png';
+import onboarding from '../../../assets/project/nour/Onboarding.png';
 
 import roomdiscovery from '../../../assets/project/nour/RoomDiscovery.png';
 
@@ -142,11 +142,11 @@ function NourPage(props) {
                         </ul>
                         I chose to use a profile code scanning system. <mark>Our users will not need to remember their login details and will only need to point their smartphone camera at their profile code</mark> provided by their caregivers.
 
-                        <video className="project-img-small center" autoPlay muted loop>
+                        {/* <video className="project-img-small center" autoPlay muted loop>
                             <source src={onboarding_vid} />
-                        </video>
+                        </video> */}
 
-                        {/* <img src={onboarding} alt="Simple and Efficient Onboarding" className="project-img" /> */}
+                        <img src={onboarding} alt="Simple and Efficient Onboarding" className="project-img" />
                     </p>
 
                     <p className="paragraph">
@@ -156,11 +156,13 @@ function NourPage(props) {
 
                         When designing our "Clubhouse for Elders", <mark>we focused on accessibility and understandability</mark>. Since our target audience is seniors and our goal is to connect those within various medical support communities, making Nour easy-to-use and intuitive was our largest challenge. I chose to design <mark>accessibility preferences for those with visual and hearing difficulties</mark>, making our platform more inclusive than other competitors.
 
-                        {/* <img src={accessibilitypreferences} alt="Accessibility Preferences" className="project-img" /> */}
+                        <img src={accessibilitypreferences} alt="Accessibility Preferences" className="project-img" />
 
-                        <video className="project-img-small center" autoPlay muted loop>
+                        {/* <video className="project-img-small center" autoPlay muted loop>
                             <source src={accessibilitypreferences_vid} />
                         </video>
+
+                        <iframe className="project-img center" width="500" height="500" src="https://www.youtube.com/embed/Qi9b-5BLo5Y?autoplay=1&mute=1&loop=1&playlist=Qi9b-5BLo5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
                     </p>
 
                     <p className="paragraph">
@@ -170,7 +172,7 @@ function NourPage(props) {
 
                         Users can discover and preview rooms one at a time. While browsing the various rooms, the <mark>audio from inside the room is played aloud so users can decide whether or not they want to hop in and join the conversation</mark>.
 
-                        <img src={roomdiscovery} alt="Call Room Discovery" className="project-img-small center" />
+                        <img src={roomdiscovery} alt="Call Room Discovery" className="project-img-smaller center" />
                     </p>
 
                     <p className="paragraph">
@@ -180,11 +182,11 @@ function NourPage(props) {
 
                         I also decided to implement voice search alongside the traditional type search method for those who may find it easier to speak what type of video call room they would like to join.
 
-                        {/* <img src={searchmethods} alt="Search Methods" className="project-img-small center" /> */}
+                        <img src={searchmethods} alt="Search Methods" className="project-img-small center" />
 
-                        <video className="project-img-small center" alt="Search Methods" autoPlay muted loop>
+                        {/* <video className="project-img-small center" alt="Search Methods" autoPlay muted loop>
                             <source src={searchmethods_vid} />
-                        </video>
+                        </video> */}
                     </p>
 
                     <hr class="rounded" />
