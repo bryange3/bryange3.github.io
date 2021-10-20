@@ -289,6 +289,13 @@ hr.rounded {
   margin-bottom: 2%;
 }
 
+.project-img-smallish {
+  display: block;
+  width: 45%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 .project-img-smaller {
   display: block;
   width: 30%;
