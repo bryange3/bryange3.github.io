@@ -8,7 +8,6 @@ import loginiterations from '../../../assets/project/nour/LoginIterations.png';
 
 import accessibilitypreferences from '../../../assets/project/nour/accessibilitypreferences.gif';
 
-import onboarding from '../../../assets/project/nour/Onboarding.png';
 import login from '../../../assets/project/nour/LoginQR.gif';
 
 import roomdiscovery from '../../../assets/project/nour/RoomDiscovery.png';

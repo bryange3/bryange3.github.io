@@ -10,8 +10,7 @@ import cargillcover from './assets/project/cargill/cargillcover.png';
 import leaf from './assets/project/leaf/leaf.png';
 import leafproject from './assets/project/leaf/leafproject.png';
 
-import trill from './assets/project/trill/trill.png';
-import trillcover from './assets/project/trill/trillcover.png';
+import h4i from './assets/project/h4i/hack4impact.png';
 
 import nour from './assets/project/nour/nour.png';
 import nourcover from './assets/project/nour/nourcover.png';
@@ -63,6 +62,17 @@ class App extends React.Component {
         },
         {
           id: 1,
+          projectTitle: 'Hack4Impact — Nonprofit Project',
+          description: 'Web portal for news nonprofit contributors, staff, and admin to manage stories to be published.',
+          roles: 'Product Design',
+          type: 'Fall 2021 Nonprofit Project',
+          imgSrc: h4i,
+          path: '/hack4impact',
+          timeline: 'September 2021 - Present',
+          location: 'Champaign, IL'
+        },
+        {
+          id: 2,
           projectTitle: 'Cargill — UX Design Internship (NDA)',
           description: 'Dashboard to hold new menu item ideas for a leading fast-food restaurant.',
           roles: 'Product Design',
@@ -72,18 +82,6 @@ class App extends React.Component {
           path: '/cargill-internship',
           teamMembers: '1 Design Intern, 3 Software Engineering Interns, 2 Product Coaches',
           timeline: 'May 2021 - Present',
-          location: 'Remote'
-        },
-        {
-          id: 2,
-          projectTitle: 'Trill Project — Student Startup',
-          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
-          roles: 'UI Design, Web Design',
-          type: 'Spring 2021 Internship',
-          imgSrc: trill,
-          cover: trillcover,
-          path: '/trillproject-internship',
-          timeline: 'February 2021 - May 2021',
           location: 'Remote'
         },
         {
@@ -127,15 +125,18 @@ class App extends React.Component {
           {/* <Route path="/for-fun" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} /> */}
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
-          
+
           <Route path='/spotify' component={() => {
             window.location.href = 'https://bryange.notion.site/Why-Spotify-8a51071b106b4098a4232d7c182fab8a';
             return null;
           }} />
 
           <Route path={this.state.workProjects[0].path} render={() => <NourPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} render={() => <CargillPage info={this.state.workProjects[1]} />} />
-          <Route path={this.state.workProjects[2].path} render={() => <TrillPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[1].path} component={() => {
+            window.location.href = 'https://bryange.notion.site/Hack4Impact-Nonprofit-Project-ee09fc33c0124c209fea070f817364b1';
+            return null;
+          }} />
+          <Route path={this.state.workProjects[2].path} render={() => <CargillPage info={this.state.workProjects[2]} />} />
           <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
 
           <ScrollArrow />
