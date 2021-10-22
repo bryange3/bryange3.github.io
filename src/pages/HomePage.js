@@ -31,9 +31,9 @@ function HomePage(props) {
 
                         {props.title && <h3 className="display-6 font-weight-bolder home-title">{props.title}</h3>}
                         <div className="home-positions">
-                            <h3 className="font-weight-normal role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
-                            <h3 className="font-weight-normal role">Previous User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
-                            <h3 className="font-weight-normal role">Sophomore Studying CS + Statistics at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
+                            <h3 className="role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
+                            <h3 className="role">Previous User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
+                            <h3 className="role">Sophomore Studying CS + Statistics at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
                         </div>
                     </Col>
                 </Row>

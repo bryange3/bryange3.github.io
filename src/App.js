@@ -132,7 +132,7 @@ class App extends React.Component {
           }} />
 
           <Route path={this.state.workProjects[0].path} render={() => <NourPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} component={() => {
+          <Route path={this.state.workProjects[1].path} target="_blank" rel="noreferrer" component={() => {
             window.location.href = 'https://bryange.notion.site/Hack4Impact-Nonprofit-Project-ee09fc33c0124c209fea070f817364b1';
             return null;
           }} />
