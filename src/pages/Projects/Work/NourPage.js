@@ -32,9 +32,12 @@ function NourPage(props) {
                     <Row>
                         <Col sm>
                             <b>Role</b>
+                            <br />Product Designer
+                        </Col>
+                        <Col sm>
+                            <b>Skills</b>
                             <br />User Research
-                            <br />UX Design
-                            <br />UI Design
+                            <br />User Experience
                             <br />Usability Testing
                         </Col>
                         <Col sm>
@@ -43,13 +46,13 @@ function NourPage(props) {
                             24 hours
                         </Col>
                         <Col sm>
-                            <b>Team Members</b>
+                            <b>Team</b>
                             <br />
                             3 Product Designers
                             <br />1 Product Marketer
                         </Col>
                         <Col sm>
-                            <b>Design Tools</b>
+                            <b>Tools</b>
                             <br />
                             Figma
                         </Col>

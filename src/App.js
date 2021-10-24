@@ -11,6 +11,7 @@ import leaf from './assets/project/leaf/leaf.png';
 import leafproject from './assets/project/leaf/leafproject.png';
 
 import h4i from './assets/project/h4i/hack4impact.png';
+import sswcover from './assets/project/h4i/sswcover.png';
 
 import nour from './assets/project/nour/nour.png';
 import nourcover from './assets/project/nour/nourcover.png';
@@ -23,7 +24,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import LeafPage from './pages/Projects/Work/LeafPage.js';
 import NourPage from './pages/Projects/Work/NourPage.js';
-import TrillPage from './pages/Projects/Work/TrillPage.js';
+import SSWPage from './pages/Projects/Work/SSWPage.js';
 import CargillPage from './pages/Projects/Work/CargillPage.js';
 import PhotographyPage from './pages/PhotographyPage';
 
@@ -67,7 +68,8 @@ class App extends React.Component {
           roles: 'Product Design',
           type: 'Fall 2021 Nonprofit Project',
           imgSrc: h4i,
-          path: '/hack4impact',
+          cover: sswcover,
+          path: '/hack4impact-southsideweekly',
           timeline: 'September 2021 - Present',
           location: 'Champaign, IL'
         },
@@ -132,11 +134,11 @@ class App extends React.Component {
           }} />
 
           <Route path={this.state.workProjects[0].path} render={() => <NourPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} target="_blank" rel="noreferrer" component={() => {
-            window.location.href = 'https://bryange.notion.site/Hack4Impact-Nonprofit-Project-ee09fc33c0124c209fea070f817364b1';
-            return null;
-          }} />
+
+          <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
+
           <Route path={this.state.workProjects[2].path} render={() => <CargillPage info={this.state.workProjects[2]} />} />
+          
           <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
 
           <ScrollArrow />

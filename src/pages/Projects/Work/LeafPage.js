@@ -17,8 +17,13 @@ function LeafPage(props) {
                     <Row>
                         <Col sm>
                             <b>Role</b>
-                            <br />UI Design
-                            <br />User Research
+                            <br />UI Designer
+                            <br />Frontend Developer
+                        </Col>
+                        <Col sm>
+                            <b>Skills</b>
+                            <br />Product Research
+                            <br />Interface Design
                             <br />Frontend Development
                         </Col>
                         <Col sm>
@@ -27,15 +32,15 @@ function LeafPage(props) {
                             2 days
                         </Col>
                         <Col sm>
-                            <b>Team Members</b>
-                            <br />2 Product Designers + Frontend Developers
+                            <b>Team</b>
+                            <br />2 Designer/Frontend Developers
                             <br />1 Backend Developer
                             <br />1 Financial Analyst
                         </Col>
                         <Col sm>
                             <Row>
                                 <Col>
-                                    <b>Design Tools</b>
+                                    <b>Tools</b>
                                     <br />Figma
                                 </Col>
                             </Row>

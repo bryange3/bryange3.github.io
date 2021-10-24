@@ -2,6 +2,7 @@ import React from 'react';
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
 
+import basicmockup from '../../../assets/project/cargill/basic-mockup.png';
 import timeline from '../../../assets/project/cargill/Timeline.png';
 
 import Row from 'react-bootstrap/Row';
@@ -18,10 +19,13 @@ function CargillPage(props) {
                     <Row>
                         <Col sm>
                             <b>Role</b>
+                            <br />User Experience Designer
+                        </Col>
+                        <Col sm>
+                            <b>Skills</b>
                             <br />User Research
-                            <br />UX Design
-                            <br />UI Design
-                            <br />User Testing
+                            <br />User Experience
+                            <br />Interface Design
                             <br />Client Presentation
                         </Col>
                         <Col sm>
@@ -30,15 +34,14 @@ function CargillPage(props) {
                             11 weeks
                         </Col>
                         <Col sm>
-                            <b>Team Members</b>
-                            <br />
-                            1 Design Intern
-                            <br />3 Software Engineering Interns
+                            <b>Team</b>
+                            <br />1 UX Design Intern
+                            <br />3 Software Engineer Interns
                             <br />1 Product Coach
                             <br />1 Technical Coach
                         </Col>
                         <Col sm>
-                            <b>Design Tools</b>
+                            <b>Tools</b>
                             <br />Figma
                             <br />FigJam
                         </Col>
@@ -52,8 +55,10 @@ function CargillPage(props) {
                         </p>
                         As the <b>sole designer</b> in my project team at Cargill, I lead our product's discovery, user research, wireframing, and prototyping efforts. The internship has provided me the opportunity to directly interact with clients through discovery and shadowing sessions, demos, and feedback calls. These meetings  helped me identify our problem space as well as what the client values.
                         <p className="paragraph">
-                            I am unable to display my work due to <b>NDA restrictions</b>, so please contact me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> if you want to find out more!
+                            I am unable to publicly go in depth about my work due to <b>NDA restrictions</b>, so please contact me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> if you want to learn more!
                         </p>
+
+                        <img src={basicmockup} alt="Dashboard" className="project-img" />
                     </p>
 
                     <p className="paragraph">
@@ -70,7 +75,7 @@ function CargillPage(props) {
                         </p>
 
                         <h3 className="subsection">
-                            I've learned how to collaborate and communicate within a cross-functional team in an Agile environment.
+                            I've learned how to collaborate and communicate within a cross-functional team.
                         </h3>
                         This included daily standup, clarifications regarding designs, creating a style sheet, and utilizing Material UI and React components for easy handoff and quick developer prototyping.
 
