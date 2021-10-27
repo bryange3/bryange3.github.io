@@ -13,11 +13,14 @@ import claimpitch from '../../../assets/project/h4i/claim-pitch.png';
 import approvedeclinepitch from '../../../assets/project/h4i/approve-decline-pitch.png';
 
 import pitchdocstructure from '../../../assets/project/h4i/pitch-doc-structure.png';
+import pitchtabstructure from '../../../assets/project/h4i/pitch-tab-structure.png';
+import contributorpitchdoc from '../../../assets/project/h4i/contributor-pitch-doc.png';
 
+import adminpitchespending from '../../../assets/project/h4i/admin-pitches-pending-approval.png';
 
 function SSWPage(props) {
     window.scrollTo(0, 0);
-    const width = 10;
+    const width = 11;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
@@ -98,10 +101,14 @@ function SSWPage(props) {
                             <img src={problemplatforms} alt="Problem Platforms" className="project-img-smallish center" />
 
                             <h3 className="subsection">
-                                Currently, writers view available stories and submit requests to join them in two separate areas (AirTable table and AirTable form).
+                                For example, writers view available stories and submit requests to join them in two separate areas (AirTable table and AirTable form).
                             </h3>
 
                             <img src={problem_claimpitch} alt="Problem Claim Pitch" className="project-img center" />
+
+                            <h3 className="subsection">
+                                In fact, the current process of contributors joining pitches varies. Some join via Slack messages and others join via email.
+                            </h3>
                         </p>
 
                         <p className="paragraph">
@@ -133,8 +140,9 @@ function SSWPage(props) {
                                 When contributors claim a pitch from the pitch doc, admin can review the request and approve or decline it.
                             </h3>
 
-                            <img src={approvedeclinepitch} alt="Claim Pitch" className="project-img center" />
-                            <p className="image-caption">
+                            <img src={approvedeclinepitch} alt="Claim Pitch" className="project-img-small center" />
+
+                            <p className="image-caption-center">
                                 Note that this modal is a shorter scrollable component in the actual dashboard.
                             </p>
 
@@ -155,44 +163,14 @@ function SSWPage(props) {
 
                             <br />
 
-                            <p className="paragraph">
-                                <strong>Spring Semester Structure (Before)</strong>
-                                <ul>
-                                    <li>
-                                        "Unclaimed Pitches" (pitches that have open positions)
-                                        <ul>
-                                            <li>I realized that there is no reason for a photographer to see an unclaimed pitch that doesn't need a photographer. The goal is to have contributors find and join pitches that they're eligible for.</li>
-                                        </ul>
-                                    </li>
+                            <img src={pitchtabstructure} alt="Pitch Doc Tab Structure" className="project-img center" />
 
-                                    <li>
-                                        "Approved Pitches" (all active pitches)
-                                        <ul>
-                                            <li>The goal of this page is to give contributors a sense of the all the different stories that are currently active and awaiting future publication. Contributors are also allowed to contact staff if they feel extremely passionate about a story that doesn't have an open position for them.</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </p>
+                            <br />
 
-                            <p className="paragraph">
-                                <strong>Fall Semester Structure (After)</strong>
-                                <ul>
-                                    <li>
-                                        "Claim a Pitch" (pitches that still have open positions that match the contributor's teams)
-                                        <ul>
-                                            <li>I changed this tab of the pitch doc so that contributors are only seeing pitches that they specifically are eligible to claim. For example, if a pitch needs a photographer and the contributor is a photographer, they are eligible to claim the pitch.</li>
-                                            <li>I also changed the copy of this tab to "Claim a Pitch" so it is clear what action the user can take here.</li>
-                                        </ul>
-                                    </li>
+                            Here's what the pitch doc tabs look like on the full contributor pitch doc.
+                            <img src={contributorpitchdoc} alt="Contributor Pitch Doc" className="project-img center" />
 
-                                    <li>
-                                        All Pitches (all active pitches)
-                                        <ul>
-                                            <li>I changed the copy of this tab to "All Pitches". The original "Approved Pitches" wording could create confusion since the user may think that it's a tab to view their approved submitted pitches.</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </p>
+                            
                         </p>
 
                         <hr class="rounded" />
@@ -216,7 +194,9 @@ function SSWPage(props) {
                                 <li>Discuss whether or not to approve the pitch idea</li>
                             </ul>
 
-                            Seeing how admin were going through each pitch one by one also presented a question of whether to use cards or a table format to present the submitted pitches.
+                            I took insights from this session and applied to my design for the "Pitches Pending Approval" tab of the admin pitch doc. This section showcases pitches contributors have submitted and admin are able to approve or decline them from here.
+
+                            <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
 
                             <h3 className="subsection">
                                 We are also going to chat with a staff member and a contributor to better understand the current user flows and processes.
@@ -242,7 +222,7 @@ function SSWPage(props) {
                                 This is the FigJam document I use to explore different designs and iterate upon feedback from my PM and Hack4Impact design critiques.
                             </h3>
 
-                            <iframe title="South Side Weekly Iterations" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="400" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2B5wNbo5IhnmMsCab1oOxM%2FResearch%252C-Ideation%252C-Exploration%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+                            <iframe title="South Side Weekly Iterations" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2B5wNbo5IhnmMsCab1oOxM%2FResearch%252C-Ideation%252C-Exploration%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
                         </p>
 
                         <hr class="rounded" />
@@ -251,7 +231,7 @@ function SSWPage(props) {
                             Checkout my Figma document where I built my wireframes, components, design system, and guide for developers.
                         </p>
 
-                        <iframe title="South Side Weekly Figma File" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FMHRVK2dRznJ3mSogT57dM5%2F%255BFa21%255D-SSW-Bryan's-Designs%3Fnode-id%3D598%253A45494" allowfullscreen></iframe>
+                        <iframe title="South Side Weekly Figma File" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FMHRVK2dRznJ3mSogT57dM5%2F%255BFa21%255D-SSW-Bryan's-Designs%3Fnode-id%3D598%253A45494" allowfullscreen></iframe>
                     </div>
                 </body>
             </Content>
