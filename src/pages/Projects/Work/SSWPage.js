@@ -39,9 +39,9 @@ function SSWPage(props) {
                             <Col sm>
                                 <b>Skills</b>
                                 <br />User Research
+                                <br />Product Thinking
                                 <br />User Experience
-                                <br />User Interface Design
-                                <br />Visual Design
+                                <br />Interface Design
                                 <br />Usability Testing
                                 <br />Content Writing
                             </Col>
