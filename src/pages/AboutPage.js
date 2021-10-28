@@ -1,7 +1,6 @@
 import React from 'react';
 import AOS from 'aos';
 import aboutpic from '../assets/other/aboutprofpic.jpg';
-import designjourney from '../assets/other/design-journey.png';
 
 import Content from '../components/Content';
 import Container from 'react-bootstrap/Container';
@@ -35,14 +34,6 @@ function AboutPage(props) {
                         <p>
                             I've always been intrigued by technology and how it affects our lives. Throughout high school and college, I've sought opportunities to learn about computer science. In this journey, I became exposed to the world of product where I learned about other product roles and the world of user experience / product design. Since my first design project at a student organization my freshman year, I've been hooked in the process of research, understanding users, and prototyping!
                         </p>
-
-                        <br />
-
-                        <img
-                            class="project-img-small center"
-                            alt="Design Journey"
-                            src={designjourney}
-                        />
 
                         <br />
 
