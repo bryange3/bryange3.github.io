@@ -35,7 +35,6 @@ function AboutPage(props) {
                             I've always been intrigued by technology and how it affects our lives. Throughout high school and college, I've sought opportunities to learn about computer science. In this journey, I became exposed to the world of product where I learned about other product roles and the world of user experience / product design. Since my first design project at a student organization my freshman year, I've been hooked in the process of research, understanding users, and prototyping!
                         </p>
 
-                        <br />
 
                         <p className="about-subtitle">
                             🖋 What am I up to?
