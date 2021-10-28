@@ -83,7 +83,7 @@ function AboutPage(props) {
                             </p>
 
                             <ul>
-                                <li>National Board Operations & Design Member @ Hack4Impact</li>
+                                <li>National Board Design Committee Member @ Hack4Impact</li>
                                 <li>Orientation Leader @ UIUC</li>
                                 <li>Design Vision Sprint Participant @ The Trevor Project</li>
                                 <li>UI Designer @ Design Innovation (Fall 2020)</li>
@@ -97,6 +97,7 @@ function AboutPage(props) {
                             </p>
 
                             <ul>
+                                <li>Facebook EMEA Design Summit 2021</li>
                                 <li>1st Place @ HackDuke Ideate Designathon</li>
                                 <li>Winner @ UChicago Francis & Rose Yuen East Asia Hackathon</li>
                                 <li>Capital One Software Engineering Summit</li>
