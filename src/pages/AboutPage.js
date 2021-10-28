@@ -25,7 +25,7 @@ function AboutPage(props) {
                             👋 Hi there! I'm Bryan Ge (he/him).
                         </p>
                         <p>
-                            I’m a sophomore at the University of Illinois at Urbana-Champaign studying Information Sciences, concentrating in Human Computer Interaction and User Experience, graduating December 2023.
+                            I’m a sophomore at the University of Illinois at Urbana-Champaign studying Information Sciences, concentrating in Human Computer Interaction and User Experience, graduating May 2023.
                         </p>
 
                         <p className="about-subtitle">
