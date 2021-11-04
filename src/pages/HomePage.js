@@ -17,7 +17,7 @@ const Animation = styled.div`
 `;
 
 function HomePage(props) {
-    const width = 7;
+    const width = 6;
     window.scrollTo(0, 0);
     return (
         <FadeIn delay={300} className="background">
@@ -25,16 +25,19 @@ function HomePage(props) {
                 <div>
                     <Row className="justify-content-center">
                         <Col md={width} sm={12}>
-                            <div class="home-images">
-                                <a href="https://www.bryange.com/about" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
-                                <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
-                            </div>
+                            <div className="home-top">
+                                <div className="home-images">
+                                    <a href="https://www.bryange.com/about" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
+                                    <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
+                                </div>
 
-                            {props.title && <h3 className="display-6 font-weight-bolder home-title">{props.title}</h3>}
-                            <div className="home-positions center">
-                                <h3 className="role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
-                                <h3 className="role">Previous User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
-                                <h3 className="role">Sophomore studying Information Sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
+                                {props.title && <h3 className="display-6 home-title">Product designer + developer with a love for baking and social good!</h3>}
+                                
+                                <div className="home-positions center">
+                                    <h3 className="role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
+                                    <h3 className="role">Previous User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
+                                    <h3 className="role">Sophomore studying Information Sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
+                                </div>
                             </div>
 
                             <Grid md={width} sm={12} projects={props.projects} />

@@ -1,9 +1,9 @@
 @media only screen and (max-width: 1000px) {
     h1 {
-        font-size: 38px !important;
+        font-size: 24px !important;
     }
     h2 {
-        font-size: 24px !important;
+        font-size: 21px !important;
     }
     [class*="home-image-cursor"] {
         max-height: 5em !important;
@@ -158,9 +158,8 @@ code {
 }
 
 .project-card {
-    margin: 25px;
     color: #000000;
-    text-decoration: none;
+    text-decoration: none !important;
     left: 0px !important;
 }
 
@@ -169,19 +168,19 @@ code {
     width: 100%;
     height: 100%;
     background: grey;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-size: cover;
     background-position: center;
 }
 
 .project-card-info {
-    font-size: 24px;
-    margin-bottom: 2em;
+    font-size: 21px;
+    margin-bottom: 4em;
 }
 
 .project-card-title {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 21px;
+    font-weight: 600;
     margin: 0px;
     margin-bottom: 5px;
     color: #000000;
@@ -197,7 +196,7 @@ code {
 .project-card-role {
     margin-top: 6px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
     color: #2183BE;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -371,18 +370,18 @@ blockquote {
 
 .about-subtitle {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 2em;
 }
 
 .profile-image {
     display: block;
-    max-height: 20em;
+    max-height: 15em;
     border-radius: 300px;
     width: auto;
     height: auto;
-    margin-bottom: 4em;
-    margin-top: 2em;
+    margin-bottom: 5em;
+    margin-top: 5em;
 }
 
 .sticky-header {
@@ -413,7 +412,7 @@ footer li {
 
 footer li a {
     text-decoration: none;
-    font-size: 28px;
+    font-size: 21px;
 }
 
 footer {
@@ -437,8 +436,8 @@ footer {
     background-color: black;
 }
 
-.header-logo {
-    width: 30px;
+.header-title {
+    font-weight: 600 !important;
 }
 
 .icon:hover {
@@ -446,7 +445,7 @@ footer {
 }
 
 .small-description {
-    font-size: 28px;
+    font-size: 21px;
     color: #666666;
 }
 
@@ -511,7 +510,7 @@ footer {
     cursor: pointer;
     width: 100%;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
     padding: 1%;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -628,8 +627,8 @@ mark {
 }
 
 .case-title {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 21px;
+    font-weight: 600;
     margin-top: 0 !important;
 }
 
@@ -639,9 +638,13 @@ mark {
     padding-right: 10%;
 }
 
+.home-top {
+    padding: 12px;
+    margin-top: 5em;
+}
+
 .home-images {
     position: relative;
-    margin-top: 2em;
 }
 
 .home-image {
@@ -653,8 +656,15 @@ mark {
 }
 
 .home-title {
-    margin-top: 2em;
-    font-size: 28px;
+    margin-top: 3em;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.home-title-company {
+    color: #2183BE;
+    text-decoration: underline;
 }
 
 .top-image {

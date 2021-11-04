@@ -1,28 +1,23 @@
 import React from 'react';
-
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
-
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import FadeIn from 'react-fade-in';
 import problemplatforms from '../../../assets/project/h4i/problem-platform-logos.png';
 import problem_claimpitch from '../../../assets/project/h4i/problem-claimpitch.gif';
-
 import claimpitch from '../../../assets/project/h4i/claim-pitch.png';
 import approvedeclinepitch from '../../../assets/project/h4i/approve-decline-pitch.png';
-
 import pitchdocstructure from '../../../assets/project/h4i/pitch-doc-structure.png';
 import pitchtabstructure from '../../../assets/project/h4i/pitch-tab-structure.png';
 import contributorpitchdoc from '../../../assets/project/h4i/contributor-pitch-doc.png';
-
 import adminpitchespending from '../../../assets/project/h4i/admin-pitches-pending-approval.png';
 
 function SSWPage(props) {
     window.scrollTo(0, 0);
     const width = 11;
     return (
-        <div>
+        <FadeIn>
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
@@ -235,7 +230,7 @@ function SSWPage(props) {
                     </div>
                 </body>
             </Content>
-        </div>
+        </FadeIn>
     );
 }
 

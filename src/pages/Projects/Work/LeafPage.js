@@ -2,7 +2,7 @@ import React from 'react';
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
 import leafzoom from '../../../assets/project/leaf/leafzoom.png';
-
+import FadeIn from 'react-fade-in';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -10,7 +10,7 @@ function LeafPage(props) {
     window.scrollTo(0, 0);
     const width = 7;
     return (
-        <div>
+        <FadeIn>
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
@@ -119,7 +119,7 @@ function LeafPage(props) {
 
                 </body>
             </Content>
-        </div>
+        </FadeIn>
     );
 }
 

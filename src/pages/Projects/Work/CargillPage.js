@@ -1,6 +1,7 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
+import FadeIn from 'react-fade-in';
 
 import basicmockup from '../../../assets/project/cargill/basic-mockup.png';
 import timeline from '../../../assets/project/cargill/Timeline.png';
@@ -12,7 +13,7 @@ function CargillPage(props) {
     window.scrollTo(0, 0);
     const width = 7;
     return (
-        <div>
+        <FadeIn>
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
@@ -89,7 +90,7 @@ function CargillPage(props) {
                     </p>
                 </body>
             </Content>
-        </div>
+        </FadeIn>
     );
 }
 

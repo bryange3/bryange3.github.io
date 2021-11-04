@@ -1,23 +1,16 @@
 import React from 'react';
-
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
-
+import FadeIn from 'react-fade-in';
 import accessibilityiterations from '../../../assets/project/nour/AccessibilityIterations.png';
 import loginiterations from '../../../assets/project/nour/LoginIterations.png';
-
 import accessibilitypreferences from '../../../assets/project/nour/accessibilitypreferences.gif';
-
 import login from '../../../assets/project/nour/LoginQR.gif';
-
 import roomdiscovery from '../../../assets/project/nour/RoomDiscovery.png';
-
 import roomdiscoveryvariations from '../../../assets/project/nour/RoomDiscoveryVariations.png';
 import stats from '../../../assets/project/nour/stats.png';
 import team from '../../../assets/project/nour/team.png';
-
 import searchmethods from '../../../assets/project/nour/SearchMethods.gif';
-
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -25,7 +18,7 @@ function NourPage(props) {
     window.scrollTo(0, 0);
     const width = 6;
     return (
-        <div>
+        <FadeIn>
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
@@ -276,7 +269,7 @@ function NourPage(props) {
                     <iframe title="IOT Playground Prototype" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fo2siBMfCFww1ksk5Xz7ZE5%2FHackDuke-Ideate-2021-Nour%3Fnode-id%3D1%253A3%26viewport%3D258%252C261%252C0.10952381789684296%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
                 </body>
             </Content>
-        </div>
+        </FadeIn>
     );
 }
 

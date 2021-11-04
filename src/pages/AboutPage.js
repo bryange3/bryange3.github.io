@@ -8,13 +8,13 @@ import FadeIn from 'react-fade-in';
 
 function AboutPage(props) {
     AOS.init();
-    const width = 9;
+    const width = 6;
     window.scrollTo(0, 0);
     return (
         <FadeIn>
             <Container fluid={true} class="full-width">
                 <body>
-                    <Content width={width - 2}>
+                    <Content width={width}>
                         <img
                             class="profile-image center"
                             alt="Profile"
