@@ -82,7 +82,7 @@ function LeafPage(props) {
                         </p>
 
                         <h3 className="subsection">
-                            LEAF is an interactive and education app with the goal of educating children about what the carbon footprint is and how they can take measures directly from home.
+                            LEAF is an interactive app with the goal of educating children about what the carbon footprint is and how they can take measures directly from home.
                         </h3>
                         Users can upload an image of their room and click on various household items in the photo to learn about the items' carbon footprint. At the end of the program, users are able to calculate their own carbon footprint, utilizing the CoolClimate carbon footprint calculator.
                     </p>
