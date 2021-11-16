@@ -71,7 +71,9 @@ function AboutPage(props) {
                                 <li>Incoming UX Design Intern @ Cargill (Spring 2022)</li>
                                 <li>Product Designer @ Hack4Impact (Fall 2021)</li>
                                 <li>Software Engineering Intern @ State Farm (Fall 2021)</li>
+                                <li>Product Designer @ Develop For Good (Summer - Fall 2021)</li>
                                 <li>UX Design Intern @ Cargill (Summer 2021)</li>
+                                <li>Product Design Intern @ Trill Project (Spring 2021)</li>
                                 <li>Data Science Discovery Course Assistant @ UIUC (Spring 2021)</li>
                             </ul>
                         </p>
