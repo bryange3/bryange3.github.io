@@ -85,6 +85,7 @@ function AboutPage(props) {
 
                             <ul>
                                 <li>National Board Design Committee Member @ Hack4Impact</li>
+                                <li>Ambassador @ KraveBeauty</li>
                                 <li>Orientation Leader @ UIUC</li>
                                 <li>Design Vision Sprint Participant @ The Trevor Project</li>
                                 <li>UI Designer @ Design Innovation (Fall 2020)</li>
