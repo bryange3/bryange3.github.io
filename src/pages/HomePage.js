@@ -17,7 +17,7 @@ const Animation = styled.div`
 `;
 
 function HomePage(props) {
-    const width = 6;
+    const width = 8;
     window.scrollTo(0, 0);
     return (
         <FadeIn delay={300} className="background">

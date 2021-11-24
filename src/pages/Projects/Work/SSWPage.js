@@ -10,15 +10,14 @@ import claimpitch from '../../../assets/project/h4i/claim-pitch.png';
 import approvedeclinepitch from '../../../assets/project/h4i/approve-decline-pitch.png';
 import pitchdocstructure from '../../../assets/project/h4i/pitch-doc-structure.png';
 import pitchtabstructure from '../../../assets/project/h4i/pitch-tab-structure.png';
-import contributorpitchdoc from '../../../assets/project/h4i/contributor-pitch-doc.png';
 import adminpitchespending from '../../../assets/project/h4i/admin-pitches-pending-approval.png';
 
 function SSWPage(props) {
     window.scrollTo(0, 0);
-    const width = 11;
+    const width = 10;
     return (
         <FadeIn>
-            <ProjectTitle info={props.info} width={width} />
+            <ProjectTitle info={props.info} width={width - 3} />
             <Content width={width}>
                 <body>
                     <div className="med-text">
@@ -98,13 +97,17 @@ function SSWPage(props) {
                             <h3 className="subsection">
                                 For example, writers view available stories and submit requests to join them in two separate areas (AirTable table and AirTable form).
                             </h3>
-
-                            <img src={problem_claimpitch} alt="Problem Claim Pitch" className="project-img center" />
-
-                            <h3 className="subsection">
-                                In fact, the current process of contributors joining pitches varies. Some join via Slack messages and others join via email.
-                            </h3>
                         </p>
+                    </div>
+
+                    <div>
+                        <img src={problem_claimpitch} alt="Problem Claim Pitch" className="project-img center" />
+                    </div>
+
+                    <div className="med-text">
+                        <h3 className="subsection">
+                            In fact, the current process of contributors joining pitches varies. Some join via Slack messages and others join via email.
+                        </h3>
 
                         <p className="paragraph">
                             <p className="section">
@@ -128,14 +131,20 @@ function SSWPage(props) {
                             <h3 className="subsection">
                                 Filters, search, and visual tags associated with interests and teams help contributors find pitches they want to claim.
                             </h3>
+                        </p>
+                    </div>
 
-                            <img src={claimpitch} alt="Claim Pitch" className="project-img center" />
+                    <div>
+                        <img src={claimpitch} alt="Claim Pitch" className="project-img center" />
+                    </div>
 
+                    <div className="med-text">
+                        <p>
                             <h3 className="subsection">
                                 When contributors claim a pitch from the pitch doc, admin can review the request and approve or decline it.
                             </h3>
 
-                            <img src={approvedeclinepitch} alt="Claim Pitch" className="project-img-small center" />
+                            <img src={approvedeclinepitch} alt="Review Pitch" className="project-img-medium center" />
 
                             <p className="image-caption-center">
                                 Note that this modal is a shorter scrollable component in the actual dashboard.
@@ -163,9 +172,9 @@ function SSWPage(props) {
                             <br />
 
                             Here's what the pitch doc tabs look like on the full contributor pitch doc.
-                            <img src={contributorpitchdoc} alt="Contributor Pitch Doc" className="project-img center" />
+                            <img src={claimpitch} alt="Contributor Pitch Doc" className="project-img center" />
 
-                            
+
                         </p>
 
                         <hr class="rounded" />
@@ -230,7 +239,7 @@ function SSWPage(props) {
                     </div>
                 </body>
             </Content>
-        </FadeIn>
+        </FadeIn >
     );
 }
 
