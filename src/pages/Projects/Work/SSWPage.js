@@ -194,16 +194,18 @@ function SSWPage(props) {
                             We sat in on a meeting where admins went through an AirTable of users' submitted pitches together and made approval/declining decisions. From this session, we learned that admin tend to spend around 5 minutes per pitch doing the following:
 
                             <ul>
-                                <li>Read the pitch title & description</li>
-                                <li>Go to the directory tab to find and open the submitter's profile & LinkedIn</li>
+                                <li>Gain an understanding of the pitch by reading the title & description</li>
+                                <li>Understand the submitter's background by switching to the directory tab to find and open the submitter's profile & LinkedIn</li>
                                 <li>Discuss whether or not to approve the pitch idea</li>
                             </ul>
 
-                            I took insights from this session and applied to my design for the "Pitches Pending Approval" tab of the admin pitch doc. This section showcases pitches contributors have submitted and admin are able to approve or decline them from here.
-
-                            <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
+                            I took insights from this session and applied them to my design for the "Pitches Pending Approval" tab of the admin pitch doc. This section showcases pitches contributors have submitted and admin are able to approve or decline them from here.
                         </p>
+                    </div>
 
+                    <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
+                    
+                    <div className="med-text">
                         <hr class="rounded" />
 
                         <p className="paragraph">
