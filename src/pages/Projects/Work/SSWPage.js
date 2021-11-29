@@ -242,6 +242,12 @@ function SSWPage(props) {
                             </p>
 
                             <h3 className="subsection">
+                                Design with technical and time constraints in mind, but don’t sacrifice the user experience in the process.
+                            </h3>
+
+                            Collaborating with a large development team and technical lead presented many opportunities for discussion on the cost of implementation of my designs. I learned the importance of communicating my views and listening to others’ views in coming to a compromise that would result in the most efficient development and good user experience.
+
+                            <h3 className="subsection">
                                 Communication is key in a large cross-functional team.
                             </h3>
 
