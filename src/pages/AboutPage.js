@@ -73,7 +73,7 @@ function AboutPage(props) {
                                 <li>Software Engineering Intern @ State Farm (Fall 2021)</li>
                                 <li>Product Designer @ Develop For Good (Summer - Fall 2021)</li>
                                 <li>UX Design Intern @ Cargill (Summer 2021)</li>
-                                <li>Product Design Intern @ Trill Project (Spring 2021)</li>
+                                <li>Design Intern @ Trill Project (Spring 2021)</li>
                                 <li>Data Science Discovery Course Assistant @ UIUC (Spring 2021)</li>
                             </ul>
                         </p>

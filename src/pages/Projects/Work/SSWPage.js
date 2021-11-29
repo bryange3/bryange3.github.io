@@ -11,6 +11,7 @@ import approvedeclinepitch from '../../../assets/project/h4i/approve-decline-pit
 import pitchdocstructure from '../../../assets/project/h4i/pitch-doc-structure.png';
 import pitchtabstructure from '../../../assets/project/h4i/pitch-tab-structure.png';
 import adminpitchespending from '../../../assets/project/h4i/admin-pitches-pending-approval.png';
+import organization from '../../../assets/project/h4i/learnings-organization.png';
 
 function SSWPage(props) {
     window.scrollTo(0, 0);
@@ -201,18 +202,6 @@ function SSWPage(props) {
                             I took insights from this session and applied to my design for the "Pitches Pending Approval" tab of the admin pitch doc. This section showcases pitches contributors have submitted and admin are able to approve or decline them from here.
 
                             <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
-
-                            <h3 className="subsection">
-                                We are also going to chat with a staff member and a contributor to better understand the current user flows and processes.
-                            </h3>
-
-                            In these sessions we plan to:
-                            <ol>
-                                <li>Learn about the user's background with South Side Weekly.</li>
-                                <li>Ask the user to go through the end-to-end process from submitting or claiming a pitch to the publication of the story.</li>
-                                <li>Ask the user to share screen and observe them go through the existing platforms to show the process.</li>
-                                <li>Conduct usability testing by asking the user to share screen and perform tasks on my interactive Figma prototype.</li>
-                            </ol>
                         </p>
 
                         <hr class="rounded" />
@@ -229,6 +218,44 @@ function SSWPage(props) {
                             <iframe title="South Side Weekly Iterations" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2B5wNbo5IhnmMsCab1oOxM%2FResearch%252C-Ideation%252C-Exploration%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
                         </p>
 
+                        <hr className="rounded" />
+
+                        {/* <p className="paragraph">
+                            <p className="section">
+                                Next Steps
+                            </p>
+
+                            <h3 className="subsection">
+                                If we continued this project, we would conduct usability testing and user interviews with elderly home patients.
+                            </h3>
+
+                            Our next steps for Nour involve <mark>testing our app on patients of elderly homes</mark>. I plan on conducting <mark>usability tests to learn how our target audience navigates the app</mark>. I will also work with the home care facilities to conduct <mark>user interviews to learn more about our users' pain points with the app</mark> and any wants that are not being fulfilled by Nour.
+
+                            <p className="paragraph">
+                                We also hope to create a <mark>backend system that allows workers at different care centers to communicate and set up timely events</mark> (games, shows, etc.). Implementing games such as Bingo or Trivia within the app and expanding to an iPad app is also something we hope to reach in the future. With all these feature updates, accessibility will be our largest priority. Designing entertainment features that are easy to understand and navigate is the largest but most necessary challenge.
+                            </p>
+                        </p> */}
+
+                        <p className="paragraph">
+                            <p className="section">
+                                Learnings
+                            </p>
+
+                            <h3 className="subsection">
+                                Communication is key in a large cross-functional team.
+                            </h3>
+
+                            I learned how to hand off designs to developers. This involved adding notes and wireframes that take into account different states and edge cases as well as highlighting which flows and features are complete and ready for implementation versus ones that are still in progress. I also learned how to communicate my designs and decisions to my product manager, clients, and other designers during design critiques.
+
+                            <h3 className="subsection">
+                                I learned how to keep all my tasks, thoughts, research, and feedback organized in Notion and Figma.
+                            </h3>
+                        </p>
+                    </div>
+
+                    <img src={organization} alt="Figma and Notion Organization" className="project-img center" />
+
+                    <div className="med-text">
                         <hr class="rounded" />
 
                         <p className="paragraph">
