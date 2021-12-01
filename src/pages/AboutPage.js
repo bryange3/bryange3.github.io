@@ -68,7 +68,6 @@ function AboutPage(props) {
                             </p>
 
                             <ul>
-                                <li>Incoming UX Design Intern @ Cargill (Spring 2022)</li>
                                 <li>Product Designer @ Hack4Impact (Fall 2021)</li>
                                 <li>Software Engineering Intern @ State Farm (Fall 2021)</li>
                                 <li>Product Designer @ Develop For Good (Summer - Fall 2021)</li>
