@@ -4,6 +4,7 @@ import ProjectTitle from '../../../components/ProjectTitle.js';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
+
 import problemplatforms from '../../../assets/project/h4i/problem-platform-logos.png';
 import problem_claimpitch from '../../../assets/project/h4i/problem-claimpitch.gif';
 import claimpitch from '../../../assets/project/h4i/claim-pitch.png';
@@ -12,6 +13,20 @@ import pitchdocstructure from '../../../assets/project/h4i/pitch-doc-structure.p
 import pitchtabstructure from '../../../assets/project/h4i/pitch-tab-structure.png';
 import adminpitchespending from '../../../assets/project/h4i/admin-pitches-pending-approval.png';
 import organization from '../../../assets/project/h4i/learnings-organization.png';
+import usergoals from '../../../assets/project/h4i/user-goals.png';
+
+// contributor key features
+import contributorprofile from '../../../assets/project/h4i/profile.png';
+import viewcurrentpitch from '../../../assets/project/h4i/view-current-pitch.gif';
+import submitpitch from '../../../assets/project/h4i/submit-pitch.png';
+
+// admin key features
+import reviewpitch from '../../../assets/project/h4i/review-pitch.gif';
+import reviewuser from '../../../assets/project/h4i/review-user.gif';
+import approveclaimrequest from '../../../assets/project/h4i/approve-claim-request.gif';
+
+// research
+import interviewquestions from '../../../assets/project/h4i/interview-questions.png';
 
 function SSWPage(props) {
     window.scrollTo(0, 0);
@@ -98,14 +113,9 @@ function SSWPage(props) {
                             <h3 className="subsection">
                                 For example, writers view available stories and submit requests to join them in two separate areas (AirTable table and AirTable form).
                             </h3>
+                            <img src={problem_claimpitch} alt="Problem Claim Pitch" className="project-img center" />
                         </p>
-                    </div>
 
-                    <div>
-                        <img src={problem_claimpitch} alt="Problem Claim Pitch" className="project-img center" />
-                    </div>
-
-                    <div className="med-text">
                         <h3 className="subsection">
                             In fact, the current process of contributors joining pitches varies. Some join via Slack messages and others join via email.
                         </h3>
@@ -116,49 +126,115 @@ function SSWPage(props) {
                             </p>
 
                             <h3 className="subsection">
-                                A web portal that centralizes the functionality currently existing across multiple platforms. In the portal, users can claim pitches to work on them, submit their own pitch ideas. Admin and staff approve/decline new pitch ideas and pitch claim requests.
+                                A web dashboard that centralizes the functionality currently existing across multiple platforms. Contributors can claim pitches to work on them and submit their own pitch ideas. Admin and staff review new users, pitches, and pitch claim requests and decide whether to approve or decline them.
                             </h3>
 
                             Almost all of SSW’s contributors are volunteers, which makes it imperative to maintain high levels of contributor engagement and retention. The contributor dashboard is intended to accomplish this by enhancing the contributor experience through building a centralized system for onboarding volunteers, submitting pitches, allowing volunteers to pick-up pending assignments, and tracking contributions.
+                        </p>
+
+                        <p className="paragraph">
+                            <p className="section">
+                                User Goals
+                            </p>
+
+                            <img src={usergoals} alt="User Goals" className="project-img-small center" />
                         </p>
 
                         <hr class="rounded" />
 
                         <p className="paragraph">
                             <p className="section">
-                                Key Features
+                                As a contributor, you can...
                             </p>
 
                             <h3 className="subsection">
-                                Filters, search, and visual tags associated with interests and teams help contributors find pitches they want to claim.
+                                1. Claim pitches you are interested in.
                             </h3>
+
+                            <img src={claimpitch} alt="Claim Pitch" className="project-img center" />
+
+                            <h3 className="subsection">
+                                2. See who you're working with on the pitches you're contributing to.
+                            </h3>
+
+                            <img src={viewcurrentpitch} alt="View Current Pitch" className="project-img center" />
+
+                            <h3 className="subsection">
+                                3. View your previous work and contributions at South Side Weekly.
+                            </h3>
+
+                            <img src={contributorprofile} alt="Contributor Profile" className="project-img center" />
+
+                            <h3 className="subsection">
+                                4. Submit pitches to turn your ideas into publications for tens of thousands to read.
+                            </h3>
+
+                            <img src={submitpitch} alt="Submit Pitch" className="project-img center" />
+
+                            <h3 className="subsection">
+                                5. Receive emails when your submissions have been approved or when you've been assigned to a pitch.
+                            </h3>
+
+                            <p>
+                                In the existing system, once contributors' pitch claim requests or story ideas are approved or declined, staff and admin manually message them through email and Slack.
+                            </p>
+
+                            <p>
+                                Emails are sent out in the following scenarios:
+                                <ul>
+                                    <li>Submitted Pitch Approved/Declined</li>
+                                    <li>Pitch Claim Request Approved/Declined</li>
+                                    <li>Contributor Added to Pitch by Admin/Staff</li>
+                                </ul>
+                            </p>
+
+                            <p>
+                                Here is what an automated email to Dylan, a contributor, looks like when his submitted pitch has been approved:
+                                <blockquote>
+                                    <u>Subject: Pitch “Discrimination in India” Approved</u>
+                                    <br />
+                                    <br />
+                                    Hi Dylan,
+                                    <br />
+                                    <br />
+
+                                    Congratulations, your pitch **“Discrimination in India”** has been **approved**! Your primary editor, Joanne White, is cc’ed on this email and will be following up to begin discussing your story. We can't wait to see your story come together!
+                                    <br />
+                                    <br />
+                                    Thank you,
+                                    Jason Brown
+                                </blockquote>
+                            </p>
+
                         </p>
-                    </div>
 
-                    <div>
-                        <img src={claimpitch} alt="Claim Pitch" className="project-img center" />
-                    </div>
+                        <hr class="rounded" />
 
-                    <div className="med-text">
-                        <p>
-                            <h3 className="subsection">
-                                When contributors claim a pitch from the pitch doc, admin can review the request and approve or decline it.
-                            </h3>
-
-                            <img src={approvedeclinepitch} alt="Review Pitch" className="project-img-medium center" />
-
-                            <p className="image-caption-center">
-                                Note that this modal is a shorter scrollable component in the actual dashboard.
+                        <p className="paragraph">
+                            <p className="section">
+                                As an admin, you can...
                             </p>
 
                             <h3 className="subsection">
-                                Users can go to the home page to view pitches they've submitted and pitches they've claimed.
+                                1. Review pitch ideas contributors submit.
                             </h3>
+
+                            <img src={reviewpitch} alt="Review Pitch" className="project-img center" />
 
                             <h3 className="subsection">
-                                They can go to the pitch doc to find pitches to claim and also browse all active pitches to see what kinds of stories are being worked on.
+                                2. Review new users and determine whether they're a good fit to be a contributor or staff member at South Side Weekly.
                             </h3>
 
+                            <img src={reviewuser} alt="Review User" className="project-img center" />
+
+                            <h3 className="subsection">
+                                3. Review contributors' pitch claim requests (request to contribute to a pitch).
+                            </h3>
+
+                            <img src={approveclaimrequest} alt="Approve Claim Request" className="project-img center" />
+                        </p>
+
+                        {/* <p>
                             <img src={pitchdocstructure} alt="Pitch Doc Structure" className="project-img center" />
                             <p className="image-caption">
                                 Sections highlighted in blue are sections that I decided were important for the contributor to know.
@@ -176,7 +252,7 @@ function SSWPage(props) {
                             <img src={claimpitch} alt="Contributor Pitch Doc" className="project-img center" />
 
 
-                        </p>
+                        </p> */}
 
                         <hr class="rounded" />
 
@@ -188,9 +264,14 @@ function SSWPage(props) {
                             Since I joined this project in its 2nd semester, I read through the user survey and interview takeaways from the previous semester. However, I believed that more user research needed to be done to fully understand the way things currently worked at South Side Weekly.
 
                             <h3 className="subsection">
-                                My PM and I set up a session with the client to understand what information helps admin make their pitch approval decision.
+                                I scheduled and led user interviews with the Director of Fact-checking, Managing Editor, and a fact-checking contributor at South Side Weekly.
                             </h3>
 
+                            <img src={interviewquestions} alt="Interview Questions" className="project-img center" />
+
+                            <h3 className="subsection">
+                                My PM and I set up a session with the client to understand what information helps admin make their pitch approval decision.
+                            </h3>
                             We sat in on a meeting where admins went through an AirTable of users' submitted pitches together and made approval/declining decisions. From this session, we learned that admin tend to spend around 5 minutes per pitch doing the following:
 
                             <ul>
@@ -201,11 +282,9 @@ function SSWPage(props) {
 
                             I took insights from this session and applied them to my design for the "Pitches Pending Approval" tab of the admin pitch doc. This section showcases pitches contributors have submitted and admin are able to approve or decline them from here.
                         </p>
-                    </div>
 
-                    <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
-                    
-                    <div className="med-text">
+                        <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
+
                         <hr class="rounded" />
 
                         <p className="paragraph">

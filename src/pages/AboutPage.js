@@ -117,7 +117,7 @@ function AboutPage(props) {
                                 <ul>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/takarasatone/">Takara Satone</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.amandahe.com/">Amanda He</a></li>
-                                    <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://athenatang.com/">Athena Tang</a></li>
+                                    <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.chaeeunpark.com/">Chaeeun Park</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://riyajain.me/">Riya Jain</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://katesliang.com/">Kate Liang</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://conniexu.com/">Connie Xu</a></li>
