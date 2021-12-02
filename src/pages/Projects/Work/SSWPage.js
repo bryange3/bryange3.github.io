@@ -27,6 +27,7 @@ import approveclaimrequest from '../../../assets/project/h4i/approve-claim-reque
 
 // research
 import interviewquestions from '../../../assets/project/h4i/interview-questions.png';
+import interviewinsights from '../../../assets/project/h4i/interview-insights.png';
 
 function SSWPage(props) {
     window.scrollTo(0, 0);
@@ -198,10 +199,11 @@ function SSWPage(props) {
                                     <br />
                                     <br />
 
-                                    Congratulations, your pitch **“Discrimination in India”** has been **approved**! Your primary editor, Joanne White, is cc’ed on this email and will be following up to begin discussing your story. We can't wait to see your story come together!
+                                    Congratulations, your pitch <strong>“Discrimination in India”</strong> has been <strong>approved</strong>! Your primary editor, Joanne White, is cc’ed on this email and will be following up to begin discussing your story. We can't wait to see your story come together!
                                     <br />
                                     <br />
                                     Thank you,
+                                    <br />
                                     Jason Brown
                                 </blockquote>
                             </p>
@@ -270,20 +272,38 @@ function SSWPage(props) {
                             <img src={interviewquestions} alt="Interview Questions" className="project-img center" />
 
                             <h3 className="subsection">
-                                My PM and I set up a session with the client to understand what information helps admin make their pitch approval decision.
+                                User interviews and weekly client calls helped me better understand the users I was designing for.
                             </h3>
-                            We sat in on a meeting where admins went through an AirTable of users' submitted pitches together and made approval/declining decisions. From this session, we learned that admin tend to spend around 5 minutes per pitch doing the following:
+
+                            <img src={interviewinsights} alt="User Insights" className="project-img center" />
+
+                            In particular, it was interesting to see how the fact-checking team takes more of a "director assigning pitches to contributors" approach, whereas other teams take a "contributors claim pitches for themselves" approach. I realized I needed to thoroughly account for both ways of adding contributors to pitches while designing.
+
+                            <h3 className="subsection">
+                                During one of the user interviews when I was asking about current processes, the client offered to have us sit in on a weekly meeting where admin would review submitted pitches.
+                            </h3>
+                            From this session, we learned that admin tend to spend around 5 minutes per pitch doing the following:
 
                             <ul>
                                 <li>Gain an understanding of the pitch by reading the title & description</li>
                                 <li>Understand the submitter's background by switching to the directory tab to find and open the submitter's profile & LinkedIn</li>
                                 <li>Discuss whether or not to approve the pitch idea</li>
                             </ul>
-
-                            I took insights from this session and applied them to my design for the "Pitches Pending Approval" tab of the admin pitch doc. This section showcases pitches contributors have submitted and admin are able to approve or decline them from here.
                         </p>
 
-                        <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
+                        <hr class="rounded" />
+
+                        <p className="paragraph">
+                            <p className="section">
+                                Brainstorming
+                            </p>
+
+                            <h3 className="subsection">
+                                I took the insights from the user research session where I shadowed admin and applied them to the design of the tab where admin approve new pitches.
+                            </h3>
+
+                            <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
+                        </p>
 
                         <hr class="rounded" />
 
