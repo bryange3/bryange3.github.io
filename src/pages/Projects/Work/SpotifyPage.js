@@ -113,11 +113,9 @@ function SpotifyPage(props) {
                         <img src={values} alt="Values" className="project-img" />
                     </p>
 
-                    <p className="paragraph">
                         <p className="spotify-section my-blue">
                             🍵 Some more about me!
                         </p>
-                    </p>
 
                     <hr class="rounded-close" />
 
