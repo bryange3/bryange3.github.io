@@ -7,6 +7,7 @@ import './App.css';
 
 import cargill from './assets/project/cargill/cargill.png';
 import cargillcover from './assets/project/cargill/cargillcover.png';
+
 import leaf from './assets/project/leaf/leaf.png';
 import leafproject from './assets/project/leaf/leafproject.png';
 
@@ -15,6 +16,8 @@ import sswcover from './assets/project/h4i/sswcover.png';
 
 import nour from './assets/project/nour/nour.png';
 import nourcover from './assets/project/nour/nourcover.png';
+
+import spotifycover from './assets/project/spotify/spotifycover.png';
 
 import Footer from './components/Footer';
 import ScrollArrow from './components/ScrollArrow';
@@ -25,6 +28,8 @@ import NourPage from './pages/Projects/Work/NourPage.js';
 import SSWPage from './pages/Projects/Work/SSWPage.js';
 import CargillPage from './pages/Projects/Work/CargillPage.js';
 import PhotographyPage from './pages/PhotographyPage';
+
+import SpotifyPage from './pages/Projects/Work/SpotifyPage.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -44,6 +49,11 @@ class App extends React.Component {
         title: '📎 Check out my experiences.'
       },
       photography: {
+      },
+      spotify: {
+        projectTitle: 'Hello Spotify team!',
+        cover: spotifycover,
+        path: '/spotify'
       },
       workProjects: [
         {
@@ -126,10 +136,11 @@ class App extends React.Component {
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
 
-          <Route path='/spotify' component={() => {
+          <Route path="/spotify" exact render={() => <SpotifyPage info={this.state.spotify} />} />
+          {/* <Route path='/spotify' component={() => {
             window.location.href = 'https://bryange.notion.site/Why-Spotify-8a51071b106b4098a4232d7c182fab8a';
             return null;
-          }} />
+          }} /> */}
 
           <Route path={this.state.workProjects[0].path} render={() => <NourPage info={this.state.workProjects[0]} />} />
 

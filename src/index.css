@@ -629,7 +629,7 @@ mark {
 }
 
 .case-title {
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 600;
     margin-top: 0 !important;
 }
@@ -680,4 +680,26 @@ mark {
     height: auto;
     left: 100px;
     bottom: -30px;
+}
+
+
+/* Spotify Application */
+
+.spotify-section {
+    margin-top: 70px !important;
+    margin-bottom: 20px !important;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.spotify-subsection {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hr-rounded-close {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #c2c2c2;
+    border-radius: 5px;
 }
