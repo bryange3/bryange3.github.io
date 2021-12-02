@@ -25,14 +25,14 @@ function AboutPage(props) {
                             👋 Hi there! I'm Bryan Ge (he/him).
                         </p>
                         <p>
-                            I’m a sophomore at the University of Illinois at Urbana-Champaign studying Information Sciences, concentrating in Human Computer Interaction and User Experience, graduating May 2023.
+                            I’m a sophomore at the University of Illinois at Urbana-Champaign graduating in May 2023. I'm studying Information Sciences, concentrating in Human Computer Interaction and User Experience, and minoring in Computer Science.
                         </p>
 
                         <p className="about-subtitle">
-                            🚙 How did I get into product design?
+                            🚙 How did I get into UX and product design?
                         </p>
                         <p>
-                            I've always been intrigued by technology and how it affects our lives. Throughout high school and college, I've sought opportunities to learn about computer science. In this journey, I became exposed to the world of product where I learned about other product roles and the world of user experience / product design. Since my first design project at a student organization my freshman year, I've been hooked in the process of research, understanding users, and prototyping!
+                            I've always been intrigued by innovations in technology and how they affects our lives. Throughout high school and college, I've sought opportunities to get into tech by learning computer science. In this journey, I became exposed to the world of product where I learned about other roles and the world of user experience and product design. Since my first design project at a student organization my freshman year, I've been hooked in the process of product research, understanding users, ideating solutions, and creating prototypes!
                         </p>
 
 
@@ -41,8 +41,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            Currently, I am involved in Hack4Impact at the national and UIUC level. I'm a product designer for a Chicago news nonprofit, South Side Weekly, and a committee member of the design and operations functions of National Hack4Impact. I'm working on growing the design community and culture at Hack4Impact.
-
+                            Currently, I am involved in Hack4Impact UIUC as a product designer and the national Hack4Impact board as a design committee member. At Hack4Impact UIUC, I'm designing a dashboard for the admin and contributors of a Chicago nonprofit newspaper, South Side Weekly. As a design committee member, I'm working on improving design culture and building resources for chapters with incubating design teams.
                         </p>
 
                         <p className="about-subtitle">
@@ -70,7 +69,7 @@ function AboutPage(props) {
                             <ul>
                                 <li>Product Designer @ Hack4Impact (Fall 2021)</li>
                                 <li>Software Engineering Intern @ State Farm (Fall 2021)</li>
-                                <li>Product Designer @ Develop For Good (Summer - Fall 2021)</li>
+                                <li>Product Designer @ Connect Tutors through Develop For Good (Summer 2021 Cycle)</li>
                                 <li>UX Design Intern @ Cargill (Summer 2021)</li>
                                 <li>Design Intern @ Trill Project (Spring 2021)</li>
                                 <li>Data Science Discovery Course Assistant @ UIUC (Spring 2021)</li>
@@ -118,10 +117,10 @@ function AboutPage(props) {
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.amandahe.com/">Amanda He</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.chaeeunpark.com/">Chaeeun Park</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://riyajain.me/">Riya Jain</a></li>
+                                    <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/riyv">Riya Gupta</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://katesliang.com/">Kate Liang</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://conniexu.com/">Connie Xu</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rachelyqian/">Rachel Qian</a></li>
-                                    <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ayushis3/">Ayushi Singh</a></li>
                                     <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/meichen-ge-9a980441/">Meichen Ge</a> (best sister!)</li>
                                 </ul>
                             </p>
