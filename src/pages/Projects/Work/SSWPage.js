@@ -8,9 +8,6 @@ import FadeIn from 'react-fade-in';
 import problemplatforms from '../../../assets/project/h4i/problem-platform-logos.png';
 import problem_claimpitch from '../../../assets/project/h4i/problem-claimpitch.gif';
 import claimpitch from '../../../assets/project/h4i/claim-pitch.png';
-import approvedeclinepitch from '../../../assets/project/h4i/approve-decline-pitch.png';
-import pitchdocstructure from '../../../assets/project/h4i/pitch-doc-structure.png';
-import pitchtabstructure from '../../../assets/project/h4i/pitch-tab-structure.png';
 import adminpitchespending from '../../../assets/project/h4i/admin-pitches-pending-approval.png';
 import organization from '../../../assets/project/h4i/learnings-organization.png';
 import usergoals from '../../../assets/project/h4i/user-goals.png';
@@ -24,6 +21,7 @@ import submitpitch from '../../../assets/project/h4i/submit-pitch.png';
 import reviewpitch from '../../../assets/project/h4i/review-pitch.gif';
 import reviewuser from '../../../assets/project/h4i/review-user.gif';
 import approveclaimrequest from '../../../assets/project/h4i/approve-claim-request.gif';
+import assigncontributorusingdirectory from '../../../assets/project/h4i/assign-contributor-using-directory.gif';
 
 // research
 import interviewquestions from '../../../assets/project/h4i/interview-questions.png';
@@ -77,7 +75,9 @@ function SSWPage(props) {
                         </Row>
 
                         <br />
-                        <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. I am apart of a team that is working with <a href="https://southsideweekly.com/" target="_blank" rel="noreferrer" className="link-underline">South Side Weekly</a>, a Chicago news nonprofit, in building a web-based portal for users to manage the submission, approval, and viewing of pitches.
+                        <p className="paragraph">
+                            <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. I am apart of a team that is working with <a href="https://southsideweekly.com/" target="_blank" rel="noreferrer" className="link-underline">South Side Weekly</a>, a Chicago news nonprofit, in building a web-based dashboard for 250+ users to manage the submission, approval, and viewing of pitches.
+                        </p>
 
                         <p className="paragraph">
                             This project was taken on by Hack4Impact in the spring semester. I joined the project this fall semester and replaced the original product designer.
@@ -234,6 +234,12 @@ function SSWPage(props) {
                             </h3>
 
                             <img src={approveclaimrequest} alt="Approve Claim Request" className="project-img center" />
+
+                            <h3 className="subsection">
+                                4. Search for photographers in the directory to assign to a pitch that needs photographers.
+                            </h3>
+
+                            <img src={assigncontributorusingdirectory} alt="Assign Contributor Using Directory" className="project-img center" />
                         </p>
 
                         {/* <p>
