@@ -36,7 +36,7 @@ function HomePage(props) {
                                 <div className="home-positions center">
                                     <h3 className="role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
                                     <h3 className="role">User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
-                                    <h3 className="role">Sophomore studying Information Sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a> graduating May 2023</h3>
+                                    <h3 className="role">Sophomore studying Information Sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a> graduating Dec 2022</h3>
                                 </div>
                             </div>
 
