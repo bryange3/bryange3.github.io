@@ -504,7 +504,7 @@ footer {
 
 .link-underline {
     color: #2183BE;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .link-underline:hover {
