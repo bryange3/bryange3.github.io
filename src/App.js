@@ -8,6 +8,9 @@ import './App.css';
 import cargill from './assets/project/cargill/cargill.png';
 import cargillcover from './assets/project/cargill/cargillcover.png';
 
+import das from './assets/project/das/das.png';
+import dascover from './assets/project/das/dascover.png';
+
 import leaf from './assets/project/leaf/leaf.png';
 import leafproject from './assets/project/leaf/leafproject.png';
 
@@ -19,6 +22,12 @@ import nourcover from './assets/project/nour/nourcover.png';
 
 import spotifycover from './assets/project/spotify/spotifycover.png';
 
+import stat107ca from './assets/project/stat107ca/stat107ca.png';
+import stat107cacover from './assets/project/stat107ca/stat107cacover.png';
+
+import stat107final from './assets/project/stat107final/stat107final.png';
+import stat107finalcover from './assets/project/stat107final/stat107finalcover.png';
+
 import Footer from './components/Footer';
 import ScrollArrow from './components/ScrollArrow';
 import HomePage from './pages/HomePage';
@@ -27,6 +36,9 @@ import LeafPage from './pages/Projects/Work/LeafPage.js';
 import NourPage from './pages/Projects/Work/NourPage.js';
 import SSWPage from './pages/Projects/Work/SSWPage.js';
 import CargillPage from './pages/Projects/Work/CargillPage.js';
+import CAPage from './pages/Projects/Work/CAPage.js';
+import DasPage from './pages/Projects/Work/DasPage.js';
+import StatFinalPage from './pages/Projects/Work/StatFinalPage.js';
 import PhotographyPage from './pages/PhotographyPage';
 
 import SpotifyPage from './pages/Projects/Work/SpotifyPage.js';
@@ -67,7 +79,8 @@ class App extends React.Component {
           path: '/duke-ideate-designathon',
           teamMembers: '3 Designers, 1 Product Marketer',
           timeline: '24 hours',
-          location: 'Remote'
+          location: 'Remote',
+          category: ['all', 'design']
         },
         {
           id: 1,
@@ -79,7 +92,8 @@ class App extends React.Component {
           cover: sswcover,
           path: '/hack4impact-southsideweekly',
           timeline: 'September 2021 - Present',
-          location: 'Champaign, IL'
+          location: 'Champaign, IL',
+          category: ['all', 'design', 'work']
         },
         {
           id: 2,
@@ -92,7 +106,8 @@ class App extends React.Component {
           path: '/cargill-internship',
           teamMembers: '1 Design Intern, 3 Software Engineering Interns, 2 Product Coaches',
           timeline: 'May 2021 - Present',
-          location: 'Remote'
+          location: 'Remote',
+          category: ['all', 'design', 'work']
         },
         {
           id: 3,
@@ -103,15 +118,52 @@ class App extends React.Component {
           imgSrc: leaf,
           cover: leafproject,
           path: '/uchicago-hackathon',
-          teamMembers: '2 Product Designers + Frontend Developers, 1 Backend Developer, 1 Financial Analyst',
+          teamMembers: '2 Designers + Frontend Developers, 1 Backend Developer, 1 Financial Analyst',
           timeline: '2 days',
-          location: 'Remote'
+          location: 'Remote',
+          category: ['all', 'design', 'code']
+        },
+        {
+          id: 4,
+          projectTitle: 'Data Science Discovery — Course Assistant',
+          description: 'Providing resources and support for 132 students taking STAT 107 Data Science Discovery.',
+          roles: 'Data Science',
+          type: 'Teaching',
+          imgSrc: stat107ca,
+          cover: stat107cacover,
+          path: '/data-science-course-assistant',
+          category: ['all', 'ds', 'work']
+        },
+        {
+          id: 5,
+          projectTitle: 'Data Science Discovery Hypothesis Tests — Final Project',
+          description: 'Conducting hypothesis tests on a dataset of flights for the STAT 107 final project.',
+          roles: 'Data Science',
+          type: 'Class Project',
+          imgSrc: stat107final,
+          cover: stat107finalcover,
+          path: '/data-science-discovery-final-project',
+          category: ['all', 'ds', 'code']
+        },
+        {
+          id: 6,
+          projectTitle: 'Daily Awareness Society — Passion Project',
+          description: 'Blog dedicated to spreading awareness on social issues.',
+          roles: 'Frontend Development, UI Design, Content Creation',
+          type: 'Passion Project',
+          imgSrc: das,
+          cover: dascover,
+          path: '/daily-awareness-society',
+          teamMembers: '4 team members',
+          timeline: 'September 2019 - January 2021',
+          category: ['all', 'code']
         }
       ]
     }
   }
 
   render() {
+
     return (
       <Router>
         <Container className="p=0 my-font end-to-end" fluid={true} style={{ minHeight: "100vh" }}>
@@ -131,7 +183,7 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
+          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects}/>} />
           {/* <Route path="/for-fun" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} /> */}
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
@@ -147,8 +199,14 @@ class App extends React.Component {
           <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
 
           <Route path={this.state.workProjects[2].path} render={() => <CargillPage info={this.state.workProjects[2]} />} />
-          
+
           <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
+
+          <Route path={this.state.workProjects[4].path} render={() => <CAPage info={this.state.workProjects[4]} />} />
+
+          <Route path={this.state.workProjects[5].path} render={() => <StatFinalPage info={this.state.workProjects[5]} />} />
+
+          <Route path={this.state.workProjects[6].path} render={() => <DasPage info={this.state.workProjects[6]} />} />
 
           <ScrollArrow />
           <Footer />

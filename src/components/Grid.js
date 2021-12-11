@@ -17,11 +17,12 @@ class Grid extends React.Component {
         })
     }
 
+    
     render() {
         return (
             <FadeIn delay={100}>
-                <Container fluid={true}>
-                    {this.makeItems(this.state.items)}
+                <Container fluid={true} >
+                    {this.makeItems(this.props.projects)}
                 </Container>
             </FadeIn>
         )

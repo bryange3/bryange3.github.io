@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     h1 {
         font-size: 24px !important;
     }
@@ -50,6 +50,9 @@
         margin-left: auto !important;
         margin-right: auto !important;
         text-align: left !important;
+    }
+    [class*="filter-section"] {
+        display: none !important;
     }
 }
 
@@ -141,7 +144,7 @@ code {
 }
 
 .my-gray {
-    color: #666666;
+    color: #8f8f8f;
 }
 
 .my-font {
@@ -448,7 +451,7 @@ footer {
 
 .small-description {
     font-size: 21px;
-    color: #666666;
+    color: #8f8f8f;
 }
 
 .scrollTop {
@@ -564,8 +567,10 @@ footer {
 }
 
 .role {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
+    margin-top: -0.5em !important;
+    line-height: 1.5;
 }
 
 
@@ -594,7 +599,7 @@ footer {
 
 .resume-date {
     font-weight: 600;
-    color: #666666;
+    color: #8f8f8f;
     text-transform: uppercase;
     margin-bottom: 10px !important;
 }
@@ -659,14 +664,11 @@ mark {
 
 .home-title {
     margin-top: 3em;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.5;
     font-weight: 600;
-}
-
-.home-title-company {
-    color: #2183BE;
-    text-decoration: underline;
+    padding-bottom: 0em;
+    margin-bottom: 0px !important;
 }
 
 .top-image {
@@ -678,8 +680,8 @@ mark {
     max-width: 175px;
     width: auto;
     height: auto;
-    left: 100px;
-    bottom: -30px;
+    left: 6em;
+    bottom: -2.5em;
 }
 
 
@@ -702,4 +704,40 @@ mark {
     margin-bottom: 10px;
     border-top: 1px solid #c2c2c2;
     border-radius: 5px;
+}
+
+.filter {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #8f8f8f;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.75em;
+    padding-right: 0.5em;
+    transition: 0.1s ease-in;
+}
+
+.filter.active {
+    color: black;
+    background-color: #f3f3f3;
+}
+
+.filter:hover {
+    cursor: pointer;
+    text-decoration: none;;
+    color: black;
+    transition: 0.1s ease-in;
+}
+
+.filter-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.filter-section {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin-right: 2em;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Grid from '../components/Grid';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -16,31 +16,52 @@ const Animation = styled.div`
   animation: 1s ${myAnimation};
 `;
 
+
 function HomePage(props) {
-    const width = 8;
-    window.scrollTo(0, 0);
+    const [filter, setFilter] = useState("all");
+
+    const width = 9;
+    const portfolio = props.projects;
+
+    let filteredItems = portfolio.filter(item => item.category.includes(filter));
+
     return (
         <FadeIn delay={300} className="background">
             <Container fluid={true}>
                 <div>
                     <Row className="justify-content-center">
                         <Col md={width} sm={12}>
-                            <div className="home-top">
-                                <div className="home-images">
-                                    <a href="https://www.bryange.com/about" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
-                                    <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
+                                <div className="home-top">
+                                    <div className="home-images">
+                                        <a href="https://www.bryange.com/about" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
+                                        <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
+                                    </div>
+
+                                    {props.title && <h3 className="display-6 home-title">Product designer + developer with a love for baking and social good!</h3>}
+
+                                    <div className="home-positions center">
+                                        <h3 className="role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a>, UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a>, Information Sciences Student at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
+                                    </div>
                                 </div>
 
-                                {props.title && <h3 className="display-6 home-title">Product designer + developer with a love for baking and social good!</h3>}
-                                
-                                <div className="home-positions center">
-                                    <h3 className="role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
-                                    <h3 className="role">User Experience Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
-                                    <h3 className="role">Sophomore studying Information Sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a> graduating Dec 2022</h3>
-                                </div>
-                            </div>
+                            <Col>
+                                <Row>
+                                    <Col md={width - 7} className="filter-section">
+                                        <p className="filter-title">Filter Projects</p>
+                                        <div>
+                                            <h3 className={`filter ${filter === 'all' ? 'active' : ''}`} active={filter === 'all'} onClick={() => setFilter('all')}>All</h3>
+                                            <h3 className={`filter ${filter === 'design' ? 'active' : ''}`} active={filter === 'design'} onClick={() => setFilter('design')}>Design</h3>
+                                            <h3 className={`filter ${filter === 'code' ? 'active' : ''}`} active={filter === 'code'} onClick={() => setFilter('code')}>Code</h3>
+                                            <h3 className={`filter ${filter === 'ds' ? 'active' : ''}`} active={filter === 'ds'} onClick={() => setFilter('ds')}>Data</h3>
+                                            <h3 className={`filter ${filter === 'work' ? 'active' : ''}`} active={filter === 'work'} onClick={() => setFilter('work')}>For Work</h3>
+                                        </div>
+                                    </Col>
 
-                            <Grid md={width} sm={12} projects={props.projects} />
+                                    <Col>
+                                        <Grid projects={filteredItems} />
+                                    </Col>
+                                </Row>
+                            </Col>
                         </Col>
                     </Row>
                 </div>

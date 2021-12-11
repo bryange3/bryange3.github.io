@@ -3,7 +3,7 @@ import React from 'react';
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
 
-import dasscreenshot from '../../../assets/project/dasscreenshot.png';
+import dasscreenshot from '../../../assets/project/das/dasscreenshot.png';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -14,9 +14,6 @@ function DasPage(props) {
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
-            {/* <Row>
-                <div className="project-card-type center">{props.info.type}</div>
-            </Row> */}
             <Content width={width}>
                 <body>
                     <Row>
@@ -64,7 +61,7 @@ function DasPage(props) {
                         </p>
 
                         <h3 className="subsection">
-                            Daily Awareness Society aims to tackle this feeling of isolation through coverage of current events through the form of a published article every week on the <a href="https://dailyawarenesssociety.com/" target="_blank" rel="noreferrer" className="link-underline">dailyawarenesssociety.com</a> website.
+                            Daily Awareness Society aims to tackle this feeling of isolation through coverage of current events through the form of a published article every week on the <a href="https://dascopy.glitch.me/" target="_blank" rel="noreferrer" className="link-underline">https://dascopy.glitch.me/</a> website.
                         </h3>
                         Articles range in topics such as STEM, entertainment, and lifestyle. Through promotion on social media platforms, we hope to spread awareness on key topics to other young adults.
                     </p>
@@ -77,10 +74,10 @@ function DasPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        Check out our website at <a href="https://dailyawarenesssociety.com/" target="_blank" rel="noreferrer" className="link-underline">dailyawarenesssociety.com</a>!
+                        Check out our website at <a href="https://dascopy.glitch.me/" target="_blank" rel="noreferrer" className="link-underline">https://dascopy.glitch.me/</a>!
                     </p>
 
-                    <a href="https://dailyawarenesssociety.com/" target="_blank" rel="noreferrer"><img src={dasscreenshot} alt="DAS Website Screenshot" className="project-img-medium center" /></a>
+                    <a href="https://dascopy.glitch.me/" target="_blank" rel="noreferrer"><img src={dasscreenshot} alt="DAS Website Screenshot" className="project-img-medium center" /></a>
 
                 </body>
             </Content>
