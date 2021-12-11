@@ -41,9 +41,9 @@ function CAPage(props) {
                             Summary
                         </p>
                         After taking STAT 107: Data Science Discovery in the fall semester of my freshman year, I became a course assistant for the course in the spring. I enjoyed helping answer conceptual statistics questions, walk through the steps for solving problems, and pulling up examples from Python labs for students who came with homework and exam practice questions during my weekly office hours. I also got the opportunity to lead Python lab discussion sections twice a week and proctor exams throughout the semester.
-
-                        <img src={stat107cascreenshot} alt="Screenshot" className="project-img" />
                     </p>
+
+                    <img src={stat107cascreenshot} alt="Screenshot" className="project-img" />
                 </body>
             </Content>
         </FadeIn>

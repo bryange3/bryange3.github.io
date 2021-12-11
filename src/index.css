@@ -75,9 +75,9 @@ h3 {
 
 body {
     margin: 0;
-    font-size: 14px !important;
-    font-weight: 400;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     animation: fadeInAnimation ease 2s;
@@ -126,7 +126,7 @@ li {
 }
 
 code {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .default {
@@ -148,12 +148,14 @@ code {
 }
 
 .my-font {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
 }
 
 .nav-link {
-    padding-left: 24px !important;
-    font-size: 14px !important;
+    padding-left: 2em !important;
+    padding-right: 1em !important;
+    font-size: 15px !important;
+    color: #8f8f8f;
 }
 
 .sticky {
@@ -186,23 +188,23 @@ code {
 
 .project-card-title {
     font-size: 21px;
-    font-weight: 600;
+    font-weight: bold;
     margin: 0px;
     margin-bottom: 5px;
     color: #000000;
 }
 
 .project-card-subtitle {
-    font-size: 14px;
-    margin-top: 6px;
-    margin-bottom: 2px;
-    color: #635f54;
+    font-size: 16px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #747474;
 }
 
 .project-card-role {
     margin-top: 6px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
     color: #2183BE;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -374,8 +376,8 @@ blockquote {
 }
 
 .about-subtitle {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: bold;
     margin-top: 2em;
 }
 
@@ -442,7 +444,7 @@ footer {
 }
 
 .header-title {
-    font-weight: 600 !important;
+    font-weight: bold !important;
 }
 
 .icon:hover {
@@ -515,7 +517,7 @@ footer {
     cursor: pointer;
     width: 100%;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: bold;
     padding: 1%;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -569,7 +571,7 @@ footer {
 .role {
     font-size: 18px;
     font-weight: normal;
-    margin-top: -0.5em !important;
+    margin-top: -1em !important;
     line-height: 1.5;
 }
 
@@ -579,7 +581,7 @@ footer {
 .section {
     margin-top: 70px;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: bolder;
     color: #2183BE;
     font-size: 14px;
     text-transform: uppercase;
@@ -589,16 +591,16 @@ footer {
 .resume-point {
     margin-top: 30px;
     margin-bottom: 10px !important;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px !important;
 }
 
 .resume-company {
-    font-weight: 400;
+    font-weight: normal;
 }
 
 .resume-date {
-    font-weight: 600;
+    font-weight: bold;
     color: #8f8f8f;
     text-transform: uppercase;
     margin-bottom: 10px !important;
@@ -608,13 +610,13 @@ footer {
     margin-top: 70px !important;
     margin-bottom: 20px !important;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .subsubsection {
     margin-top: 40px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 mark {
@@ -635,7 +637,7 @@ mark {
 
 .case-title {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: bold;
     margin-top: 0 !important;
 }
 
@@ -666,7 +668,7 @@ mark {
     margin-top: 3em;
     font-size: 28px;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: bold;
     padding-bottom: 0em;
     margin-bottom: 0px !important;
 }
@@ -691,12 +693,12 @@ mark {
     margin-top: 70px !important;
     margin-bottom: 20px !important;
     font-size: 21px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .spotify-subsection {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .hr-rounded-close {
@@ -732,7 +734,7 @@ mark {
 
 .filter-title {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .filter-section {

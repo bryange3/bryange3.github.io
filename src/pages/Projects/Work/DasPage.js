@@ -1,7 +1,7 @@
 import React from 'react';
-
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
+import FadeIn from 'react-fade-in';
 
 import dasscreenshot from '../../../assets/project/das/dasscreenshot.png';
 
@@ -12,7 +12,7 @@ function DasPage(props) {
     window.scrollTo(0, 0);
     const width = 7;
     return (
-        <div>
+        <FadeIn>
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
@@ -81,7 +81,7 @@ function DasPage(props) {
 
                 </body>
             </Content>
-        </div>
+        </FadeIn>
     );
 }
 
