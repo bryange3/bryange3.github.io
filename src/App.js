@@ -28,6 +28,9 @@ import stat107cacover from './assets/project/stat107ca/stat107cacover.png';
 import stat107final from './assets/project/stat107final/stat107final.png';
 import stat107finalcover from './assets/project/stat107final/stat107finalcover.png';
 
+import trill from './assets/project/trill/trill.png';
+import trillcover from './assets/project/trill/trillcover.png';
+
 import Footer from './components/Footer';
 import ScrollArrow from './components/ScrollArrow';
 import HomePage from './pages/HomePage';
@@ -36,6 +39,7 @@ import LeafPage from './pages/Projects/Work/LeafPage.js';
 import NourPage from './pages/Projects/Work/NourPage.js';
 import SSWPage from './pages/Projects/Work/SSWPage.js';
 import CargillPage from './pages/Projects/Work/CargillPage.js';
+import TrillPage from './pages/Projects/Work/TrillPage.js';
 import CAPage from './pages/Projects/Work/CAPage.js';
 import DasPage from './pages/Projects/Work/DasPage.js';
 import StatFinalPage from './pages/Projects/Work/StatFinalPage.js';
@@ -125,6 +129,19 @@ class App extends React.Component {
         },
         {
           id: 4,
+          projectTitle: 'Trill Project — Design Internship',
+          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
+          roles: 'UI Design, Web Design',
+          type: 'Spring 2021 Internship',
+          imgSrc: trill,
+          cover: trillcover,
+          path: '/trillproject-internship',
+          timeline: 'February 2021 - May 2021',
+          location: 'Remote',
+          category: ['all', 'design', 'work']
+        },
+        {
+          id: 5,
           projectTitle: 'Data Science Discovery — Course Assistant',
           description: 'Providing resources and support for 132 students taking STAT 107 Data Science Discovery.',
           roles: 'Data Science',
@@ -135,7 +152,7 @@ class App extends React.Component {
           category: ['all', 'ds', 'work']
         },
         {
-          id: 5,
+          id: 6,
           projectTitle: 'Data Science Discovery Hypothesis Tests — Final Project',
           description: 'Conducting hypothesis tests on a dataset of flights for the STAT 107 final project.',
           roles: 'Data Science',
@@ -146,7 +163,7 @@ class App extends React.Component {
           category: ['all', 'ds', 'code']
         },
         {
-          id: 6,
+          id: 7,
           projectTitle: 'Daily Awareness Society — Passion Project',
           description: 'Blog dedicated to spreading awareness on social issues.',
           roles: 'Frontend Development, UI Design, Content Creation',
@@ -202,11 +219,13 @@ class App extends React.Component {
 
           <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
 
-          <Route path={this.state.workProjects[4].path} render={() => <CAPage info={this.state.workProjects[4]} />} />
+          <Route path={this.state.workProjects[4].path} render={() => <TrillPage info={this.state.workProjects[4]} />} />
 
-          <Route path={this.state.workProjects[5].path} render={() => <StatFinalPage info={this.state.workProjects[5]} />} />
+          <Route path={this.state.workProjects[5].path} render={() => <CAPage info={this.state.workProjects[5]} />} />
 
-          <Route path={this.state.workProjects[6].path} render={() => <DasPage info={this.state.workProjects[6]} />} />
+          <Route path={this.state.workProjects[6].path} render={() => <StatFinalPage info={this.state.workProjects[6]} />} />
+
+          <Route path={this.state.workProjects[7].path} render={() => <DasPage info={this.state.workProjects[7]} />} />
 
           <ScrollArrow />
           <Footer />
