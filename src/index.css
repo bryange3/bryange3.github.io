@@ -253,45 +253,50 @@ hr.rounded {
     margin-bottom: 2%;
 }
 
+.basic-img {
+    display: block;
+    width: 100%;
+}
+
 .project-img {
     display: block;
     width: 100%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .project-img-medium {
     display: block;
     width: 80%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .project-img-small {
     display: block;
     width: 60%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .project-img-smallish {
     display: block;
     width: 45%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .project-img-smaller {
     display: block;
     width: 30%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .captionedImg {
     display: block;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 2em;
 }
 
 .smol {

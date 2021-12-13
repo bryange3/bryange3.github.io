@@ -27,6 +27,13 @@ import assigncontributorusingdirectory from '../../../assets/project/h4i/assign-
 import interviewquestions from '../../../assets/project/h4i/interview-questions.png';
 import interviewinsights from '../../../assets/project/h4i/interview-insights.png';
 
+// brainstorm
+import claimpitchbrainstorm from '../../../assets/project/h4i/claim-pitch-brainstorm.png';
+import homepagebrainstorm from '../../../assets/project/h4i/homepage-brainstorm.png';
+
+// iterations
+import claimpitchiterations from '../../../assets/project/h4i/claim-pitch-iterations.png';
+
 function SSWPage(props) {
     window.scrollTo(0, 0);
     const width = 10;
@@ -242,26 +249,6 @@ function SSWPage(props) {
                             <img src={assigncontributorusingdirectory} alt="Assign Contributor Using Directory" className="project-img center" />
                         </p>
 
-                        {/* <p>
-                            <img src={pitchdocstructure} alt="Pitch Doc Structure" className="project-img center" />
-                            <p className="image-caption">
-                                Sections highlighted in blue are sections that I decided were important for the contributor to know.
-                            </p>
-
-                            I drew out this diagram to visualize all possible pitch categories and to determine which ones are most important to contributors. With this information, <mark>I changed the structure of the Pitch Doc tabs from the spring semester designs</mark>.
-
-                            <br />
-
-                            <img src={pitchtabstructure} alt="Pitch Doc Tab Structure" className="project-img center" />
-
-                            <br />
-
-                            Here's what the pitch doc tabs look like on the full contributor pitch doc.
-                            <img src={claimpitch} alt="Contributor Pitch Doc" className="project-img center" />
-
-
-                        </p> */}
-
                         <hr class="rounded" />
 
                         <p className="paragraph">
@@ -275,15 +262,15 @@ function SSWPage(props) {
                                 I scheduled and led user interviews with the Director of Fact-checking, Managing Editor, and a fact-checking contributor at South Side Weekly.
                             </h3>
 
-                            <img src={interviewquestions} alt="Interview Questions" className="project-img center" />
+                            <img src={interviewquestions} alt="Interview Questions" className="project-img-medium center" />
 
                             <h3 className="subsection">
                                 User interviews and weekly client calls helped me better understand the users I was designing for.
                             </h3>
 
-                            <img src={interviewinsights} alt="User Insights" className="project-img center" />
+                            <img src={interviewinsights} alt="User Insights" className="project-img-medium center" />
 
-                            In particular, it was interesting to see how the fact-checking team takes more of a "director assigning pitches to contributors" approach, whereas other teams take a "contributors claim pitches for themselves" approach. I realized I needed to thoroughly account for both ways of adding contributors to pitches while designing.
+                            In particular, it was interesting to see how the <mark>fact-checking team takes more of a "director assigning pitches to contributors" approach, whereas other teams take a "contributors claim pitches for themselves" approach</mark>. I realized I needed to thoroughly account for both ways of adding contributors to pitches while designing.
 
                             <h3 className="subsection">
                                 During one of the user interviews when I was asking about current processes, the client offered to have us sit in on a weekly meeting where admin would review submitted pitches.
@@ -305,10 +292,33 @@ function SSWPage(props) {
                             </p>
 
                             <h3 className="subsection">
-                                I took the insights from the user research session where I shadowed admin and applied them to the design of the tab where admin approve new pitches.
+                                1. Contributors can view pitches to claim and submit requests.
                             </h3>
 
-                            <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
+                            <img src={claimpitchbrainstorm} alt="Claim Pitch Brainstorm" className="project-img center" />
+
+                            <ul>
+                                <strong><li>What context is necessary for contributors when they decide to request to contribute to a story?</li></strong>
+                                <ul>
+                                    <li>Based on user interviews, contributors want to have a full understanding of the pitch content and other contributors on the pitch. They also need to know which teams they can join.</li>
+                                </ul>
+                                <strong><li>How can contributors learn more about a pitch?</li></strong>
+                                <ul>
+                                    <li>Profiles of current contributors, the primary editor, etc. are displayed on the "claim pitch" modal. These profiles contain contact information where a contributor can start conversations to learn more.</li>
+                                </ul>
+                            </ul>
+
+                            <h3 className="subsection">
+                                2. The homepage provides a central location for a contributor to see their relevant work.
+                            </h3>
+
+                            <img src={homepagebrainstorm} alt="Homepage Brainstorm" className="project-img center" />
+
+                            Originally I was tasked with creating a home page where contributors can see pitches that concern them as well as upcoming newspaper issues, but I decided to split these 2 parts into their own tabs: Home and Issues.
+
+                            <p className="paragraph">
+                                The goal of the home page is to enable contributors to see the pitches they are currently working on, submitted pitch ideas, submitted claim requests, and stories they contributed to that have been published.
+                            </p>
                         </p>
 
                         <hr class="rounded" />
@@ -319,29 +329,31 @@ function SSWPage(props) {
                             </p>
 
                             <h3 className="subsection">
-                                This is the FigJam document I use to explore different designs and iterate upon feedback from my PM and Hack4Impact design critiques.
+                                1. Contributors can view pitches to claim and submit requests.
+                            </h3>
+                        </p>
+                    </div>
+
+                    <img src={claimpitchiterations} alt="Claim Pitch Iterations" className="project-img center" />
+
+                    <div className="med-text">
+                        <p className="paragraph">
+                            <h3 className="subsection">
+                                2. Admin have an overview of contributors' submitted pitches that need to be reviewed.
+                            </h3>
+
+                            <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
+
+                            I took insights regarding what key information admin care about from the user research shadowing session and applied them to the design of this tab.
+
+                            <h3 className="subsection">
+                                This is the FigJam document I used to explore different designs and iterate upon feedback from my PM and Hack4Impact design critiques.
                             </h3>
 
                             <iframe title="South Side Weekly Iterations" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2B5wNbo5IhnmMsCab1oOxM%2FResearch%252C-Ideation%252C-Exploration%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
                         </p>
 
                         <hr className="rounded" />
-
-                        {/* <p className="paragraph">
-                            <p className="section">
-                                Next Steps
-                            </p>
-
-                            <h3 className="subsection">
-                                If we continued this project, we would conduct usability testing and user interviews with elderly home patients.
-                            </h3>
-
-                            Our next steps for Nour involve <mark>testing our app on patients of elderly homes</mark>. I plan on conducting <mark>usability tests to learn how our target audience navigates the app</mark>. I will also work with the home care facilities to conduct <mark>user interviews to learn more about our users' pain points with the app</mark> and any wants that are not being fulfilled by Nour.
-
-                            <p className="paragraph">
-                                We also hope to create a <mark>backend system that allows workers at different care centers to communicate and set up timely events</mark> (games, shows, etc.). Implementing games such as Bingo or Trivia within the app and expanding to an iPad app is also something we hope to reach in the future. With all these feature updates, accessibility will be our largest priority. Designing entertainment features that are easy to understand and navigate is the largest but most necessary challenge.
-                            </p>
-                        </p> */}
 
                         <p className="paragraph">
                             <p className="section">
@@ -352,13 +364,13 @@ function SSWPage(props) {
                                 Design with technical and time constraints in mind, but don’t sacrifice the user experience in the process.
                             </h3>
 
-                            Collaborating with a large development team and technical lead presented many opportunities for discussion on the cost of implementation of my designs. I learned the importance of communicating my views and listening to others’ views in coming to a compromise that would result in the most efficient development and good user experience.
+                            Collaborating with a large development team and technical lead presented many opportunities for discussion on the cost of implementation of my designs. I learned the importance of communicating my views and listening to others’ views and reaching a <mark>compromise that would result in the most efficient development and good user experience</mark>.
 
                             <h3 className="subsection">
                                 Communication is key in a large cross-functional team.
                             </h3>
 
-                            I learned how to hand off designs to developers. This involved adding notes and wireframes that take into account different states and edge cases as well as highlighting which flows and features are complete and ready for implementation versus ones that are still in progress. I also learned how to communicate my designs and decisions to my product manager, clients, and other designers during design critiques.
+                            I learned how to hand off designs to developers. This involved <mark>adding development notes and wireframes that take into account different states and edge cases as well as highlighting which flows and features are complete and ready for implementation versus ones that are still in progress</mark>. I also learned how to communicate my designs and decisions to my product manager, clients, and other designers during design critiques.
 
                             <h3 className="subsection">
                                 I learned how to keep all my tasks, thoughts, research, and feedback organized in Notion and Figma.

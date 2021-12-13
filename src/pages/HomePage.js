@@ -47,7 +47,7 @@ function HomePage(props) {
                             <Col>
                                 <Row>
                                     <Col md={width - 7} className="filter-section">
-                                        <Sticky className="ui-sticky">
+                                        <Sticky>
                                             <p className="filter-title">Filter Projects</p>
                                             <div>
                                                 <h3 className={`filter ${filter === 'all' ? 'active' : ''}`} active={filter === 'all'} onClick={() => setFilter('all')}>All</h3>
