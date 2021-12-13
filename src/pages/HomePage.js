@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
 import { merge, fadeInRight, fadeInDown } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
+import Sticky from 'react-sticky-el';
 
 import bottomimage from '../assets/other/bottomimage.png';
 import topcursor from '../assets/other/topcursor.png';
@@ -15,7 +16,6 @@ const myAnimation = keyframes`${merge(fadeInDown, fadeInRight)}`;
 const Animation = styled.div`
   animation: 1s ${myAnimation};
 `;
-
 
 function HomePage(props) {
     const [filter, setFilter] = useState("all");
@@ -31,30 +31,32 @@ function HomePage(props) {
                 <div>
                     <Row className="justify-content-center">
                         <Col md={width} sm={12}>
-                                <div className="home-top">
-                                    <div className="home-images">
-                                        <a href="https://www.bryange.com/about" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
-                                        <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
-                                    </div>
-
-                                    {props.title && <h3 className="display-6 home-title">Product designer + developer with a love for baking and social good!</h3>}
-
-                                    <div className="home-positions center">
-                                        <h3 className="role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a>, UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a>, Information Sciences Student at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
-                                    </div>
+                            <div className="home-top">
+                                <div className="home-images">
+                                    <a href="https://www.bryange.com/about" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
+                                    <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
                                 </div>
+
+                                {props.title && <h3 className="display-6 home-title">Product designer + developer with a love for baking and social good!</h3>}
+
+                                <div className="home-positions center">
+                                    <h3 className="role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a>, UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a>, Information Sciences Student at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
+                                </div>
+                            </div>
 
                             <Col>
                                 <Row>
                                     <Col md={width - 7} className="filter-section">
-                                        <p className="filter-title">Filter Projects</p>
-                                        <div>
-                                            <h3 className={`filter ${filter === 'all' ? 'active' : ''}`} active={filter === 'all'} onClick={() => setFilter('all')}>All</h3>
-                                            <h3 className={`filter ${filter === 'design' ? 'active' : ''}`} active={filter === 'design'} onClick={() => setFilter('design')}>Design</h3>
-                                            <h3 className={`filter ${filter === 'code' ? 'active' : ''}`} active={filter === 'code'} onClick={() => setFilter('code')}>Code</h3>
-                                            <h3 className={`filter ${filter === 'ds' ? 'active' : ''}`} active={filter === 'ds'} onClick={() => setFilter('ds')}>Data</h3>
-                                            <h3 className={`filter ${filter === 'work' ? 'active' : ''}`} active={filter === 'work'} onClick={() => setFilter('work')}>For Work</h3>
-                                        </div>
+                                        <Sticky className="ui-sticky">
+                                            <p className="filter-title">Filter Projects</p>
+                                            <div>
+                                                <h3 className={`filter ${filter === 'all' ? 'active' : ''}`} active={filter === 'all'} onClick={() => setFilter('all')}>All</h3>
+                                                <h3 className={`filter ${filter === 'design' ? 'active' : ''}`} active={filter === 'design'} onClick={() => setFilter('design')}>Design</h3>
+                                                <h3 className={`filter ${filter === 'code' ? 'active' : ''}`} active={filter === 'code'} onClick={() => setFilter('code')}>Code</h3>
+                                                <h3 className={`filter ${filter === 'ds' ? 'active' : ''}`} active={filter === 'ds'} onClick={() => setFilter('ds')}>Data</h3>
+                                                <h3 className={`filter ${filter === 'work' ? 'active' : ''}`} active={filter === 'work'} onClick={() => setFilter('work')}>For Work</h3>
+                                            </div>
+                                        </Sticky>
                                     </Col>
 
                                     <Col>

@@ -737,7 +737,14 @@ mark {
 
 .filter-section {
     position: -webkit-sticky; /* Safari */
-    position: sticky;
+    position: sticky !important;
     top: 0;
     margin-right: 2em;
+}
+
+.ui-sticky {
+    position: static;
+    -webkit-transition: none;
+    transition: none;
+    z-index: 800;
 }
