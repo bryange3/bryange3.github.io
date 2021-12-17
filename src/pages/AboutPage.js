@@ -8,7 +8,7 @@ import FadeIn from 'react-fade-in';
 
 function AboutPage(props) {
     AOS.init();
-    const width = 6;
+    const width = 7;
     window.scrollTo(0, 0);
     return (
         <FadeIn>

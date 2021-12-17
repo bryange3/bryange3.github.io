@@ -16,7 +16,7 @@ import Col from 'react-bootstrap/Col';
 
 function NourPage(props) {
     window.scrollTo(0, 0);
-    const width = 6;
+    const width = 7;
     return (
         <FadeIn>
             <ProjectTitle info={props.info} width={width} />
@@ -256,7 +256,15 @@ function NourPage(props) {
                         <p className="paragraph">
                             I certainly have a lot more to learn regarding designing for all and designing inclusively, but I'm glad that this designathon gave me an introduction to it. Thank you to all the mentors who provided me with their input during the ideation process and to my team for being amazing!
                         </p>
+
+                        <h3 className="subsection">
+                            Different projects require different design processes.
+                        </h3>
+
+                        This designathon showed me that not all design processes are alike. Since this was the first time I was given a brief that involved an elderly user group, I needed to spend more time in the initial research stage to thoroughly understand the users and problem I was designing for.
                     </p>
+
+                    <br />
 
                     <img src={team} alt="Team" className="project-img" />
 

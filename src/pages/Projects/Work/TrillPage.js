@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 
 function TrillPage(props) {
     window.scrollTo(0, 0);
-    const width = 6;
+    const width = 7;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
