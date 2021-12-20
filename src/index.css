@@ -28,9 +28,9 @@
         font-size: 14px !important;
         margin: 0px !important;
     }
-    [class*="hero"] {
-        padding-left: 0% !important;
-        padding-right: 0% !important;
+    [class*="project-info"] {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
     }
     [class*="project-img-medium"] {
         width: 100% !important;
