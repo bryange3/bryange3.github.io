@@ -1,6 +1,6 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
-import ProjectTitle from '../../../components/ProjectTitle.js';
+import Hero from '../../../components/Hero.js';
 import leafzoom from '../../../assets/project/leaf/leafzoom.png';
 import FadeIn from 'react-fade-in';
 import Row from 'react-bootstrap/Row';
@@ -11,55 +11,57 @@ function LeafPage(props) {
     const width = 7;
     return (
         <FadeIn>
-            <ProjectTitle info={props.info} width={width} />
+            <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
+
+            <Row className="project-info" width={width}>
+                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
+
+                <Row>
+                    <Col sm>
+                        <b>Role</b>
+                        <br />UI Designer
+                        <br />Frontend Developer
+                    </Col>
+                    <Col sm>
+                        <b>Skills</b>
+                        <br />Product Research
+                        <br />Interface Design
+                        <br />Frontend Development
+                    </Col>
+                    <Col sm>
+                        <b>Timeline</b>
+                        <br />
+                        2 days
+                    </Col>
+                    <Col sm>
+                        <b>Team</b>
+                        <br />2 Designer/Frontend Developers
+                        <br />1 Backend Developer
+                        <br />1 Financial Analyst
+                    </Col>
+                    <Col sm>
+                        <Row>
+                            <Col>
+                                <b>Tools</b>
+                                <br />Figma
+                            </Col>
+                        </Row>
+                        <br />
+                        <Row>
+                            <Col>
+                                <b>Tech Stack</b>
+                                <br />Python
+                                <br />HTML/CSS
+                                <br />JavaScript
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Row>
+
             <Content width={width}>
                 <body>
-                    <Row>
-                        <Col sm>
-                            <b>Role</b>
-                            <br />UI Designer
-                            <br />Frontend Developer
-                        </Col>
-                        <Col sm>
-                            <b>Skills</b>
-                            <br />Product Research
-                            <br />Interface Design
-                            <br />Frontend Development
-                        </Col>
-                        <Col sm>
-                            <b>Timeline</b>
-                            <br />
-                            2 days
-                        </Col>
-                        <Col sm>
-                            <b>Team</b>
-                            <br />2 Designer/Frontend Developers
-                            <br />1 Backend Developer
-                            <br />1 Financial Analyst
-                        </Col>
-                        <Col sm>
-                            <Row>
-                                <Col>
-                                    <b>Tools</b>
-                                    <br />Figma
-                                </Col>
-                            </Row>
-                            <br />
-                            <Row>
-                                <Col>
-                                    <b>Tech Stack</b>
-                                    <br />Python
-                                    <br />HTML/CSS
-                                    <br />JavaScript
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-
-                    <br />
                     This is our winning submission for UChicago's Francis & Rose Yuen East Asia 2020 Hackathon!
-
-                    <hr class="rounded" />
 
                     <p className="paragraph impact-statement">
                         🐻 LEAF is an educational web app tailored towards children (age 9+) with the goal of mitigating the effects of carbon emissions starting with a new generation.

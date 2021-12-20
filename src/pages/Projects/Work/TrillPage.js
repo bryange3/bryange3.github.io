@@ -1,6 +1,7 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
-import ProjectTitle from '../../../components/ProjectTitle.js';
+import Hero from '../../../components/Hero.js';
+import FadeIn from 'react-fade-in';
 import grouppic from '../../../assets/project/trill/group.png';
 
 import Row from 'react-bootstrap/Row';
@@ -10,33 +11,37 @@ function TrillPage(props) {
     window.scrollTo(0, 0);
     const width = 7;
     return (
-        <div>
-            <ProjectTitle info={props.info} width={width} />
+        <FadeIn>
+            <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
+
+            <Row className="project-info" width={width}>
+                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
+
+                <Row>
+                    <Col sm>
+                        <b>Role</b>
+                        <br />UI Design
+                        <br />Web Design
+                        <br />User Research
+                    </Col>
+                    <Col sm>
+                        <b>Timeline</b>
+                        <br />
+                        {props.info.timeline}
+                    </Col>
+                    <Col sm>
+                        <b>Tools</b>
+                        <br />Figma
+                        <br />Webflow
+                        <br />Procreate
+                        <br />Slack
+                    </Col>
+                </Row>
+            </Row>
+
             <Content width={width}>
                 <body>
-                    <Row>
-                        <Col sm>
-                            <b>Role</b>
-                            <br />UI Design
-                            <br />Web Design
-                            <br />User Research
-                        </Col>
-                        <Col sm>
-                            <b>Timeline</b>
-                            <br />
-                            {props.info.timeline}
-                        </Col>
-                        <Col sm>
-                            <b>Design Tools</b>
-                            <br />Figma
-                            <br />Webflow
-                            <br />Procreate
-                        </Col>
-                    </Row>
-
-                    <hr class="rounded" />
-
-                    <p className="paragraph">
+                    <p>
                         <p className="section">
                             Summary
                         </p>
@@ -65,7 +70,7 @@ function TrillPage(props) {
                     </p>
                 </body>
             </Content>
-        </div>
+        </FadeIn>
     );
 }
 

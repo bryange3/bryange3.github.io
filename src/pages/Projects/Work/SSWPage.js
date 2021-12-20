@@ -1,6 +1,6 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
-import ProjectTitle from '../../../components/ProjectTitle.js';
+import Hero from '../../../components/Hero.js';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
@@ -39,49 +39,50 @@ function SSWPage(props) {
     const width = 10;
     return (
         <FadeIn>
-            <ProjectTitle info={props.info} width={width - 3} />
+            <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
+
+            <Row className="project-info" width={width}>
+                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
+
+                <Row>
+                    <Col sm>
+                        <b>Role</b>
+                        <br />Product Designer
+                    </Col>
+                    <Col sm>
+                        <b>Skills</b>
+                        <br />User Research
+                        <br />Product Thinking
+                        <br />User Experience
+                        <br />Interface Design
+                        <br />Usability Testing
+                        <br />Content Writing
+                    </Col>
+                    <Col sm>
+                        <b>Timeline</b>
+                        <br />
+                        September 2021 - Present
+                    </Col>
+                    <Col sm>
+                        <b>Team</b>
+                        <br />1 Product Manager
+                        <br />1 Technical Lead
+                        <br />1 Product Designer
+                        <br />6 Software Developers
+                    </Col>
+                    <Col sm>
+                        <b>Tools</b>
+                        <br />Figma
+                        <br />FigJam
+                        <br />Notion
+                        <br />Slack
+                    </Col>
+                </Row>
+            </Row>
+
             <Content width={width}>
                 <body>
                     <div className="med-text">
-                        <p className="paragraph impact-statement">
-                            🚧 This case study and project is still in progress!
-                        </p>
-
-                        <Row>
-                            <Col sm>
-                                <b>Role</b>
-                                <br />Product Designer
-                            </Col>
-                            <Col sm>
-                                <b>Skills</b>
-                                <br />User Research
-                                <br />Product Thinking
-                                <br />User Experience
-                                <br />Interface Design
-                                <br />Usability Testing
-                                <br />Content Writing
-                            </Col>
-                            <Col sm>
-                                <b>Timeline</b>
-                                <br />
-                                September 2021 - Present
-                            </Col>
-                            <Col sm>
-                                <b>Team</b>
-                                <br />1 Product Manager
-                                <br />1 Technical Lead
-                                <br />1 Product Designer
-                                <br />6 Software Developers
-                            </Col>
-                            <Col sm>
-                                <b>Tools</b>
-                                <br />Figma
-                                <br />FigJam
-                                <br />Notion
-                            </Col>
-                        </Row>
-
-                        <br />
                         <p className="paragraph">
                             <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. I am apart of a team that is working with <a href="https://southsideweekly.com/" target="_blank" rel="noreferrer" className="link-underline">South Side Weekly</a>, a Chicago news nonprofit, in building a web-based dashboard for 250+ users to manage the submission, approval, and viewing of pitches.
                         </p>
@@ -90,20 +91,20 @@ function SSWPage(props) {
                             This project was taken on by Hack4Impact in the spring semester. I joined the project this fall semester and replaced the original product designer.
                         </p>
 
-                        <hr class="rounded" />
+                        {/* <hr class="rounded" /> */}
 
                         <p className="paragraph">
                             <p className="section">
                                 Context
                             </p>
 
-                            South Side Weekly (SSW) is a local news nonprofit based in the South Side of Chicago that supports cultural and civic engagement on the South Side, and develops emerging journalists, writers, and artists. SSW covers politics, the arts, and issues of public interest, as well as oral histories, poetry, fiction, interviews, and artwork from local photographers and illustrators.
+                            South Side Weekly (SSW) is a local news nonprofit based in the South Side of Chicago that supports cultural and civic engagement on the South Side, and develops emerging journalists, writers, and artists.
                             <ul>
                                 <li><strong>Pitch</strong>: a news story</li>
-                                <li><strong>Submit a pitch</strong>: user submits a story idea and admin either approve to decline it</li>
-                                <li><strong>Claim a pitch</strong>: user submits request to join (work on) an approved story</li>
+                                <li><strong>Submit a pitch</strong>: user submits a pitch idea and admin either approve or decline it</li>
+                                <li><strong>Claim a pitch</strong>: user submits request to join (work on) an approved pitch</li>
                                 <li><strong>Team</strong>: a category of contributor (ex. photography, editing, writing, visuals, fact-checking)</li>
-                                <li><strong>Contributor</strong>: someone who volunteers to work on pitches (writers, editors, photographers, etc.)</li>
+                                <li><strong>Contributor</strong>: volunteer at South Side Weekly who works on pitches (writers, editors, photographers, fact-checkers, etc.)</li>
                             </ul>
                         </p>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
-import ProjectTitle from '../../../components/ProjectTitle.js';
+import Hero from '../../../components/Hero.js';
 import FadeIn from 'react-fade-in';
 import accessibilityiterations from '../../../assets/project/nour/AccessibilityIterations.png';
 import loginiterations from '../../../assets/project/nour/LoginIterations.png';
@@ -19,38 +19,44 @@ function NourPage(props) {
     const width = 7;
     return (
         <FadeIn>
-            <ProjectTitle info={props.info} width={width} />
+            <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
+
+            <Row className="project-info" width={width}>
+                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
+
+                <Row>
+                    <Col sm>
+                        <b>Role</b>
+                        <br />Product Designer
+                    </Col>
+                    <Col sm>
+                        <b>Skills</b>
+                        <br />User Research
+                        <br />User Experience
+                        <br />Interface Design
+                        <br />Usability Testing
+                    </Col>
+                    <Col sm>
+                        <b>Timeline</b>
+                        <br />
+                        24 hours
+                    </Col>
+                    <Col sm>
+                        <b>Team</b>
+                        <br />
+                        3 Product Designers
+                        <br />1 Product Marketer
+                    </Col>
+                    <Col sm>
+                        <b>Tools</b>
+                        <br />
+                        Figma
+                    </Col>
+                </Row>
+            </Row>
+
             <Content width={width}>
                 <body>
-                    <Row>
-                        <Col sm>
-                            <b>Role</b>
-                            <br />Product Designer
-                        </Col>
-                        <Col sm>
-                            <b>Skills</b>
-                            <br />User Research
-                            <br />User Experience
-                            <br />Usability Testing
-                        </Col>
-                        <Col sm>
-                            <b>Timeline</b>
-                            <br />
-                            24 hours
-                        </Col>
-                        <Col sm>
-                            <b>Team</b>
-                            <br />
-                            3 Product Designers
-                            <br />1 Product Marketer
-                        </Col>
-                        <Col sm>
-                            <b>Tools</b>
-                            <br />
-                            Figma
-                        </Col>
-                    </Row>
-
                     <br />
                     Our project received the following prizes for the HackDuke Ideate 2021 Designathon:
                     <ul>
@@ -274,7 +280,7 @@ function NourPage(props) {
                         Check out our <a href="https://www.figma.com/file/o2siBMfCFww1ksk5Xz7ZE5/HackDuke-Ideate-2021-Nour?node-id=0%3A1" target="_blank" rel="noreferrer" className="link-underline">Figma document</a> and play around with the prototype below!
                     </p>
 
-                    <iframe title="IOT Playground Prototype" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fo2siBMfCFww1ksk5Xz7ZE5%2FHackDuke-Ideate-2021-Nour%3Fnode-id%3D1%253A3%26viewport%3D258%252C261%252C0.10952381789684296%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
+                    <iframe title="Nour Prototype" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fo2siBMfCFww1ksk5Xz7ZE5%2FHackDuke-Ideate-2021-Nour%3Fnode-id%3D1%253A3%26viewport%3D258%252C261%252C0.10952381789684296%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
                 </body>
             </Content>
         </FadeIn>

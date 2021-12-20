@@ -14,7 +14,7 @@ import topcursor from '../assets/other/topcursor.png';
 // Animation code derived from: https://www.npmjs.com/package/react-animations
 const myAnimation = keyframes`${merge(fadeInDown, fadeInRight)}`;
 const Animation = styled.div`
-  animation: 1s ${myAnimation};
+  animation: 1.5s ${myAnimation};
 `;
 
 function HomePage(props) {

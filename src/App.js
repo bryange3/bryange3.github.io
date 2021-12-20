@@ -68,6 +68,7 @@ class App extends React.Component {
       },
       spotify: {
         projectTitle: 'Hello Spotify team!',
+        description: '🤓 I\'m Bryan and here\'s why I want to come intern at Spotify this summer...',
         cover: spotifycover,
         path: '/spotify'
       },

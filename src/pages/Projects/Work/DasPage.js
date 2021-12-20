@@ -1,6 +1,6 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
-import ProjectTitle from '../../../components/ProjectTitle.js';
+import Hero from '../../../components/Hero.js';
 import FadeIn from 'react-fade-in';
 
 import dasscreenshot from '../../../assets/project/das/dasscreenshot.png';
@@ -13,34 +13,37 @@ function DasPage(props) {
     const width = 7;
     return (
         <FadeIn>
-            <ProjectTitle info={props.info} width={width} />
+            <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
+
+            <Row className="project-info" width={width}>
+                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
+
+                <Row>
+                    <Col sm>
+                        <b>Role</b>
+                        <br />Web Development
+                        <br />UI Design
+                        <br />Content Creation
+                    </Col>
+                    <Col sm>
+                        <b>Timeline</b>
+                        <br />
+                        {props.info.timeline}
+                    </Col>
+                    <Col sm>
+                        <b>Team Members</b>
+                        <br />4 Developers + Content Creators
+                    </Col>
+                    <Col sm>
+                        <b>Tech Stack</b>
+                        <br />HTML/CSS
+                        <br />JavaScript
+                    </Col>
+                </Row>
+            </Row>
+
             <Content width={width}>
                 <body>
-                    <Row>
-                        <Col sm>
-                            <b>Role</b>
-                            <br />Web Development
-                            <br />UI Design
-                            <br />Content Creation
-                        </Col>
-                        <Col sm>
-                            <b>Timeline</b>
-                            <br />
-                            {props.info.timeline}
-                        </Col>
-                        <Col sm>
-                            <b>Team Members</b>
-                            <br />4 Developers + Content Creators
-                        </Col>
-                        <Col sm>
-                            <b>Tech Stack</b>
-                            <br />HTML/CSS
-                            <br />JavaScript
-                        </Col>
-                    </Row>
-
-                    <hr class="rounded" />
-
                     <p className="paragraph">
                         During the fall semester of our last year of high school, some friends and I decided to create Daily Awareness Society (DAS). It started out as a small club where we and other students would get together at club meetings to discuss current events. DAS grew to become a website and community where we would post new articles every Sunday.
                     </p>

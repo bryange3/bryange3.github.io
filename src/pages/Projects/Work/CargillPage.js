@@ -1,7 +1,7 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
-import ProjectTitle from '../../../components/ProjectTitle.js';
 import FadeIn from 'react-fade-in';
+import Hero from '../../../components/Hero.js';
 
 import basicmockup from '../../../assets/project/cargill/basic-mockup.png';
 import timeline from '../../../assets/project/cargill/Timeline.png';
@@ -14,53 +14,56 @@ function CargillPage(props) {
     const width = 7;
     return (
         <FadeIn>
-            <ProjectTitle info={props.info} width={width} />
+            <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
+
+            <Row className="project-info" width={width}>
+                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
+                <Row>
+                    <Col sm>
+                        <b>Role</b>
+                        <br />User Experience Designer
+                    </Col>
+                    <Col sm>
+                        <b>Skills</b>
+                        <br />User Research
+                        <br />User Experience
+                        <br />Interface Design
+                        <br />Client Presentation
+                        <br />Stakeholder Interview
+                    </Col>
+                    <Col sm>
+                        <b>Timeline</b>
+                        <br />
+                        11 weeks
+                    </Col>
+                    <Col sm>
+                        <b>Team</b>
+                        <br />1 UX Design Intern
+                        <br />3 SWE Interns
+                        <br />1 Product Coach
+                        <br />1 Technical Coach
+                    </Col>
+                    <Col sm>
+                        <b>Tools</b>
+                        <br />Figma
+                        <br />FigJam
+                        <br />Trello
+                        <br />Microsoft Teams
+                    </Col>
+                </Row>
+            </Row>
+
             <Content width={width}>
                 <body>
-                    <Row>
-                        <Col sm>
-                            <b>Role</b>
-                            <br />User Experience Designer
-                        </Col>
-                        <Col sm>
-                            <b>Skills</b>
-                            <br />User Research
-                            <br />User Experience
-                            <br />Interface Design
-                            <br />Client Presentation
-                        </Col>
-                        <Col sm>
-                            <b>Timeline</b>
-                            <br />
-                            11 weeks
-                        </Col>
-                        <Col sm>
-                            <b>Team</b>
-                            <br />1 UX Design Intern
-                            <br />3 Software Engineer Interns
-                            <br />1 Product Coach
-                            <br />1 Technical Coach
-                        </Col>
-                        <Col sm>
-                            <b>Tools</b>
-                            <br />Figma
-                            <br />FigJam
-                        </Col>
-                    </Row>
-
-                    <hr class="rounded" />
-
-                    <p className="paragraph">
-                        <p className="section">
-                            Summary
-                        </p>
-                        As the <b>sole designer</b> in my project team at Cargill, I lead our product's discovery, user research, wireframing, and prototyping efforts. The internship has provided me the opportunity to directly interact with clients through discovery and shadowing sessions, demos, and feedback calls. These meetings  helped me identify our problem space as well as what the client values.
-                        <p className="paragraph">
-                            I am unable to publicly go in depth about my work due to <b>NDA restrictions</b>, so please contact me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> if you want to learn more!
-                        </p>
-
-                        <img src={basicmockup} alt="Dashboard" className="project-img" />
+                    <p className="section">
+                        Summary
                     </p>
+                    As the <b>sole designer</b> in my project team at Cargill, I lead our product's discovery, user research, wireframing, and prototyping efforts. The internship has provided me the opportunity to directly interact with clients through discovery and shadowing sessions, demos, and feedback calls. These meetings  helped me identify our problem space as well as what the client values.
+                    <p className="paragraph">
+                        I am unable to publicly go in depth about my work due to <b>NDA restrictions</b>, so please contact me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> if you want to learn more!
+                    </p>
+
+                    <img src={basicmockup} alt="Dashboard" className="project-img" />
 
                     <p className="paragraph">
                         <p className="section">

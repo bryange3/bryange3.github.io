@@ -1,6 +1,6 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
-import ProjectTitle from '../../../components/ProjectTitle.js';
+import Hero from '../../../components/Hero.js';
 import FadeIn from 'react-fade-in';
 
 import stat107cascreenshot from '../../../assets/project/stat107ca/stat107cascreenshot.png';
@@ -13,29 +13,32 @@ function CAPage(props) {
     const width = 7;
     return (
         <FadeIn>
-            <ProjectTitle info={props.info} width={width} />
+            <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
+
+            <Row className="project-info" width={width}>
+                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
+
+                <Row>
+                    <Col sm>
+                        <b>Role</b>
+                        <br />Course Assistant
+                    </Col>
+                    <Col sm>
+                        <b>Responsibilities</b>
+                        <br />Lead Python discussion labs
+                        <br />Hold weekly office hours
+                        <br />Proctor exams
+                    </Col>
+                    <Col sm>
+                        <b>Timeline</b>
+                        <br />
+                        Spring 2021 Semester
+                    </Col>
+                </Row>
+            </Row>
+
             <Content width={width}>
                 <body>
-                    <Row>
-                        <Col sm>
-                            <b>Role</b>
-                            <br />Course Assistant
-                        </Col>
-                        <Col sm>
-                            <b>Responsibilities</b>
-                            <br />Leading Python labs
-                            <br />Holding office hours
-                            <br />Proctoring exams
-                        </Col>
-                        <Col sm>
-                            <b>Timeline</b>
-                            <br />
-                            Spring 2021 Semester
-                        </Col>
-                    </Row>
-
-                    <hr class="rounded" />
-
                     <p className="paragraph">
                         <p className="section">
                             Summary

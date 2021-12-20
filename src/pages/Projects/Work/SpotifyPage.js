@@ -1,6 +1,6 @@
 import React from 'react';
 import Content from '../../../components/Content.js';
-import ProjectTitle from '../../../components/ProjectTitle.js';
+import Hero from '../../../components/Hero.js';
 import FadeIn from 'react-fade-in';
 
 import ctw from '../../../assets/project/spotify/ctw.png';
@@ -20,12 +20,14 @@ function SpotifyPage(props) {
     const width = 7;
     return (
         <FadeIn>
-            <ProjectTitle info={props.info} width={width} />
+            <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
+            <Row className="project-info" width={width} style={{ paddingBottom: "0em", marginBottom: "1em" }}>
+                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
+            </Row>
+
             <Content width={width}>
                 <body>
-                    <p className="impact-statement">
-                        💡 I'm Bryan and here's why I want to come work for Spotify this summer as a Product Design Intern!
-                    </p>
+
 
                     <p className="paragraph">
                         <p className="spotify-section my-blue">
