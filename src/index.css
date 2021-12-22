@@ -28,15 +28,24 @@
         font-size: 14px !important;
         margin: 0px !important;
     }
+    [class*="about-top"] {
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+        margin-top: 2em !important;
+    }
     [class*="project-info"] {
         padding-left: 1em !important;
         padding-right: 1em !important;
+        padding-bottom: 1em !important;
     }
     [class*="project-img-medium"] {
         width: 100% !important;
     }
     [class*="project-img-small"] {
         width: 100% !important;
+    }
+    [class*="profile-image"] {
+        display: none !important;
     }
     [class*="med"] {
         width: 100% !important;
@@ -371,31 +380,15 @@ blockquote {
     display: flex;
 }
 
-.right {
-    margin-left: 5%;
-    margin-right: 10%;
-}
-
-.left {
-    margin-left: 5%;
-    margin-top: 0;
-    /* margin-bottom: auto; */
-}
-
 .about-subtitle {
     font-size: 18px;
     font-weight: bold;
-    margin-top: 2em;
+    /* margin-top: 2em; */
 }
 
 .profile-image {
     display: block;
-    max-height: 15em;
-    border-radius: 300px;
-    width: auto;
-    height: auto;
-    margin-bottom: 5em;
-    margin-top: 5em;
+    max-width: 100%;
 }
 
 .sticky-header {
@@ -762,4 +755,10 @@ mark {
     padding-right: 7em;
     padding-bottom: 3em;
     background-color: #F5F5F5;
+}
+
+.about-top {
+    padding-left: 10em;
+    padding-right: 10em;
+    margin-top: 3em;
 }

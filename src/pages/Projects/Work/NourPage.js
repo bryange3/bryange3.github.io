@@ -213,7 +213,7 @@ function NourPage(props) {
                             2. Clarity of accessibility preferences
                         </h3>
 
-                        Devan and I compared the two variants of the accessibility preferences progression and chose the accessibility preferences progression on the right of the image below. Although more screens causes a longer progression and setup process, it provides <mark>more clarity on what the preferences (VoiceOver and closed captioning) mean</mark>. By separating the preferences into multiple screens, there is <mark>much less clutter on the interface</mark>, leading to <mark>easier comprehension of the visual components</mark>.
+                        I compared the two variants of the accessibility preferences progression and chose the accessibility preferences progression on the right of the image below. Although more screens causes a longer progression and setup process, it provides <mark>more clarity on what the preferences (VoiceOver and closed captioning) mean</mark>. By separating the preferences into multiple screens, there is <mark>much less clutter on the interface</mark>, leading to <mark>easier comprehension of the visual components</mark>.
 
                         <img src={accessibilityiterations} alt="Accessibility Preference Iterations" className="project-img" />
 
@@ -260,7 +260,7 @@ function NourPage(props) {
                         This was the first time that I was given a design prompt where I knew almost nothing about the target audience. Building an app for people who are naturally unfamiliar with technology proved difficult. However, through online research and Medium articles, I gained some knowledge about accessible design.
 
                         <p className="paragraph">
-                            I certainly have a lot more to learn regarding designing for all and designing inclusively, but I'm glad that this designathon gave me an introduction to it. Thank you to all the mentors who provided me with their input during the ideation process and to my team for being amazing!
+                            I certainly have a lot more to learn, but I'm glad that this designathon gave me an introduction to accessible design. Thank you to all the mentors who provided me with their input during the ideation process and to my team for being amazing!
                         </p>
 
                         <h3 className="subsection">

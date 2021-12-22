@@ -1,10 +1,12 @@
 import React from 'react';
 import AOS from 'aos';
-import aboutpic from '../assets/other/aboutprofpic.jpg';
-
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Content from '../components/Content';
 import Container from 'react-bootstrap/Container';
 import FadeIn from 'react-fade-in';
+
+import aboutpic from '../assets/other/aboutprofpic.jpg';
 
 function AboutPage(props) {
     AOS.init();
@@ -13,14 +15,15 @@ function AboutPage(props) {
     return (
         <FadeIn>
             <Container fluid={true} class="full-width">
-                <body>
-                    <Content width={width}>
+                <Row className="about-top">
+                    <Col className="profile-image">
                         <img
-                            class="profile-image center"
+                            class="profile-image"
                             alt="Profile"
                             src={aboutpic}
                         />
-
+                    </Col>
+                    <Col>
                         <p className="about-subtitle">
                             👋 Hi there! I'm Bryan Ge (he/him).
                         </p>
@@ -32,7 +35,7 @@ function AboutPage(props) {
                             🚙 How did I get into UX and product design?
                         </p>
                         <p>
-                            I've always been intrigued by innovations in technology and how they affects our lives. Throughout high school and college, I've sought opportunities to get into tech by learning computer science. In this journey, I became exposed to the world of product where I learned about other roles and the world of user experience and product design. Since my first design project at a student organization my freshman year, I've been hooked in the process of product research, understanding users, ideating solutions, and creating prototypes!
+                            I've always been intrigued by innovations in technology and how they affects our lives. In high school and college, I've sought opportunities to get into tech by learning computer science. In this journey, I learned about other product roles and the UX field. Since my first design project my freshman year, I've been hooked in the process of product research, understanding users, ideating solutions, and creating prototypes!
                         </p>
 
 
@@ -41,7 +44,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            Currently, I am involved in Hack4Impact UIUC as a product designer and the national Hack4Impact board as a design committee member. At Hack4Impact UIUC, I'm designing a dashboard for the admin and contributors of a Chicago nonprofit newspaper, South Side Weekly. As a design committee member, I'm working on improving design culture and building resources for chapters with incubating design teams.
+                            Currently, I am involved in Hack4Impact UIUC as a product designer. At Hack4Impact, I'm designing a dashboard for the admin and contributors of a Chicago nonprofit newspaper, South Side Weekly and working on design initiatives to build design culture.
                         </p>
 
                         <p className="about-subtitle">
@@ -54,12 +57,16 @@ function AboutPage(props) {
                             <li>baking pumpkin bread in a bundt pan</li>
                             <li>spending time with my sister and her corgi (Denzel Corgiton)</li>
                         </ul>
-
-                        <p>
-                            I'm always down to chat! Email me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> and connect with me on <a className="link-underline" href="https://linkedin.com/in/bryange">LinkedIn</a>.
+                    </Col>
+                </Row>
+                <Row>
+                    <Content width={width}>
+                        <br />
+                        <br />
+                    
+                        <p className="impact-statement">
+                            💌 I'm always down to chat! Email me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> and connect with me on <a className="link-underline" href="https://linkedin.com/in/bryange">LinkedIn</a>.
                         </p>
-
-                        <hr class="rounded" />
 
                         <p className="paragraph">
                             <p className="section">
@@ -69,10 +76,10 @@ function AboutPage(props) {
                             <ul>
                                 <li>Product Designer @ Hack4Impact (Fall 2021)</li>
                                 <li>Software Engineering Intern @ State Farm (Fall 2021)</li>
-                                <li>Product Designer @ Connect Tutors through Develop For Good (Summer 2021 Cycle)</li>
+                                <li>Product Designer @ Connect Tutors thru Develop For Good (Summer 2021)</li>
                                 <li>UX Design Intern @ Cargill (Summer 2021)</li>
                                 <li>Design Intern @ Trill Project (Spring 2021)</li>
-                                <li>Data Science Discovery Course Assistant @ UIUC (Spring 2021)</li>
+                                <li>Course Assistant for Data Science Discovery @ UIUC (Spring 2021)</li>
                             </ul>
                         </p>
 
@@ -126,7 +133,7 @@ function AboutPage(props) {
                             </p>
                         </p>
                     </Content>
-                </body>
+                </Row>
             </Container>
         </FadeIn >
     );
