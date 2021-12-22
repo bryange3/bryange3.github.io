@@ -44,7 +44,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            Currently, I am involved in Hack4Impact UIUC as a product designer. At Hack4Impact, I'm designing a dashboard for the admin and contributors of a Chicago nonprofit newspaper, South Side Weekly and working on design initiatives to build design culture.
+                            Currently, I am a product designer at Hack4Impact UIUC, a student organization, collaborating in a team of 9 to build a dashboard for the admin and contributors of a Chicago nonprofit newspaper, South Side Weekly. I'm also pushing design initiatives within Hack4Impact to build and improve design culture and operations.
                         </p>
 
                         <p className="about-subtitle">
