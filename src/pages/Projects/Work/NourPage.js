@@ -6,7 +6,7 @@ import accessibilityiterations from '../../../assets/project/nour/AccessibilityI
 import loginiterations from '../../../assets/project/nour/LoginIterations.png';
 import accessibilitypreferences from '../../../assets/project/nour/accessibilitypreferences.gif';
 import login from '../../../assets/project/nour/LoginQR.gif';
-import roomdiscovery from '../../../assets/project/nour/RoomDiscovery.png';
+import roomdiscovery from '../../../assets/project/nour/room-discovery.gif';
 import roomdiscoveryvariations from '../../../assets/project/nour/RoomDiscoveryVariations.png';
 import stats from '../../../assets/project/nour/stats.png';
 import team from '../../../assets/project/nour/team.png';
@@ -141,7 +141,7 @@ function NourPage(props) {
                         </ul>
                         I chose to use a profile code scanning system. <mark>Our users will not need to remember their login details and will only need to point their smartphone camera at their profile code</mark> provided by their caregivers.
 
-                        <img src={login} alt="Simple and Efficient Onboarding" className="project-img-smallish center" />
+                        <img src={login} alt="Simple and Efficient Onboarding" className="project-img-smaller center" />
                     </p>
 
                     <p className="paragraph">
@@ -151,7 +151,7 @@ function NourPage(props) {
 
                         When designing our "Clubhouse for Elders", <mark>we focused on accessibility and understandability</mark>. Since our target audience is seniors and our goal is to connect those within various medical support communities, making Nour easy-to-use and intuitive was our largest challenge. I chose to design <mark>accessibility preferences for those with visual and hearing difficulties</mark>, making our platform more inclusive than other competitors.
 
-                        <img src={accessibilitypreferences} alt="Accessibility Preferences" className="project-img-smallish center" />
+                        <img src={accessibilitypreferences} alt="Accessibility Preferences" className="project-img-smaller center" />
                     </p>
 
                     <p className="paragraph">
@@ -161,7 +161,7 @@ function NourPage(props) {
 
                         Users can discover and preview rooms one at a time. While browsing the various rooms, the <mark>audio from inside the room is played aloud so users can decide whether or not they want to hop in and join the conversation</mark>.
 
-                        <img src={roomdiscovery} alt="Call Room Discovery" className="project-img-smallish center" />
+                        <img src={roomdiscovery} alt="Call Room Discovery" className="project-img-smaller center" />
                     </p>
 
                     <p className="paragraph">
@@ -171,7 +171,7 @@ function NourPage(props) {
 
                         I also decided to implement voice search alongside the traditional type search method for those who may find it easier to speak what type of video call room they would like to join.
 
-                        <img src={searchmethods} alt="Search Methods" className="project-img-smallish center" />
+                        <img src={searchmethods} alt="Search Methods" className="project-img-smaller center" />
                     </p>
 
                     <hr class="rounded" />
