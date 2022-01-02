@@ -22,7 +22,7 @@ function DasPage(props) {
                     <Col sm>
                         <b>Role</b>
                         <br />Web Development
-                        <br />UI Design
+                        <br />Interface Design
                         <br />Content Creation
                     </Col>
                     <Col sm>

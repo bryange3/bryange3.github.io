@@ -26,7 +26,7 @@ function CargillPage(props) {
                     <Col sm>
                         <b>Skills</b>
                         <br />User Research
-                        <br />User Experience
+                        <br />Interaction Design
                         <br />Interface Design
                         <br />Client Presentation
                         <br />Stakeholder Interview

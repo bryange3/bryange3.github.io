@@ -19,7 +19,7 @@ function LeafPage(props) {
                 <Row>
                     <Col sm>
                         <b>Role</b>
-                        <br />UI Designer
+                        <br />User Interface Designer
                         <br />Frontend Developer
                     </Col>
                     <Col sm>

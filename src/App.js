@@ -75,6 +75,19 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
+          projectTitle: 'South Side Weekly — Nonprofit Project',
+          description: 'Web dashboard increasing visibility on upcoming newspaper issues and improving the story assignment experience for contributors and admin at South Side Weekly.',
+          roles: 'Product Design',
+          type: 'Fall 2021 Nonprofit Project',
+          imgSrc: h4i,
+          cover: sswcover,
+          path: '/hack4impact-southsideweekly',
+          timeline: 'September 2021 - Present',
+          location: 'Champaign, IL',
+          category: ['all', 'design', 'work']
+        },
+        {
+          id: 1,
           projectTitle: 'Nour — 1st Place at HackDuke Designathon',
           description: 'Connecting the elderly in a time of social distancing.',
           roles: 'Product Design',
@@ -86,19 +99,6 @@ class App extends React.Component {
           timeline: '24 hours',
           location: 'Remote',
           category: ['all', 'design']
-        },
-        {
-          id: 1,
-          projectTitle: 'Hack4Impact — Newspaper Nonprofit Project',
-          description: 'Web dashboard increasing visibility on upcoming newspaper issues and improving the story assignment experience for contributors and admin at South Side Weekly.',
-          roles: 'Product Design',
-          type: 'Fall 2021 Nonprofit Project',
-          imgSrc: h4i,
-          cover: sswcover,
-          path: '/hack4impact-southsideweekly',
-          timeline: 'September 2021 - Present',
-          location: 'Champaign, IL',
-          category: ['all', 'design', 'work']
         },
         {
           id: 2,
@@ -212,9 +212,9 @@ class App extends React.Component {
             return null;
           }} /> */}
 
-          <Route path={this.state.workProjects[0].path} render={() => <NourPage info={this.state.workProjects[0]} />} />
+          <Route path={this.state.workProjects[0].path} render={() => <SSWPage info={this.state.workProjects[0]} />} />
 
-          <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <NourPage info={this.state.workProjects[1]} />} />
 
           <Route path={this.state.workProjects[2].path} render={() => <CargillPage info={this.state.workProjects[2]} />} />
 

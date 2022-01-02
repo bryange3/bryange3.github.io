@@ -32,7 +32,7 @@ function NourPage(props) {
                     <Col sm>
                         <b>Skills</b>
                         <br />User Research
-                        <br />User Experience
+                        <br />Interaction Design
                         <br />Interface Design
                         <br />Usability Testing
                     </Col>

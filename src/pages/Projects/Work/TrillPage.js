@@ -20,7 +20,7 @@ function TrillPage(props) {
                 <Row>
                     <Col sm>
                         <b>Role</b>
-                        <br />UI Design
+                        <br />User Interface Design
                         <br />Web Design
                         <br />User Research
                     </Col>

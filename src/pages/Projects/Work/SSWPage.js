@@ -53,7 +53,7 @@ function SSWPage(props) {
                         <b>Skills</b>
                         <br />User Research
                         <br />Product Thinking
-                        <br />User Experience
+                        <br />Interaction Design
                         <br />Interface Design
                         <br />Usability Testing
                         <br />Content Writing
