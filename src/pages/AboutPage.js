@@ -63,7 +63,7 @@ function AboutPage(props) {
                     <Content width={width}>
                         <br />
                         <br />
-                    
+
                         <p className="impact-statement">
                             💌 I'm always down to chat! Email me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> and connect with me on <a className="link-underline" href="https://linkedin.com/in/bryange">LinkedIn</a>.
                         </p>
@@ -74,12 +74,15 @@ function AboutPage(props) {
                             </p>
 
                             <ul>
+                                <li>Product Designer @ Hack4Impact (Spring 2022)</li>
+                                <li>UX Design Intern @ Cargill (Spring 2022)</li>
                                 <li>Product Designer @ Hack4Impact (Fall 2021)</li>
                                 <li>Software Engineering Intern @ State Farm (Fall 2021)</li>
                                 <li>Product Designer @ Connect Tutors thru Develop For Good (Summer 2021)</li>
                                 <li>UX Design Intern @ Cargill (Summer 2021)</li>
                                 <li>Design Intern @ Trill Project (Spring 2021)</li>
                                 <li>Course Assistant for Data Science Discovery @ UIUC (Spring 2021)</li>
+                                <li>UX Designer @ Design Innovation (Fall 2020)</li>
                             </ul>
                         </p>
 
@@ -93,7 +96,6 @@ function AboutPage(props) {
                                 <li>Ambassador @ KraveBeauty</li>
                                 <li>Orientation Leader @ UIUC</li>
                                 <li>Design Vision Sprint Participant @ The Trevor Project</li>
-                                <li>UI Designer @ Design Innovation (Fall 2020)</li>
                                 <li>Executive @ TAMS Sexuality and Gender Alliance (Fall 2019 - Spring 2020)</li>
                             </ul>
                         </p>
