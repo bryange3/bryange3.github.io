@@ -40,7 +40,7 @@ function HomePage(props) {
                                 {props.title && <h3 className="display-6 home-title">Product designer + developer with a love for baking and social good!</h3>}
 
                                 <div className="home-positions center">
-                                    <h3 className="role">Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a>, UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a>, Information Sciences Student at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">UIUC</a></h3>
+                                    <h3 className="role">design at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">hack4impact</a> + <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">cargill</a> • previous swe at <a className="link-underline" href="https://www.statefarm.com/" target="_blank" rel="noreferrer">state farm</a> • info sci at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noreferrer">uiuc</a></h3>
                                 </div>
                             </div>
 
