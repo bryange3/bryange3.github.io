@@ -40,7 +40,7 @@ function SpotifyPage(props) {
                         <br />
                         <ul>
                             <li>sophomore studying at the University of Illinois at Urbana-Champaign</li>
-                            <li>graduating December 2022</li>
+                            <li>graduating May 2023</li>
                             <li>majoring in Information Sciences (concentrating in HCI & UX)</li>
                             <li>minoring in Computer Science</li>
                             <li>based in Dallas, TX & Champaign, IL</li>
