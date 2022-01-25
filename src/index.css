@@ -8,7 +8,6 @@
     [class*="home-image-cursor"] {
         max-height: 5em !important;
         max-width: 12em !important;
-        left: 80px !important;
     }
     [class*="left"] {
         margin-left: 0% !important;
@@ -29,14 +28,17 @@
         margin: 0px !important;
     }
     [class*="about-top"] {
-        padding-left: 0em !important;
-        padding-right: 0em !important;
+        padding-left: 1em !important;
+        padding-right: 1em !important;
         margin-top: 2em !important;
     }
     [class*="project-info"] {
         padding-left: 1em !important;
         padding-right: 1em !important;
         padding-bottom: 1em !important;
+    }
+    [class*="about-experiences"] {
+        width: 100% !important;
     }
     [class*="project-img-medium"] {
         width: 100% !important;
@@ -143,11 +145,6 @@ code {
 
 .default {
     color: #000000 !important;
-    transition: 0.3s ease-in;
-    text-decoration: none !important;
-}
-
-.default:hover {
     text-decoration: none !important;
 }
 
@@ -200,26 +197,17 @@ code {
 
 .project-card-title {
     font-size: 21px;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0px;
     margin-bottom: 5px;
     color: #000000;
 }
 
-.project-card-subtitle {
+.project-card-role {
     font-size: 16px;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     color: #747474;
-}
-
-.project-card-role {
-    margin-top: 6px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #2183BE;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
 }
 
 .project-card-type {
@@ -381,8 +369,8 @@ blockquote {
 }
 
 .about-subtitle {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 21px;
+    font-weight: 600;
     /* margin-top: 2em; */
 }
 
@@ -402,7 +390,7 @@ blockquote {
 .sticky-footer {
     position: sticky;
     top: 100%;
-    background-color: #fafafa;
+    background-color: #2e2e2e;
 }
 
 footer ul {
@@ -444,7 +432,7 @@ footer {
 }
 
 .header-title {
-    font-weight: bold !important;
+    font-weight: 600 !important;
 }
 
 .icon:hover {
@@ -467,7 +455,6 @@ footer {
     z-index: 1000;
     cursor: pointer;
     animation: scrollFadeIn 0.3s;
-    transition: opacity 0.3s;
     opacity: 0.5;
 }
 
@@ -517,7 +504,7 @@ footer {
     cursor: pointer;
     width: 100%;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
     padding: 1%;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -568,54 +555,36 @@ footer {
     margin-bottom: 5em;
 }
 
-.role {
-    font-size: 18px;
-    font-weight: normal;
+.home-role {
+    font-size: 21px;
+    font-weight: 500;
     margin-top: -1em !important;
-    line-height: 1.5;
+    color:#5e5e5e; 
 }
 
 
 /* new styling */
 
 .section {
-    margin-top: 5em !important;
+    margin-top: 5em;
+    text-transform: uppercase;
     font-weight: bolder;
     color: #2183BE;
     font-size: 14px;
-    text-transform: uppercase;
     letter-spacing: 0.05em;
-}
-
-.resume-point {
-    margin-top: 30px;
-    margin-bottom: 10px !important;
-    font-weight: bold;
-    font-size: 18px !important;
-}
-
-.resume-company {
-    font-weight: normal;
-}
-
-.resume-date {
-    font-weight: bold;
-    color: #8f8f8f;
-    text-transform: uppercase;
-    margin-bottom: 10px !important;
 }
 
 .subsection {
     margin-top: 2em;
     margin-bottom: 1em !important;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .subsubsection {
     margin-top: 2em;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 mark {
@@ -634,7 +603,7 @@ mark {
 
 .case-title {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 0 !important;
 }
 
@@ -646,7 +615,7 @@ mark {
 
 .home-top {
     padding: 12px;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .home-images {
@@ -655,17 +624,17 @@ mark {
 
 .home-image {
     display: block;
-    max-width: 10em;
-    max-height: 10em;
+    max-width: 15em;
+    max-height: 15em;
     width: auto;
     height: auto;
 }
 
 .home-title {
     margin-top: 3em;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 1.5;
-    font-weight: bold;
+    font-weight: 600;
     padding-bottom: 0em;
     margin-bottom: 0px !important;
 }
@@ -676,10 +645,10 @@ mark {
 }
 
 .home-image-cursor {
-    max-width: 175px;
+    max-width: 15em;
     width: auto;
     height: auto;
-    left: 6em;
+    left: 10em;
     bottom: -2.5em;
 }
 
@@ -690,12 +659,12 @@ mark {
     margin-top: 70px !important;
     margin-bottom: 20px !important;
     font-size: 21px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .spotify-subsection {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .hr-rounded-close {
@@ -729,7 +698,8 @@ mark {
 
 .filter-title {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
+    margin-top: 1em;
 }
 
 .filter-section {
@@ -757,8 +727,48 @@ mark {
     background-color: #F5F5F5;
 }
 
+.about-experiences {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50%;
+    margin-top: 2em;
+    padding-top: 2em;
+    margin-bottom: 0em;
+}
+
+.about-experience {
+    font-size: 18px;
+    margin-bottom: 0.25em;
+}
+
 .about-top {
-    padding-left: 10em;
-    padding-right: 10em;
-    margin-top: 3em;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
+.projects {
+    padding-top: 1em;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.social {
+    color: #d6d6d6;
+}
+
+.social:hover {
+    cursor: pointer;
+    text-decoration: none;;
+    color: rgb(255, 255, 255);
+}
+
+b, strong {
+    font-weight: 600 !important;
 }
