@@ -186,7 +186,7 @@ class App extends React.Component {
       <Router>
         <Container className="p=0 my-font end-to-end" fluid={true} style={{ minHeight: "100vh" }}>
           <Navbar className="top-bar fixed" expand="lg">
-            <Navbar.Brand><Link className="nav-link header-title default" to="/">Bryan Ge</Link></Navbar.Brand>
+            <Navbar.Brand><Link className="header-title default" to="/">Bryan Ge</Link></Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
