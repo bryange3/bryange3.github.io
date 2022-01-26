@@ -36,8 +36,8 @@
         margin: 0px !important;
     }
     [class*="about-top"] {
-        padding-left: 1em !important;
-        padding-right: 1em !important;
+        padding-left: 2em !important;
+        padding-right: 2em !important;
         margin-top: 3em !important;
         margin-bottom: 3em !important;
     }
@@ -80,7 +80,15 @@
         display: none !important;
     }
     [class*="header-title"] {
-        padding-left: 0em !important;
+        padding-left: 0.8em !important;
+    }
+    [class*="project-info"] {
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+    }
+    [class*="med-text"] {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
     }
 }
 
@@ -178,6 +186,7 @@ code {
 
 .nav-link {
     padding-right: 1em !important;
+    padding-left: 1em !important;
     /* font-size: 15px; */
     color: #8f8f8f;
 }
