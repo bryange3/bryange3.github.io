@@ -9,7 +9,6 @@ function Footer() {
                 <li><a href="https://linkedin.com/in/bryange" target="_blank" rel="noreferrer" className="social" alt="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 <li><a href="https://github.com/bryange3" target="_blank" rel="noreferrer" className="social" alt="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                 <li><a href="https://instagram.com/omgebryan" target="_blank" rel="noreferrer" className="social" alt="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href="https://twitter.com/omgebryan" target="_blank" rel="noreferrer" className="social" alt="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 <li><a href="https://open.spotify.com/user/omgebryan?si=AzsYGAQnQmS8m6Jlg-cUMw" target="_blank" rel="noreferrer" className="social" alt="Spotify"><i class="fab fa-spotify" aria-hidden="true"></i></a></li>
             </ul>
         </footer>
