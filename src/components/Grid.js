@@ -20,7 +20,7 @@ class Grid extends React.Component {
     
     render() {
         return (
-            <FadeIn delay={100}>
+            <FadeIn delay={600}>
                 <Container fluid={true} >
                     {this.makeItems(this.props.projects)}
                 </Container>

@@ -121,12 +121,12 @@ body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    background-color: #ffffff !important;
-    color: #000000 !important;
+    background-color: #fcfdfd !important;
+    color: #2E2E2E !important;
 }
 
 .background {
-    background-color: #ffffff;
+    background-color: #fcfdfd;
 }
 
 .background-med {
@@ -216,7 +216,7 @@ code {
 }
 
 .project-card-image:hover {
-    outline: 2px solid black;
+    outline: 2px solid #2E2E2E;
 }
 
 .project-card-info {
@@ -229,7 +229,7 @@ code {
     font-weight: 600;
     margin: 0px;
     margin-bottom: 5px;
-    color: #000000;
+    color: #2E2E2E;
 }
 
 .project-card-role {
@@ -243,7 +243,7 @@ code {
     margin-top: 10px;
     max-width: 340px;
     font-size: 14px;
-    color: #000000;
+    color: #2E2E2E;
     background-color: #e1eaee;
     border-radius: 5px;
     display: flex;
