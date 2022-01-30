@@ -27,7 +27,11 @@ function SpotifyPage(props) {
 
             <Content width={width}>
                 <body>
-
+                    <br />
+                    
+                    <p className="impact-statement">
+                        👉 <b>Update</b>: I've decided to go with a different internship for this summer, but am definitely looking forward to applying again next year!
+                    </p>
 
                     <p className="paragraph">
                         <p className="spotify-section my-blue">
