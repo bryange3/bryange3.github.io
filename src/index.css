@@ -582,8 +582,8 @@ footer {
 
 .home-role {
     font-size: 21px;
-    font-weight: 500;
-    margin-top: -1em !important;
+    font-weight: 400;
+    /* margin-top: 0em !important; */
     color:#5e5e5e; 
 }
 
@@ -649,8 +649,8 @@ mark {
 
 .home-image {
     display: block;
-    max-width: 15em;
-    max-height: 15em;
+    max-width: 12em;
+    max-height: 12em;
     width: auto;
     height: auto;
 }
@@ -672,7 +672,7 @@ mark {
     max-width: 15em;
     width: auto;
     height: auto;
-    left: 10em;
+    left: 8em;
     bottom: -2.5em;
 }
 

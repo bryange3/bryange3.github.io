@@ -40,7 +40,8 @@ function HomePage(props) {
                                 {props.title && <h3 className="display-6 home-title">Product designer + developer with a love for baking and social good!</h3>}
 
                                 <div className="home-positions center">
-                                    <h3 className="home-role">Design @ Hack4Impact, Cargill. Information Sciences @ UIUC.</h3>
+                                    <h3 className="home-role">Currently designing at Hack4Impact and Cargill.</h3>
+                                    <h3 className="home-role">Incoming summer Product Design Intern at Capital One.</h3>
                                 </div>
                             </div>
 
