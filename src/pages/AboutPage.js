@@ -118,6 +118,7 @@ function AboutPage(props) {
                                 <Col>
                                     <ul>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/takarasatone/">Takara Satone</a></li>
+                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.jacobrokaw.com/">Jake Brokaw</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.amandahe.com/">Amanda He</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.chaeeunpark.com/">Chaeeun Park</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://riyajain.me/">Riya Jain</a></li>
@@ -126,6 +127,7 @@ function AboutPage(props) {
                                 </Col>
                                 <Col>
                                     <ul>
+                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://chloechan.me/">Chloe Chan</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/riyv">Riya Gupta</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/katesliang/">Kate Liang</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://conniexu.com/">Connie Xu</a></li>
