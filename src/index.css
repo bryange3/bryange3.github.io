@@ -149,6 +149,10 @@ body {
     color: #000000 !important;
 }
 
+.white {
+    color: white;
+}
+
 li {
     margin-top: 3px;
     margin-bottom: 3px;
@@ -576,7 +580,7 @@ footer {
 }
 
 .home-positions {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 5em;
 }
 
