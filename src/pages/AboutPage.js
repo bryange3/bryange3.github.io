@@ -31,16 +31,16 @@ function AboutPage(props) {
                         🚙 How did I get into UX and product design?
                     </p>
                     <p>
-                        I've always been intrigued by technological innovations and how they affect our lives. In high school and college, I sought opportunities to get into tech through computer science. From there, I learned about the different roles in product and the UX field. Since my first design project, I've been hooked in the creative process of research, understanding users, and constant iteration.
+                        I've always been intrigued by technological innovations and how they affect our lives. In high school and college, I sought opportunities to get into tech through computer science. From there, I learned about different roles in product and landed in UX and design. Since my first design project, I've been hooked in the creative process of understanding users and problems and constant iteration.
                     </p>
 
 
                     <p className="about-subtitle">
-                        🖋 What am I up to?
+                        🖋 What am I currently up to?
                     </p>
 
                     <p>
-                        I'm currently designing at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a> and <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a>. At Hack4Impact, I'm also working on design initiatives such as having 2 designers per project team to foster greater design community and mentorship!
+                        I'm currently a Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a> and a part-time UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a>. At Hack4Impact, I'm also working on design initiatives such as having two designers per project team to foster greater design community and mentorship.
                     </p>
                 </Col>
             </Row>
@@ -52,53 +52,30 @@ function AboutPage(props) {
                             ✏️ Experience
                         </p>
 
-                        {/* <div className="about-experience">
-                            <strong>Incoming Product Design Intern at <a className="link-underline" href="https://www.capitalone.com/" target="_blank" rel="noreferrer">Capital One</a></strong> / Summer 2022
-                        </div> */}
+                        <div className="about-experience">
+                            <strong><a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a> — Product Designer</strong>
+                        </div>
+                        <p>Spring 2022, Fall 2021</p>
 
                         <div className="about-experience">
-                            <strong>Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></strong> / Fall 2021, Spring 2022
+                            <strong><a className="link-underline" href="https://cargill.com/" target="_blank" rel="noreferrer">Cargill</a> — UX Design Intern</strong>
                         </div>
+                        <p>Spring 2022, Summer 2021</p>
 
                         <div className="about-experience">
-                            <strong>UX Design Intern at <a className="link-underline" href="https://cargill.com/" target="_blank" rel="noreferrer">Cargill</a></strong> / Summer 2021, Spring 2022
+                            <strong><a className="link-underline" href="https://statefarm.com/" target="_blank" rel="noreferrer">State Farm</a> — Software Engineer Intern</strong>
                         </div>
+                        <p>Fall 2021</p>
 
                         <div className="about-experience">
-                            <strong>Software Engineer Intern at <a className="link-underline" href="https://statefarm.com/" target="_blank" rel="noreferrer">State Farm</a></strong> / Fall 2021
+                            <strong><a className="link-underline" href="https://www.trillproject.com/" target="_blank" rel="noreferrer">Trill Project</a> — Design Intern</strong>
                         </div>
+                        <p>Spring 2021</p>
 
                         <div className="about-experience">
-                            <strong>Design Intern at <a className="link-underline" href="https://www.trillproject.com/" target="_blank" rel="noreferrer">Trill Project</a></strong> / Spring 2021
+                            <strong><a className="link-underline" href="https://stat107.hknguyen.org/" target="_blank" rel="noreferrer">UIUC</a> — Course Assistant, Data Science Discovery</strong>
                         </div>
-
-                        <div className="about-experience">
-                            <strong>Course Assistant for <a className="link-underline" href="https://stat107.hknguyen.org/" target="_blank" rel="noreferrer">Data Science Discovery</a></strong> / Spring 2021
-                        </div>
-                    </p>
-
-                    <br />
-
-                    <p className="paragraph">
-                        <p className="about-subtitle">
-                            😇 Honors
-                        </p>
-
-                        <div className="about-experience">
-                            <strong>Facebook</strong> EMEA Design Summit 2021
-                        </div>
-
-                        <div className="about-experience">
-                            <strong>HackDuke</strong> Ideate Designathon 1st Place Winner
-                        </div>
-
-                        <div className="about-experience">
-                            <strong>UChicago</strong> Francis & Rose Yuen East Asia Hackathon Winner
-                        </div>
-
-                        <div className="about-experience">
-                            <strong>Capital One</strong> Software Engineering Summit
-                        </div>
+                        <p>Spring 2021</p>
                     </p>
                 </p>
             </Row>
@@ -119,15 +96,17 @@ function AboutPage(props) {
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.chaeeunpark.com/">Chaeeun Park</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://riyajain.me/">Riya Jain</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://athenatang.com/">Athena Tang</a></li>
+                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ridhi-chingakham-515b48175">Ridhi Chingakham</a></li>
                                     </ul>
                                 </Col>
                                 <Col>
                                     <ul>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://chloechan.me/">Chloe Chan</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/riyv">Riya Gupta</a></li>
+                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://riyag.me/">Riya Gupta</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/katesliang/">Kate Liang</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://conniexu.com/">Connie Xu</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rachelyqian/">Rachel Qian</a></li>
+                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/helen-xia-b0633a169/">Helen Xia</a></li>
                                         <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/meichen-ge-9a980441/">Meichen Ge</a> (best sister!)</li>
                                     </ul>
                                 </Col>
