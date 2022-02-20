@@ -21,17 +21,17 @@ function AboutPage(props) {
                 </Col>
                 <Col>
                     <p className="about-subtitle">
-                        👋 Hi there! I'm Bryan Ge (he/him).
+                        👋 Hi there! I'm Bryan Ge.
                     </p>
                     <p>
-                        I’m a sophomore at the University of Illinois at Urbana-Champaign graduating in May 2023. I'm studying Information Sciences, concentrating in Human Computer Interaction and User Experience, and minoring in Computer Science.
+                        My pronouns are he/him and I’m a sophomore at the University of Illinois at Urbana-Champaign. I'm studying Information Sciences and graduating in May 2023.
                     </p>
 
                     <p className="about-subtitle">
                         🚙 How did I get into UX and product design?
                     </p>
                     <p>
-                        I've always been intrigued by technological innovations and how they affect our lives. In high school and college, I sought opportunities to get into tech through computer science. From there, I learned about different roles in product and landed in UX and design. Since my first design project, I've been hooked in the creative process of understanding users and problems and constant iteration.
+                        I've always been intrigued by technological innovations and how they affect our lives. Through learning computer science, I discovered the different roles in product and landed in design. Since my first project, I've been hooked in the creative process of understanding users and problems and constant iteration.
                     </p>
 
 
@@ -41,6 +41,13 @@ function AboutPage(props) {
 
                     <p>
                         I'm currently a Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a> and a part-time UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a>. At Hack4Impact, I'm also working on design initiatives such as having two designers per project team to foster greater design community and mentorship.
+                    </p>
+
+                    <p className="about-subtitle">
+                        🥰 Shoutout to my friends, mentors, and design moms!
+                    </p>
+                    <p>
+                        I've received a ton of support from my friends and members of the design community. Their guidance and mentorship has been incredibly impactful and I am beyond appreciative of them. Thank you <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/takarasatone/">Takara Satone</a> and <a className="link-underline" target="_blank" rel="noreferrer" href="https://amandahe.com/">Amanda He</a> for believing in me from the start of my design journey and <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.jacobrokaw.com/">Jake Brokaw</a> for always being open to chat and give me feedback on my work.
                     </p>
                 </Col>
             </Row>
@@ -78,42 +85,6 @@ function AboutPage(props) {
                         <p>Spring 2021</p>
                     </p>
                 </p>
-            </Row>
-            <Row className="about-top">
-                <Col>
-                    <p className="about-subtitle">
-                        Shoutout to my friends, mentors, and design moms!
-                    </p>
-                    <p>
-                        I've received a ton of support from my friends and members of the design community. Their guidance and mentorship has been incredibly impactful and I am beyond appreciative of them. Thank you. 🥰
-                        <p className="paragraph">
-                            <Row>
-                                <Col>
-                                    <ul>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/takarasatone/">Takara Satone</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.jacobrokaw.com/">Jake Brokaw</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.amandahe.com/">Amanda He</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.chaeeunpark.com/">Chaeeun Park</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://riyajain.me/">Riya Jain</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://athenatang.com/">Athena Tang</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ridhi-chingakham-515b48175">Ridhi Chingakham</a></li>
-                                    </ul>
-                                </Col>
-                                <Col>
-                                    <ul>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://chloechan.me/">Chloe Chan</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://riyag.me/">Riya Gupta</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/katesliang/">Kate Liang</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://conniexu.com/">Connie Xu</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rachelyqian/">Rachel Qian</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/helen-xia-b0633a169/">Helen Xia</a></li>
-                                        <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/meichen-ge-9a980441/">Meichen Ge</a> (best sister!)</li>
-                                    </ul>
-                                </Col>
-                            </Row>
-                        </p>
-                    </p>
-                </Col>
             </Row>
         </FadeIn >
     );
