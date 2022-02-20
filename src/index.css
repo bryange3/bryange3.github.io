@@ -744,7 +744,7 @@ mark {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-bottom: -4em !important; /* eliminate margin top of footer */
+    margin-bottom: 4em;
     padding-left: 7em;
     padding-right: 7em;
     padding-bottom: 3em;
@@ -768,7 +768,7 @@ mark {
 .about-top {
     padding-left: 8%;
     padding-right: 8%;
-    margin-top: 7em;
+    margin-top: 3em;
     margin-bottom: 3em;
 }
 

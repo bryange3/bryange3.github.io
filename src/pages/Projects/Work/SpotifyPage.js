@@ -27,8 +27,6 @@ function SpotifyPage(props) {
 
             <Content width={width}>
                 <body>
-                    <br />
-                    
                     <p className="impact-statement">
                         👉 Update: I've accepted an offer from Apple to be a Product Design Intern for this upcoming summer. However, if Spotify offers off-season product design internships I would love to apply and be considered. Thank you!
                     </p>
