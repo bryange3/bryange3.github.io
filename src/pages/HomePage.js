@@ -20,7 +20,7 @@ const Animation = styled.div`
 function HomePage(props) {
     const [filter, setFilter] = useState("all");
 
-    const width = 9;
+    const width = 10;
     const portfolio = props.projects;
 
     let filteredItems = portfolio.filter(item => item.category.includes(filter));
@@ -47,7 +47,7 @@ function HomePage(props) {
 
                             <Col>
                                 <Row>
-                                    <Col md={width - 7} className="filter-section">
+                                    <Col md={width - 8} className="filter-section">
                                         <Sticky>
                                             <p className="filter-title">Filter Projects</p>
                                             <div>
