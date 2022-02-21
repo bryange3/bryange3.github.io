@@ -41,7 +41,7 @@ function HomePage(props) {
 
                                 <div className="home-positions center">
                                     <h3 className="home-role">Currently, I'm designing for nonprofits and building design culture at Hack4Impact UIUC.</h3>
-                                    {/* <h3 className="home-role">This summer, I will be interning at Apple as a Product Designer.</h3> */}
+                                    <h3 className="home-role">This summer, I will be interning at Apple as a Product Designer.</h3>
                                 </div>
                             </div>
 
