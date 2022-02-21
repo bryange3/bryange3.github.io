@@ -53,7 +53,7 @@ class App extends React.Component {
     this.state = {
       title: "Bryan Ge",
       home: {
-        title: 'Product designer + developer with a love for baking and social good!',
+        title: 'I\'m a product designer + developer with a love for baking and social good!',
       },
       play: {
         title: '🤓 For Fun',

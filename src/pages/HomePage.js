@@ -37,10 +37,11 @@ function HomePage(props) {
                                     <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
                                 </div>
 
-                                {props.title && <h3 className="display-6 home-title">Product designer + developer with a love for baking and social good!</h3>}
+                                {props.title && <h3 className="display-6 home-title">I'm a product designer and developer with a love for baking and social good.</h3>}
 
                                 <div className="home-positions center">
-                                    <h3 className="home-role">Designing for nonprofits and building design culture at Hack4Impact UIUC.</h3>
+                                    <h3 className="home-role">Currently, I'm designing for nonprofits and building design culture at Hack4Impact UIUC.</h3>
+                                    {/* <h3 className="home-role">This summer, I will be interning at Apple as a Product Designer.</h3> */}
                                 </div>
                             </div>
 
