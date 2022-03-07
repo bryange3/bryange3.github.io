@@ -61,7 +61,7 @@ function SSWPage(props) {
                     <Col sm>
                         <b>Timeline</b>
                         <br />
-                        September 2021 - Present
+                        September 2021 - January 2022
                     </Col>
                     <Col sm>
                         <b>Team</b>

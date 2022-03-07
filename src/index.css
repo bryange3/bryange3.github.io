@@ -117,7 +117,7 @@ body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    background-color: #fcfdfd !important;
+    background-color: #fff !important;
     color: #2E2E2E !important;
 }
 
