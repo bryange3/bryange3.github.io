@@ -8,9 +8,6 @@ import ssw from '../../../assets/project/spotify/ssw.jpg';
 import experiences from '../../../assets/project/spotify/experiences-playlist.gif';
 import topskills from '../../../assets/project/spotify/top-skills-wrapped.png';
 import values from '../../../assets/project/spotify/values.png';
-import pizza from '../../../assets/project/spotify/pizza.gif';
-import makeup from '../../../assets/project/spotify/makeup.jpg';
-import denzel from '../../../assets/project/spotify/denzel.jpg';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -111,28 +108,6 @@ function SpotifyPage(props) {
                         <img src={values} alt="Values" className="project-img" />
                     </p>
 
-                    <p className="spotify-section my-blue">
-                        🍵 Some more about me!
-                    </p>
-
-                    <hr class="rounded-close" />
-
-                    <Row>
-                        <Col>
-                            <img src={pizza} alt="Experiences Playlist" className="basic-img" />
-                            <p className="image-caption">I love to eat with Riya at Jupiter's Pizza 😋</p>
-                            <img src={makeup} alt="Makeup" className="basic-img" />
-                            <p className="image-caption">😇 I love makeup, here was my look for Halloween!</p>
-                        </Col>
-                        <Col>
-                            <iframe src="https://open.spotify.com/embed/playlist/6rpjNttNdMXVTU9gBbnOjS?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                            <p className="image-caption">🎵 Here's the playlist I blast while driving!</p>
-                            <img src={denzel} alt="Denzel" className="basic-img" />
-                            <p className="image-caption">I hope to have at least 2 corgis when I'm older, but for now here's a picture of my sister's corgi Denzel 🥰</p>
-                        </Col>
-                    </Row>
-
-                    <hr class="rounded" />
 
                     Check out my work at <a className="link-underline" href="https://bryange.com">bryange.com</a>!
                 </body>

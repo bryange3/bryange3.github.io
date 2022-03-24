@@ -28,8 +28,8 @@ import stat107cacover from './assets/project/stat107ca/stat107cacover.png';
 import stat107final from './assets/project/stat107final/stat107final.png';
 import stat107finalcover from './assets/project/stat107final/stat107finalcover.png';
 
-import trill from './assets/project/trill/trill.png';
-import trillcover from './assets/project/trill/trillcover.png';
+// import trill from './assets/project/trill/trill.png';
+// import trillcover from './assets/project/trill/trillcover.png';
 
 import Footer from './components/Footer';
 import ScrollArrow from './components/ScrollArrow';
@@ -39,7 +39,7 @@ import LeafPage from './pages/Projects/Work/LeafPage.js';
 import NourPage from './pages/Projects/Work/NourPage.js';
 import SSWPage from './pages/Projects/Work/SSWPage.js';
 import CargillPage from './pages/Projects/Work/CargillPage.js';
-import TrillPage from './pages/Projects/Work/TrillPage.js';
+// import TrillPage from './pages/Projects/Work/TrillPage.js';
 import CAPage from './pages/Projects/Work/CAPage.js';
 import DasPage from './pages/Projects/Work/DasPage.js';
 import StatFinalPage from './pages/Projects/Work/StatFinalPage.js';
@@ -75,9 +75,9 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
-          projectTitle: 'Hack4Impact (South Side Weekly)',
-          description: 'Web dashboard increasing visibility on upcoming newspaper issues and improving the story assignment experience for contributors and admin at Chicago newspaper nonprofit, South Side Weekly.',
-          roles: 'Product Design • Fall 2021 Nonprofit Project',
+          projectTitle: 'South Side Weekly Contributor Dashboard',
+          description: 'Centralizing news story management and increasing visibility on publication issues for over 250 admin and contributors at Chicago newspaper nonprofit, South Side Weekly.',
+          roles: 'Product Design • Fall 2021 Nonprofit Project • Hack4Impact',
           type: 'Fall 2021 Nonprofit Project',
           imgSrc: h4i,
           cover: sswcover,
@@ -88,9 +88,9 @@ class App extends React.Component {
         },
         {
           id: 1,
-          projectTitle: 'Nour',
-          description: 'Designathon-winning mobile app connecting the elderly in a time of social distancing.',
-          roles: 'Product Design • 1st Place at HackDuke Designathon',
+          projectTitle: 'Nour Social Platform',
+          description: 'Connecting the elderly in a time of social distancing.',
+          roles: 'Product Design • Designathon • 1st Place at HackDuke Ideate 2021',
           type: 'Designathon Project',
           imgSrc: nour,
           cover: nourcover,
@@ -102,9 +102,9 @@ class App extends React.Component {
         },
         {
           id: 2,
-          projectTitle: 'Cargill',
-          description: 'Web dashboard to hold and track new menu item ideas for a leading fast-food restaurant.',
-          roles: 'Product Design • Summer 2021 Internship',
+          projectTitle: 'Menu Item Idea Dashboard',
+          description: 'Tracking new menu item ideas for a leading fast-food restaurant.',
+          roles: 'Product Design • Summer 2021 Internship • Cargill',
           type: 'Summer 2021 Internship',
           imgSrc: cargill,
           cover: cargillcover,
@@ -116,9 +116,9 @@ class App extends React.Component {
         },
         {
           id: 3,
-          projectTitle: 'Leaf',
-          description: 'Hackathon-winning educational web app for the future generation to learn about their carbon footprint.',
-          roles: 'Design Engineer • Winner of UChicago Hackathon',
+          projectTitle: 'Leaf Educational App',
+          description: 'Educating the future generation to learn about their carbon footprint.',
+          roles: 'Design Engineer • Hackathon • Winner of 2020 UChicago Hackathon',
           type: 'Hackathon Project',
           imgSrc: leaf,
           cover: leafproject,
@@ -128,24 +128,24 @@ class App extends React.Component {
           location: 'Remote',
           category: ['all', 'design', 'code']
         },
+        // {
+        //   id: 4,
+        //   projectTitle: 'Trill Project Website',
+        //   description: 'Enabling people to freely and anonymously express themselves.',
+        //   roles: 'Product Design • Spring 2021 Internship',
+        //   type: 'Spring 2021 Internship',
+        //   imgSrc: trill,
+        //   cover: trillcover,
+        //   path: '/trillproject-internship',
+        //   timeline: 'February 2021 - May 2021',
+        //   location: 'Remote',
+        //   category: ['all', 'design', 'work']
+        // },
         {
           id: 4,
-          projectTitle: 'Trill Project',
-          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
-          roles: 'Product Design • Spring 2021 Design Internship',
-          type: 'Spring 2021 Internship',
-          imgSrc: trill,
-          cover: trillcover,
-          path: '/trillproject-internship',
-          timeline: 'February 2021 - May 2021',
-          location: 'Remote',
-          category: ['all', 'design', 'work']
-        },
-        {
-          id: 5,
-          projectTitle: 'STAT 107: Data Science Discovery',
+          projectTitle: 'STAT 107 Data Science Discovery',
           description: 'Providing support and resources for 132 students through office hours and discussion labs.',
-          roles: 'Data Science • Spring 2021 Course Assistant',
+          roles: 'Data Science • Spring 2021 Course Assistant • UIUC',
           type: 'Teaching',
           imgSrc: stat107ca,
           cover: stat107cacover,
@@ -153,10 +153,10 @@ class App extends React.Component {
           category: ['all', 'ds', 'work']
         },
         {
-          id: 6,
+          id: 5,
           projectTitle: 'Hypothesis Tests Final Project',
-          description: 'Conducting hypothesis tests on a dataset of flights for the STAT 107 final project.',
-          roles: 'Data Science • Class Project',
+          description: 'Conducting hypothesis tests on a dataset of flights for the STAT 107 Data Science Discovery final project.',
+          roles: 'Data Science • Class Project • UIUC',
           type: 'Class Project',
           imgSrc: stat107final,
           cover: stat107finalcover,
@@ -164,9 +164,9 @@ class App extends React.Component {
           category: ['all', 'ds', 'code']
         },
         {
-          id: 7,
-          projectTitle: 'Daily Awareness Society',
-          description: 'Blog dedicated to spreading awareness on social issues.',
+          id: 6,
+          projectTitle: 'Daily Awareness Society Blog',
+          description: 'Spreading awareness on social issues.',
           roles: 'Design Engineer • Passion Project',
           type: 'Passion Project',
           imgSrc: das,
@@ -191,7 +191,6 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link default" to="/">Work</Link>
-                {/* <Link className="nav-link default" to="/for-fun">For Fun</Link> */}
                 <Link className="nav-link default" to="/about">About</Link>
                 <a className="nav-link default" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing">
                   Resume
@@ -202,7 +201,6 @@ class App extends React.Component {
           </Navbar>
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects}/>} />
-          {/* <Route path="/for-fun" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} /> */}
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
 
@@ -220,13 +218,13 @@ class App extends React.Component {
 
           <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
 
-          <Route path={this.state.workProjects[4].path} render={() => <TrillPage info={this.state.workProjects[4]} />} />
+          {/* <Route path={this.state.workProjects[4].path} render={() => <TrillPage info={this.state.workProjects[4]} />} /> */}
 
-          <Route path={this.state.workProjects[5].path} render={() => <CAPage info={this.state.workProjects[5]} />} />
+          <Route path={this.state.workProjects[4].path} render={() => <CAPage info={this.state.workProjects[4]} />} />
 
-          <Route path={this.state.workProjects[6].path} render={() => <StatFinalPage info={this.state.workProjects[6]} />} />
+          <Route path={this.state.workProjects[5].path} render={() => <StatFinalPage info={this.state.workProjects[5]} />} />
 
-          <Route path={this.state.workProjects[7].path} render={() => <DasPage info={this.state.workProjects[7]} />} />
+          <Route path={this.state.workProjects[6].path} render={() => <DasPage info={this.state.workProjects[6]} />} />
 
           <ScrollArrow />
           <Footer />

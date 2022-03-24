@@ -3,7 +3,6 @@ import Content from '../../../components/Content.js';
 import FadeIn from 'react-fade-in';
 import Hero from '../../../components/Hero.js';
 
-import basicmockup from '../../../assets/project/cargill/basic-mockup.png';
 import timeline from '../../../assets/project/cargill/Timeline.png';
 
 import Row from 'react-bootstrap/Row';
@@ -62,8 +61,6 @@ function CargillPage(props) {
                     <p className="paragraph">
                         I am unable to publicly go in depth about my work due to <b>NDA restrictions</b>, so please contact me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> if you want to learn more!
                     </p>
-
-                    <img src={basicmockup} alt="Dashboard" className="project-img" />
 
                     <p className="paragraph">
                         <p className="section">
