@@ -3569,7 +3569,17 @@
   "resolved" "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
   "version" "2.6.12"
 
-"core-js@^2.5.0", "core-js@2.6.4":
+"core-js@^2.5.0":
+  "integrity" "sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
+  "version" "2.6.12"
+
+"core-js@^3.21.1":
+  "integrity" "sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.21.1.tgz"
+  "version" "3.21.1"
+
+"core-js@2.6.4":
   "integrity" "sha512-05qQ5hXShcqGkPZpXEFLIpxayZscVD2kuMBZewxiIPPEagukO4mqgPA9CWhUvFBJfy3ODdK2p9xyHh7FTU9/7A=="
   "resolved" "https://registry.npmjs.org/core-js/-/core-js-2.6.4.tgz"
   "version" "2.6.4"
@@ -5335,7 +5345,7 @@
   dependencies:
     "map-cache" "^0.2.2"
 
-"framer-motion@^5.0.0-beta.38", "framer-motion@^5.0.0-beta.44":
+"framer-motion@^5.0.0-beta.38":
   "integrity" "sha512-tfm37xq3lYLZ7VPO6q4g/ejBEocvAiCrnb4m9b9S4nHybVUsGPWWGgBEovGKvWBiwxfo5K6YHK9IrGQRI+ECgg=="
   "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-5.0.0-beta.44.tgz"
   "version" "5.0.0-beta.44"
@@ -5421,6 +5431,14 @@
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
 
+"fsevents@^1.2.3":
+  "integrity" "sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw=="
+  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-1.2.13.tgz"
+  "version" "1.2.13"
+  dependencies:
+    "bindings" "^1.5.0"
+    "nan" "^2.12.1"
+
 "fsevents@^1.2.7":
   "integrity" "sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw=="
   "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-1.2.13.tgz"
@@ -5429,7 +5447,7 @@
     "bindings" "^1.5.0"
     "nan" "^2.12.1"
 
-"fsevents@~2.3.2":
+"fsevents@^2.3.2", "fsevents@~2.3.2", "fsevents@1.2.4":
   "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
   "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
   "version" "2.3.2"
