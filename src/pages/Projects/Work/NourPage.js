@@ -39,7 +39,7 @@ function NourPage(props) {
                     <Col sm>
                         <b>Timeline</b>
                         <br />
-                        24 hours (April 2021)
+                        24 hours
                     </Col>
                     <Col sm>
                         <b>Team</b>
