@@ -8,8 +8,8 @@ import aboutpic from '../assets/other/aboutprofpic.gif';
 import pizza from '../assets/other/pizza.gif';
 import makeup from '../assets/other/makeup.jpg';
 import denzel from '../assets/other/denzel.jpg';
-import pie from '../assets/other/applepie.jpg';
-import connie from '../assets/other/cone.jpg';
+import applepie from '../assets/other/applepie.jpg';
+import connie from '../assets/other/connie.JPG';
 
 function AboutPage(props) {
     AOS.init();
@@ -125,10 +125,10 @@ function AboutPage(props) {
                     <p className="image-caption">I hope to have at least 2 corgis when I'm older, but for now here's a picture of my sister's corgi Denzel. 🥰</p>
                 </Col>
                 <Col sm={4}>
-                    <img src={pie} alt="Apple pie with apple design on top" className="basic-img" />
+                    <img src={applepie} alt="Apple pie with apple design on top" className="basic-img" />
                     <p className="image-caption">My sister and I baked this applie pie for Christmas! 🍎</p>
                     <img src={connie} alt="Connie and I taking a selfie" className="basic-img" />
-                    <p className="image-caption">I'm enjoy going on photoshoots with my friend Connie. Here's a pic from San Diego!</p>
+                    <p className="image-caption">I'm enjoy going on photoshoots with my friend Connie. Here's a pic from San Diego! ☀️</p>
                 </Col>
             </Row>
         </FadeIn >
