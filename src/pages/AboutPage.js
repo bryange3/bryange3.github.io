@@ -8,8 +8,8 @@ import aboutpic from '../assets/other/aboutprofpic.gif';
 import pizza from '../assets/other/pizza.gif';
 import makeup from '../assets/other/makeup.jpg';
 import denzel from '../assets/other/denzel.jpg';
-import pie from '../assets/other/applepie.JPG';
-import connie from '../assets/other/cone.JPG';
+import pie from '../assets/other/applepie.jpg';
+import connie from '../assets/other/cone.jpg';
 
 function AboutPage(props) {
     AOS.init();
