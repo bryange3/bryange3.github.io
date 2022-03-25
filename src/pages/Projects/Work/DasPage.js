@@ -64,7 +64,7 @@ function DasPage(props) {
                         </p>
 
                         <h3 className="subsection">
-                            Daily Awareness Society aims to tackle this feeling of isolation through coverage of current events through the form of a published article every week on the <a href="https://dascopy.glitch.me/" target="_blank" rel="noreferrer" className="link-underline">https://dascopy.glitch.me/</a> website.
+                            Daily Awareness Society aims to tackle this feeling of isolation through coverage of current events through the form of a published article every week on the <a href="https://dascopy.glitch.me/" target="_blank" rel="noopener noreferrer" className="link-underline">https://dascopy.glitch.me/</a> website.
                         </h3>
                         Articles range in topics such as STEM, entertainment, and lifestyle. Through promotion on social media platforms, we hope to spread awareness on key topics to other young adults.
                     </p>
@@ -77,10 +77,10 @@ function DasPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        Check out our website at <a href="https://dascopy.glitch.me/" target="_blank" rel="noreferrer" className="link-underline">https://dascopy.glitch.me/</a>!
+                        Check out our website at <a href="https://dascopy.glitch.me/" target="_blank" rel="noopener noreferrer" className="link-underline">https://dascopy.glitch.me/</a>!
                     </p>
 
-                    <a href="https://dascopy.glitch.me/" target="_blank" rel="noreferrer"><img src={dasscreenshot} alt="DAS Website Screenshot" className="project-img-medium center" /></a>
+                    <a href="https://dascopy.glitch.me/" target="_blank" rel="noopener noreferrer"><img src={dasscreenshot} alt="DAS Website Screenshot" className="project-img-medium center" /></a>
 
                 </body>
             </Content>

@@ -33,17 +33,17 @@ function HomePage(props) {
                         <Col md={width} sm={12}>
                             <div className="home-top">
                                 <div className="home-images">
-                                    <a href="https://www.bryange.com/about" id="circleme" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
+                                    <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
                                     <section id="cursor">
-                                        <a href="https://www.bryange.com/about" rel="noreferrer"><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></a>
+                                        <a href="https://www.bryange.com/about" rel="noopener noreferrer"><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></a>
                                     </section>
                                 </div>
 
                                 {props.title && <h3 className="display-6 home-title">I'm a digital product designer and developer with a love for baking and social good.</h3>}
 
                                 <div className="home-positions center">
-                                    <h3 className="home-role">🎨 Currently, I'm designing for nonprofits and building design culture at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact UIUC</a>.</h3>
-                                    {/* <h3 className="home-role">🍎 This summer, I will be a Product Design Intern at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noreferrer">Apple</a>.</h3> */}
+                                    <h3 className="home-role">🎨 Currently, I'm designing for nonprofits and building design culture at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>.</h3>
+                                    {/* <h3 className="home-role">🍎 This summer, I will be a Product Design Intern at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a>.</h3> */}
                                 </div>
                             </div>
 

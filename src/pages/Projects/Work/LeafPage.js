@@ -96,14 +96,14 @@ function LeafPage(props) {
                     <iframe title="Leaf YouTube Presentation" className="full-width" width="560" height="560" src="https://www.youtube-nocookie.com/embed/ja3pEDzQraI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <p className="paragraph">
-                        The image segmentation is done using <a href="https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc" target="_blank" rel="noreferrer" className="link-underline">Amazon Rekognition</a> software which uses machine learning to identify objects in an image and provide labels for them. We used these labels to provide relevant carbon footprint reducing suggestions. For example, if there is a water bottle in the photo uploaded, LEAF would tell the user:
+                        The image segmentation is done using <a href="https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc" target="_blank" rel="noopener noreferrer" className="link-underline">Amazon Rekognition</a> software which uses machine learning to identify objects in an image and provide labels for them. We used these labels to provide relevant carbon footprint reducing suggestions. For example, if there is a water bottle in the photo uploaded, LEAF would tell the user:
                         <blockquote>
                             "Ah, I see you drink from bottles like a civilized person! Just remember, these bottles do end up in landfills eventually, and producing them also takes so much energy! Try to switch to reusable bottles, if possible."
                         </blockquote>
                     </p>
 
                     <p className="paragraph">
-                        Check out our <a href="https://www.figma.com/file/G80m0m41vCR5qC5GoZ3QMO?node-id=0:1" target="_blank" rel="noreferrer" className="link-underline">Figma document</a> and our <a href="https://github.com/dhruvbaid/UChicagoHackathon" target="_blank" rel="noreferrer" className="link-underline">GitHub repository</a>.
+                        Check out our <a href="https://www.figma.com/file/G80m0m41vCR5qC5GoZ3QMO?node-id=0:1" target="_blank" rel="noopener noreferrer" className="link-underline">Figma document</a> and our <a href="https://github.com/dhruvbaid/UChicagoHackathon" target="_blank" rel="noopener noreferrer" className="link-underline">GitHub repository</a>.
                     </p>
 
                     <iframe title="Leaf Figma Wireframe" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FG80m0m41vCR5qC5GoZ3QMO%2FUCHI-HACKATHON-WIREFRAME%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
