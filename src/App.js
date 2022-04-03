@@ -192,7 +192,7 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link className="nav-link default" to="/">Work</Link>
                 <Link className="nav-link default" to="/about">About</Link>
-                <a className="nav-link default" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing">
+                <a className="nav-link default" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing">
                   Resume
                 </a>
                 <Link className="nav-link default" to="/photography">Photography</Link>
