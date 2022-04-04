@@ -93,6 +93,12 @@ function SSWPage(props) {
 
                         {/* <hr class="rounded" /> */}
 
+                        <br />
+
+                        <p className="impact-statement">
+                            🎉 We shipped the dashboard in February 2022 and our client has been loving it! He even believes this product can be scaled for use at other newspaper nonprofits.
+                        </p>
+
                         <p className="paragraph">
                             <p className="section">
                                 Context

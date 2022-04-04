@@ -62,6 +62,12 @@ function CargillPage(props) {
                         I am unable to publicly go in depth about my work due to <b>NDA restrictions</b>, so please contact me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> if you want to learn more!
                     </p>
 
+                    <br />
+
+                    <p className="impact-statement">
+                        💻 Our client has been using the dashboard since August 2021! In fact, this semester it's continuing development to support greater analytics features.
+                    </p>
+
                     <p className="paragraph">
                         <p className="section">
                             Process
