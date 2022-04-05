@@ -207,6 +207,7 @@ code {
 
 .my-font {
     font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
+    letter-spacing: -0.1px;
 }
 
 .nav-link {
@@ -268,8 +269,8 @@ code {
 }
 
 .project-card-title {
-    font-family: 'Be Vietnam Pro';
-    letter-spacing: -0.5px;
+    /* font-family: 'Be Vietnam Pro'; */
+    letter-spacing: -0.1px;
     font-size: 26px;
     font-weight: 600;
     margin: 0px;
@@ -450,8 +451,8 @@ blockquote {
 }
 
 .about-subtitle {
-    font-family: 'Be Vietnam Pro';
-    letter-spacing: -0.5px;
+    /* font-family: 'Be Vietnam Pro'; */
+    letter-spacing: -0.1px;
     font-size: 24px;
     font-weight: 600;
     margin-top: 1em;
@@ -642,25 +643,22 @@ footer {
 }
 
 .home-role {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: black;
 }
 
-
 /* new styling */
 
 .section {
-    margin-top: 4em;
-    text-transform: uppercase;
-    font-weight: bolder;
+    margin-top: 5em;
+    font-weight: bold;
     color: #327CBF;
-    font-size: 14px;
-    letter-spacing: 0.05em;
+    font-size: 16px;
 }
 
 .subsection {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 1em !important;
     font-size: 22px;
     font-weight: 600;
@@ -687,8 +685,8 @@ mark {
 }
 
 .case-title {
-    font-family: 'Be Vietnam Pro';
-    letter-spacing: -0.5px;
+    /* font-family: 'Be Vietnam Pro'; */
+    letter-spacing: -0.1px;
     font-size: 32px;
     font-weight: 600;
     margin-top: 0em !important;
@@ -718,10 +716,10 @@ mark {
 }
 
 .home-title {
-    font-family: 'Be Vietnam Pro';
-    letter-spacing: -1px;
+    /* font-family: 'Be Vietnam Pro'; */
+    letter-spacing: -0.1px;
     margin-top: 2em;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 600;
     padding-bottom: 0em;
     margin-bottom: 0px !important;
@@ -869,8 +867,8 @@ mark {
 
 .footer-title {
     font-size: 24px;
-    font-family: 'Be Vietnam Pro';
-    letter-spacing: -0.5px;
+    /* font-family: 'Be Vietnam Pro'; */
+    letter-spacing: -0.1px;
     font-weight: 600;
     color: #F2EDE6;
 }

@@ -26,7 +26,7 @@ function AboutPage(props) {
                 </Col>
                 <Col>
                     <p className="about-subtitle">
-                        👋 Hi there! I'm Bryan Ge.
+                        <span role="img" aria-label="Hand Waving">👋</span> Hi there! I'm Bryan Ge.
                     </p>
                     <p>
                         My pronouns are he/him and I’m a sophomore at the University of Illinois at Urbana-Champaign. I'm studying Information Sciences and graduating in May 2023.
@@ -63,10 +63,10 @@ function AboutPage(props) {
                             ✏️ Experience
                         </p>
 
-                        {/* <div className="about-experience">
+                        <div className="about-experience">
                             <strong><a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> — Incoming Product Design Intern</strong>
                         </div>
-                        <p>Summer 2022</p> */}
+                        <p>Summer 2022</p>
 
                         <div className="about-experience">
                             <strong><a className="link-underline" href="https://cargill.com/" target="_blank" rel="noopener noreferrer">Cargill</a> — UX Design Intern</strong>
@@ -119,7 +119,7 @@ function AboutPage(props) {
                     <p className="image-caption">😇 Here's the look I did for this past halloween!</p>
                 </Col>
                 <Col sm={4}>
-                    <iframe src="https://open.spotify.com/embed/playlist/6rpjNttNdMXVTU9gBbnOjS?utm_source=generator" style={{borderRadius: "5px"}} width="100%" height="480" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    <iframe src="https://open.spotify.com/embed/playlist/6rpjNttNdMXVTU9gBbnOjS?utm_source=generator" style={{ borderRadius: "5px" }} width="100%" height="480" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     <p className="image-caption">🎵 This is the playlist I blast while driving!</p>
                     <img src={denzel} alt="Denzel" className="basic-img" />
                     <p className="image-caption">I hope to have at least 2 corgis when I'm older, but for now here's a picture of my sister's corgi Denzel. 🥰</p>
