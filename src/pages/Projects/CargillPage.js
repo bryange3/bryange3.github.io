@@ -35,7 +35,7 @@ function CargillPage(props) {
                     <Col sm>
                         <b>Timeline</b>
                         <br />
-                        11 weeks
+                        May 2021 - August 2021 (11 weeks)
                     </Col>
                     <Col sm>
                         <b>Team</b>

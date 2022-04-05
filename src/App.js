@@ -80,12 +80,10 @@ class App extends React.Component {
           projectTitle: '🗳 Brink Election Voting Guide',
           description: 'Democratizing voting through a responsive and accessible election guide.',
           roles: 'Product Design • Spring 2022 Nonprofit Project • Hack4Impact',
-          type: 'Fall 2021 Nonprofit Project',
           imgSrc: brink,
           cover: brinkcover,
           path: '/brink',
           timeline: 'September 2021 - Present',
-          location: 'Champaign, IL',
           category: ['all', 'design', 'work']
         },
         {
@@ -93,12 +91,9 @@ class App extends React.Component {
           projectTitle: '📰 South Side Weekly Contributor Dashboard',
           description: 'Centralizing news story management and increasing visibility on publication issues for over 250 admin and contributors at Chicago newspaper nonprofit, South Side Weekly.',
           roles: 'Product Design • Fall 2021 Nonprofit Project • Hack4Impact',
-          type: 'Fall 2021 Nonprofit Project',
           imgSrc: ssw,
           cover: sswcover,
           path: '/southsideweekly',
-          timeline: 'September 2021 - Present',
-          location: 'Champaign, IL',
           category: ['all', 'design', 'work']
         },
         {
@@ -106,13 +101,9 @@ class App extends React.Component {
           projectTitle: '🤙 Nour Social Platform',
           description: 'Connecting the elderly in a time of social distancing.',
           roles: 'Product Design • Designathon • 1st Place at HackDuke Ideate 2021',
-          type: 'Designathon Project',
           imgSrc: nour,
           cover: nourcover,
           path: '/nour',
-          teamMembers: '3 Designers, 1 Product Marketer',
-          timeline: '24 hours',
-          location: 'Remote',
           category: ['all', 'design']
         },
         {
@@ -120,13 +111,9 @@ class App extends React.Component {
           projectTitle: '🥧 Menu Item Idea Dashboard',
           description: 'Tracking new menu item ideas for a leading fast-food restaurant.',
           roles: 'Product Design • Summer 2021 Internship • Cargill',
-          type: 'Summer 2021 Internship',
           imgSrc: cargill,
           cover: cargillcover,
           path: '/cargill',
-          teamMembers: '1 Design Intern, 3 Software Engineering Interns, 2 Product Coaches',
-          timeline: 'May 2021 - Present',
-          location: 'Remote',
           category: ['all', 'design', 'work']
         },
         {
@@ -134,13 +121,9 @@ class App extends React.Component {
           projectTitle: '🌿 Leaf Educational App',
           description: 'Educating the future generation to learn about their carbon footprint.',
           roles: 'Design Engineer • Hackathon • Winner of 2020 UChicago Hackathon',
-          type: 'Hackathon Project',
           imgSrc: leaf,
           cover: leafproject,
           path: '/leaf',
-          teamMembers: '2 Designers + Frontend Developers, 1 Backend Developer, 1 Financial Analyst',
-          timeline: '2 days',
-          location: 'Remote',
           category: ['all', 'design', 'code']
         },
         {
@@ -148,7 +131,6 @@ class App extends React.Component {
           projectTitle: '👨🏻‍🏫 STAT 107 Data Science Discovery',
           description: 'Providing support and resources for 132 students through office hours and discussion labs.',
           roles: 'Data Science • Spring 2021 Course Assistant • UIUC',
-          type: 'Teaching',
           imgSrc: stat107ca,
           cover: stat107cacover,
           path: '/stat107ca',
@@ -159,7 +141,6 @@ class App extends React.Component {
           projectTitle: '🤔 Hypothesis Tests Final Project',
           description: 'Conducting hypothesis tests on a dataset of flights for the STAT 107 Data Science Discovery final project.',
           roles: 'Data Science • Class Project • UIUC',
-          type: 'Class Project',
           imgSrc: stat107final,
           cover: stat107finalcover,
           path: '/stat107-project',
@@ -170,12 +151,9 @@ class App extends React.Component {
           projectTitle: '📝 Daily Awareness Society Blog',
           description: 'Spreading awareness on social issues.',
           roles: 'Design Engineer • Passion Project',
-          type: 'Passion Project',
           imgSrc: das,
           cover: dascover,
           path: '/das',
-          teamMembers: '4 team members',
-          timeline: 'September 2019 - January 2021',
           category: ['all', 'code']
         }
       ]

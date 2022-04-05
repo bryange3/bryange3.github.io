@@ -28,11 +28,11 @@ function DasPage(props) {
                     <Col sm>
                         <b>Timeline</b>
                         <br />
-                        {props.info.timeline}
+                        September 2019 - January 2021
                     </Col>
                     <Col sm>
                         <b>Team Members</b>
-                        <br />4 Developers + Content Creators
+                        <br />4 Developers/Content Creators
                     </Col>
                     <Col sm>
                         <b>Tech Stack</b>

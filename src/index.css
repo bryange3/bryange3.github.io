@@ -154,7 +154,7 @@ body {
 }
 
 .background-darker {
-    background-color: #e9f0f4 !important;
+    background-color: #EBF0F3 !important;
 }
 
 .background-darkest {
@@ -427,7 +427,7 @@ hr.rounded {
 }
 
 .impact-statement {
-    background: #e9f0f4;
+    background: #EBF0F3;
     border-radius: 10px;
     padding: 2%;
 }
@@ -787,7 +787,7 @@ mark {
 
 .filter.active {
     color: black;
-    background-color: #e9f0f4;
+    background-color: #EBF0F3;
     border-radius: 5px;
     transition: 1s;
 }
@@ -828,8 +828,8 @@ mark {
     padding-left: 7em;
     padding-right: 7em;
     padding-bottom: 3em;
-    /* background-color: #e9f0f4; */
-    background-color: #e9f0f4;
+    /* background-color: #EBF0F3; */
+    background-color: #EBF0F3;
     color: black;
 }
 
