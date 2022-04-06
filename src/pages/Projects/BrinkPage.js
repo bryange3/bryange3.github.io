@@ -68,7 +68,7 @@ function BrinkPage(props) {
                             </p>
 
                             <h3 className="subsection">
-                                People with disabilities do not have the same access to voting as people without disabilities.
+                                People with disabilities do not have the same access to voting information as people without disabilities.
                             </h3>
                             According to the Election Assistance Commission, voters with disabilities were nearly twice as likely as nondisabled voters to experience problems when voting. Election webpages where voters can apply to receive mail ballots often do not accommodate tools used by people who are blind, have low vision, or cannot use keyboards or a mouse…
                         </p>
@@ -93,7 +93,7 @@ function BrinkPage(props) {
                             </p>
 
                             <h3 className="subsection">
-                                This is the FigJam document I used to explore different directions and document design decisions.
+                                This is the FigJam document I use to explore different directions and document design decisions.
                             </h3>
 
                             I conducted design explorations, noted feedback, and documented product/design decisions. I was able to iterate based on conversations with Jocelyn (my co-designer!), feedback from my technical leads and developers, and weekly org-wide design critiques. We were also able to gain insights from regular <a href="https://accessibleit.disability.illinois.edu/" target="_blank" rel="noopener noreferrer" className="link-underline">UIUC Accessibility Information Technology Group</a> video calls where I learned so much about accessible web design. I'm incredibly grateful to the web accessibility experts for providing their feedback and important considerations on our designs.
