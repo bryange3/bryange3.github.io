@@ -45,7 +45,7 @@ function AboutPage(props) {
                     </p>
 
                     <p>
-                        I'm currently a Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and a part-time UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noopener noreferrer">Cargill</a>. At Hack4Impact, I'm also working on design initiatives such as having two designers per project team to foster greater design community and mentorship.
+                        I'm currently a Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and a part-time UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noopener noreferrer">Cargill</a>. At Hack4Impact, I'm also working on initiatives to improve design culture for semesters to come. This includes improving design critique, creating frameworks for 2-designer project teams, and increasing visibility for prospective members.
                     </p>
 
                     <p className="about-subtitle">

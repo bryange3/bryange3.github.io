@@ -5,6 +5,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
 
+// team photo
+import team from '../../assets/project/brink/team.jpg';
+
 function BrinkPage(props) {
     window.scrollTo(0, 0);
     const width = 10;
@@ -101,37 +104,39 @@ function BrinkPage(props) {
 
                         <iframe title="Brink Brainstorm and Iterations" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FboFLPDpPSwjdUg36m8QPs6%2FBrink-Brainstorm%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 
-                        <hr className="rounded" />
-
-                        {/* <p className="paragraph">
-                            <p className="section">
-                                Learnings
-                            </p>
-
-                            <h3 className="subsection">
-                                Design with technical and time constraints in mind, but don’t sacrifice the user experience in the process.
-                            </h3>
-
-                            Collaborating with a large development team and technical lead presented many opportunities for discussion on the cost of implementation of my designs. I learned the importance of communicating my views and listening to others’ views and reaching a <mark>compromise that would result in the most efficient development and good user experience</mark>.
-
-                            <h3 className="subsection">
-                                Communication is key in a large cross-functional team.
-                            </h3>
-
-                            I learned how to hand off designs to developers. This involved <mark>adding development notes and wireframes that take into account different states and edge cases as well as highlighting which flows and features are complete and ready for implementation versus ones that are still in progress</mark>. I also learned how to communicate my designs and decisions to my product manager, clients, and other designers during design critiques.
-
-                            <h3 className="subsection">
-                                I learned how to keep all my tasks, thoughts, research, and feedback organized in Notion and Figma.
-                            </h3>
-                        </p>
-
-                        <hr class="rounded" /> */}
-
                         <p className="paragraph">
                             Check out our Figma where Jocelyn and I handed off designs to developers, made design QA notes, and established a design system.
                         </p>
 
                         <iframe title="Brink Figma Designs" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6aJ3cfu2Yq5dxUQcNDkm6Y%2FBrink-Designs%3Fnode-id%3D34%253A2" allowfullscreen></iframe>
+
+                        <p className="paragraph">
+                            <hr className="rounded" />
+
+                            <h3 className="subsection">
+                                Big shoutout to my team for being incredible designers, developers, and leads!
+                            </h3>
+
+                            <img src={team} alt="Brink Team" className="project-img center" />
+
+                            <p className="paragraph">
+                                <Row>
+                                    <Col>
+                                        <ul>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amit-m-sawhney/">Amit Sawhney</a> (Tech Lead)</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ayan-mallik/">Ayan Mallik</a> (Tech Lead)</li>
+                                        </ul>
+                                    </Col>
+                                    <Col>
+                                        <ul>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/joosxu/">Jocelyn Xu</a> (Designer)</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/suewee/">Sue Wee</a> (Dev)</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ericccccc/">Eric Liu</a> (Dev)</li>
+                                        </ul>
+                                    </Col>
+                                </Row>
+                            </p>
+                        </p>
                     </div>
                 </body>
             </Content>
