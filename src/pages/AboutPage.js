@@ -6,7 +6,7 @@ import FadeIn from 'react-fade-in';
 
 import aboutpic from '../assets/other/aboutprofpic.gif';
 import pizza from '../assets/other/pizza.gif';
-import makeup from '../assets/other/makeup.jpg';
+import skincare from '../assets/other/skincare.png';
 import denzel from '../assets/other/denzel.jpg';
 import applepie from '../assets/other/applepie.png';
 import connie from '../assets/other/connie.png';
@@ -45,7 +45,7 @@ function AboutPage(props) {
                     </p>
 
                     <p>
-                        I'm currently a Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and a part-time UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noopener noreferrer">Cargill</a>. At Hack4Impact, I'm also working on initiatives to improve design culture for semesters to come. This includes improving design critique, creating frameworks for 2-designer project teams, and increasing visibility for prospective members.
+                        I'm currently a Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and a part-time UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noopener noreferrer">Cargill</a>. At Hack4Impact, I'm also working on initiatives to improve design culture for semesters to come. This includes improving design critique, planning workshops, and creating frameworks for 2-designer project teams.
                     </p>
 
                     <p className="about-subtitle">
@@ -115,8 +115,8 @@ function AboutPage(props) {
                 <Col sm={4}>
                     <img src={pizza} alt="Experiences Playlist" className="basic-img" />
                     <p className="image-caption">I love eating pizza with Riya at Jupiter's. 😋</p>
-                    <img src={makeup} alt="Makeup" className="basic-img" />
-                    <p className="image-caption">😇 Here's the look I did for this past halloween!</p>
+                    <img src={skincare} alt="Skincare products on countertop of bathroom" className="basic-img" />
+                    <p className="image-caption">😇 Here's my favorite skincare products from over the years.</p>
                 </Col>
                 <Col sm={4}>
                     <iframe src="https://open.spotify.com/embed/playlist/6rpjNttNdMXVTU9gBbnOjS?utm_source=generator" style={{ borderRadius: "5px" }} width="100%" height="480" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
