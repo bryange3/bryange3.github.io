@@ -44,7 +44,7 @@ function HomePage(props) {
                                 <div className="home-positions center">
                                     <h3 className="home-role">👀 Looking for a fall part-time product design or design engineer role!</h3>
                                     <h3 className="home-role">🎨 Currently, I'm designing for nonprofits and building design culture at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>.</h3>
-                                    <h3 className="home-role">🍎 This summer, I will interning at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as a Product Designer.</h3>
+                                    <h3 className="home-role">🍎 This summer, I will be interning at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as a Product Designer.</h3>
                                 </div>
                             </div>
 
