@@ -184,11 +184,7 @@ class App extends React.Component {
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
 
-          <Route path="/spotify" exact render={() => <SpotifyPage info={this.state.spotify} />} />
-          {/* <Route path='/spotify' component={() => {
-            window.location.href = 'https://bryange.notion.site/Why-Spotify-8a51071b106b4098a4232d7c182fab8a';
-            return null;
-          }} /> */}
+          {/* <Route path="/spotify" exact render={() => <SpotifyPage info={this.state.spotify} />} /> */}
 
           <Route path={this.state.workProjects[0].path} render={() => <BrinkPage info={this.state.workProjects[0]} />} />
 

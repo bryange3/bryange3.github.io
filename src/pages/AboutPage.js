@@ -128,7 +128,7 @@ function AboutPage(props) {
                     <img src={applepie} alt="Apple pie with apple design on top" className="basic-img" />
                     <p className="image-caption">My sister and I baked this applie pie for Christmas! 🍎</p>
                     <img src={connie} alt="Connie and I taking a selfie" className="basic-img" />
-                    <p className="image-caption">I'm enjoy going on photoshoots with my friend Connie. Here's a pic from San Diego! ☀️</p>
+                    <p className="image-caption">I enjoy going on photoshoots with my friend Connie. Here's a pic from San Diego! ☀️</p>
                 </Col>
             </Row>
         </FadeIn >
