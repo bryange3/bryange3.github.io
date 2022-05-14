@@ -10,7 +10,7 @@
 .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
 }
 
@@ -22,7 +22,7 @@
     text-align: center;
     width: 70vw;
     justify-content: end;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
 
 .nav-links {

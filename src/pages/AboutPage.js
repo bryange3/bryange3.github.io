@@ -17,7 +17,7 @@ function AboutPage(props) {
     return (
         <FadeIn>
             <Row className="about-top">
-                <Col className="profile-image" md={5} sm={13}>
+                <Col className="profile-image" md={4} sm={13}>
                     <img
                         class="profile-image"
                         alt="Profile"
@@ -25,46 +25,46 @@ function AboutPage(props) {
                     />
                 </Col>
                 <Col>
-                    <p className="about-subtitle">
+                    <h1 className="about-subtitle">
                         <span role="img" aria-label="Hand Waving">👋</span> Hi there! I'm Bryan Ge.
-                    </p>
+                    </h1>
                     <p>
                         My pronouns are he/him and I’m a sophomore at the University of Illinois at Urbana-Champaign. I'm studying Information Sciences and graduating in May 2023.
                     </p>
 
-                    <p className="about-subtitle">
+                    <h1 className="about-subtitle">
                         🚙 How did I get into design?
-                    </p>
+                    </h1>
                     <p>
-                        I've always been intrigued by technological innovations and how they affect our lives. Through learning computer science, I discovered the different roles in product and landed in design. Since my first project, I've been hooked in the creative process of understanding users and problems, exploring different directions, and constantly iterating.
+                        Since middle school, I've been intrigued by technology and the latest innovations. In college, I discovered the different roles in product and found myself loving design. Since my first project, I've been hooked in the creative process of understanding users and problems, exploring different directions, and constantly iterating.
                     </p>
 
 
-                    <p className="about-subtitle">
-                        🖋 What am I currently up to?
-                    </p>
+                    <h1 className="about-subtitle">
+                        🖋 What am I up to?
+                    </h1>
 
                     <p>
-                        I'm currently a Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and a part-time UX Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noopener noreferrer">Cargill</a>. At Hack4Impact, I'm also working on initiatives to improve design culture for semesters to come. This includes improving design critique, planning workshops, and creating frameworks for 2-designer project teams.
+                        Soon, I'll be interning at Apple as a Product Designer. During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and working on initiatives to improve design culture. Outside of work, I'm trying to learn how to cook more than just pasta and am also exploring new restaurants.
                     </p>
 
-                    <p className="about-subtitle">
+                    <h1 className="about-subtitle">
                         🥰 Shoutout to my friends and design moms!
-                    </p>
+                    </h1>
                     <p>
-                        I've received a ton of support from my friends and members of the design community. Their guidance and mentorship has been incredibly impactful and I am beyond appreciative of them. Thank you <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/takarasatone/">Takara Satone</a> and <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://amandahe.com/">Amanda He</a> for believing in me from the start of my design journey and <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.jacobrokaw.com/">Jake Brokaw</a> for always being open to chat and give me feedback on my work.
+                        I've received a ton of support from my friends and members of the design community. Their guidance and mentorship has been incredibly impactful and I am beyond appreciative of them. Thank you <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/takarasatone/">Takara Satone</a> and <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://amandahe.com/">Amanda He</a> for believing in me from the start of my design journey and <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.jacobrokaw.com/">Jake Brokaw</a> for constantly supporting me and giving me feedback on my work.
                     </p>
                 </Col>
             </Row>
             <Row className="project-info">
                 <p className="about-experiences">
                     <p className="paragraph">
-                        <p className="about-subtitle">
+                        <h1 className="about-subtitle">
                             ✏️ Experience
-                        </p>
+                        </h1>
 
                         <div className="about-experience">
-                            <strong><a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> — Incoming Product Design Intern</strong>
+                            <strong><a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> — Product Design Intern</strong>
                         </div>
                         <p>Summer 2022</p>
 
@@ -87,9 +87,9 @@ function AboutPage(props) {
                     <br />
 
                     <p className="paragraph">
-                        <p className="about-subtitle">
+                        <h1 className="about-subtitle">
                             📌 Projects
-                        </p>
+                        </h1>
 
                         <div className="about-experience">
                             <strong><a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> — Product Designer</strong>
@@ -97,9 +97,9 @@ function AboutPage(props) {
                         <p>Spring 2022, Fall 2021</p>
 
                         <div className="about-experience">
-                            <strong><a className="link-underline" href="https://illinoislabs.org/" target="_blank" rel="noopener noreferrer">Illinois Labs</a> — Product Designer</strong>
+                            <strong><a className="link-underline" href="https://developforgood.org/" target="_blank" rel="noopener noreferrer">Develop For Good</a> — Product Designer</strong>
                         </div>
-                        <p>Spring 2022</p>
+                        <p>Summer 2021</p>
 
                         <div className="about-experience">
                             <strong><a className="link-underline" href="https://www.trillproject.com/" target="_blank" rel="noopener noreferrer">Trill Project</a> — Design Intern</strong>
@@ -108,8 +108,10 @@ function AboutPage(props) {
                     </p>
                 </p>
             </Row>
-            <Row className="about-section about-subtitle center">
-                🍵 Here's some more about me!
+            <Row className="center">
+                <h1 className="about-section about-subtitle">
+                    🍵 Here's some more about me!
+                </h1>
             </Row>
             <Row className="about-section">
                 <Col sm={4}>
