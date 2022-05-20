@@ -29,7 +29,7 @@ function AboutPage(props) {
                         <span role="img" aria-label="Hand Waving">👋</span> Hi there! I'm Bryan Ge.
                     </h1>
                     <p>
-                        My pronouns are he/him and I’m a sophomore at the University of Illinois at Urbana-Champaign. I'm studying Information Sciences and graduating in May 2023.
+                        My pronouns are he/him and I’m an undergrad student at the University of Illinois at Urbana-Champaign. I'm studying Information Sciences and graduating in May 2023.
                     </p>
 
                     <h1 className="about-subtitle">
