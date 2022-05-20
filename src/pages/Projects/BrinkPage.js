@@ -34,7 +34,7 @@ function BrinkPage(props) {
                     <Col sm>
                         <b>Timeline</b>
                         <br />
-                        January 2022 - Present
+                        January 2022 - May 2022
                     </Col>
                     <Col sm>
                         <b>Team</b>
@@ -56,14 +56,10 @@ function BrinkPage(props) {
                 <body>
                     <div className="med-text">
                         <p className="paragraph">
-                            <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. I am currently on a team working with <a href="https://brinkapp.co/" target="_blank" rel="noopener noreferrer" className="link-underline">Brink</a>, an election voting guide nonprofit. We're building a responsive and accessible web app that serves as an election guide; the main features are the voting checklist, ballot, and FAQ.
+                            <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. This past spring semester, I worked in a team with <a href="https://brinkapp.co/" target="_blank" rel="noopener noreferrer" className="link-underline">Brink</a>, an election voting guide nonprofit. We built an accessible web app that serves as an election guide; the main features we provided voters include the voting checklist, ballot, and FAQ.
                         </p>
 
                         <br />
-
-                        <p className="impact-statement">
-                            🚧 This project is ongoing, but take a look at what we're currently working on...
-                        </p>
 
                         <p className="paragraph">
                             <p className="section">
@@ -85,7 +81,7 @@ function BrinkPage(props) {
                                 A responsive web app that serves as an election guide for all voters in the US.
                             </h3>
 
-                            This app reduces friction for users to use their voting checklist and learn about ballot candidates. There's also a huge emphasis on making sure everything is accessible for those with vision, hearing, and motor disabilities.
+                            This app reduces friction for users to use their voting checklist and learn about ballot candidates. There's an emphasis on making sure everything is accessible for those with vision, hearing, and motor disabilities.
                         </p>
 
                         <hr class="rounded" />
@@ -96,16 +92,16 @@ function BrinkPage(props) {
                             </p>
 
                             <h3 className="subsection">
-                                This is the FigJam document I use to explore different directions and document design decisions.
+                                This is the FigJam document I used to explore different directions and document design decisions.
                             </h3>
 
-                            I conducted design explorations, noted feedback, and documented product/design decisions. I was able to iterate based on conversations with Jocelyn (my co-designer!), feedback from my technical leads and developers, and weekly org-wide design critiques. We were also able to gain insights from regular <a href="https://accessibleit.disability.illinois.edu/" target="_blank" rel="noopener noreferrer" className="link-underline">UIUC Accessibility Information Technology Group</a> video calls where I learned so much about accessible web design. I'm incredibly grateful to the web accessibility experts for providing their feedback and important considerations on our designs.
+                            I conducted design explorations, noted feedback, and documented product/design decisions. I was able to iterate based on conversations with Jocelyn (my co-designer!), feedback from my technical leads and developers, and weekly org-wide design critiques. We were also able to gain insights from regular check-in calls with the <a href="https://accessibleit.disability.illinois.edu/" target="_blank" rel="noopener noreferrer" className="link-underline">UIUC Accessibility Information Technology Group</a> where I learned so much about accessible web design. I'm incredibly grateful to the web accessibility experts for providing their feedback and important considerations on our designs.
                         </p>
 
                         <iframe title="Brink Brainstorm and Iterations" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FboFLPDpPSwjdUg36m8QPs6%2FBrink-Brainstorm%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 
                         <p className="paragraph">
-                            Check out our Figma where Jocelyn and I handed off designs to developers, made design QA notes, and established a design system.
+                            Check out our Figma file where Jocelyn and I handed off designs to developers, made design QA notes, and established a design system.
                         </p>
 
                         <iframe title="Brink Figma Designs" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6aJ3cfu2Yq5dxUQcNDkm6Y%2FBrink-Designs%3Fnode-id%3D34%253A2" allowfullscreen></iframe>

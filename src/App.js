@@ -76,6 +76,17 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
+          projectTitle: '🗳 Brink Election Voting Guide',
+          description: 'Democratizing voting through a responsive and accessible election guide.',
+          roles: 'Product Design • Spring 2022 Nonprofit Project • Hack4Impact',
+          imgSrc: brink,
+          cover: brinkcover,
+          path: '/brink',
+          timeline: 'September 2021 - Present',
+          category: ['all', 'design', 'work']
+        },
+        {
+          id: 1,
           projectTitle: '📰 South Side Weekly Contributor Dashboard',
           description: 'Centralizing news story management and increasing visibility on publication issues for over 250 admin and contributors at Chicago newspaper nonprofit, South Side Weekly.',
           roles: 'Product Design • Fall 2021 Nonprofit Project • Hack4Impact',
@@ -85,7 +96,7 @@ class App extends React.Component {
           category: ['all', 'design', 'work']
         },
         {
-          id: 1,
+          id: 2,
           projectTitle: '🤙 Nour Social Platform',
           description: 'Connecting the elderly in a time of social distancing.',
           roles: 'Product Design • Designathon • 1st Place at HackDuke Ideate 2021',
@@ -93,17 +104,6 @@ class App extends React.Component {
           cover: nourcover,
           path: '/nour',
           category: ['all', 'design']
-        },
-        {
-          id: 2,
-          projectTitle: '🗳 Brink Election Voting Guide',
-          description: 'Democratizing voting through a responsive and accessible election guide.',
-          roles: 'Product Design • Spring 2022 Nonprofit Project • Hack4Impact',
-          imgSrc: brink,
-          cover: brinkcover,
-          path: '/brink',
-          timeline: 'September 2021 - Present',
-          category: ['all', 'design', 'work']
         },
         {
           id: 3,
@@ -185,11 +185,11 @@ class App extends React.Component {
 
           {/* <Route path="/spotify" exact render={() => <SpotifyPage info={this.state.spotify} />} /> */}
 
-          <Route path={this.state.workProjects[0].path} render={() => <SSWPage info={this.state.workProjects[0]} />} />
+          <Route path={this.state.workProjects[0].path} render={() => <BrinkPage info={this.state.workProjects[0]} />} />
 
-          <Route path={this.state.workProjects[1].path} render={() => <NourPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
 
-          <Route path={this.state.workProjects[2].path} render={() => <BrinkPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <NourPage info={this.state.workProjects[2]} />} />
 
           <Route path={this.state.workProjects[3].path} render={() => <CargillPage info={this.state.workProjects[3]} />} />
 
