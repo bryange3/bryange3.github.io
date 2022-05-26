@@ -45,7 +45,7 @@ function AboutPage(props) {
                     </h1>
 
                     <p>
-                        Soon, I'll be interning at Apple as a Product Designer. During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and working on initiatives to improve design culture. Outside of work, I'm trying to learn how to cook more than just pasta and am also exploring new restaurants.
+                        I'm currently interning at Apple as a Product Design Intern. During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and working on initiatives to improve design culture. Outside of work, I'm trying to learn how to cook more than just pasta and am also exploring new restaurants.
                     </p>
 
                     <h1 className="about-subtitle">
