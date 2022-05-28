@@ -41,7 +41,7 @@ function HomePage(props) {
                                     <div className="home-positions center">
                                         <h2 className="home-role"><span role='img' aria-label='cloud'>☁️</span> I am interning at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as a Product Designer!</h2>
                                         <h2 className="home-role"><span role='img' aria-label='paint palette'>🎨</span> During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>.</h2>
-                                        <h2 className="home-role"><span role='img' aria-label='eyes'>👀</span> I'm also seeking a part-time product design or design engineer role for the fall.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='eyes'>👀</span> I'm also seeking a product design or design engineer internship for the fall.</h2>
                                     </div>
                                 </Col>
                             </Row>
