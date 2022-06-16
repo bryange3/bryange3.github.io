@@ -56,15 +56,8 @@ class App extends React.Component {
       home: {
         title: 'I\'m a product designer + developer with a love for baking and social good!',
       },
-      // play: {
-      //   title: '🤓 For Fun',
-      //   subTitle: 'Here are some of my smaller personal projects.'
-      // },
       about: {
       },
-      // resume: {
-      //   title: '📎 Check out my experiences.'
-      // },
       photography: {
       },
       workProjects: [
@@ -72,7 +65,7 @@ class App extends React.Component {
           id: 0,
           projectTitle: '🗳 Brink Election Voting Guide',
           description: 'Democratizing voting through a responsive and accessible election guide.',
-          roles: 'Product Design • Spring 2022 Nonprofit Project at Hack4Impact',
+          roles: 'Product Design • Nonprofit Project',
           imgSrc: brink,
           cover: brinkcover,
           path: '/brink',
@@ -83,7 +76,7 @@ class App extends React.Component {
           id: 1,
           projectTitle: '📰 South Side Weekly Contributor Dashboard',
           description: 'Centralizing news story management and increasing visibility on publication issues for over 250 admin and contributors at Chicago newspaper nonprofit, South Side Weekly.',
-          roles: 'Product Design • Fall 2021 Nonprofit Project at Hack4Impact',
+          roles: 'Product Design • Nonprofit Project',
           imgSrc: ssw,
           cover: sswcover,
           path: '/southsideweekly',
@@ -93,7 +86,7 @@ class App extends React.Component {
           id: 2,
           projectTitle: '🤙 Nour Social Platform',
           description: 'Connecting the elderly in a time of social distancing.',
-          roles: 'Product Design • 1st Place at HackDuke Ideate Designathon',
+          roles: 'Product Design • 1st Place at HackDuke Designathon',
           imgSrc: nour,
           cover: nourcover,
           path: '/nour',
@@ -103,7 +96,7 @@ class App extends React.Component {
           id: 3,
           projectTitle: '🥧 Menu Item Idea Dashboard',
           description: 'Tracking new menu item ideas for a leading fast-food restaurant.',
-          roles: 'Product Design • Summer 2021 Internship at Cargill',
+          roles: 'Product Design • Cargill Summer 2021 Internship',
           imgSrc: cargill,
           cover: cargillcover,
           path: '/cargill',
@@ -113,7 +106,7 @@ class App extends React.Component {
           id: 4,
           projectTitle: '🌿 Leaf Educational App',
           description: 'Educating the future generation to learn about their carbon footprint.',
-          roles: 'Design Engineer • Hackathon • Winner of 2020 UChicago Hackathon',
+          roles: 'Design Engineer • Winner of UChicago Hackathon',
           imgSrc: leaf,
           cover: leafproject,
           path: '/leaf',
@@ -123,7 +116,7 @@ class App extends React.Component {
           id: 5,
           projectTitle: '👨🏻‍🏫 STAT 107 Data Science Discovery',
           description: 'Providing support and resources for 132 students through office hours and discussion labs.',
-          roles: 'Data Science • Spring 2021 Course Assistant',
+          roles: 'Data Science • Course Assistant',
           imgSrc: stat107ca,
           cover: stat107cacover,
           path: '/stat107ca',
