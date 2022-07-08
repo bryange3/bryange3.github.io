@@ -29,7 +29,7 @@ function AboutPage(props) {
                         <span role="img" aria-label="Hand Waving">👋</span> Hi there! I'm Bryan Ge.
                     </h1>
                     <p>
-                        My pronouns are he/him and I’m an undergrad student at the University of Illinois at Urbana-Champaign. I'm studying Information Sciences and graduating in May 2023.
+                        My pronouns are he/him and I’m an undergrad student at the University of Illinois at Urbana-Champaign. I'm studying Information Sciences and graduating in December 2023.
                     </p>
 
                     <h1 className="about-subtitle">
@@ -45,7 +45,7 @@ function AboutPage(props) {
                     </h1>
 
                     <p>
-                        I'm currently interning at Apple as a Product Design Intern. During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and working on initiatives to improve design culture. Outside of work, I'm trying to learn how to cook more than just pasta and am also exploring new restaurants.
+                        I'm currently interning at Apple as a Product Design Intern on the iCloud Human Interface Team. During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and working on initiatives to improve design culture. Outside of work, I'm learning how to cook more than just pasta and am searching for the best sunset views.
                     </p>
 
                     <h1 className="about-subtitle">
