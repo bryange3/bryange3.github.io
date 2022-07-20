@@ -64,7 +64,7 @@ function AboutPage(props) {
                         </h1>
 
                         <div className="about-experience">
-                            <strong><a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> — Product Design Intern</strong>
+                            <strong><a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> — Product Design Intern, iCloud</strong>
                         </div>
                         <p>Summer 2022</p>
 

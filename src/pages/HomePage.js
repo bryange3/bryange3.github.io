@@ -36,12 +36,12 @@ function HomePage(props) {
                                     <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={bottomimage} className="home-image" alt="selfie of me, Bryan, slightly smiling, against a plain white wall" /></a>
                                 </Col>
                                 <Col home-text>
-                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a digital product designer with a love for baking and social good.</h1>
+                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer with a love for <span role='img' aria-label='mountain'>🏔</span><a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">hiking</a> and <span role='img' aria-label='sushi'>🍣</span><a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">eating</a>.</h1>
 
                                     <div className="home-positions center">
                                         <h2 className="home-role"><span role='img' aria-label='cloud'>☁️</span> I am interning at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as an iCloud Product Designer!</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> I'm currently seeking a UX internship for this fall.</h2>
                                         <h2 className="home-role"><span role='img' aria-label='paint palette'>🎨</span> During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>.</h2>
-                                        <h2 className="home-role"><span role='img' aria-label='eyes'>👀</span> I'm also seeking a product design or design engineer internship for the fall.</h2>
                                     </div>
                                 </Col>
                             </Row>
