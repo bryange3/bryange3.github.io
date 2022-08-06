@@ -40,8 +40,8 @@ function HomePage(props) {
 
                                     <div className="home-positions center">
                                         <h2 className="home-role"><span role='img' aria-label='cloud'>☁️</span> I am interning at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as an iCloud Product Designer!</h2>
-                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> I'm currently seeking a UX internship for this fall.</h2>
                                         <h2 className="home-role"><span role='img' aria-label='paint palette'>🎨</span> During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> I'm studying Info Sci at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">UIUC</a> and graduating December 2023.</h2>
                                     </div>
                                 </Col>
                             </Row>

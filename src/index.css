@@ -263,13 +263,13 @@ code {
     border-radius: 5px;
     /* border: 2px solid #E6E6E6; */
     border: 0;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.053);
+    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.053); */
     transition: 0.3s;
 }
 
 .project-card-image:hover {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.118);
-    transform: translateY(-0.4em);
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.118); */
+    transform: translateY(-0.5em);
     transition: 0.3s;
 }
 

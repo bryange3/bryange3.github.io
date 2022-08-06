@@ -14,6 +14,9 @@ import dascover from './assets/project/das/dascover.png';
 import leaf from './assets/project/leaf/leaf.png';
 import leafproject from './assets/project/leaf/leafproject.png';
 
+import apple from './assets/project/apple/apple.png';
+import applecover from './assets/project/apple/applecover.png';
+
 import brink from './assets/project/brink/brink.png';
 import brinkcover from './assets/project/brink/brinkcover.png';
 
@@ -39,6 +42,7 @@ import AboutPage from './pages/AboutPage';
 import PhotographyPage from './pages/PhotographyPage';
 
 // projects
+import ApplePage from './pages/Projects/ApplePage.js';
 import BrinkPage from './pages/Projects/BrinkPage.js';
 import SSWPage from './pages/Projects/SSWPage.js';
 import NourPage from './pages/Projects/NourPage.js';
@@ -63,6 +67,17 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
+          projectTitle: '☁️ Apple iCloud Product Design Internship',
+          description: 'Enhancing Legacy Contact, a feature that lets users share account and data access after their death.',
+          roles: 'Product Design • Apple Summer 2022 Internship',
+          imgSrc: apple,
+          cover: applecover,
+          path: '/apple',
+          timeline: 'May 2022 - Present',
+          category: ['all', 'design', 'work']
+        },
+        {
+          id: 1,
           projectTitle: '🗳 Brink Election Voting Guide',
           description: 'Democratizing voting through a responsive and accessible election guide.',
           roles: 'Product Design • Nonprofit Project',
@@ -73,7 +88,7 @@ class App extends React.Component {
           category: ['all', 'design', 'work']
         },
         {
-          id: 1,
+          id: 2,
           projectTitle: '📰 South Side Weekly Contributor Dashboard',
           description: 'Centralizing news story management and increasing visibility on publication issues for over 250 admin and contributors at Chicago newspaper nonprofit, South Side Weekly.',
           roles: 'Product Design • Nonprofit Project',
@@ -83,7 +98,7 @@ class App extends React.Component {
           category: ['all', 'design', 'work']
         },
         {
-          id: 2,
+          id: 3,
           projectTitle: '🤙 Nour Social Platform',
           description: 'Connecting the elderly in a time of social distancing.',
           roles: 'Product Design • 1st Place at HackDuke Designathon',
@@ -93,7 +108,7 @@ class App extends React.Component {
           category: ['all', 'design']
         },
         {
-          id: 3,
+          id: 4,
           projectTitle: '🥧 Menu Item Idea Dashboard',
           description: 'Tracking new menu item ideas for a leading fast-food restaurant.',
           roles: 'Product Design • Cargill Summer 2021 Internship',
@@ -103,7 +118,7 @@ class App extends React.Component {
           category: ['all', 'design', 'work']
         },
         {
-          id: 4,
+          id: 5,
           projectTitle: '🌿 Leaf Educational App',
           description: 'Educating the future generation to learn about their carbon footprint.',
           roles: 'Design Engineer • Winner of UChicago Hackathon',
@@ -113,7 +128,7 @@ class App extends React.Component {
           category: ['all', 'design', 'code']
         },
         {
-          id: 5,
+          id: 6,
           projectTitle: '👨🏻‍🏫 STAT 107 Data Science Discovery',
           description: 'Providing support and resources for 132 students through office hours and discussion labs.',
           roles: 'Data Science • Course Assistant',
@@ -123,7 +138,7 @@ class App extends React.Component {
           category: ['all', 'ds', 'work']
         },
         {
-          id: 6,
+          id: 7,
           projectTitle: '🤔 Hypothesis Tests Final Project',
           description: 'Conducting hypothesis tests on a dataset of flights for the STAT 107 Data Science Discovery final project.',
           roles: 'Data Science • Class Project',
@@ -133,7 +148,7 @@ class App extends React.Component {
           category: ['all', 'ds', 'code']
         },
         {
-          id: 7,
+          id: 8,
           projectTitle: '📝 Daily Awareness Society Blog',
           description: 'Spreading awareness on social issues.',
           roles: 'Web Developer • Passion Project',
@@ -172,21 +187,23 @@ class App extends React.Component {
 
           {/* <Route path="/spotify" exact render={() => <SpotifyPage info={this.state.spotify} />} /> */}
 
-          <Route path={this.state.workProjects[0].path} render={() => <BrinkPage info={this.state.workProjects[0]} />} />
+          <Route path={this.state.workProjects[0].path} render={() => <ApplePage info={this.state.workProjects[0]} />} />
 
-          <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <BrinkPage info={this.state.workProjects[1]} />} />
 
-          <Route path={this.state.workProjects[2].path} render={() => <NourPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <SSWPage info={this.state.workProjects[2]} />} />
 
-          <Route path={this.state.workProjects[3].path} render={() => <CargillPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <NourPage info={this.state.workProjects[3]} />} />
 
-          <Route path={this.state.workProjects[4].path} render={() => <LeafPage info={this.state.workProjects[4]} />} />
+          <Route path={this.state.workProjects[4].path} render={() => <CargillPage info={this.state.workProjects[4]} />} />
 
-          <Route path={this.state.workProjects[5].path} render={() => <CAPage info={this.state.workProjects[5]} />} />
+          <Route path={this.state.workProjects[5].path} render={() => <LeafPage info={this.state.workProjects[5]} />} />
 
-          <Route path={this.state.workProjects[6].path} render={() => <StatFinalPage info={this.state.workProjects[6]} />} />
+          <Route path={this.state.workProjects[6].path} render={() => <CAPage info={this.state.workProjects[6]} />} />
 
-          <Route path={this.state.workProjects[7].path} render={() => <DasPage info={this.state.workProjects[7]} />} />
+          <Route path={this.state.workProjects[7].path} render={() => <StatFinalPage info={this.state.workProjects[7]} />} />
+
+          <Route path={this.state.workProjects[8].path} render={() => <DasPage info={this.state.workProjects[8]} />} />
 
           <ScrollArrow />
           <Footer />
