@@ -795,7 +795,7 @@ mark {
 
 .filter.active {
     color: black;
-    background-color: #EBF0F3;
+    background-color: #F5F5F7;
     border-radius: 5px;
     transition: 1s;
 }
