@@ -91,17 +91,17 @@ function SSWPage(props) {
                         </p>
                         
                         <p className="paragraph">
-                            <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. I am apart of a team that is working with <a href="https://southsideweekly.com/" target="_blank" rel="noopener noreferrer" className="link-underline">South Side Weekly</a>, a Chicago news nonprofit, in building a web-based dashboard for 250+ users to manage the submission, approval, and viewing of pitches.
+                            <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. I was part of a team working with <a href="https://southsideweekly.com/" target="_blank" rel="noopener noreferrer" className="link-underline">South Side Weekly</a>, a Chicago newspaper nonprofit, to build a web-based dashboard for 250+ users to manage stories and contributors.
                         </p>
 
                         <p className="paragraph">
-                            This project was taken on by Hack4Impact in the spring semester. I joined the project this fall semester and replaced the original product designer.
+                            This project was taken on by Hack4Impact in the spring 2021 semester. I joined the project during the fall 2021 semester as the sole designer of the team.
                         </p>
 
                         <br />
 
                         <p className="impact-statement">
-                            🎉 We shipped the dashboard in February 2022 and our client has been loving it! He even believes this product can be scaled for use at other newspaper nonprofits.
+                            🎉 We shipped the dashboard in February 2022 and our client has been loving it! The managing director even believes this product can be scaled for use at other newspaper nonprofits.
                         </p>
 
                         <p className="paragraph">
@@ -125,7 +125,7 @@ function SSWPage(props) {
                             </p>
 
                             <h3 className="subsection">
-                                South Side Weekly's current pitch management system is decentralized and unorganized. Users join stories, submit pitch ideas, and make approvals across multiple platforms.
+                                South Side Weekly's existing story management system was decentralized and unorganized. Users join stories, submit pitch ideas, and make approvals across multiple platforms.
                             </h3>
 
                             <img src={problemplatforms} alt="Problem Platforms" className="project-img-smallish center" />
@@ -137,7 +137,7 @@ function SSWPage(props) {
                         </p>
 
                         <h3 className="subsection">
-                            In fact, the current process of contributors joining pitches varies. Some join via Slack messages and others join via email.
+                            In fact, the existing process of contributors joining pitches varies. Some join via Slack messages and others join via email.
                         </h3>
 
                         <p className="paragraph">
