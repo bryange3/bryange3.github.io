@@ -86,6 +86,10 @@ function SSWPage(props) {
             <Content width={width}>
                 <body>
                     <div className="med-text">
+                        <p className="section">
+                            Summary
+                        </p>
+                        
                         <p className="paragraph">
                             <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. I am apart of a team that is working with <a href="https://southsideweekly.com/" target="_blank" rel="noopener noreferrer" className="link-underline">South Side Weekly</a>, a Chicago news nonprofit, in building a web-based dashboard for 250+ users to manage the submission, approval, and viewing of pitches.
                         </p>
@@ -407,18 +411,18 @@ function SSWPage(props) {
                                 <Row>
                                     <Col>
                                         <ul>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sahithimuthyala/">Sahi Muthyala</a> (PM)</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amit-m-sawhney/">Amit Sawhney</a> (Tech Lead)</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ayan-mallik/">Ayan Mallik</a> (Dev)</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/neha-konjeti-574135199/">Neha Konjeti</a> (Dev)</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sahithimuthyala/">Sahi Muthyala</a>, Product Manager</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amit-m-sawhney/">Amit Sawhney</a>, Technical Lead</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ayan-mallik/">Ayan Mallik</a>, Software Developer</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/neha-konjeti-574135199/">Neha Konjeti</a>, Software Developer</li>
                                         </ul>
                                     </Col>
                                     <Col>
                                         <ul>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/feiyuwong/">Andy Wong</a> (Dev)</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zorazhang28/">Zora Zhang</a> (Dev)</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/andrew-s-lester/">Andrew Lester</a> (Dev)</li>
-                                            <li>Aditya Jain (Dev)</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/feiyuwong/">Andy Wong</a>, Software Developer</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zorazhang28/">Zora Zhang</a>, Software Developer</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/andrew-s-lester/">Andrew Lester</a>, Software Developer</li>
+                                            <li>Aditya Jain, Software Developer</li>
                                         </ul>
                                     </Col>
                                 </Row>

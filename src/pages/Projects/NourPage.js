@@ -38,8 +38,8 @@ function NourPage(props) {
                     </Col>
                     <Col sm>
                         <b>Timeline</b>
-                        <br />
-                        April 10-11, 2021 (24 hours)
+                        <br />April 10-11, 2021
+                        <br />(24 hours)
                     </Col>
                     <Col sm>
                         <b>Team</b>
@@ -58,19 +58,10 @@ function NourPage(props) {
             <Content width={width}>
                 <body>
                     <div className="med-text">
-                        <br />
-                        Our project received the following prizes for the HackDuke Ideate 2021 Designathon:
-                        <ul>
-                            <li>
-                                1st Place for Huawei Innovation Awards
-                            </li>
-                            <li>
-                                1st Place for Caring House Challenge
-                            </li>
-                        </ul>
-
-                        <hr class="rounded" />
-
+                        <p className="impact-statement">
+                            🎊 Our project received 1st Place for the Huawei Innovation Awards and for the Caring House Challenge at the HackDuke Ideate 2021 Designathon!
+                        </p>
+                        
                         <p className="paragraph">
                             <p className="section">
                                 Challenge
@@ -122,7 +113,7 @@ function NourPage(props) {
                         </p>
 
                         <p className="paragraph impact-statement">
-                            <span role="img" aria-label="point finger">👉</span> Designing all the visual elements to be as accessible as possible was our top priority. I chose to use large text, contrasting colors, and labels that our target audience would be able to easily understand. I also brought this approach to the various user experiences throughout the app as detailed below.
+                            <span role="img" aria-label="point finger">👉</span> Designing all the visual elements to be as accessible as possible was our top priority. I chose to use contrasting colors and labels that our target users would be able to easily understand. I also brought this approach to the various user flows throughout the app as detailed below.
                         </p>
 
                         <p className="paragraph">
@@ -186,7 +177,7 @@ function NourPage(props) {
                                 I called local home care facilities and read online sources when defining our problem space.
                             </h3>
 
-                            <img src={stats} alt="Research Statistics" className="project-img-medium center" />
+                            <img src={stats} alt="Research Statistics" className="project-img-small center" />
 
                             Based on our research, we decided to <mark>tackle the lack of social interaction that many home care patients face</mark>. Ideating a solution for this problem was challenging and took lots of brainstorming. We saw the rise of Clubhouse, an audio chatroom social network, in connecting people virtually, so we decided to make a version for elders that specifically focused on accessibility.
                         </p>
@@ -261,7 +252,7 @@ function NourPage(props) {
                     </div>
 
                     <img src={redesign} alt="What I'd do differently" className="project-img center" />
-                    
+
                     <div className="med-text">
                         <p className="paragraph">
                             <p className="section">

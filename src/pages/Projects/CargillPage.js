@@ -34,8 +34,8 @@ function CargillPage(props) {
                     </Col>
                     <Col sm>
                         <b>Timeline</b>
-                        <br />
-                        May 2021 - August 2021 (11 weeks)
+                        <br />May 2021 - August 2021
+                        <br />(11 weeks)
                     </Col>
                     <Col sm>
                         <b>Team</b>
@@ -99,9 +99,6 @@ function CargillPage(props) {
 
                     <p className="paragraph">
                         <hr className="rounded" />
-                        <h3 className="subsection">
-                            Thank you to my amazing developers, summer was fun! 🥰
-                        </h3>
 
                         <Row>
                             <Col>
@@ -112,6 +109,9 @@ function CargillPage(props) {
                             </Col>
                         </Row>
 
+                        <h3 className="subsection">
+                            Thank you to my amazing developers, summer was fun! 🥰
+                        </h3>
 
                         <p className="paragraph">
                             <ul>

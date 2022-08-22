@@ -437,7 +437,7 @@ hr.rounded {
 }
 
 .impact-statement {
-    background: #EBF0F3;
+    background: #F5F5F7;
     border-radius: 10px;
     padding: 2%;
 }
@@ -832,7 +832,7 @@ mark {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     padding-left: 7em;
     padding-right: 7em;
     padding-bottom: 3em;

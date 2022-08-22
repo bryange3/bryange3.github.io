@@ -30,8 +30,8 @@ function LeafPage(props) {
                     </Col>
                     <Col sm>
                         <b>Timeline</b>
-                        <br />
-                        December 15-17, 2020 (2 days)
+                        <br />December 15-17, 2020
+                        <br />(2 days)
                     </Col>
                     <Col sm>
                         <b>Team</b>

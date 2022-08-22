@@ -6,7 +6,8 @@ import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
 
 // team photo
-import team from '../../assets/project/brink/team.jpg';
+import teamdtown from '../../assets/project/brink/team.jpg';
+import teamdevnight from '../../assets/project/brink/brinkdevnight.jpg';
 
 function BrinkPage(props) {
     window.scrollTo(0, 0);
@@ -56,10 +57,11 @@ function BrinkPage(props) {
                 <body>
                     <div className="med-text">
                         <p className="paragraph">
+                            <p className="section">
+                                Summary
+                            </p>
                             <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. This past spring semester, I worked in a team with <a href="https://brinkapp.co/" target="_blank" rel="noopener noreferrer" className="link-underline">Brink</a>, an election voting guide nonprofit. We built an accessible web app that serves as an election guide; the main features we provided voters include the voting checklist, ballot, and FAQ.
                         </p>
-
-                        <br />
 
                         <p className="paragraph">
                             <p className="section">
@@ -109,25 +111,32 @@ function BrinkPage(props) {
                         <p className="paragraph">
                             <hr className="rounded" />
 
+                            <Row>
+                                <Col>
+                                    <img src={teamdtown} alt="Brink Team in Downtown Champaign" className="project-img center" />
+                                </Col>
+                                <Col>
+                                    <img src={teamdevnight} alt="Brink Team eating pizza at dev night" className="project-img center" />
+                                </Col>
+                            </Row>
+
                             <h3 className="subsection">
                                 Big shoutout to my team for being incredible designers, developers, and leads!
                             </h3>
-
-                            <img src={team} alt="Brink Team" className="project-img center" />
 
                             <p className="paragraph">
                                 <Row>
                                     <Col>
                                         <ul>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amit-m-sawhney/">Amit Sawhney</a> (Tech Lead)</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ayan-mallik/">Ayan Mallik</a> (Tech Lead)</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amit-m-sawhney/">Amit Sawhney</a>, Technical Lead</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ayan-mallik/">Ayan Mallik</a>, Technical Lead</li>
                                         </ul>
                                     </Col>
                                     <Col>
                                         <ul>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/joosxu/">Jocelyn Xu</a> (Designer)</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/suewee/">Sue Wee</a> (Dev)</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ericccccc/">Eric Liu</a> (Dev)</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/joosxu/">Jocelyn Xu</a>, Product Designer</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/suewee/">Sue Wee</a>, Software Developer</li>
+                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ericccccc/">Eric Liu</a>, Software Developer</li>
                                         </ul>
                                     </Col>
                                 </Row>

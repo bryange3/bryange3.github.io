@@ -30,8 +30,8 @@ function ApplePage(props) {
                     </Col>
                     <Col sm>
                         <b>Timeline</b>
-                        <br />
-                        May 2022 - Present
+                        <br />May 2022 - Present
+                        <br />(19 weeks)
                     </Col>
                     <Col sm>
                         <b>Team</b>
@@ -50,7 +50,41 @@ function ApplePage(props) {
             <Content width={width}>
                 <body>
                     <div className="med-text">
+                        <p className='section'>
+                            Summary
+                        </p>
+
                         I am currently interning on the <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.apple.com/icloud/">iCloud</a> Human Interface Team as a product designer. I'm collaborating with designers and engineers to enhance the existing <a className="link-underline" target="_blank" rel="noreferrer" href="https://support.apple.com/en-us/HT212360">Legacy Contact</a> account feature which lets users share account and data access after their death.
+
+                        <p className="paragraph">
+                            <p className="section">
+                                Learnings
+                            </p>
+
+                            <h3 className="subsection">
+                                Step back and provide context for stakeholders.
+                            </h3>
+
+                            <p className="paragraph">
+                                I got to meet with iCloud engineering and other teams and I learned that sharing your reasoning and higher-level vision for decisions is helpful for stakeholders to understand your thought process.
+                            </p>
+
+                            <h3 className="subsection">
+                                Language greatly impacts the user experience.
+                            </h3>
+
+                            <p className="paragraph">
+                                I had the opportunity to work with UX writers on the copy for my project. I learned about the purpose and power of voice, and how to use words to guide users through different flows.
+                            </p>
+
+                            <h3 className="subsection">
+                                Utilize existing components and patterns.
+                            </h3>
+
+                            <p className="paragraph">
+                                During my internship, I continuously explored iOS and macOS, designing with what already exists so users understand what actions they can take and don’t need to build new mental models.
+                            </p>
+                        </p>
 
                         <p className="paragraph">
                             <hr className="rounded" />
