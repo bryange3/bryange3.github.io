@@ -54,7 +54,7 @@ function ApplePage(props) {
                             Summary
                         </p>
 
-                        I am currently interning on the <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.apple.com/icloud/">iCloud</a> Human Interface Team as a product designer. I'm collaborating with designers and engineers to enhance the existing <a className="link-underline" target="_blank" rel="noreferrer" href="https://support.apple.com/en-us/HT212360">Legacy Contact</a> account feature which lets users share account and data access after their death.
+                        I am currently interning on the <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.apple.com/icloud/">iCloud</a> Human Interface Team as a product designer. I'm collaborating with UX writers, designers, and engineers to enhance the existing <a className="link-underline" target="_blank" rel="noreferrer" href="https://support.apple.com/en-us/HT212360">Legacy Contact</a> feature for Apple accounts which lets users share account and data access after their death.
 
                         <p className="paragraph">
                             <p className="section">
