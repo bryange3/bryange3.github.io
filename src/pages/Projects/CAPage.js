@@ -15,7 +15,7 @@ function CAPage(props) {
         <FadeIn>
             <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
 
-            <Row className="project-info" width={width}>
+            <Row className="project-info mobile-padding" width={width}>
                 <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
 
                 <Row>
@@ -31,8 +31,7 @@ function CAPage(props) {
                     </Col>
                     <Col sm>
                         <b>Timeline</b>
-                        <br />January 2021 - May 2021
-                        <br />(Spring 2021 Semester)
+                        <br />January - May 2021
                     </Col>
                 </Row>
             </Row>

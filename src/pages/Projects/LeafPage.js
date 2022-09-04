@@ -13,7 +13,7 @@ function LeafPage(props) {
         <FadeIn>
             <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
 
-            <Row className="project-info" width={width}>
+            <Row className="project-info mobile-padding" width={width}>
                 <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
 
                 <Row>
@@ -23,15 +23,15 @@ function LeafPage(props) {
                         <br />Frontend Developer
                     </Col>
                     <Col sm>
-                        <b>Skills</b>
-                        <br />Product Research
-                        <br />Interface Design
-                        <br />Frontend Development
+                        <b>Timeline</b>
+                        {/* <br />December 15-17, 2020 */}
+                        <br />2 days
                     </Col>
                     <Col sm>
-                        <b>Timeline</b>
-                        <br />December 15-17, 2020
-                        <br />(2 days)
+                        <b>Skills</b>
+                        <br />Product Research
+                        <br />Interaction Design
+                        <br />Frontend Development
                     </Col>
                     <Col sm>
                         <b>Team</b>

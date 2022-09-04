@@ -8,7 +8,7 @@ import FadeIn from 'react-fade-in';
 // import styled, { keyframes } from 'styled-components';
 import Sticky from 'react-sticky-el';
 
-import bottomimage from '../assets/other/bottomimage.png';
+import bottomimage from '../assets/other/denim.jpg';
 // import topcursor from '../assets/other/topcursor.png';
 
 // Animation code derived from: https://www.npmjs.com/package/react-animations
@@ -36,27 +36,27 @@ function HomePage(props) {
                                     <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={bottomimage} className="home-image" alt="selfie of me, Bryan, slightly smiling, against a plain white wall" /></a>
                                 </Col>
                                 <Col home-text>
-                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer with a love for <span role='img' aria-label='mountain'>🏔</span><a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">hiking</a> and <span role='img' aria-label='sushi'>🍣</span><a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">eating</a>.</h1>
+                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer with a love for <a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">hiking</a> and <a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">eating</a>.</h1>
 
                                     <div className="home-positions center">
-                                        <h2 className="home-role"><span role='img' aria-label='cloud'>☁️</span> I am interning at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as an iCloud Product Designer!</h2>
-                                        <h2 className="home-role"><span role='img' aria-label='paint palette'>🎨</span> During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>.</h2>
-                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> I'm studying Info Sci at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a> and graduating December 2023.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> I am interning at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as an iCloud product designer.</h2>
+
+                                        {/* <h2 className="home-role"><span role='img' aria-label='paint palette'>🎨</span> During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>.</h2> */}
+
+                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> I'm a junior studying information sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a>.</h2>
+
+                                        <h2 className="home-role"><span role='img' aria-label='magnifying glass'>🔍</span> Currently, I'm seeking a summer 2023 internship.</h2>
                                     </div>
                                 </Col>
                             </Row>
-                            <div >
 
-
-                                {/* <div className="home-images">
+                            {/* <div className="home-images">
                                     <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
                                     <section id="cursor">
                                         <a href="https://www.bryange.com/about" rel="noopener noreferrer"><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" aria-label="Hi, I'm Bryan!" /></a>
                                     </section>
                                 </div> */}
 
-
-                            </div>
                             <Col>
                                 <Row>
                                     <Col md={width - 5} className="filter-section">

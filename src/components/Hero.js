@@ -23,8 +23,6 @@ function Hero(props) {
                     <Col md={props.width} sm={12} className="hero">
                         {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>}
                         {props.title && <h4 className="display-5 font-weight-bolder">{props.title}</h4>}
-                        {props.subTitle && <h4 className="display-5 font-weight-normal">{props.subTitle}</h4>}
-
                         {props.projectTitle && <h2 className="case-title">{props.projectTitle}</h2>}
                         {props.description && <h3 className="display-5 font-weight-normal project-description">{props.description}</h3>}
                         {props.small && <h3 className="font-weight-normal mt-4 small-description">{props.small}</h3>}

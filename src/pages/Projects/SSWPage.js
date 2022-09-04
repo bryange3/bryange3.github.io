@@ -44,7 +44,7 @@ function SSWPage(props) {
         <FadeIn>
             <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
 
-            <Row className="project-info" width={width}>
+            <Row className="project-info mobile-padding" width={width}>
                 <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
 
                 <Row>
@@ -53,18 +53,15 @@ function SSWPage(props) {
                         <br />Product Designer
                     </Col>
                     <Col sm>
-                        <b>Skills</b>
-                        <br />User Research
-                        <br />Product Thinking
-                        <br />Interaction Design
-                        <br />Interface Design
-                        <br />Usability Testing
-                        <br />Content Writing
+                        <b>Timeline</b>
+                        <br />September 2021 - January 2022
                     </Col>
                     <Col sm>
-                        <b>Timeline</b>
-                        <br />
-                        September 2021 - January 2022
+                        <b>Skills</b>
+                        <br />Product Thinking
+                        <br />Interaction Design
+                        <br />Visual Design
+                        <br />User Research
                     </Col>
                     <Col sm>
                         <b>Team</b>
@@ -89,7 +86,7 @@ function SSWPage(props) {
                         <p className="section">
                             Summary
                         </p>
-                        
+
                         <p className="paragraph">
                             <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. I was part of a team working with <a href="https://southsideweekly.com/" target="_blank" rel="noopener noreferrer" className="link-underline">South Side Weekly</a>, a Chicago newspaper nonprofit, to build a web-based dashboard for 250+ users to manage stories and contributors.
                         </p>

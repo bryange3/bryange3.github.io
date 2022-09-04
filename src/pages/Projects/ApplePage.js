@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
 
+import legacycontact from '../../assets/project/apple/LegacyContactFlow.png';
+
 function ApplePage(props) {
     window.scrollTo(0, 0);
     const width = 10;
@@ -12,30 +14,33 @@ function ApplePage(props) {
         <FadeIn>
             <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
 
-            <Row className="project-info" width={width}>
-                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
+            <Row className="project-info mobile-padding" width={width}>
+                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} />
 
                 <Row>
                     <Col sm>
                         <b>Role</b>
-                        <br />Product Designer
+                        <br />Product Design Intern
+                    </Col>
+                    <Col sm>
+                        <b>Timeline</b>
+                        <br />May 2022 - Present
+                        <br />19 weeks
                     </Col>
                     <Col sm>
                         <b>Skills</b>
                         <br />Product Thinking
                         <br />Interaction Design
-                        <br />Interface Design
-                        <br />UX Writing
-                        <br />Stakeholder Presentation
-                    </Col>
-                    <Col sm>
-                        <b>Timeline</b>
-                        <br />May 2022 - Present
-                        <br />(19 weeks)
+                        <br />Visual Design
+                        <br />Product Research
+                        <br />Executive Presentation
                     </Col>
                     <Col sm>
                         <b>Team</b>
-                        <br />iCloud Human Interface Team
+                        <br />iCloud Human Interface
+                        <br />1 Design Manager
+                        <br />8 Designers
+                        <br />2 UX Writers
                     </Col>
                     <Col sm>
                         <b>Tools</b>
@@ -55,6 +60,11 @@ function ApplePage(props) {
                         </p>
 
                         I am currently interning on the <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.apple.com/icloud/">iCloud</a> Human Interface Team as a product designer. I'm collaborating with UX writers, designers, and engineers to enhance the existing <a className="link-underline" target="_blank" rel="noreferrer" href="https://support.apple.com/en-us/HT212360">Legacy Contact</a> feature for Apple accounts which lets users share account and data access after their death.
+
+                        <img src={legacycontact} alt="Screen flow of setting up Legacy Contact" className="project-img center" />
+                        <p className="image-caption">
+                            Currently, if you go to your Apple ID account on your iPhone, to Password & Security, and then Legacy Contact, you can add and manage your legacy contacts.
+                        </p>
 
                         <p className="paragraph">
                             <p className="section">

@@ -12,7 +12,7 @@ function StatFinalPage(props) {
     return (
         <FadeIn>
             <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
-            <Row className="project-info" width={width} style={{ paddingBottom: "0em", marginBottom: "1em" }}>
+            <Row className="project-info mobile-padding" width={width} style={{ paddingBottom: "0em", marginBottom: "1em" }}>
                 <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
             </Row>
 

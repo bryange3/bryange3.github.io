@@ -17,25 +17,24 @@ function CargillPage(props) {
         <FadeIn>
             <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
 
-            <Row className="project-info" width={width}>
+            <Row className="project-info mobile-padding" width={width}>
                 <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
                 <Row>
                     <Col sm>
                         <b>Role</b>
-                        <br />User Experience Designer
-                    </Col>
-                    <Col sm>
-                        <b>Skills</b>
-                        <br />User Research
-                        <br />Interaction Design
-                        <br />Interface Design
-                        <br />Client Presentation
-                        <br />Stakeholder Interview
+                        <br />UX Design Intern
                     </Col>
                     <Col sm>
                         <b>Timeline</b>
-                        <br />May 2021 - August 2021
-                        <br />(11 weeks)
+                        <br />May - August 2021
+                        <br />12 weeks
+                    </Col>
+                    <Col sm>
+                        <b>Skills</b>
+                        <br />Product Thinking
+                        <br />Interaction Design
+                        <br />Visual Design
+                        <br />User Research
                     </Col>
                     <Col sm>
                         <b>Team</b>

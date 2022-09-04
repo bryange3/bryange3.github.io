@@ -15,7 +15,7 @@ function DasPage(props) {
         <FadeIn>
             <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
 
-            <Row className="project-info" width={width}>
+            <Row className="project-info mobile-padding" width={width}>
                 <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
 
                 <Row>
@@ -26,13 +26,8 @@ function DasPage(props) {
                         <br />Content Creation
                     </Col>
                     <Col sm>
-                        <b>Timeline</b>
-                        <br />
-                        September 2019 - January 2021
-                    </Col>
-                    <Col sm>
-                        <b>Team Members</b>
-                        <br />4 Developers/Content Creators
+                        <b>Team</b>
+                        <br />4 Web Developers
                     </Col>
                     <Col sm>
                         <b>Tech Stack</b>

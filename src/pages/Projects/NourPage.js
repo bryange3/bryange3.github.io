@@ -21,7 +21,7 @@ function NourPage(props) {
         <FadeIn>
             <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
 
-            <Row className="project-info" width={width}>
+            <Row className="project-info mobile-padding" width={width}>
                 <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
 
                 <Row>
@@ -30,27 +30,25 @@ function NourPage(props) {
                         <br />Product Designer
                     </Col>
                     <Col sm>
+                        <b>Timeline</b>
+                        {/* <br />April 10-11, 2021 */}
+                        <br />24 hours
+                    </Col>
+                    <Col sm>
                         <b>Skills</b>
-                        <br />User Research
                         <br />Interaction Design
-                        <br />Interface Design
+                        <br />Visual Design
+                        <br />User Research
                         <br />Usability Testing
                     </Col>
                     <Col sm>
-                        <b>Timeline</b>
-                        <br />April 10-11, 2021
-                        <br />(24 hours)
-                    </Col>
-                    <Col sm>
                         <b>Team</b>
-                        <br />
-                        3 Product Designers
+                        <br />3 Product Designers
                         <br />1 Product Marketer
                     </Col>
                     <Col sm>
                         <b>Tools</b>
-                        <br />
-                        Figma
+                        <br />Figma
                     </Col>
                 </Row>
             </Row>
@@ -61,7 +59,7 @@ function NourPage(props) {
                         <p className="impact-statement">
                             🎊 Our project received 1st Place for the Huawei Innovation Awards and for the Caring House Challenge at the HackDuke Ideate 2021 Designathon!
                         </p>
-                        
+
                         <p className="paragraph">
                             <p className="section">
                                 Challenge
