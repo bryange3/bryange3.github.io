@@ -111,12 +111,14 @@ function ApplePage(props) {
                                             <li>Hannah Story</li>
                                             <li>Tim Martin</li>
                                             <li>Calvin Ryu</li>
+                                            <li>Liv Huntley</li>
                                         </ul>
                                     </Col>
                                     <Col>
                                         <ul>
-                                            <li>Liv Huntley</li>
                                             <li>Jen Bush</li>
+                                            <li>Marcel Muller</li>
+                                            <li>Jun Kurusu</li>
                                             <li>Natalie Kidd</li>
                                             <li>Natalie Calvert</li>
                                         </ul>
@@ -125,7 +127,6 @@ function ApplePage(props) {
                                         <ul>
                                             <li>Anthony Parakian</li>
                                             <li>Marcello Lupi</li>
-                                            <li>Marcel Muller</li>
                                             <li>Dana Nir</li>
                                         </ul>
                                     </Col>
