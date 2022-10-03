@@ -24,7 +24,7 @@ function ApplePage(props) {
                     </Col>
                     <Col sm>
                         <b>Timeline</b>
-                        <br />May 2022 - Present
+                        <br />May - September 2022
                         <br />19 weeks
                     </Col>
                     <Col sm>
@@ -41,6 +41,7 @@ function ApplePage(props) {
                         <br />1 Design Manager
                         <br />8 Designers
                         <br />2 UX Writers
+                        <br />2 Producers
                     </Col>
                     <Col sm>
                         <b>Tools</b>
@@ -59,7 +60,7 @@ function ApplePage(props) {
                             Summary
                         </p>
 
-                        I am currently interning on the <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.apple.com/icloud/">iCloud</a> Human Interface Team as a product designer. I'm collaborating with UX writers, designers, and engineers to enhance the existing <a className="link-underline" target="_blank" rel="noreferrer" href="https://support.apple.com/en-us/HT212360">Legacy Contact</a> feature for Apple accounts which lets users share account and data access after their death.
+                        I interned on the <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.apple.com/icloud/">iCloud</a> Human Interface Team as a product designer. I collaborated with senior product designers, UX writers, project managers, and engineers to enhance the existing <a className="link-underline" target="_blank" rel="noreferrer" href="https://support.apple.com/en-us/HT212360">Legacy Contact</a> feature for Apple accounts which lets users share account and data access after their death.
 
                         <img src={legacycontact} alt="Screen flow of setting up Legacy Contact" className="project-img center" />
                         <p className="image-caption">
@@ -100,7 +101,7 @@ function ApplePage(props) {
                             <hr className="rounded" />
 
                             <h3 className="subsection">
-                                Thank you to my team for giving me so many learning opportunities, especially at design reviews and cross-functional meetings!
+                                Thank you to my team and so many others for giving me so many learning opportunities, especially at design reviews and cross-functional meetings!
                             </h3>
 
                             <p className="paragraph">
@@ -128,6 +129,8 @@ function ApplePage(props) {
                                             <li>Anthony Parakian</li>
                                             <li>Marcello Lupi</li>
                                             <li>Dana Nir</li>
+                                            <li>Meg Frost</li>
+                                            <li>Gokul Thirumalai</li>
                                         </ul>
                                     </Col>
                                 </Row>

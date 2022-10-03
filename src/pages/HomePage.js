@@ -39,13 +39,13 @@ function HomePage(props) {
                                     <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer with a love for <a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">hiking</a> and <a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">eating</a>.</h1>
 
                                     <div className="home-positions center">
-                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> I am interning at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as an iCloud product designer.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> I recently wrapped up my internship at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as a Product Designer.</h2>
 
                                         {/* <h2 className="home-role"><span role='img' aria-label='paint palette'>🎨</span> During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>.</h2> */}
 
-                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> I'm a junior studying information sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a>.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> I'm a student at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a> studying Information Sciences.</h2>
 
-                                        <h2 className="home-role"><span role='img' aria-label='magnifying glass'>🔍</span> Currently, I'm seeking a summer 2023 internship.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='magnifying glass'>🔍</span> Currently, I am seeking a summer internship.</h2>
                                     </div>
                                 </Col>
                             </Row>

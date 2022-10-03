@@ -73,7 +73,7 @@ class App extends React.Component {
           imgSrc: apple,
           cover: applecover,
           path: '/apple',
-          timeline: 'May 2022 - Present',
+          timeline: 'May - September 2022',
           category: ['all', 'design', 'work']
         },
         {

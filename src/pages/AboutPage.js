@@ -45,14 +45,14 @@ function AboutPage(props) {
                     </h1>
 
                     <p>
-                        I'm currently interning at Apple as a Product Design Intern on the iCloud Human Interface Team. During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and working on initiatives to improve design culture.
+                        I recently wrapped up my internship at Apple as a Product Design Intern on the iCloud Human Interface Team. During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> and working on initiatives to improve design culture.
                     </p>
 
                     <h1 className="about-subtitle">
                         🥰 Shoutout to my friends and design moms!
                     </h1>
                     <p>
-                        I've received a ton of support from my friends and members of the design community. Their guidance and mentorship has been incredibly impactful and I am beyond appreciative of them. Thank you <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/takarasatone/">Takara Satone</a> and <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://amandahe.com/">Amanda He</a> for believing in me from the start of my design journey and <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.jacobrokaw.com/">Jake Brokaw</a> for constantly supporting me and giving me feedback on my work.
+                        I've received support from my friends and members of the design community. Their guidance and mentorship has been incredibly impactful and I am extremely appreciative of them. Thank you <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/takarasatone/">Takara Satone</a> and <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://amandahe.com/">Amanda He</a> for believing in me from the start of my design journey and <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.jacobrokaw.com/">Jake Brokaw</a> for constantly supporting me and giving me feedback on my work.
                     </p>
                 </Col>
             </Row>
@@ -63,9 +63,9 @@ function AboutPage(props) {
                     </h1>
 
                     <div className="about-experience">
-                        <strong><a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> — Product Design Intern</strong>
+                        <strong><a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> — Product Design Intern, iCloud</strong>
                     </div>
-                    <p>May 2022 - Present</p>
+                    <p>May - September 2022</p>
 
                     <div className="about-experience">
                         <strong><a className="link-underline" href="https://cargill.com/" target="_blank" rel="noopener noreferrer">Cargill</a> — UX Design Intern</strong>
@@ -115,7 +115,7 @@ function AboutPage(props) {
                     🍵 Here's some more about me!
                 </h1>
                 <p>
-                    Outside of school and work, I'm learning how to cook more than just pasta and am constantly searching for the best sunset views. I've also loved trying new restaurants and boba spots around the bay area.
+                    Outside of school and work, I enjoy baking pumpkin bread, buying candles, and searching for the best sunset views. I've also loved trying new restaurants and boba spots around the bay area this past summer.
                 </p>
             </Row>
 
