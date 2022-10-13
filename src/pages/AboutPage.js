@@ -63,6 +63,11 @@ function AboutPage(props) {
                     </h1>
 
                     <div className="about-experience">
+                        <strong><a className="link-underline" href="https://www.particlehealth.com/" target="_blank" rel="noopener noreferrer">Particle Health</a> — Product Design Intern</strong>
+                    </div>
+                    <p>October 2022 - Present</p>
+
+                    <div className="about-experience">
                         <strong><a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> — Product Design Intern, iCloud</strong>
                     </div>
                     <p>May - September 2022</p>
@@ -93,9 +98,14 @@ function AboutPage(props) {
                     </h1>
 
                     <div className="about-experience">
+                        <strong><a className="link-underline" href="https://www.instagram.com/notionuiuc/" target="_blank" rel="noopener noreferrer">Notion</a> — Campus Leader</strong>
+                    </div>
+                    <p>September 2022 - Present</p>
+
+                    <div className="about-experience">
                         <strong><a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact</a> — Product Designer</strong>
                     </div>
-                    <p>September 2021 - Present</p>
+                    <p>September 2021 - September 2022</p>
 
                     <div className="about-experience">
                         <strong><a className="link-underline" href="https://developforgood.org/" target="_blank" rel="noopener noreferrer">Develop For Good</a> — Product Designer</strong>

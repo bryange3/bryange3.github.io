@@ -36,16 +36,16 @@ function HomePage(props) {
                                     <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={bottomimage} className="home-image" alt="selfie of me, Bryan, slightly smiling, against a plain white wall" /></a>
                                 </Col>
                                 <Col home-text>
-                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer with a love for <a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">hiking</a> and <a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">eating</a>.</h1>
+                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer with a love for <a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">eating</a> and <a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">hiking</a>.</h1>
 
                                     <div className="home-positions center">
-                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> I recently wrapped up my internship at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as a Product Designer.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='apple'>🏥</span> Designing the future of healthcare data exchange at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Particle Health</a>.</h2>
+                                        
+                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> Recently wrapped up my summer internship at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as a Product Designer.</h2>
 
-                                        {/* <h2 className="home-role"><span role='img' aria-label='paint palette'>🎨</span> During school, I enjoy designing for nonprofits at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>.</h2> */}
+                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> Student at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a> studying Information Sciences graduating Dec. 2023.</h2>
 
-                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> I'm a student at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a> studying Information Sciences.</h2>
-
-                                        <h2 className="home-role"><span role='img' aria-label='magnifying glass'>🔍</span> Currently, I am seeking a summer internship.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='magnifying glass'>🔍</span> Currently seeking a spring design + frontend internship.</h2>
                                     </div>
                                 </Col>
                             </Row>
