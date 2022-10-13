@@ -39,7 +39,7 @@ function HomePage(props) {
                                     <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer with a love for <a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">eating</a> and <a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">hiking</a>.</h1>
 
                                     <div className="home-positions center">
-                                        <h2 className="home-role"><span role='img' aria-label='apple'>🏥</span> Designing the future of healthcare data exchange at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Particle Health</a>.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='hospital'>🏥</span> Designing the future of healthcare data exchange at <a className="link-underline" href="https://particlehealth.com/" target="_blank" rel="noopener noreferrer">Particle Health</a>.</h2>
                                         
                                         <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> Recently wrapped up my summer internship at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as a Product Designer.</h2>
 
