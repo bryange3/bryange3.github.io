@@ -8,7 +8,7 @@ import FadeIn from 'react-fade-in';
 // import styled, { keyframes } from 'styled-components';
 import Sticky from 'react-sticky-el';
 
-import bottomimage from '../assets/other/denim.jpg';
+import me from '../assets/other/puffer.jpg';
 // import topcursor from '../assets/other/topcursor.png';
 
 // Animation code derived from: https://www.npmjs.com/package/react-animations
@@ -20,7 +20,7 @@ import bottomimage from '../assets/other/denim.jpg';
 function HomePage(props) {
     const [filter, setFilter] = useState("all");
 
-    const width = 8;
+    const width = 9;
     const portfolio = props.projects;
 
     let filteredItems = portfolio.filter(item => item.category.includes(filter));
@@ -32,20 +32,18 @@ function HomePage(props) {
                     <Row className="justify-content-center">
                         <Col md={width} sm={12}>
                             <Row className="home-top">
-                                <Col md={width - 5} sm={13}>
-                                    <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={bottomimage} className="home-image" alt="selfie of me, Bryan, slightly smiling, against a plain white wall" /></a>
+                                <Col md={width - 6} sm={13}>
+                                    <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={me} className="home-image" alt="selfie of me, Bryan, slightly smiling, against a plain white wall" /></a>
                                 </Col>
-                                <Col home-text>
-                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer with a love for <a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">eating</a> and <a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">hiking</a>.</h1>
+                                <Col>
+                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer who loves to <a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">🍣eat</a> and <a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">🏔️hike</a>.</h1>
 
                                     <div className="home-positions center">
-                                        <h2 className="home-role"><span role='img' aria-label='hospital'>🏥</span> Designing the future of healthcare data exchange at <a className="link-underline" href="https://particlehealth.com/" target="_blank" rel="noopener noreferrer">Particle Health</a>.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='paint brush'>🖌️</span> Designing the future of healthcare data exchange at <a className="link-underline" href="https://particlehealth.com/" target="_blank" rel="noopener noreferrer">Particle Health</a></h2>
                                         
-                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> Recently wrapped up my summer internship at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> as a Product Designer.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> Previous iCloud Product Design Intern at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a></h2>
 
-                                        <h2 className="home-role"><span role='img' aria-label='pencil'>✏️</span> Student at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a> studying Information Sciences graduating Dec. 2023.</h2>
-
-                                        <h2 className="home-role"><span role='img' aria-label='magnifying glass'>🔍</span> Currently seeking a spring design + frontend internship.</h2>
+                                        <h2 className="home-role"><span role='img' aria-label='stack of books'>📚</span> Studying Information Sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a></h2>
                                     </div>
                                 </Col>
                             </Row>
@@ -59,7 +57,7 @@ function HomePage(props) {
 
                             <Col>
                                 <Row>
-                                    <Col md={width - 5} className="filter-section">
+                                    <Col md={width - 6} className="filter-section">
                                         <Sticky>
                                             <p className="filter-title">Filter Projects</p>
                                             <div>
