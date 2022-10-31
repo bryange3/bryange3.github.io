@@ -29,7 +29,7 @@ import smile from '../assets/photography/Smile.jpg';
 import sunblock from '../assets/photography/SunBlock.jpg';
 import sunset from '../assets/photography/Sunset.jpg';
 import washington from '../assets/photography/Washington.jpg';
-import haze from '../assets/photography/haze.JPG';
+import haze from '../assets/photography/haze.png';
 import mori from '../assets/photography/mori.jpg';
 import aboveclouds from '../assets/photography/aboveclouds.jpg';
 
