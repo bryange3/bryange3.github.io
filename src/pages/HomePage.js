@@ -36,14 +36,14 @@ function HomePage(props) {
                                     <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={me} className="home-image" alt="selfie of me, Bryan, slightly smiling, against a plain white wall" /></a>
                                 </Col>
                                 <Col>
-                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a product designer who loves to <a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">🍣eat</a> and <a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">🏔️hike</a>.</h1>
+                                    <h1 className="display-6 home-title">Hey, I'm Bryan! I am a software product designer who loves to <a className="link-underline" href="https://www.instagram.com/bryangeats/" target="_blank" rel="noopener noreferrer">🍣eat</a> and <a className="link-underline" href="https://www.instagram.com/bryantothethickofit/" target="_blank" rel="noopener noreferrer">🏔️hike</a>.</h1>
 
                                     <div className="home-positions center">
-                                        <h2 className="home-role"><span role='img' aria-label='paint brush'>🖌️</span> Designing the future of healthcare data exchange at <a className="link-underline" href="https://particlehealth.com/" target="_blank" rel="noopener noreferrer">Particle Health</a></h2>
+                                        <h2 className="home-role"><span role='img' aria-label='paint brush'>🖌️</span> Current Product Design Intern at <a className="link-underline" href="https://particlehealth.com/" target="_blank" rel="noopener noreferrer">Particle Health</a></h2>
                                         
-                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> Previous iCloud Product Design Intern at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a></h2>
+                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> Recent iCloud Product Design Intern at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a></h2>
 
-                                        <h2 className="home-role"><span role='img' aria-label='stack of books'>📚</span> Slaying Information Sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a></h2>
+                                        <h2 className="home-role"><span role='img' aria-label='stack of books'>📚</span> Junior studying Information Sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a></h2>
                                     </div>
                                 </Col>
                             </Row>
