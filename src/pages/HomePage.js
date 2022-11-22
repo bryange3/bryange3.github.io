@@ -43,7 +43,7 @@ function HomePage(props) {
                                         
                                         <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> Recent iCloud Product Design Intern at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a></h2>
 
-                                        <h2 className="home-role"><span role='img' aria-label='stack of books'>📚</span> Junior studying Information Sciences at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a></h2>
+                                        <h2 className="home-role"><span role='img' aria-label='stack of books'>📚</span> Junior studying Computer Science at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a></h2>
                                     </div>
                                 </Col>
                             </Row>
