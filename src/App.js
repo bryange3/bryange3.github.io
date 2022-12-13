@@ -26,7 +26,7 @@ import sswcover from './assets/project/ssw/sswcover.png';
 import nour from './assets/project/nour/nour.png';
 import nourcover from './assets/project/nour/nourcover.png';
 
-import spotifycover from './assets/project/spotify/spotifycover.png';
+// import spotifycover from './assets/project/spotify/spotifycover.png';
 
 import stat107ca from './assets/project/stat107ca/stat107ca.png';
 import stat107cacover from './assets/project/stat107ca/stat107cacover.png';
