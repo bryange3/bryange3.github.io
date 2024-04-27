@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
@@ -58,7 +60,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "next.config.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bryange3/react-portfolio.git"
@@ -67,5 +68,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bryange3/react-portfolio/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
