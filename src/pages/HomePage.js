@@ -20,7 +20,7 @@ import me from '../assets/other/puffer.jpg';
 function HomePage(props) {
     const [filter, setFilter] = useState("all");
 
-    const width = 9;
+    const width = 7;
     const portfolio = props.projects;
 
     let filteredItems = portfolio.filter(item => item.category.includes(filter));
@@ -32,18 +32,8 @@ function HomePage(props) {
                     <Row className="justify-content-center">
                         <Col md={width} sm={12}>
                             <Row className="home-top">
-                                <Col md={width - 6} sm={13}>
-                                    <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={me} className="home-image" alt="selfie of me, Bryan, slightly smiling, against a plain white wall" /></a>
-                                </Col>
-                                <Col>
-                                    <h1 className="display-6 home-title">Hey! I'm Bryan, a designer who loves building thoughtful, human experiences through software. Currently at 🟦Nice Handwriting. Previously at 🍎Apple and 📦Amazon.</h1>
-
-                                    {/* <div className="home-positions center">                                        
-                                        <h2 className="home-role"><span role='img' aria-label='apple'>🍎</span> Recent iCloud Product Design Intern at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a></h2>
-
-                                        <h2 className="home-role"><span role='img' aria-label='stack of books'>📚</span> Junior studying Computer Science at <a className="link-underline" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">UIUC</a></h2>
-                                    </div> */}
-                                </Col>
+                                <h1 className="display-6 home-title">Hey! I'm Bryan, a designer who loves building thoughtful, human experiences through software.</h1>
+                                <h1 className="home-positions">Currently at 🟦Nice Handwriting. Previously at 🍎Apple and 📦Amazon.</h1>
                             </Row>
 
                             {/* <div className="home-images">
@@ -53,9 +43,8 @@ function HomePage(props) {
                                     </section>
                                 </div> */}
 
-                            <Col>
-                                <Row>
-                                    <Col md={width - 6} className="filter-section">
+
+                            {/* <Col md={width - 6} className="filter-section">
                                         <Sticky>
                                             <p className="filter-title">Filter Projects</p>
                                             <div>
@@ -66,13 +55,10 @@ function HomePage(props) {
                                                 <h3 className={`filter ${filter === 'work' ? 'active' : ''}`} active={filter === 'work'} onClick={() => setFilter('work')}>For Work</h3>
                                             </div>
                                         </Sticky>
-                                    </Col>
-
-                                    <Col className="projects">
-                                        <Grid projects={filteredItems} />
-                                    </Col>
-                                </Row>
-                            </Col>
+                                    </Col> */}
+                            <Row className='projects'>
+                                <Grid projects={filteredItems} />
+                            </Row>
                         </Col>
                     </Row>
                 </div>

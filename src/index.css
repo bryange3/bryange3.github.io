@@ -219,7 +219,7 @@ code {
 }
 
 .my-font {
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
     letter-spacing: -0.1px;
 }
 
@@ -723,18 +723,18 @@ mark {
 }
 
 .home-title {
-    letter-spacing: -0.1px;
-    font-size: 28px;
-    font-weight: 600;
-    padding-bottom: 0em;
-    margin-top: 0.2em;
-    margin-bottom: 0px !important;
-    margin-left: 20px;
+    font-family: "IBM Plex Sans";
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 .home-positions {
-    margin-top: 2em;
-    margin-bottom: 5em;
+    font-family: "IBM Plex Sans";
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    margin-top: 0.5em;
 }
 
 .home-role {

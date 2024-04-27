@@ -29,7 +29,7 @@ function AboutPage(props) {
                         😇 Hi there! I'm Bryan Ge (he/him).
                     </h1>
                     <p>
-                        I’m an undergraduate student at the University of Illinois at Urbana-Champaign studying Information Sciences and graduating December 2023.
+                        I am a software designer who loves solving complex problems involving deep systems thinking, visual craft, and storytelling. I’m currently interning at Nice Handwriting, a digital design and strategy studio. I recently graduated from UIUC and am looking for my next design opportunity! Previously, I led and shipped projects at Apple, Amazon, Cargill, and multiple nonprofits. Here's my resume.
                     </p>
 
                     <h1 className="about-subtitle">
@@ -41,10 +41,10 @@ function AboutPage(props) {
 
 
                     <h1 className="about-subtitle">
-                        👨🏻‍💻 What am I up to?
+                        👨🏻‍💻 What have I been up to?
                     </h1>
                     <p>
-                        I’m currently interning at <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.particlehealth.com/">Particle Health</a>, designing the future of healthcare data exchange. I'm also working with <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://riyag.me/">Riya</a> (my bestie) on <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/notionuiuc/">Notion UIUC</a>. We're organizing events and socials for the community of Notion lovers on campus. This past summer, I designed at <a className="link-underline" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/">Apple</a> as a Product Design Intern on the iCloud Human Interface Team.
+                        On campus, I designed and shipped software for nonprofits at Hack4Impact. I loved building meaningful products and collaborating with talented students and real clients. I also led initiatives to improve design culture across the organization: team-pair design critique, industry designer feedback, online resources, and recruitment.
                     </p>
 
                     <h1 className="about-subtitle">
@@ -55,52 +55,13 @@ function AboutPage(props) {
                     </p>
                 </Col>
             </Row>
-            <Row className="about-experiences mobile-padding">
-                <Col md={6} sm={13}>
-                    <p className="about-experience-section">
-                        Current
-                    </p>
-                    <div className="about-experience">
-                        Product Design Intern at <a className="link-underline" href="https://www.particlehealth.com/" target="_blank" rel="noopener noreferrer">Particle Health</a>
-                    </div>
-
-                    <p className="about-experience-section">
-                        Past
-                    </p>
-                    <div className="about-experience">
-                        Product Design Intern at <a className="link-underline" href="https://apple.com/" target="_blank" rel="noopener noreferrer">Apple</a>
-                    </div>
-                    <div className="about-experience">
-                        UX Design Intern at <a className="link-underline" href="https://cargill.com/" target="_blank" rel="noopener noreferrer">Cargill</a>
-                    </div>
-                    <div className="about-experience">
-                        Software Engineer Intern at <a className="link-underline" href="https://statefarm.com/" target="_blank" rel="noopener noreferrer">State Farm</a>
-                    </div>
-                </Col>
-                <Col md={6}>
-                    <p className="about-experience-section">
-                        Projects
-                    </p>
-                    <div className="about-experience">
-                        Campus Leader for <a className="link-underline" href="https://notion.so/" target="_blank" rel="noopener noreferrer">Notion</a>
-                    </div>
-                    <div className="about-experience">
-                        Product Designer at <a className="link-underline" href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer">Hack4Impact UIUC</a>
-                    </div>
-                    <div className="about-experience">
-                        Product Designer at <a className="link-underline" href="https://developforgood.org/" target="_blank" rel="noopener noreferrer">Develop For Good</a>
-                    </div>
-                </Col>
-            </Row>
+            
 
 
             <Row className="about-section mobile-padding">
                 <h1 className="about-subtitle">
-                    🍵 Here's some more about me!
+                    🍵 Here are some snippets from my life!
                 </h1>
-                <p>
-                    Outside of school and work, I enjoy baking pumpkin bread, buying candles, and searching for the best sunset views. Recently, I finished watching Ozark (one of the best shows I've watched) and I'm also trying to learn how to cook more than just pasta.
-                </p>
             </Row>
 
             <Row className="about-section mobile-padding">
