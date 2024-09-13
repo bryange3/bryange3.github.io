@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @media only screen and (max-width: 800px) {
     h1 {
         font-size: 24px !important;
@@ -125,10 +129,8 @@
     }
 }
 
-h1,
-h2,
-h3 {
-    margin-bottom: 10px !important;
+html {
+    background-color: #f1f4f7;
 }
 
 .hero {
@@ -139,11 +141,6 @@ h3 {
     padding-right: 0em !important;
 }
 
-.end-to-end {
-    margin: 0px !important;
-    padding: 0px !important;
-}
-
 body {
     margin: 0;
     font-size: 16px !important;
@@ -151,39 +148,24 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    animation: fadeInAnimation ease 2s;
+    /* animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    background-color: #ffffff !important;
+    animation-fill-mode: forwards; */
     color: #2E2E2E !important;
-}
-
-.background {
-    background-color: #ffffff;
-}
-
-.background-med {
-    background-color: #f5f5f5 !important;
-}
-
-.background-darker {
-    background-color: #EBF0F3 !important;
-}
-
-.background-darkest {
-    background-color: #49463d !important;
+    background-color: #f1f4f7 !important;
 }
 
 .line-space {
     margin-bottom: 10px;
 }
 
-.dark-brown {
-    color: #000000 !important;
+a {
+    color: #327cd6 !important;
 }
 
-.white {
-    color: #F2EDE6;
+a:hover {
+    color: #327cd6 !important;
+    opacity: 0.7;
 }
 
 li {
@@ -218,29 +200,6 @@ code {
     color: #8f8f8f;
 }
 
-.my-font {
-    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
-    letter-spacing: -0.1px;
-}
-
-.nav-link {
-    padding-right: 1em !important;
-    padding-left: 1em !important;
-    color: black !important;
-    /* temporarily black while the active thing doesn't work */
-    /* color: #747474 !important; */
-    transition: 0.3s;
-}
-
-/* fix this active thing */
-.nav-link.active {
-    color: black !important;
-}
-
-.nav-link:hover {
-    color: black !important;
-}
-
 .header-title {
     padding-left: 1em;
     font-weight: 600;
@@ -251,68 +210,15 @@ code {
 }
 
 .project-card {
-    color: #000000;
     text-decoration: none !important;
-    left: 0px !important;
 }
 
 .project-card-image {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 100%;
-    background: grey;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
-    /* border: 2px solid #E6E6E6; */
-    border: 0;
-    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.053); */
-    transition: 0.3s;
-}
 
-.project-card-image:hover {
-    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.118); */
-    transform: translateY(-0.5em);
-    transition: 0.3s;
 }
 
 .project-card-info {
-    font-size: 21px;
-    margin-bottom: 4em;
-}
-
-.project-card-title {
-    /* font-family: 'Be Vietnam Pro'; */
-    letter-spacing: -0.1px;
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0px;
-    margin-bottom: 5px;
-    color: #2E2E2E;
-}
-
-.project-card-role {
-    font-size: 16px;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    color: #5f5f5f;
-}
-
-.project-card-type {
-    margin-top: 10px;
-    max-width: 340px;
-    font-size: 14px;
-    color: #2E2E2E;
-    background-color: #e1eaee;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    
 }
 
 ul.social-media-list {
@@ -328,9 +234,7 @@ ul.social-media-list li {
 }
 
 hr.rounded {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    border-top: 1px solid #c2c2c2;
+    border-top: 1px solid #dbdbdb;
     border-radius: 5px;
 }
 
@@ -450,15 +354,6 @@ blockquote {
     padding-top: 1%;
 }
 
-.resume-project-link {
-    transition: 0.3s ease-in;
-}
-
-.resume-project-link:hover {
-    color: #49463D;
-    transition: 0.3s ease-in;
-}
-
 .content {
     display: flex;
 }
@@ -487,35 +382,6 @@ blockquote {
 
 .sticky-footer {
     position: sticky;
-    top: 100%;
-    background-color: #2e2e2e;
-}
-
-footer ul {
-    padding: 0;
-}
-
-footer li {
-    list-style-type: none;
-    line-height: 9px;
-    height: 11px;
-    padding: 0px 14px;
-    display: inline;
-}
-
-footer li a {
-    text-decoration: none;
-    font-size: 21px;
-}
-
-footer {
-    height: 30px;
-    padding-top: 60px;
-    padding-bottom: 140px;
-    width: 100%;
-    text-align: center;
-    margin-top: 4em;
-    /* space between content and footer */
 }
 
 .photo {
@@ -713,77 +579,14 @@ mark {
     margin-bottom: 1em;
 }
 
-.home-images {
+/* .home-images {
     position: relative;
 }
 
 .home-image {
     max-width: 100%;
     border-radius: 5px;
-}
-
-.home-title {
-    font-family: "IBM Plex Sans";
-    font-size: 48px;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-}
-
-.home-positions {
-    font-family: "IBM Plex Sans";
-    font-size: 24px;
-    font-weight: normal;
-    letter-spacing: -0.5px;
-    margin-top: 0.5em;
-}
-
-.home-role {
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    color: black;
-}
-
-.top-image {
-    z-index: 1;
-    position: absolute;
-}
-
-.home-image-cursor {
-    max-width: 15em;
-    width: auto;
-    height: auto;
-    left: 9em;
-    bottom: -3em;
-    transition: 0.3s;
-}
-
-.home-image-cursor:hover {
-    transform: translateX(-1.5em);
-}
-
-#cursor {
-    transition: 0.3s;
-}
-
-#circleme:hover+#cursor {
-    transform: translateX(-1.5em);
-}
-
-
-/* Spotify Application */
-
-.spotify-section {
-    margin-top: 70px !important;
-    margin-bottom: 20px !important;
-    font-size: 21px;
-    font-weight: 600;
-}
-
-.spotify-subsection {
-    font-size: 18px;
-    font-weight: 600;
-}
+} */
 
 .hr-rounded-close {
     margin-top: 10px;

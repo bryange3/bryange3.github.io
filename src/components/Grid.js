@@ -1,7 +1,6 @@
 import React from 'react';
 // import Radium from 'radium';
 // import Fade from 'react-reveal/Fade';
-import Container from 'react-bootstrap/Container';
 import FadeIn from 'react-fade-in';
 // import { fadeIn } from 'react-animations'
 import Card from '../components/Card.js';
@@ -26,7 +25,7 @@ class Grid extends React.Component {
             return (
                 // <Card className="nav-link" to={item.path} item={item} key={item.id} style={styles.fadeIn} />
                 // <Fade bottom>
-                    <Card className="nav-link" to={item.path} item={item} key={item.id} />
+                <Card to={item.path} item={item} key={item.id} />
                 // </Fade>
             )
         })
@@ -36,9 +35,7 @@ class Grid extends React.Component {
     render() {
         return (
             <FadeIn delay={600}>
-                <Container fluid={true} >
-                    {this.makeItems(this.props.projects)}
-                </Container>
+                {this.makeItems(this.props.projects)}
             </FadeIn>
         )
     }

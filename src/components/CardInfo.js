@@ -3,10 +3,10 @@ import { BrowserRouter as Link } from 'react-router-dom';
 
 function CardInfo(props) {
     return (
-        <div className="project-card-info">
-            <p className="project-card-title">{props.projectTitle}</p>
-            <div className="project-card-role">{props.roles}</div>
-            <Link className="nav-link" to={props.path}></Link>
+        <div>
+            <p className="text-3xl font-semibold text-gray-900 font-serif mb-2">{props.projectTitle}</p>
+            <p className="text-xl font-normal text-gray-500">{props.description}</p>
+            <Link to={props.path}></Link>
         </div>
     )
 }

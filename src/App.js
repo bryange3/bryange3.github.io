@@ -1,41 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
 import cargill from './assets/project/cargill/cargill.png';
-import cargillcover from './assets/project/cargill/cargillcover.png';
-
-import das from './assets/project/das/das.png';
-import dascover from './assets/project/das/dascover.png';
-
-import leaf from './assets/project/leaf/leaf.png';
-import leafproject from './assets/project/leaf/leafproject.png';
-
 import apple from './assets/project/apple/apple.png';
-import applecover from './assets/project/apple/applecover.png';
-
-import brink from './assets/project/brink/brink.png';
-import brinkcover from './assets/project/brink/brinkcover.png';
-
 import ssw from './assets/project/ssw/ssw.png';
-import sswcover from './assets/project/ssw/sswcover.png';
-
 import nour from './assets/project/nour/nour.png';
-import nourcover from './assets/project/nour/nourcover.png';
-
-// import spotifycover from './assets/project/spotify/spotifycover.png';
-
-import stat107ca from './assets/project/stat107ca/stat107ca.png';
-import stat107cacover from './assets/project/stat107ca/stat107cacover.png';
-
-import stat107final from './assets/project/stat107final/stat107final.png';
-import stat107finalcover from './assets/project/stat107final/stat107finalcover.png';
+import amazon from './assets/project/amazon/amazon.gif';
 
 import Footer from './components/Footer';
-import ScrollArrow from './components/ScrollArrow';
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -43,14 +19,9 @@ import PhotographyPage from './pages/PhotographyPage';
 
 // projects
 import ApplePage from './pages/Projects/ApplePage.js';
-import BrinkPage from './pages/Projects/BrinkPage.js';
 import SSWPage from './pages/Projects/SSWPage.js';
 import NourPage from './pages/Projects/NourPage.js';
 import CargillPage from './pages/Projects/CargillPage.js';
-import LeafPage from './pages/Projects/LeafPage.js';
-import CAPage from './pages/Projects/CAPage.js';
-import StatFinalPage from './pages/Projects/StatFinalPage.js';
-import DasPage from './pages/Projects/DasPage.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -67,95 +38,43 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
-          projectTitle: '☁️ Apple Legacy Contact Enhancement',
-          description: 'Enhancing Legacy Contact, a feature that lets users share account and data access after their death.',
-          roles: 'iCloud Product Design Intern • Summer 2022',
+          projectTitle: 'Enhancing Legacy Contact at Apple',
+          description: 'Improving a feature that helps people share account data after death. Also increasing discovery via Family Sharing, now primary driver behind adoption.',
           imgSrc: apple,
-          cover: applecover,
           path: '/apple',
-          timeline: 'May - September 2022',
           category: ['all', 'design', 'work']
         },
         {
           id: 1,
-          projectTitle: '🗳 Brink Election Voting Guide',
-          description: 'Democratizing voting through a responsive and accessible election guide.',
-          roles: 'Product Designer • Spring 2022 Nonprofit Project',
-          imgSrc: brink,
-          cover: brinkcover,
-          path: '/brink',
-          timeline: 'September 2021 - Present',
-          category: ['all', 'design', 'work']
-        },
-        {
-          id: 2,
-          projectTitle: '📰 South Side Weekly Contributor Dashboard',
-          description: 'Centralizing news story management and increasing visibility on publication issues for over 250 admin and contributors at Chicago newspaper nonprofit, South Side Weekly.',
-          roles: 'Product Designer • Fall 2021 Nonprofit Project',
+          projectTitle: 'Centralizing story management between admin and contributors at a newspaper nonprofit',
+          description: 'Streamlining collaboration between 250+ admin and contributors at Chicago newspaper nonprofit, South Side Weekly.',
           imgSrc: ssw,
-          cover: sswcover,
           path: '/southsideweekly',
           category: ['all', 'design', 'work']
         },
         {
-          id: 3,
-          projectTitle: '🤙 Nour Social Platform',
+          id: 2,
+          projectTitle: 'Helping shoppers discover and understand Buy with Prime at Amazon',
+          description: 'Providing merchants with elements to add to their direct-to-consumer websites to boost Buy with Prime product discovery, shipped on Shopify.',
+          imgSrc: amazon,
+          path: '/amazon',
+          category: ['all', 'design', 'work']
+        },
+        {
+          id: 2,
+          projectTitle: 'Nour Social Platform',
           description: 'Connecting the elderly in a time of social distancing.',
-          roles: 'Product Designer • 1st Place at HackDuke Designathon',
           imgSrc: nour,
-          cover: nourcover,
           path: '/nour',
           category: ['all', 'design']
         },
         {
-          id: 4,
-          projectTitle: '🥧 Cargill Menu Item Idea Dashboard',
+          id: 3,
+          projectTitle: 'Cargill Menu Item Idea Dashboard',
           description: 'Tracking new menu item ideas for a leading fast-food restaurant.',
-          roles: 'UX Design Intern • Summer 2021',
           imgSrc: cargill,
-          cover: cargillcover,
           path: '/cargill',
           category: ['all', 'design', 'work']
-        },
-        {
-          id: 5,
-          projectTitle: '🌿 Leaf Educational App',
-          description: 'Educating the future generation to learn about their carbon footprint.',
-          roles: 'Design Engineer • Winner of UChicago Hackathon',
-          imgSrc: leaf,
-          cover: leafproject,
-          path: '/leaf',
-          category: ['all', 'design', 'code']
-        },
-        {
-          id: 6,
-          projectTitle: '👨🏻‍🏫 STAT 107 Data Science Discovery',
-          description: 'Providing support and resources for 132 students through office hours and discussion labs.',
-          roles: 'Data Science • Course Assistant',
-          imgSrc: stat107ca,
-          cover: stat107cacover,
-          path: '/stat107ca',
-          category: ['all', 'ds', 'work']
-        },
-        {
-          id: 7,
-          projectTitle: '🤔 Hypothesis Tests Final Project',
-          description: 'Conducting hypothesis tests on a dataset of flights for the STAT 107 Data Science Discovery final project.',
-          roles: 'Data Science • Class Project',
-          imgSrc: stat107final,
-          cover: stat107finalcover,
-          path: '/stat107-project',
-          category: ['all', 'ds', 'code']
-        },
-        {
-          id: 8,
-          projectTitle: '📝 Daily Awareness Society Blog',
-          description: 'Spreading awareness on social issues.',
-          roles: 'Web Developer • Passion Project',
-          imgSrc: das,
-          cover: dascover,
-          path: '/das',
-          category: ['all', 'code']
         }
       ]
     }
@@ -165,8 +84,8 @@ class App extends React.Component {
 
     return (
       <Router>
-        <Container className="p=0 my-font end-to-end" fluid={true} style={{ minHeight: "100vh" }}>
-          <Navbar className="top-bar fixed" expand="lg">
+        <div className="font-sans-serif">
+          {/* <Navbar className="top-bar fixed" expand="lg">
             <Navbar.Brand><Link className="header-title default" to="/">Bryan Ge</Link></Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
@@ -179,36 +98,23 @@ class App extends React.Component {
                 <Link className="nav-link default" to="/photography">Photography</Link>
               </Nav>
             </Navbar.Collapse>
-          </Navbar>
+          </Navbar> */}
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
 
-          {/* <Route path="/spotify" exact render={() => <SpotifyPage info={this.state.spotify} />} /> */}
-
           <Route path={this.state.workProjects[0].path} render={() => <ApplePage info={this.state.workProjects[0]} />} />
 
-          <Route path={this.state.workProjects[1].path} render={() => <BrinkPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
 
-          <Route path={this.state.workProjects[2].path} render={() => <SSWPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <NourPage info={this.state.workProjects[2]} />} />
 
-          <Route path={this.state.workProjects[3].path} render={() => <NourPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <CargillPage info={this.state.workProjects[3]} />} />
 
-          <Route path={this.state.workProjects[4].path} render={() => <CargillPage info={this.state.workProjects[4]} />} />
-
-          <Route path={this.state.workProjects[5].path} render={() => <LeafPage info={this.state.workProjects[5]} />} />
-
-          <Route path={this.state.workProjects[6].path} render={() => <CAPage info={this.state.workProjects[6]} />} />
-
-          <Route path={this.state.workProjects[7].path} render={() => <StatFinalPage info={this.state.workProjects[7]} />} />
-
-          <Route path={this.state.workProjects[8].path} render={() => <DasPage info={this.state.workProjects[8]} />} />
-
-          <ScrollArrow />
           <Footer />
 
-        </Container>
+        </div>
       </Router>
     );
   }

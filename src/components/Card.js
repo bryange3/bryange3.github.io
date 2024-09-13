@@ -6,16 +6,16 @@ import CardInfo from '../components/CardInfo.js';
 function Card(props) {
     return (
         <Link className="project-card" to={props.item.path}>
-            <div>
+            <div className="hover:opacity-70">
                 <img
                     id="image"
-                    class="project-card-image"
+                    class="mb-4"
                     src={props.item.imgSrc}
                     alt={props.item.imgSrc}
                 />
-            </div>
-            <div>
-                <CardInfo projectTitle={props.item.projectTitle} subTitle={props.item.description} roles={props.item.roles} path={props.item.path} type={props.item.type} />
+                <div className="mb-16">
+                    <CardInfo projectTitle={props.item.projectTitle} description={props.item.description} roles={props.item.roles} path={props.item.path} type={props.item.type} />
+                </div>
             </div>
         </Link>
     );

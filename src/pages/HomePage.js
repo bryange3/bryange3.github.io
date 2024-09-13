@@ -1,68 +1,21 @@
-import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+import React from 'react';
 import Grid from '../components/Grid';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
-// import { merge, fadeInRight, fadeInDown } from 'react-animations';
-// import styled, { keyframes } from 'styled-components';
-import Sticky from 'react-sticky-el';
-
-import me from '../assets/other/puffer.jpg';
-// import topcursor from '../assets/other/topcursor.png';
-
-// Animation code derived from: https://www.npmjs.com/package/react-animations
-// const myAnimation = keyframes`${merge(fadeInDown, fadeInRight)}`;
-// const Animation = styled.div`
-//   animation: 1.5s ${myAnimation};
-// `;
 
 function HomePage(props) {
-    const [filter, setFilter] = useState("all");
-
-    const width = 7;
-    const portfolio = props.projects;
-
-    let filteredItems = portfolio.filter(item => item.category.includes(filter));
-
     return (
-        <FadeIn delay={300} className="background">
-            <Container fluid={true}>
-                <div>
-                    <Row className="justify-content-center">
-                        <Col md={width} sm={12}>
-                            <Row className="home-top">
-                                <h1 className="display-6 home-title">Hey! I'm Bryan, a designer who loves building thoughtful, human experiences through software.</h1>
-                                <h1 className="home-positions">Currently at 🟦Nice Handwriting. Previously at 🍎Apple and 📦Amazon.</h1>
-                            </Row>
-
-                            {/* <div className="home-images">
-                                    <a href="https://www.bryange.com/about" id="circleme" rel="noopener noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
-                                    <section id="cursor">
-                                        <a href="https://www.bryange.com/about" rel="noopener noreferrer"><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" aria-label="Hi, I'm Bryan!" /></a>
-                                    </section>
-                                </div> */}
-
-
-                            {/* <Col md={width - 6} className="filter-section">
-                                        <Sticky>
-                                            <p className="filter-title">Filter Projects</p>
-                                            <div>
-                                                <h3 className={`filter ${filter === 'all' ? 'active' : ''}`} active={filter === 'all'} onClick={() => setFilter('all')}>All</h3>
-                                                <h3 className={`filter ${filter === 'design' ? 'active' : ''}`} active={filter === 'design'} onClick={() => setFilter('design')}>Design</h3>
-                                                <h3 className={`filter ${filter === 'code' ? 'active' : ''}`} active={filter === 'code'} onClick={() => setFilter('code')}>Code</h3>
-                                                <h3 className={`filter ${filter === 'ds' ? 'active' : ''}`} active={filter === 'ds'} onClick={() => setFilter('ds')}>Data</h3>
-                                                <h3 className={`filter ${filter === 'work' ? 'active' : ''}`} active={filter === 'work'} onClick={() => setFilter('work')}>For Work</h3>
-                                            </div>
-                                        </Sticky>
-                                    </Col> */}
-                            <Row className='projects'>
-                                <Grid projects={filteredItems} />
-                            </Row>
-                        </Col>
-                    </Row>
-                </div>
-            </Container>
+        <FadeIn delay={300} className="max-w-2xl mx-auto">
+            <div className="mt-36 mb-20">
+                <p className="text-5xl font-semibold text-gray-900 mb-8 font-serif">Hey, I'm Bryan!</p>
+                <p className="text-xl text-gray-900">Software designer previously working on digital account legacy at <a href="https://apple.com" target="_blank" rel="noopener noreferrer" alt="Apple">Apple</a> and shopping Buy with Prime at <a href="https://amazon.com" target="_blank" rel="noopener noreferrer" alt="Amazon">Amazon</a>.</p>
+                <p className="text-xl text-gray-900">Currently exploring frontend technologies and occasionally catching sunrises at Grand Teton. Looking forward to baking pumpkin bread in the fall.</p>
+                <p className="text-xl mt-4">
+                    <Link to="/about">About me →</Link>
+                </p>
+            </div>
+            <Grid projects={props.projects} />
         </FadeIn >
     );
 }
