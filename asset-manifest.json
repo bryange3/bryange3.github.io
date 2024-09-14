@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.124d1e33.css",
-    "main.js": "/static/js/main.f612768c.js",
+    "main.js": "/static/js/main.ab58dc38.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
-    "static/media/pizza.gif": "/static/media/pizza.bc78482681d87c6d1f76.gif",
     "static/media/amazon.gif": "/static/media/amazon.0468b6b3259d68670f87.gif",
     "static/media/problem-claimpitch.gif": "/static/media/problem-claimpitch.c07d59872eca58c8e575.gif",
     "static/media/assign-contributor-using-directory.gif": "/static/media/assign-contributor-using-directory.d724dfb4aea3b4c185fc.gif",
@@ -13,12 +12,9 @@
     "static/media/Bench.jpg": "/static/media/Bench.b4921f7d1b47060d054d.jpg",
     "static/media/fridge.png": "/static/media/fridge.c4387e7f5fb57bb17cf1.png",
     "static/media/Bored.jpg": "/static/media/Bored.b9e9e0bd07c960208e68.jpg",
-    "static/media/applepie.png": "/static/media/applepie.f0d60b546c1ee61b5abe.png",
-    "static/media/connie.png": "/static/media/connie.de67e86cf1ce533dadf8.png",
     "static/media/Peek.jpg": "/static/media/Peek.b699d588991d0f55c1f1.jpg",
     "static/media/haze.JPG": "/static/media/haze.87973a0ee7277d159a24.JPG",
     "static/media/Joy.jpg": "/static/media/Joy.6d389af8a3f2e2a8f394.jpg",
-    "static/media/skincare.png": "/static/media/skincare.da3e998cc7121f72e0d9.png",
     "static/media/Dessert.jpg": "/static/media/Dessert.a6afcc9e07fc03e26611.jpg",
     "static/media/LoginQR.gif": "/static/media/LoginQR.e4f3ccfae3dea7d296ba.gif",
     "static/media/aboveclouds.jpg": "/static/media/aboveclouds.5e4f3586c59d8943b5bf.jpg",
@@ -38,7 +34,6 @@
     "static/media/claim-pitch-iterations.png": "/static/media/claim-pitch-iterations.05e9edf33420b60f372e.png",
     "static/media/SunBlock.jpg": "/static/media/SunBlock.f62bdb51aec8617e1739.jpg",
     "static/media/apple.png": "/static/media/apple.47cb83667dc33a45af12.png",
-    "static/media/denzel.jpg": "/static/media/denzel.f3dbb6066ebc43dcf567.jpg",
     "static/media/nour.png": "/static/media/nour.0d2dcc44f65ab55967da.png",
     "static/media/Sunset.jpg": "/static/media/Sunset.25c09ffa8f0920d40235.jpg",
     "static/media/homepage-brainstorm.png": "/static/media/homepage-brainstorm.864f2ec29ded9982e3ce.png",
@@ -72,11 +67,11 @@
     "static/media/user-goals.png": "/static/media/user-goals.389d315f748d9130f8c0.png",
     "index.html": "/index.html",
     "main.124d1e33.css.map": "/static/css/main.124d1e33.css.map",
-    "main.f612768c.js.map": "/static/js/main.f612768c.js.map",
+    "main.ab58dc38.js.map": "/static/js/main.ab58dc38.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.124d1e33.css",
-    "static/js/main.f612768c.js"
+    "static/js/main.ab58dc38.js"
   ]
 }
