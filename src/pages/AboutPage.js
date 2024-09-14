@@ -14,8 +14,8 @@ function AboutPage(props) {
     AOS.init();
     window.scrollTo(0, 0);
     return (
-        <FadeIn className="max-w-2xl mx-auto">
-            <div className="mt-20 mb-20">
+        <FadeIn className="mx-6 md:mx-auto max-w-2xl">
+            <div className="mt-12 sm:mt-20 mb-20">
                 <p className="text-xl mt-4 mb-8">
                     <Link to="/">← Back home</Link>
                 </p>

@@ -4,7 +4,7 @@ import FadeIn from 'react-fade-in';
 function Footer() {
     return (
         <FadeIn delay={200}>
-            <div className="sticky-footer max-w-2xl mx-auto mb-36">
+            <div className="sticky-footer max-w-2xl mx-6 md:mx-auto mb-10 md:mb-36">
                 <hr className="rounded mb-10"></hr>
                 <p className="text-2xl font-semibold font-serif">Thanks for taking a scroll, let's chat!</p>
                 <p className="text-lg font-normal">
