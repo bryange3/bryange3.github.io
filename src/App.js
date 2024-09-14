@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
 // import Navbar from 'react-bootstrap/Navbar';
 // import Nav from 'react-bootstrap/Nav';
 import './App.css';
@@ -15,6 +14,7 @@ import Footer from './components/Footer';
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import GrandTetonPage from './pages/GrandTetonPage.js';
 import PhotographyPage from './pages/PhotographyPage';
 
 // projects
@@ -32,6 +32,8 @@ class App extends React.Component {
         title: 'I\'m a product designer + developer with a love for baking and social good!',
       },
       about: {
+      },
+      grandteton: {
       },
       photography: {
       },
@@ -83,6 +85,7 @@ class App extends React.Component {
   render() {
 
     return (
+
       <Router>
         <div className="font-sans-serif">
           {/* <Navbar className="top-bar fixed" expand="lg">
@@ -102,6 +105,7 @@ class App extends React.Component {
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/about/grandteton" exact render={() => <GrandTetonPage title={this.state.grandteton.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
 
           <Route path={this.state.workProjects[0].path} render={() => <ApplePage info={this.state.workProjects[0]} />} />
@@ -115,7 +119,8 @@ class App extends React.Component {
           <Footer />
 
         </div>
-      </Router>
+      </Router >
+
     );
   }
 }
