@@ -15,7 +15,7 @@ function ApplePage(props) {
     AOS.init();
     window.scrollTo(0, 0);
     return (
-        <FadeIn>
+        <FadeIn className="text-pretty">
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <Hero projectTitle={props.info.projectTitle} description={props.info.description} imgSrc={props.info.imgSrc} imgAlt={props.info.imgAlt} role={props.info.role} timeline={props.info.timeline} />
 

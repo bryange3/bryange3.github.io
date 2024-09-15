@@ -11,7 +11,7 @@ function AboutPage(props) {
     window.scrollTo(0, 0);
     return (
         <FadeIn className="mx-6 md:mx-auto max-w-2xl">
-            <div className="mt-12 sm:mt-20 mb-20">
+            <div className="mt-12 sm:mt-20 mb-20 text-pretty">
                 <p className="text-xl mt-4 mb-8">
                     <Link to="/">← Back home</Link>
                 </p>

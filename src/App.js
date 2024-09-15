@@ -51,15 +51,17 @@ class App extends React.Component {
           timeline: 'May - Sep 2022',
           category: ['all', 'design', 'work']
         },
-        // {
-        //   id: 1,
-        //   projectTitle: 'South Side Weekly, 2021-2022',
-        //   description: 'Centralizing story management and collaboration between 250+ admin and contributors at a Chicago newspaper nonprofit.',
-        //   imgSrc: ssw,
-        //   imgAlt: 'Desktop contributor and admin dashboards showcasing pitches a contributor can work on and a story that admin can assign contributors to',
-        //   path: '/south-side-weekly',
-        //   category: ['all', 'design', 'work']
-        // },
+        {
+          id: 1,
+          projectTitle: 'South Side Weekly, 2021',
+          description: 'Centralizing story management and collaboration between 250+ admin and contributors at a Chicago newspaper nonprofit.',
+          imgSrc: ssw,
+          imgAlt: 'Desktop contributor and admin dashboards showcasing pitches a contributor can work on and a story that admin can assign contributors to',
+          path: '/south-side-weekly',
+          role: 'Product Designer',
+          timeline: 'Sep 2021 - Jan 2022',
+          category: ['all', 'design']
+        },
         // {
         //   id: 2,
         //   projectTitle: 'Amazon Buy with Prime, 2023',
@@ -128,9 +130,9 @@ class App extends React.Component {
 
           <Route path={this.state.workProjects[0].path} render={() => <ApplePage info={this.state.workProjects[0]} />} />
 
-          {/* <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
 
-          <Route path={this.state.workProjects[2].path} render={() => <AmazonPage info={this.state.workProjects[2]} />} />
+          {/* <Route path={this.state.workProjects[2].path} render={() => <AmazonPage info={this.state.workProjects[2]} />} />
 
           <Route path={this.state.workProjects[3].path} render={() => <GoogleMapsPage info={this.state.workProjects[3]} />} />
 

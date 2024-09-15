@@ -1,435 +1,187 @@
 import React from 'react';
-import Content from '../../components/Content.js';
 import Hero from '../../components/Hero.js';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
+import AOS from 'aos';
 
-import problemplatforms from '../../assets/project/ssw/problem-platform-logos.png';
+import context from '../../assets/project/ssw/context.png';
+import platforms from '../../assets/project/ssw/platforms.png';
 import problem_claimpitch from '../../assets/project/ssw/problem-claimpitch.gif';
-import claimpitch from '../../assets/project/ssw/claim-pitch.png';
-import adminpitchespending from '../../assets/project/ssw/admin-pitches-pending-approval.png';
-import organization from '../../assets/project/ssw/learnings-organization.png';
-import usergoals from '../../assets/project/ssw/user-goals.png';
+import solution from '../../assets/project/ssw/solution.gif';
 
-// contributor key features
-import contributorprofile from '../../assets/project/ssw/profile.png';
-import viewcurrentpitch from '../../assets/project/ssw/view-current-pitch.gif';
-import submitpitch from '../../assets/project/ssw/submit-pitch.png';
+import findstories from '../../assets/project/ssw/findstories.png';
+import pitchideas from '../../assets/project/ssw/pitchideas.png';
+import email from '../../assets/project/ssw/email.png';
+import assigncontributors from '../../assets/project/ssw/assigncontributors.png';
+import reviewpitch from '../../assets/project/ssw/reviewpitch.png';
 
-// admin key features
-import reviewpitch from '../../assets/project/ssw/review-pitch.gif';
-import reviewuser from '../../assets/project/ssw/review-user.gif';
-import approveclaimrequest from '../../assets/project/ssw/approve-claim-request.gif';
-import assigncontributorusingdirectory from '../../assets/project/ssw/assign-contributor-using-directory.gif';
+import flow from '../../assets/project/ssw/flow.png';
+import shadowing from '../../assets/project/ssw/shadowing.png';
 
-// research
-import interviewquestions from '../../assets/project/ssw/interview-questions.png';
-import interviewinsights from '../../assets/project/ssw/interview-insights.png';
-
-// brainstorm
-import claimpitchbrainstorm from '../../assets/project/ssw/claim-pitch-brainstorm.png';
-import homepagebrainstorm from '../../assets/project/ssw/homepage-brainstorm.png';
-
-// iterations
-import claimpitchiterations from '../../assets/project/ssw/claim-pitch-iterations.png';
-
-// team photo
-import team from '../../assets/project/ssw/team.jpg';
 
 function SSWPage(props) {
+    AOS.init();
     window.scrollTo(0, 0);
-    const width = 10;
     return (
         <FadeIn>
-            <img src={props.info.cover} alt={props.info.title} className="cover-image center" />
-
-            <Row className="project-info mobile-padding" width={width}>
-                <Hero className="hero" projectTitle={props.info.projectTitle} description={props.info.description} width={props.width} />
-
-                <Row>
-                    <Col sm>
-                        <b>Role</b>
-                        <br />Product Designer
-                    </Col>
-                    <Col sm>
-                        <b>Timeline</b>
-                        <br />September 2021 - January 2022
-                    </Col>
-                    <Col sm>
-                        <b>Skills</b>
-                        <br />Product Thinking
-                        <br />Interaction Design
-                        <br />Visual Design
-                        <br />User Research
-                    </Col>
-                    <Col sm>
-                        <b>Team</b>
-                        <br />1 Product Manager
-                        <br />1 Technical Lead
-                        <br />1 Product Designer
-                        <br />6 Software Developers
-                    </Col>
-                    <Col sm>
-                        <b>Tools</b>
-                        <br />Figma
-                        <br />FigJam
-                        <br />Notion
-                        <br />Slack
-                    </Col>
-                </Row>
-            </Row>
-
-            <Content width={width}>
-                <body>
-                    <div className="med-text">
-                        <p className="section">
-                            Summary
-                        </p>
-
-                        <p className="paragraph">
-                            <a href="https://uiuc.hack4impact.org/" target="_blank" rel="noopener noreferrer" className="link-underline">Hack4Impact</a> is a student organization at UIUC that works with nonprofits to build software for social good. I was part of a team working with <a href="https://southsideweekly.com/" target="_blank" rel="noopener noreferrer" className="link-underline">South Side Weekly</a>, a Chicago newspaper nonprofit, to build a web-based dashboard for 250+ users to manage stories and contributors.
-                        </p>
-
-                        <p className="paragraph">
-                            This project was taken on by Hack4Impact in the spring 2021 semester. I joined the project during the fall 2021 semester as the sole designer of the team.
-                        </p>
-
-                        <br />
-
-                        <p className="impact-statement">
-                            🎉 We shipped the dashboard in February 2022 and our client has been loving it! The managing director even believes this product can be scaled for use at other newspaper nonprofits.
-                        </p>
-
-                        <p className="paragraph">
-                            <p className="section">
-                                Context
-                            </p>
-
-                            South Side Weekly (SSW) is a local news nonprofit based in the South Side of Chicago that supports cultural and civic engagement on the South Side, and develops emerging journalists, writers, and artists.
-                            <ul>
-                                <li><strong>Pitch</strong>: a news story</li>
-                                <li><strong>Submit a pitch</strong>: user submits a pitch idea and admin either approve or decline it</li>
-                                <li><strong>Claim a pitch</strong>: user submits request to join (work on) an approved pitch</li>
-                                <li><strong>Team</strong>: a category of contributor (ex. photography, editing, writing, visuals, fact-checking)</li>
-                                <li><strong>Contributor</strong>: volunteer at South Side Weekly who works on pitches (writers, editors, photographers, fact-checkers, etc.)</li>
-                            </ul>
-                        </p>
-
-                        <p className="paragraph">
-                            <p className="section">
-                                Problem
-                            </p>
-
-                            <h3 className="subsection">
-                                South Side Weekly's existing story management system was decentralized and unorganized. Users join stories, submit pitch ideas, and make approvals across multiple platforms.
-                            </h3>
-
-                            <img src={problemplatforms} alt="Problem Platforms" className="project-img-smallish center" />
-
-                            <h3 className="subsection">
-                                For example, writers view available stories and submit requests to join them in two separate areas (AirTable table and AirTable form).
-                            </h3>
-                            <img src={problem_claimpitch} alt="Problem Claim Pitch" className="project-img center" />
-                        </p>
-
-                        <h3 className="subsection">
-                            In fact, the existing process of contributors joining pitches varies. Some join via Slack messages and others join via email.
-                        </h3>
-
-                        <p className="paragraph">
-                            <p className="section">
-                                Solution
-                            </p>
-
-                            <h3 className="subsection">
-                                A web dashboard that centralizes the functionality currently existing across multiple platforms. Contributors can claim pitches to work on them and submit their own pitch ideas. Admin and staff review new users, pitches, and pitch claim requests and decide whether to approve or decline them.
-                            </h3>
-
-                            Almost all of SSW’s contributors are volunteers, which makes it imperative to maintain high levels of contributor engagement and retention. The contributor dashboard is intended to accomplish this by enhancing the contributor experience through building a centralized system for onboarding volunteers, submitting pitches, allowing volunteers to pick-up pending assignments, and tracking contributions.
-                        </p>
-
-                        <p className="paragraph">
-                            <p className="section">
-                                User Goals
-                            </p>
-
-                            <img src={usergoals} alt="User Goals" className="project-img-small center" />
-                        </p>
-
-                        <hr class="rounded" />
-
-                        <p className="paragraph">
-                            <p className="section">
-                                As a contributor, you can...
-                            </p>
-
-                            <h3 className="subsection">
-                                1. Claim pitches you are interested in.
-                            </h3>
-
-                            <img src={claimpitch} alt="Claim Pitch" className="project-img center" />
-
-                            <h3 className="subsection">
-                                2. See who you're working with on the pitches you're contributing to.
-                            </h3>
-
-                            <img src={viewcurrentpitch} alt="View Current Pitch" className="project-img center" />
-
-                            <h3 className="subsection">
-                                3. View your previous work and contributions at South Side Weekly.
-                            </h3>
-
-                            <img src={contributorprofile} alt="Contributor Profile" className="project-img center" />
-
-                            <h3 className="subsection">
-                                4. Submit pitches to turn your ideas into publications for tens of thousands to read.
-                            </h3>
-
-                            <img src={submitpitch} alt="Submit Pitch" className="project-img center" />
-
-                            <h3 className="subsection">
-                                5. Receive emails when your submissions have been approved or when you've been assigned to a pitch.
-                            </h3>
-
-                            <p>
-                                In the existing system, once contributors' pitch claim requests or story ideas are approved or declined, staff and admin manually message them through email and Slack.
-                            </p>
-
-                            <p>
-                                Emails are sent out in the following scenarios:
-                                <ul>
-                                    <li>Submitted Pitch Approved/Declined</li>
-                                    <li>Pitch Claim Request Approved/Declined</li>
-                                    <li>Contributor Added to Pitch by Admin/Staff</li>
-                                </ul>
-                            </p>
-
-                            <p>
-                                Here is what an automated email to Dylan, a contributor, looks like when his submitted pitch has been approved:
-                                <blockquote>
-                                    <u>Subject: Pitch “Discrimination in India” Approved</u>
-                                    <br />
-                                    <br />
-                                    Hi Dylan,
-                                    <br />
-                                    <br />
-
-                                    Congratulations, your pitch <strong>“Discrimination in India”</strong> has been <strong>approved</strong>! Your primary editor, Joanne White, is cc’ed on this email and will be following up to begin discussing your story. We can't wait to see your story come together!
-                                    <br />
-                                    <br />
-                                    Thank you,
-                                    <br />
-                                    Jason Brown
-                                </blockquote>
-                            </p>
-
-                        </p>
-
-                        <hr class="rounded" />
-
-                        <p className="paragraph">
-                            <p className="section">
-                                As an admin, you can...
-                            </p>
-
-                            <h3 className="subsection">
-                                1. Review pitch ideas contributors submit.
-                            </h3>
-
-                            <img src={reviewpitch} alt="Review Pitch" className="project-img center" />
-
-                            <h3 className="subsection">
-                                2. Review new users and determine whether they're a good fit to be a contributor or staff member at South Side Weekly.
-                            </h3>
-
-                            <img src={reviewuser} alt="Review User" className="project-img center" />
-
-                            <h3 className="subsection">
-                                3. Review contributors' pitch claim requests (request to contribute to a pitch).
-                            </h3>
-
-                            <img src={approveclaimrequest} alt="Approve Claim Request" className="project-img center" />
-
-                            <h3 className="subsection">
-                                4. Search for photographers in the directory to assign to a pitch that needs photographers.
-                            </h3>
-
-                            <img src={assigncontributorusingdirectory} alt="Assign Contributor Using Directory" className="project-img center" />
-                        </p>
-
-                        <hr class="rounded" />
-
-                        <p className="paragraph">
-                            <p className="section">
-                                Research
-                            </p>
-
-                            Since I joined this project in its 2nd semester, I read through the user survey and interview takeaways from the previous semester. However, I believed that more user research needed to be done to fully understand the way things currently worked at South Side Weekly.
-
-                            <h3 className="subsection">
-                                I scheduled and led user interviews with the Director of Fact-checking, Managing Editor, and a fact-checking contributor at South Side Weekly.
-                            </h3>
-
-                            <img src={interviewquestions} alt="Interview Questions" className="project-img-medium center" />
-
-                            <h3 className="subsection">
-                                User interviews and weekly client calls helped me better understand the users I was designing for.
-                            </h3>
-
-                            <img src={interviewinsights} alt="User Insights" className="project-img-medium center" />
-
-                            In particular, it was interesting to see how the <mark>fact-checking team takes more of a "director assigning pitches to contributors" approach, whereas other teams take a "contributors claim pitches for themselves" approach</mark>. I realized I needed to thoroughly account for both ways of adding contributors to pitches while designing.
-
-                            <h3 className="subsection">
-                                During one of the user interviews when I was asking about current processes, the client offered to have us sit in on a weekly meeting where admin would review submitted pitches.
-                            </h3>
-                            From this session, we learned that admin tend to spend around 5 minutes per pitch doing the following:
-
-                            <ul>
-                                <li>Gain an understanding of the pitch by reading the title & description</li>
-                                <li>Understand the submitter's background by switching to the directory tab to find and open the submitter's profile & LinkedIn</li>
-                                <li>Discuss whether or not to approve the pitch idea</li>
-                            </ul>
-                        </p>
-
-                        <hr class="rounded" />
-
-                        <p className="paragraph">
-                            <p className="section">
-                                Brainstorming
-                            </p>
-
-                            <h3 className="subsection">
-                                1. Contributors can view pitches to claim and submit requests.
-                            </h3>
-
-                            <img src={claimpitchbrainstorm} alt="Claim Pitch Brainstorm" className="project-img center" />
-
-                            <ul>
-                                <strong><li>What context is necessary for contributors when they decide to request to contribute to a story?</li></strong>
-                                <ul>
-                                    <li>Based on user interviews, contributors want to have a full understanding of the pitch content and other contributors on the pitch. They also need to know which teams they can join.</li>
-                                </ul>
-                                <strong><li>How can contributors learn more about a pitch?</li></strong>
-                                <ul>
-                                    <li>Profiles of current contributors, the primary editor, etc. are displayed on the "claim pitch" modal. These profiles contain contact information where a contributor can start conversations to learn more.</li>
-                                </ul>
-                            </ul>
-
-                            <h3 className="subsection">
-                                2. The homepage provides a central location for a contributor to see their relevant work.
-                            </h3>
-
-                            <img src={homepagebrainstorm} alt="Homepage Brainstorm" className="project-img center" />
-
-                            Originally I was tasked with creating a home page where contributors can see pitches that concern them as well as upcoming newspaper issues, but I decided to split these 2 parts into their own tabs: Home and Issues.
-
-                            <p className="paragraph">
-                                The goal of the home page is to enable contributors to see the pitches they are currently working on, submitted pitch ideas, submitted claim requests, and stories they contributed to that have been published.
-                            </p>
-                        </p>
-
-                        <hr class="rounded" />
-
-                        <p className="paragraph">
-                            <p className="section">
-                                Iterations
-                            </p>
-
-                            <h3 className="subsection">
-                                1. Contributors can view pitches to claim and submit requests.
-                            </h3>
-                        </p>
+            <div className="mx-6 md:mx-auto max-w-2xl">
+                <Hero projectTitle={props.info.projectTitle} description={props.info.description} imgSrc={props.info.imgSrc} imgAlt={props.info.imgAlt} role={props.info.role} timeline={props.info.timeline} />
+
+                <p className="text-xl text-gray-500">Overview</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">
+                    I designed a dashboard to help South Side Weekly effectively manage news stories and collaboration.
+                </p>
+                <p className="text-xl text-gray-900">
+                    This project was conducted at <a href="https://uiuc.hack4impact.org" target="_blank" rel="noopener noreferrer" className='secondary-link' alt="Hack4Impact">Hack4Impact</a>, a student organization at UIUC that builds software for nonprofits. I collaborated with 8 students, including a product manager, a technical lead, and software developers, to build the dashboard.
+                </p>
+
+                <p className="text-xl text-gray-900 bg-gray-200 p-4">We shipped the dashboard in February 2022 to 250+ admin and contributors at South Side Weekly! After usage, the managing director even stated he believed our dashboard could be scaled for use at other newspaper nonprofits. 😎</p>
+
+
+                <p className="text-xl text-gray-500 mt-16">Context</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Every published story involves collaboration between contributors and admin.</p>
+                <p className="text-xl text-gray-900">
+                    Contributors volunteer on stories and admin manage them and their work. They are divided into teams based on their skills such as writing, editing, photography, fact-checking, and visual art.
+                </p>
+
+                <img className="my-4" src={context} />
+
+
+                <p className="text-xl text-gray-500 mt-16">Problem</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Managing stories across many platforms is challenging and inefficient for the admin and contributors at South Side Weekly.</p>
+                <p className="text-xl text-gray-900">
+                    Admin review contributors’ pitches and assign contributors to stories. Contributors request to work on stories, pitch new story ideas, and track their work. All of this happens across Slack, AirTable, forms, and email — leading to workflow inefficiencies for admin and contributors.
+                </p>
+
+                <img className="my-4" src={platforms} />
+
+                <p className="text-xl text-gray-900 my-4">
+                    For example, contributors view available stories in an AirTable and submit requests to work on them in a separate form. In fact, the existing process of contributors joining stories varies too: some join through Slack message and others join through email.
+                </p>
+
+                <img className="my-4" src={problem_claimpitch} />
+
+
+                <p className="text-xl text-gray-500 mt-16">Solution</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">A dashboard that centralizes collaboration between contributors and admin and supports them in their goals.</p>
+                <p className="text-xl text-gray-900">
+                    Contributors discover and request to work on stories, pitch their own story ideas, and collaborate with others to cover stories. Admin review pitches, assign contributors to stories, and ensure issues are published on time.
+                </p>
+            </div>
+            <img className="px-4 my-4" src={solution} />
+
+
+            <div className="mx-6 md:mx-auto max-w-2xl mt-12">
+                <p className="text-xl text-gray-500 mt-16">Goals</p>
+
+                <div className="sm:grid sm:grid-cols-2 gap-x-4">
+                    <div>
+                        <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Contributors</p>
+                        <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5">
+                            <li>
+                                Work on stories that interest them
+                            </li>
+                            <li>
+                                Grow their specific skillsets
+                            </li>
+                            <li>
+                                Gain newspaper industry experience
+                            </li>
+                        </ul>
                     </div>
-
-                    <img src={claimpitchiterations} alt="Claim Pitch Iterations" className="project-img center" />
-
-                    <div className="med-text">
-                        <p className="paragraph">
-                            <h3 className="subsection">
-                                2. Admin have an overview of contributors' submitted pitches that need to be reviewed.
-                            </h3>
-
-                            <img src={adminpitchespending} alt="Admin Pitches Pending Approval" className="project-img center" />
-
-                            I took insights regarding what key information admin care about from the user research shadowing session and applied them to the design of this tab.
-
-                            <h3 className="subsection">
-                                This is the FigJam document I used to explore different designs and iterate upon feedback from my PM and Hack4Impact design critiques.
-                            </h3>
-
-                            <iframe title="South Side Weekly Iterations" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2B5wNbo5IhnmMsCab1oOxM%2FResearch%252C-Ideation%252C-Exploration%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
-                        </p>
-
-                        <hr className="rounded" />
-
-                        <p className="paragraph">
-                            <p className="section">
-                                Learnings
-                            </p>
-
-                            <h3 className="subsection">
-                                Design with technical and time constraints in mind, but don’t sacrifice the user experience in the process.
-                            </h3>
-
-                            Collaborating with a large development team and technical lead presented many opportunities for discussion on the cost of implementation of my designs. I learned the importance of communicating my views and listening to others’ views and reaching a <mark>compromise that would result in the most efficient development and good user experience</mark>.
-
-                            <h3 className="subsection">
-                                Communication is key in a large cross-functional team.
-                            </h3>
-
-                            I learned how to hand off designs to developers. This involved <mark>adding development notes and wireframes that take into account different states and edge cases as well as highlighting which flows and features are complete and ready for implementation versus ones that are still in progress</mark>. I also learned how to communicate my designs and decisions to my product manager, clients, and other designers during design critiques.
-
-                            <h3 className="subsection">
-                                I learned how to keep all my tasks, thoughts, research, and feedback organized in Notion and Figma.
-                            </h3>
-                        </p>
+                    <div>
+                        <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Admin</p>
+                        <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5">
+                            <li>
+                                Assign contributors to stories of good fit
+                            </li>
+                            <li>
+                                Increase contributor retention
+                            </li>
+                            <li>
+                                Maintain high readership
+                            </li>
+                        </ul>
                     </div>
+                </div>
 
-                    <img src={organization} alt="Figma and Notion Organization" className="project-img center" />
 
-                    <div className="med-text">
-                        <p className="paragraph">
-                            Checkout my Figma document where I built my wireframes, components, design system, and guide for developers.
-                        </p>
 
-                        <iframe title="South Side Weekly Figma File" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FMHRVK2dRznJ3mSogT57dM5%2F%255BFa21%255D-SSW-Bryan's-Designs%3Fnode-id%3D598%253A45494" allowfullscreen></iframe>
 
-                        <p className="paragraph">
-                            <hr className="rounded" />
-                            <h3 className="subsection">
-                                Shoutout to my incredible team!
-                            </h3>
 
-                            <img src={team} alt="SSW Team" className="project-img-small center" />
 
-                            <p className="paragraph">
-                                <Row>
-                                    <Col>
-                                        <ul>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sahithimuthyala/">Sahi Muthyala</a>, Product Manager</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amit-m-sawhney/">Amit Sawhney</a>, Technical Lead</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ayan-mallik/">Ayan Mallik</a>, Software Developer</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/neha-konjeti-574135199/">Neha Konjeti</a>, Software Developer</li>
-                                        </ul>
-                                    </Col>
-                                    <Col>
-                                        <ul>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/feiyuwong/">Andy Wong</a>, Software Developer</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zorazhang28/">Zora Zhang</a>, Software Developer</li>
-                                            <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/andrew-s-lester/">Andrew Lester</a>, Software Developer</li>
-                                            <li>Aditya Jain, Software Developer</li>
-                                        </ul>
-                                    </Col>
-                                </Row>
-                            </p>
-                        </p>
-                    </div>
-                </body>
-            </Content>
 
-        </FadeIn >
+                <p className="text-xl text-gray-500 mt-16">Main Features</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Contributors</p>
+
+                <p className="text-xl text-gray-900 font-medium mt-4">
+                    Find stories to work on that match your interests and skills.
+                </p>
+                <img className="mt-2" src={findstories} />
+
+                <p className="text-xl text-gray-900 font-medium mt-4">
+                    Pitch story ideas for tens of thousands to read.
+                </p>
+                <img className="mt-2" src={pitchideas} />
+
+                <p className="text-xl text-gray-900 font-medium mt-4">
+                    Receive automated emails so you know if your pitch or request to work on a story has been approved.
+                </p>
+                <img className="mt-2" src={email} />
+
+
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">Admin</p>
+
+                <p className="text-xl text-gray-900 font-medium mt-4">
+                    Assign contributors to stories.
+                </p>
+                <img className="mt-2" src={assigncontributors} />
+
+                <p className="text-xl text-gray-900 font-medium mt-4">
+                    Review pitches that contributors submit.
+                </p>
+                <img className="mt-2" src={reviewpitch} />
+
+
+                <p className="text-xl text-gray-500 mt-16">Research</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Questions for Contributors</p>
+                <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5">
+                    <li>
+                        What do you hope to gain from your time at South Side Weekly?
+                    </li>
+                    <li>
+                        What is your end-to-end process from finding stories to work on to publication?
+                    </li>
+                </ul>
+
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Questions for Admin</p>
+                <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5">
+                    <li>
+                        How do you assign contributors to stories?
+                    </li>
+                    <li>
+                        How do you review a contributor’s request to work on a story?
+                    </li>
+                    <li>
+                        How do you review a pitch?
+                    </li>
+                </ul>
+
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">
+                    Stories come to life through a series of steps, from pitch to publication.
+                </p>
+            </div>
+
+            <img className="px-4 my-4" src={flow} />
+
+            <div className="mx-6 md:mx-auto max-w-2xl mt-12">
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">To understand how admin make approvals, I sat in on a meeting where they review contributors’ pitches.</p>
+                <p className="text-xl text-gray-900">
+                    Admin spent around 5 minutes reading the pitch, understanding the submitter's background by switching to the directory tab to find and open the submitter's profile and LinkedIn, and discussing.
+                </p>
+
+                <img className="my-4" src={shadowing} />
+            </div>
+        </FadeIn>
     );
 }
 

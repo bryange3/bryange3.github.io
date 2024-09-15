@@ -5,7 +5,7 @@ import FadeIn from 'react-fade-in';
 
 function GrandTetonPage(props) {
     return (
-        <FadeIn className="mx-6 md:mx-auto max-w-2xl">
+        <FadeIn className="mx-6 md:mx-auto max-w-2xl text-pretty">
             <div className="mt-12 sm:mt-20 mb-20">
                 <p className="text-xl mt-4 mb-8 text-gray-500">
                     <Link to="/">← Back home</Link>
