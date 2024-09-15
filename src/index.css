@@ -145,7 +145,7 @@ body {
     margin: 0;
     font-size: 16px !important;
     font-weight: normal;
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* animation: fadeInAnimation ease 2s;
@@ -218,7 +218,7 @@ code {
 }
 
 .project-card-info {
-    
+
 }
 
 ul.social-media-list {
@@ -341,12 +341,6 @@ hr.rounded {
 .paragraph {
     margin-top: 1em;
     margin-bottom: 1em;
-}
-
-.impact-statement {
-    background: #F5F5F7;
-    border-radius: 8px;
-    padding: 2%;
 }
 
 blockquote {

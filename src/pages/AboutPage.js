@@ -4,11 +4,7 @@ import { Link } from 'react-router-dom';
 import FadeIn from 'react-fade-in';
 
 import about from '../assets/other/about.jpeg';
-import pizza from '../assets/other/pizza.gif';
-import skincare from '../assets/other/skincare.png';
-import denzel from '../assets/other/denzel.jpg';
-import applepie from '../assets/other/applepie.png';
-import connie from '../assets/other/connie.png';
+import schwabacher from '../assets/other/schwabacher.jpeg';
 
 function AboutPage(props) {
     AOS.init();
@@ -22,20 +18,43 @@ function AboutPage(props) {
 
                 <p className="text-5xl font-semibold text-gray-900 mb-8 font-serif">About Me</p>
                 <img
-                    class="mb-4"
+                    class="my-12"
                     src={about}
                     alt="Bryan smiling with the Tetons and String Lake behind him"
                 />
 
-                <p className="text-xl text-gray-900">I'm Bryan Ge (he/him), a designer who loves solving complex problems involving deep systems thinking, visual craft, and storytelling. I've led and shipped projects at large tech companies including Apple and Amazon, small startups and businesses, and nonprofits. Check out my <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='secondary-link' alt="Resume">resume ↗</a>.</p>
-                <p className="text-xl text-gray-900">Currently, I'm playing around with frontend (ReactJS and Tailwind CSS for this site) and embarking on a <Link to="/about/grandteton">side quest at Grand Teton National Park →</Link>.</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">I'm Bryan Ge, he/him.</p>
+                <p className="text-xl text-gray-900">
+                    I am a designer who loves solving meaningful and complex problems involving deep systems thinking, visual craft, and storytelling. I've led and shipped projects at large tech companies including Apple and Amazon, small startups, and nonprofits.
+                </p>
+                <p className="text-xl text-gray-900">
+                    At the University of Illinois, I designed and shipped products for nonprofits at <a href="https://uiuc.hack4impact.org" target="_blank" rel="noopener noreferrer" className='secondary-link' alt="Hack4Impact">Hack4Impact</a>. I led initiatives to improve the design culture of the organization through team-pair design critique, industry designer feedback, online resources, and recruitment. Check out my <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='secondary-link' alt="Resume">resume</a>.
+                </p>
 
-                <br/>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Currently, I am exploring prototyping and realizing my ideas through code.</p>
+                <p className="text-xl text-gray-900">
+                    I'm creating components in React and discovering the ease in building visually compelling layouts with Tailwind CSS (for this website). Also curious about interaction patterns and logic-based design prototyping tools.
+                </p>
+
+                <img
+                    class="mt-16 mb-12"
+                    src={schwabacher}
+                    alt="Schwabacher Landing sunrise at Grand Teton National Park"
+                />
+
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">I'm also on a side quest, spending my summer at Grand Teton National Park.</p>
+                <p className="text-xl text-gray-900">
+                    It's been a personal dream come true getting to live on a mountain, go on hikes to alpine lakes, and witness unreal sunrises and sunsets.
+                </p>
+
+                <br />
 
                 <p className="text-xl text-gray-900 bg-gray-200 p-4">Shoutout to my design moms and biggest supporters — Carmen, Takara, Kim, Sana! Their mentorship has been incredibly impactful and I’m extremely appreciative.</p>
             </div>
         </FadeIn >
     );
+
+    // View photos and more <Link to="/grand-teton">here</Link>.
 }
 
 export default AboutPage;

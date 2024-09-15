@@ -5,7 +5,7 @@ function Footer() {
     return (
         <FadeIn delay={200}>
             <div className="sticky-footer max-w-2xl mx-6 md:mx-auto mb-10 md:mb-36">
-                <hr className="rounded mb-10"></hr>
+                <hr className="rounded mt-16 mb-10"></hr>
                 <p className="text-2xl font-semibold font-serif">Thanks for taking a scroll, let's chat!</p>
                 <p className="text-lg font-normal">
                     <a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer" alt="Email">Email ↗</a>

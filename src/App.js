@@ -1,25 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 // import Navbar from 'react-bootstrap/Navbar';
 // import Nav from 'react-bootstrap/Nav';
 import './App.css';
-
-import cargill from './assets/project/cargill/cargill.png';
-import apple from './assets/project/apple/apple.png';
-import ssw from './assets/project/ssw/ssw.png';
-import nour from './assets/project/nour/nour.png';
-import amazon from './assets/project/amazon/amazon.gif';
 
 import Footer from './components/Footer';
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import GrandTetonPage from './pages/GrandTetonPage.js';
-import PhotographyPage from './pages/PhotographyPage';
+// import PhotographyPage from './pages/PhotographyPage';
+
+import cargill from './assets/project/cargill/cargill.png';
+import apple from './assets/project/apple/apple.png';
+import ssw from './assets/project/ssw/ssw.png';
+import nour from './assets/project/nour/nour.png';
+import amazon from './assets/project/amazon/amazon.png';
+import googlemaps from './assets/project/googlemaps/googlemaps.png';
 
 // projects
 import ApplePage from './pages/Projects/ApplePage.js';
 import SSWPage from './pages/Projects/SSWPage.js';
+import AmazonPage from './pages/Projects/AmazonPage.js';
+import GoogleMapsPage from './pages/Projects/GoogleMapsPage.js';
 import NourPage from './pages/Projects/NourPage.js';
 import CargillPage from './pages/Projects/CargillPage.js';
 
@@ -29,55 +32,70 @@ class App extends React.Component {
     this.state = {
       title: "Bryan Ge",
       home: {
-        title: 'I\'m a product designer + developer with a love for baking and social good!',
       },
       about: {
       },
       grandteton: {
       },
-      photography: {
-      },
+      // photography: {
+      // },
       workProjects: [
         {
           id: 0,
-          projectTitle: 'Enhancing Legacy Contact at Apple',
-          description: 'Improving a feature that helps people share account data after death. Also increasing discovery via Family Sharing, now primary driver behind adoption.',
+          projectTitle: 'Apple iCloud, 2022',
+          description: 'Enhancing Legacy Contact, a feature that helps people share account data after death. Also increasing discovery via Family Sharing.',
           imgSrc: apple,
+          imgAlt: 'An iPhone on the add legacy contact screen and another on the family checklist screen',
           path: '/apple',
+          role: 'Product Design Intern, iCloud',
+          timeline: 'May - Sep 2022',
           category: ['all', 'design', 'work']
         },
-        {
-          id: 1,
-          projectTitle: 'Centralizing story management between admin and contributors at a newspaper nonprofit',
-          description: 'Streamlining collaboration between 250+ admin and contributors at Chicago newspaper nonprofit, South Side Weekly.',
-          imgSrc: ssw,
-          path: '/southsideweekly',
-          category: ['all', 'design', 'work']
-        },
-        {
-          id: 2,
-          projectTitle: 'Helping shoppers discover and understand Buy with Prime at Amazon',
-          description: 'Providing merchants with elements to add to their direct-to-consumer websites to boost Buy with Prime product discovery, shipped on Shopify.',
-          imgSrc: amazon,
-          path: '/amazon',
-          category: ['all', 'design', 'work']
-        },
-        {
-          id: 2,
-          projectTitle: 'Nour Social Platform',
-          description: 'Connecting the elderly in a time of social distancing.',
-          imgSrc: nour,
-          path: '/nour',
-          category: ['all', 'design']
-        },
-        {
-          id: 3,
-          projectTitle: 'Cargill Menu Item Idea Dashboard',
-          description: 'Tracking new menu item ideas for a leading fast-food restaurant.',
-          imgSrc: cargill,
-          path: '/cargill',
-          category: ['all', 'design', 'work']
-        }
+        // {
+        //   id: 1,
+        //   projectTitle: 'South Side Weekly, 2021-2022',
+        //   description: 'Centralizing story management and collaboration between 250+ admin and contributors at a Chicago newspaper nonprofit.',
+        //   imgSrc: ssw,
+        //   imgAlt: 'Desktop contributor and admin dashboards showcasing pitches a contributor can work on and a story that admin can assign contributors to',
+        //   path: '/south-side-weekly',
+        //   category: ['all', 'design', 'work']
+        // },
+        // {
+        //   id: 2,
+        //   projectTitle: 'Amazon Buy with Prime, 2023',
+        //   description: 'Helping shoppers discover products they can buy with Prime fast, free delivery on direct-to-consumer websites. Educational elements shipped on Shopify in 2024.',
+        //   imgSrc: amazon,
+        //   imgAlt: '',
+        //   path: '/amazon',
+        //   category: ['all', 'design', 'work']
+        // },
+        // {
+        //   id: 3,
+        //   projectTitle: 'Google Maps Saved Places',
+        //   description: 'Empowering people to explore the places they saved through search integration.',
+        //   imgSrc: googlemaps,
+        //   imgAlt: '',
+        //   path: '/google-maps',
+        //   category: ['all', 'design']
+        // },
+        // {
+        //   id: 4,
+        //   projectTitle: 'Cargill, 2021',
+        //   description: 'Tracking 5000+ new menu item ideas for a leading fast-food chain.',
+        //   imgSrc: cargill,
+        //   imgAlt: '',
+        //   path: '/cargill',
+        //   category: ['all', 'design', 'work']
+        // },
+        // {
+        //   id: 5,
+        //   projectTitle: 'Nour',
+        //   description: 'Connecting the elderly in a time of social distancing.',
+        //   imgSrc: nour,
+        //   imgAlt: '',
+        //   path: '/nour',
+        //   category: ['all', 'design']
+        // }
       ]
     }
   }
@@ -105,16 +123,20 @@ class App extends React.Component {
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/about/grandteton" exact render={() => <GrandTetonPage title={this.state.grandteton.title} />} />
-          <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
+          <Route path="/grand-teton" exact render={() => <GrandTetonPage title={this.state.grandteton.title} />} />
+          {/* <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} /> */}
 
           <Route path={this.state.workProjects[0].path} render={() => <ApplePage info={this.state.workProjects[0]} />} />
 
-          <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
+          {/* <Route path={this.state.workProjects[1].path} render={() => <SSWPage info={this.state.workProjects[1]} />} />
 
-          <Route path={this.state.workProjects[2].path} render={() => <NourPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <AmazonPage info={this.state.workProjects[2]} />} />
 
-          <Route path={this.state.workProjects[3].path} render={() => <CargillPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <GoogleMapsPage info={this.state.workProjects[3]} />} />
+
+          <Route path={this.state.workProjects[4].path} render={() => <CargillPage info={this.state.workProjects[4]} />} />
+
+          <Route path={this.state.workProjects[5].path} render={() => <NourPage info={this.state.workProjects[5]} />} /> */}
 
           <Footer />
 
