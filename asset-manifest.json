@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.49931be5.css",
-    "main.js": "/static/js/main.74a18b7d.js",
+    "main.css": "/static/css/main.9bfd25a4.css",
+    "main.js": "/static/js/main.364a66c8.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/fam-checklist.gif": "/static/media/fam-checklist.1fb7b81072f7789cae2b.gif",
     "static/media/problem-claimpitch.gif": "/static/media/problem-claimpitch.c07d59872eca58c8e575.gif",
@@ -29,7 +29,6 @@
     "static/media/team.jpg": "/static/media/team.4e21fd9c0fe6157ff87f.jpg",
     "static/media/screen-flow.png": "/static/media/screen-flow.049c5f90c37a643cd9ea.png",
     "static/media/claim-pitch-brainstorm.png": "/static/media/claim-pitch-brainstorm.272880d89246e6ab212b.png",
-    "static/media/ssw.png": "/static/media/ssw.383557a8d9880d5d71e0.png",
     "static/media/googlemaps.png": "/static/media/googlemaps.bb0e8637356578568918.png",
     "static/media/RoomDiscoveryVariations.png": "/static/media/RoomDiscoveryVariations.cc19e654137459716cf7.png",
     "static/media/checklist-variations.png": "/static/media/checklist-variations.f1d1b2647c4ddd658d52.png",
@@ -40,21 +39,23 @@
     "static/media/claim-pitch.png": "/static/media/claim-pitch.89899ac0d2e13a9b8c14.png",
     "static/media/profile.png": "/static/media/profile.62814b158258de85f343.png",
     "static/media/about.jpeg": "/static/media/about.71beae2fd2acd13312d4.jpeg",
+    "static/media/ssw.png": "/static/media/ssw.3e0531f2c02d0ffb0f1e.png",
     "static/media/icloud.png": "/static/media/icloud.bd87a1693e1e2f7f631d.png",
     "static/media/submit-pitch.png": "/static/media/submit-pitch.3c276f619d5ef0a39e2c.png",
     "static/media/cargill.png": "/static/media/cargill.0f3279f379094cb98ea6.png",
     "static/media/nour.png": "/static/media/nour.e388c29e2582b0105f7f.png",
+    "static/media/schwabacher.jpeg": "/static/media/schwabacher.daf2280ba55e2c9b1c10.jpeg",
     "static/media/Timeline.png": "/static/media/Timeline.5beb587e6de358f78cf4.png",
     "static/media/interview-questions.png": "/static/media/interview-questions.681499c679cb3b62c864.png",
     "static/media/interview-insights.png": "/static/media/interview-insights.41cd138dbee81c3534a2.png",
     "static/media/user-goals.png": "/static/media/user-goals.389d315f748d9130f8c0.png",
     "index.html": "/index.html",
-    "main.49931be5.css.map": "/static/css/main.49931be5.css.map",
-    "main.74a18b7d.js.map": "/static/js/main.74a18b7d.js.map",
+    "main.9bfd25a4.css.map": "/static/css/main.9bfd25a4.css.map",
+    "main.364a66c8.js.map": "/static/js/main.364a66c8.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49931be5.css",
-    "static/js/main.74a18b7d.js"
+    "static/css/main.9bfd25a4.css",
+    "static/js/main.364a66c8.js"
   ]
 }
