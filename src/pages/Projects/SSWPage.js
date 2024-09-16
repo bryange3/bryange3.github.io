@@ -20,6 +20,7 @@ import requeststoryiterations from '../../assets/project/ssw/requeststoryiterati
 import individualrequests from '../../assets/project/ssw/individualrequests.png';
 import reviewstories from '../../assets/project/ssw/reviewstories.png';
 import storydetails from '../../assets/project/ssw/storydetails.gif';
+import teamsketch from '../../assets/project/ssw/teamsketch.jpg';
 
 
 function SSWPage(props) {
@@ -263,9 +264,8 @@ function SSWPage(props) {
                 <p className="text-xl text-gray-900">
                     Grouping contributors into teams gives admin a clearer visualization of who is working on the story, which helps admin decide who else to assign.
                 </p>
-            </div>
-            <img className="px-20 my-4 mx-auto" src={storydetails} />
-            <div className="mx-6 md:mx-auto max-w-2xl">
+                <img className="my-2" src={teamsketch} />
+
                 <p className="text-xl text-gray-900 font-semibold mt-10">
                     I disagreed with engineering's proposal to split up the view of contributors by team into separate tabs.
                 </p>
@@ -276,8 +276,12 @@ function SSWPage(props) {
                     I proposed laying out story details into 2 sections: what the story is about on the left and contributor/team assignment on the right.
                 </p>
                 <p className="text-xl text-gray-900">
-                    From my tech lead's proposal, I realized that we did not need every property to have auto-save. We compromised with this 2-section option which maintains the context necessary for admin, while also being more feasible to implement.
+                    From my tech lead's proposal, I realized that we did not need every property to have auto-save. We compromised with this 2-section option which maintains context for admin, while also being more feasible to implement.
                 </p>
+            </div>
+            <img className="px-20 my-4 mx-auto" src={storydetails} />
+            <div className="mx-6 md:mx-auto max-w-2xl">
+                
             </div>
         </FadeIn>
     );
