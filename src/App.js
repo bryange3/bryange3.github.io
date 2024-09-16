@@ -43,7 +43,7 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
-          projectTitle: 'Apple iCloud, 2022',
+          projectTitle: 'Apple, 2022',
           description: 'Enhancing Legacy Contact, a feature that helps people share account data after death. Also increasing discovery via Family Sharing.',
           imgSrc: apple,
           imgAlt: 'An iPhone on the add legacy contact screen and another on the family checklist screen',
@@ -65,7 +65,7 @@ class App extends React.Component {
         },
         // {
         //   id: 2,
-        //   projectTitle: 'Amazon Buy with Prime, 2023',
+        //   projectTitle: 'Amazon, 2023',
         //   description: 'Helping shoppers discover products they can buy with Prime fast, free delivery on direct-to-consumer websites. Educational elements shipped on Shopify in 2024.',
         //   imgSrc: amazon,
         //   imgAlt: '',

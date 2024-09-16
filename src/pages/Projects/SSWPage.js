@@ -19,6 +19,7 @@ import shadowing from '../../assets/project/ssw/shadowing.png';
 import requeststoryiterations from '../../assets/project/ssw/requeststoryiterations.png';
 import individualrequests from '../../assets/project/ssw/individualrequests.png';
 import reviewstories from '../../assets/project/ssw/reviewstories.png';
+import storydetails from '../../assets/project/ssw/storydetails.gif';
 
 
 function SSWPage(props) {
@@ -70,7 +71,7 @@ function SSWPage(props) {
                     Contributors discover and request to work on stories, pitch their own story ideas, and collaborate with others to cover stories. Admin review pitches, assign contributors to stories, and ensure issues are published on time.
                 </p>
             </div>
-            <img className="px-4 my-4" src={solution} />
+            <img className="px-20 my-4 mx-auto" src={solution} />
 
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
@@ -190,13 +191,13 @@ function SSWPage(props) {
                     How can we make it easy for contributors to find stories that match their interests and skills?
                 </p>
 
-                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Contributors are looking for an opportunity to gain real world experience and improve their skills.</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Different teams handle contributor assignment differently.</p>
                 <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5">
                     <li>
-                        Some teams have admin assign stories to contributors.
+                        Some teams, such as fact-checking, have admin assign stories to contributors.
                     </li>
                     <li>
-                        Other teams have contributors request stories themselves and admin approve or decline.
+                        Other teams have contributors request stories themselves and admin approve or decline. For example, writers need to be interested in the story they're writing about to create quality articles.
                     </li>
                 </ul>
 
@@ -228,7 +229,7 @@ function SSWPage(props) {
                 </ul>
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">How do admin review contributors’ requests to work on stories? How do they assign contributors?</p>
-                <p className="text-xl text-gray-900 font-medium mt-4">
+                <p className="text-xl text-gray-900 font-semibold mt-4">
                     Option 1 - Individual requests
                 </p>
                 <p className="text-xl text-gray-900">
@@ -237,15 +238,45 @@ function SSWPage(props) {
                 <img className="my-2" src={individualrequests} />
 
 
-                <p className="text-xl text-green-600 font-medium mt-4">
+                <p className="text-xl text-green-600 font-semibold mt-8">
                     Option 2 - Stories that need contributors ✅
                 </p>
                 <p className="text-xl text-gray-900">
                     Admin see a list of stories that still need contributors to join and can click into each story's detail page to categorically see all the writers, editors, photographers, etc. assigned. They can also make assignments here.
                 </p>
                 <img className="my-2" src={reviewstories} />
+                <p className="text-xl text-gray-900 mt-4">
+                    I moved forward with this approach because:
+                </p>
+                <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5 mb-4">
+                    <li>
+                        Admin are given the context to make informed assignment decisions (team setup, contributor background and expertise)
+                    </li>
+                    <li>
+                        Supports <em>both</em> methods of contributor assignment — contributors requesting and admin approving, admin adding contributors to stories
+                    </li>
+                </ul>
+
+                <p className="text-xl text-gray-900 font-semibold mt-10">
+                    How can we help admin better understand who’s working on the story?
+                </p>
                 <p className="text-xl text-gray-900">
-                    I moved forward with this approach because admin are given the context to make informed assignment decisions. This interface also supports <em>both</em> methods of contributor assignment: contributors requesting and admin approving, admin adding contributors to stories.
+                    Grouping contributors into teams gives admin a clearer visualization of who is working on the story, which helps admin decide who else to assign.
+                </p>
+            </div>
+            <img className="px-20 my-4 mx-auto" src={storydetails} />
+            <div className="mx-6 md:mx-auto max-w-2xl">
+                <p className="text-xl text-gray-900 font-semibold mt-10">
+                    I disagreed with engineering's proposal to split up the view of contributors by team into separate tabs.
+                </p>
+                <p className="text-xl text-gray-900">
+                    My tech lead explained that auto-save functionality for all fields on this screen would be too costly to implement, which is why he suggested separate tabs. His proposal means admin would lack the team overview and context they need to make assignment decisions.
+                </p>
+                <p className="text-xl text-gray-900 font-semibold mt-4">
+                    I proposed laying out story details into 2 sections: what the story is about on the left and contributor/team assignment on the right.
+                </p>
+                <p className="text-xl text-gray-900">
+                    From my tech lead's proposal, I realized that we did not need every property to have auto-save. We compromised with this 2-section option which maintains the context necessary for admin, while also being more feasible to implement.
                 </p>
             </div>
         </FadeIn>

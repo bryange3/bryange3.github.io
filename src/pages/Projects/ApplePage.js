@@ -83,6 +83,8 @@ function ApplePage(props) {
                 </p>
 
                 <img className="my-12" src={applepark} />
+
+                <p className="text-xl text-gray-900 bg-gray-200 p-4">Thank you to the iCloud Human Interface team and many others for supporting me throughout my internship and giving me the opportunity to work on such a meaningful project. <br/><br/> Big thanks to <strong>Carmen</strong>, my manager, for helping me grow as a designer through feedback and encouragement, even beyond the summer.</p>
             </div>
         </FadeIn>
     );
