@@ -16,6 +16,9 @@ import reviewpitch from '../../assets/project/ssw/reviewpitch.png';
 
 import flow from '../../assets/project/ssw/flow.png';
 import shadowing from '../../assets/project/ssw/shadowing.png';
+import requeststoryiterations from '../../assets/project/ssw/requeststoryiterations.png';
+import individualrequests from '../../assets/project/ssw/individualrequests.png';
+import reviewstories from '../../assets/project/ssw/reviewstories.png';
 
 
 function SSWPage(props) {
@@ -134,12 +137,12 @@ function SSWPage(props) {
                 <p className="text-xl text-gray-900 font-medium mt-4">
                     Assign contributors to stories.
                 </p>
-                <img className="mt-2" src={assigncontributors} />
+                <img className="mt-2" src={assigncontributors} alt="" />
 
                 <p className="text-xl text-gray-900 font-medium mt-4">
                     Review pitches that contributors submit.
                 </p>
-                <img className="mt-2" src={reviewpitch} />
+                <img className="mt-2" src={reviewpitch} alt="Screen admin sees when reviewing a pitch, includes pitch information, creator, ability to choose how many contributors of each team are needed" />
 
 
                 <p className="text-xl text-gray-500 mt-16">Research</p>
@@ -171,7 +174,7 @@ function SSWPage(props) {
                 </p>
             </div>
 
-            <img className="px-4 my-4" src={flow} />
+            <img className="px-4 my-4" src={flow} alt="Flowchart showing how stories go from submitted pitch to publication, includes request and approval steps and collaboration" />
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">To understand how admin make approvals, I sat in on a meeting where they review contributors’ pitches.</p>
@@ -179,7 +182,71 @@ function SSWPage(props) {
                     Admin spent around 5 minutes reading the pitch, understanding the submitter's background by switching to the directory tab to find and open the submitter's profile and LinkedIn, and discussing.
                 </p>
 
-                <img className="my-4" src={shadowing} />
+                <img className="my-4" src={shadowing} alt="Screenshot of Zoom call where Bryan shadows SSW admin team making approval decisions regarding submitted pitches, AirTable of pitches" />
+
+                <p className="text-xl text-gray-500 mt-16">Insights</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Contributors are looking for an opportunity to gain real world experience and improve their skills.</p>
+                <p className="text-xl text-gray-900 mb-4">
+                    How can we make it easy for contributors to find stories that match their interests and skills?
+                </p>
+
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Contributors are looking for an opportunity to gain real world experience and improve their skills.</p>
+                <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5">
+                    <li>
+                        Some teams have admin assign stories to contributors.
+                    </li>
+                    <li>
+                        Other teams have contributors request stories themselves and admin approve or decline.
+                    </li>
+                </ul>
+
+
+                <p className="text-xl text-gray-500 mt-16">Exploration</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">After finding a story, how can a contributor get started?</p>
+                <p className="text-xl text-gray-900 mb-4">
+                    Here’s the story details modal that contributors see while browsing through available stories to work on. I reduced the information presented down to the essentials. Contributors easily see what a story is about, decide whether it's something interesting they'd like to work on, and choose the team(s) they'd like to contribute to.
+                </p>
+            </div>
+
+            <img className="px-4 my-8" src={requeststoryiterations} alt="Iterations for modal that contributors see when viewing available stories to work on" />
+
+            <div className="mx-6 md:mx-auto max-w-2xl">
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-14">How do admin review pitches contributors submit?</p>
+                <p className="text-xl text-gray-900">
+                    Shadowing admin as they reviewed pitches gave me insight into key factors for approval decisions, which I translated to the new dashboard.
+                </p>
+                <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5 mb-4">
+                    <li>
+                        Link to the pitch creator’s profile to learn more about their background
+                    </li>
+                    <li>
+                        Link to the Google Doc for more pitch details
+                    </li>
+                    <li>
+                        Table format is familiar to admin who previously used AirTable
+                    </li>
+                </ul>
+
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">How do admin review contributors’ requests to work on stories? How do they assign contributors?</p>
+                <p className="text-xl text-gray-900 font-medium mt-4">
+                    Option 1 - Individual requests
+                </p>
+                <p className="text-xl text-gray-900">
+                    Each request to work on a story a contributor makes is shown in a list and admin work through the requests one-by-one.
+                </p>
+                <img className="my-2" src={individualrequests} />
+
+
+                <p className="text-xl text-green-600 font-medium mt-4">
+                    Option 2 - Stories that need contributors ✅
+                </p>
+                <p className="text-xl text-gray-900">
+                    Admin see a list of stories that still need contributors to join and can click into each story's detail page to categorically see all the writers, editors, photographers, etc. assigned. They can also make assignments here.
+                </p>
+                <img className="my-2" src={reviewstories} />
+                <p className="text-xl text-gray-900">
+                    I moved forward with this approach because admin are given the context to make informed assignment decisions. This interface also supports <em>both</em> methods of contributor assignment: contributors requesting and admin approving, admin adding contributors to stories.
+                </p>
             </div>
         </FadeIn>
     );
