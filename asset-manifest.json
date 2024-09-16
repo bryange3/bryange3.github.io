@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2518dcb4.css",
-    "main.js": "/static/js/main.271bfa2b.js",
+    "main.css": "/static/css/main.90698141.css",
+    "main.js": "/static/js/main.b1b41cca.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/fam-checklist.gif": "/static/media/fam-checklist.1fb7b81072f7789cae2b.gif",
     "static/media/solution.gif": "/static/media/solution.25a9ac4bc6bdd63b935d.gif",
@@ -10,6 +10,7 @@
     "static/media/fridge.png": "/static/media/fridge.c4387e7f5fb57bb17cf1.png",
     "static/media/shadowing.png": "/static/media/shadowing.ef3f729964fbb0fd55bf.png",
     "static/media/LoginQR.gif": "/static/media/LoginQR.e4f3ccfae3dea7d296ba.gif",
+    "static/media/storydetails.gif": "/static/media/storydetails.a215c0eee1c530c6719e.gif",
     "static/media/apple-park.jpg": "/static/media/apple-park.dddfecb9a4e08f0069eb.jpg",
     "static/media/entireflow.gif": "/static/media/entireflow.0281ceb3b88e66d89fd1.gif",
     "static/media/platforms.png": "/static/media/platforms.e40740afe6dabcba416d.png",
@@ -45,12 +46,12 @@
     "static/media/email.png": "/static/media/email.4fd3e48b04a9efbaf14f.png",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.2518dcb4.css.map": "/static/css/main.2518dcb4.css.map",
-    "main.271bfa2b.js.map": "/static/js/main.271bfa2b.js.map",
+    "main.90698141.css.map": "/static/css/main.90698141.css.map",
+    "main.b1b41cca.js.map": "/static/js/main.b1b41cca.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2518dcb4.css",
-    "static/js/main.271bfa2b.js"
+    "static/css/main.90698141.css",
+    "static/js/main.b1b41cca.js"
   ]
 }
