@@ -178,7 +178,7 @@ function SSWPage(props) {
             <img className="px-4 my-4" src={flow} alt="Flowchart showing how stories go from submitted pitch to publication, includes request and approval steps and collaboration" />
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
-                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">To understand how admin make approvals, I sat in on a meeting where they review contributors’ pitches.</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">To understand how admin review pitches contributors submit, I sat in on their meeting.</p>
                 <p className="text-xl text-gray-900">
                     Admin spent around 5 minutes reading the pitch, understanding the submitter's background by switching to the directory tab to find and open the submitter's profile and LinkedIn, and discussing.
                 </p>

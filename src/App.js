@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 // import Navbar from 'react-bootstrap/Navbar';
 // import Nav from 'react-bootstrap/Nav';
 import './App.css';
@@ -25,7 +25,7 @@ import AmazonPage from './pages/Projects/AmazonPage.js';
 import GoogleMapsPage from './pages/Projects/GoogleMapsPage.js';
 import NourPage from './pages/Projects/NourPage.js';
 import CargillPage from './pages/Projects/CargillPage.js';
-import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min.js';
+import { BrowserRouter, HashRouter } from 'react-router-dom/cjs/react-router-dom.min.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -107,7 +107,7 @@ class App extends React.Component {
 
     return (
 
-      <BrowserRouter>
+      <HashRouter>
         <div className="font-sans-serif">
           {/* <Navbar className="top-bar fixed" expand="lg">
             <Navbar.Brand><Link className="header-title default" to="/">Bryan Ge</Link></Navbar.Brand>
@@ -144,7 +144,7 @@ class App extends React.Component {
           <Footer />
 
         </div>
-      </BrowserRouter >
+      </HashRouter >
 
     );
   }
