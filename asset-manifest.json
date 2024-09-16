@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bf37ea6.css",
-    "main.js": "/static/js/main.59367142.js",
+    "main.css": "/static/css/main.2518dcb4.css",
+    "main.js": "/static/js/main.271bfa2b.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/fam-checklist.gif": "/static/media/fam-checklist.1fb7b81072f7789cae2b.gif",
     "static/media/solution.gif": "/static/media/solution.25a9ac4bc6bdd63b935d.gif",
@@ -21,6 +21,7 @@
     "static/media/room-discovery.gif": "/static/media/room-discovery.f4c7d23efb94988f228e.gif",
     "static/media/NourRedesign.png": "/static/media/NourRedesign.e8e9fe7d82f647727ea0.png",
     "static/media/LoginIterations.png": "/static/media/LoginIterations.875e334465f6f0251130.png",
+    "static/media/requeststoryiterations.png": "/static/media/requeststoryiterations.acb6fcebf5f37cf7ee7d.png",
     "static/media/apple.png": "/static/media/apple.47cb83667dc33a45af12.png",
     "static/media/icloud-web.png": "/static/media/icloud-web.97f98c8c7df392563e2e.png",
     "static/media/screen-flow.png": "/static/media/screen-flow.049c5f90c37a643cd9ea.png",
@@ -30,6 +31,8 @@
     "static/media/AccessibilityIterations.png": "/static/media/AccessibilityIterations.b15d0967036a6123bcda.png",
     "static/media/stats.png": "/static/media/stats.a9f158f2ccddec101e69.png",
     "static/media/pitchideas.png": "/static/media/pitchideas.2f2c098ab311cf9e6320.png",
+    "static/media/individualrequests.png": "/static/media/individualrequests.263a923f35ebbd79039d.png",
+    "static/media/reviewstories.png": "/static/media/reviewstories.2ff78650da4bb2e3ee49.png",
     "static/media/findstories.png": "/static/media/findstories.89899ac0d2e13a9b8c14.png",
     "static/media/assigncontributors.png": "/static/media/assigncontributors.f9ac1685ec244dfc5962.png",
     "static/media/reviewpitch.png": "/static/media/reviewpitch.da1a5b44a92caeeb0973.png",
@@ -42,12 +45,12 @@
     "static/media/email.png": "/static/media/email.4fd3e48b04a9efbaf14f.png",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.0bf37ea6.css.map": "/static/css/main.0bf37ea6.css.map",
-    "main.59367142.js.map": "/static/js/main.59367142.js.map",
+    "main.2518dcb4.css.map": "/static/css/main.2518dcb4.css.map",
+    "main.271bfa2b.js.map": "/static/js/main.271bfa2b.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bf37ea6.css",
-    "static/js/main.59367142.js"
+    "static/css/main.2518dcb4.css",
+    "static/js/main.271bfa2b.js"
   ]
 }
