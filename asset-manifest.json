@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.90698141.css",
-    "main.js": "/static/js/main.6e25334b.js",
+    "main.js": "/static/js/main.180b122d.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/fam-checklist.gif": "/static/media/fam-checklist.1fb7b81072f7789cae2b.gif",
     "static/media/solution.gif": "/static/media/solution.25a9ac4bc6bdd63b935d.gif",
@@ -31,6 +31,7 @@
     "static/media/checklist-variations.png": "/static/media/checklist-variations.f1d1b2647c4ddd658d52.png",
     "static/media/AccessibilityIterations.png": "/static/media/AccessibilityIterations.b15d0967036a6123bcda.png",
     "static/media/stats.png": "/static/media/stats.a9f158f2ccddec101e69.png",
+    "static/media/teamsketch.jpg": "/static/media/teamsketch.ebb47fefe553924f7a61.jpg",
     "static/media/pitchideas.png": "/static/media/pitchideas.2f2c098ab311cf9e6320.png",
     "static/media/individualrequests.png": "/static/media/individualrequests.263a923f35ebbd79039d.png",
     "static/media/reviewstories.png": "/static/media/reviewstories.2ff78650da4bb2e3ee49.png",
@@ -47,11 +48,11 @@
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
     "main.90698141.css.map": "/static/css/main.90698141.css.map",
-    "main.6e25334b.js.map": "/static/js/main.6e25334b.js.map",
+    "main.180b122d.js.map": "/static/js/main.180b122d.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90698141.css",
-    "static/js/main.6e25334b.js"
+    "static/js/main.180b122d.js"
   ]
 }
