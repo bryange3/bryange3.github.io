@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import Navbar from 'react-bootstrap/Navbar';
 // import Nav from 'react-bootstrap/Nav';
 import './App.css';
@@ -47,7 +47,7 @@ class App extends React.Component {
           description: 'Enhancing Legacy Contact, a feature that helps people share account data after death. Also increasing discovery via Family Sharing.',
           imgSrc: apple,
           imgAlt: 'An iPhone on the add legacy contact screen and another on the family checklist screen',
-          path: '/#/apple',
+          path: '/apple',
           role: 'Product Design Intern, iCloud',
           timeline: 'May - Sep 2022',
           category: ['all', 'design', 'work']
@@ -58,7 +58,7 @@ class App extends React.Component {
           description: 'Centralizing story management and collaboration between 250+ admin and contributors at a Chicago newspaper nonprofit.',
           imgSrc: ssw,
           imgAlt: 'Desktop contributor and admin dashboards showcasing pitches a contributor can work on and a story that admin can assign contributors to',
-          path: '/#/south-side-weekly',
+          path: '/south-side-weekly',
           role: 'Product Designer',
           timeline: 'Sep 2021 - Jan 2022',
           category: ['all', 'design']
@@ -106,8 +106,7 @@ class App extends React.Component {
   render() {
 
     return (
-
-      <HashRouter>
+      <BrowserRouter>
         <div className="font-sans-serif">
           {/* <Navbar className="top-bar fixed" expand="lg">
             <Navbar.Brand><Link className="header-title default" to="/">Bryan Ge</Link></Navbar.Brand>
@@ -125,8 +124,8 @@ class App extends React.Component {
           </Navbar> */}
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
-          <Route path="/#/about" exact render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/#/grand-teton" exact render={() => <GrandTetonPage title={this.state.grandteton.title} />} />
+          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/grand-teton" exact render={() => <GrandTetonPage title={this.state.grandteton.title} />} />
           {/* <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} /> */}
 
           <Route path={this.state.workProjects[0].path} render={() => <ApplePage info={this.state.workProjects[0]} />} />
@@ -144,8 +143,7 @@ class App extends React.Component {
           <Footer />
 
         </div>
-      </HashRouter >
-
+      </BrowserRouter >
     );
   }
 }

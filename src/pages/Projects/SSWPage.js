@@ -264,7 +264,7 @@ function SSWPage(props) {
                 <p className="text-xl text-gray-900">
                     Grouping contributors into teams gives admin a clearer visualization of who is working on the story, which helps admin decide who else to assign.
                 </p>
-                <img className="my-2" src={teamsketch} />
+                <img className="px-12 my-4" src={teamsketch} />
 
                 <p className="text-xl text-gray-900 font-semibold mt-10">
                     I disagreed with engineering's proposal to split up the view of contributors by team into separate tabs.

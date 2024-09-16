@@ -1,5 +1,5 @@
 {
-  "homepage": "http://bryange.com/",
+  "homepage": "http://bryange3.github.io/",
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
@@ -57,12 +57,12 @@
   "main": "next.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bryange3/react-portfolio.git"
+    "url": "git+https://github.com/bryange3/bryange3.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bryange3/react-portfolio/issues"
+    "url": "https://github.com/bryange3/bryange3.github.io/issues"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
