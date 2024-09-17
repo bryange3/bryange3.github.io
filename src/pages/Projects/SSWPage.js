@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../../components/Hero.js';
 import FadeIn from 'react-fade-in';
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
 
 import context from '../../assets/project/ssw/context.png';
 import platforms from '../../assets/project/ssw/platforms.png';
@@ -21,6 +22,7 @@ import individualrequests from '../../assets/project/ssw/individualrequests.png'
 import reviewstories from '../../assets/project/ssw/reviewstories.png';
 import storydetails from '../../assets/project/ssw/storydetails.gif';
 import teamsketch from '../../assets/project/ssw/teamsketch.jpg';
+import figma from '../../assets/project/ssw/figma.png';
 
 
 function SSWPage(props) {
@@ -72,7 +74,7 @@ function SSWPage(props) {
                     Contributors discover and request to work on stories, pitch their own story ideas, and collaborate with others to cover stories. Admin review pitches, assign contributors to stories, and ensure issues are published on time.
                 </p>
             </div>
-            <img className="px-20 my-4 mx-auto" src={solution} />
+            <img className="px-20 my-8 mx-auto" src={solution} />
 
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
@@ -276,13 +278,34 @@ function SSWPage(props) {
                     I proposed laying out story details into 2 sections: what the story is about on the left and contributor/team assignment on the right.
                 </p>
                 <p className="text-xl text-gray-900">
-                    From my tech lead's proposal, I realized that we did not need every property to have auto-save. We compromised with this 2-section option which maintains context for admin, while also being more feasible to implement.
+                    From my tech lead's proposal, I realized that we did not need every property to have auto-save. We compromised with this 2-section option which maintains context for admin, while also being feasible to implement.
                 </p>
             </div>
-            <img className="px-20 my-4 mx-auto" src={storydetails} />
+            <img className="px-20 my-8 mx-auto" src={storydetails} />
+
             <div className="mx-6 md:mx-auto max-w-2xl">
-                
+                <p className="text-xl text-gray-500 mt-16">Learnings</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Design with constraints in mind, but don’t sacrifice the experience in the process.</p>
+                <p className="text-xl text-gray-900">
+                    I learned when to push back and how to communicate different viewpoints. This collaboration leads to compromise that results in the most efficient development and best user experience.
+                </p>
+
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Communication is key in a large cross-functional team, especially during handoff.</p>
+                <p className="text-xl text-gray-900">
+                    I learned how to hand off designs to developers effectively. This involved adding implementation notes, including screens that account for different states and edge cases, and highlighting which designs are ready for implementation versus ones that are in-progress.
+                </p>
             </div>
+
+            <img className="px-20 my-8 mx-auto" src={figma} />
+
+            <div className="mx-6 md:mx-auto max-w-2xl">
+                <p className="text-xl text-gray-900 bg-gray-200 p-4"><a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer" alt="Email">Email me</a> for a deeper dive and my reflection on how I would improve the visual design, UX writing, and information architecture.</p>
+
+                <p className="text-xl text-left mt-16">
+                    <Link to="/apple">← Previous project</Link>
+                </p>
+            </div>
+
         </FadeIn>
     );
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../../components/Hero.js';
 import FadeIn from 'react-fade-in';
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
 
 import screenflow from '../../assets/project/apple/screen-flow.png';
 import icloud from '../../assets/project/apple/icloud.png';
@@ -24,27 +25,27 @@ function ApplePage(props) {
                 <p className="text-xl text-gray-900">
                     iCloud is designed to help users securely store and sync their photos, notes, messages, and more across devices such as iPhones, iPads, and Macs.
                 </p>
-                <img className="my-4 scale-[0.8]" src={icloud} />
+                <img className="my-4 scale-[0.8]" src={icloud} alt="iCloud graphic illustrating how photos, notes, files, messages, and more are all synced through the cloud service"/>
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Legacy Contact empowers people to control what happens to their data after they pass away.</p>
                 <p className="text-xl text-gray-900 mb-4">
                     Apple users can designate trusted or loved ones as legacy contacts. These legacy contacts may be able to access memorable photos and videos, important files, notes, etc.
                 </p>
             </div>
-            <img className="px-4 my-4" src={screenflow} />
+            <img className="px-4 my-4" src={screenflow} alt="Legacy Contact creation flow on iPhone"/>
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-900">
-                    After an Apple user passes away, their Legacy Contacts can request to view their data through the web, iOS, or macOS.
+                    After an Apple user passes away, their legacy contacts can request to view their data through the web, iOS, or macOS.
                 </p>
-                <img className="my-4" src={icloudweb} />
+                <img className="my-4" src={icloudweb} alt="Accessing deceased Apple user's data via iCloud web (as a legacy contact)"/>
 
                 <p className="text-xl text-gray-500 mt-16">Enhancement</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">I worked on an enhancement for Legacy Contact that spans the end-to-end flow.</p>
                 <p className="text-xl text-gray-900">
                     To ensure a meangingful experience for all users, I accounted for different scenarios and edge cases.
                 </p>
-                <img className="my-4" src={entireflow} />
+                <img className="my-4" src={entireflow} alt="Different possible flows for legacy contact creation and management, highlighting potential edge cases that could result"/>
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">I reviewed my work with directors and VPs of design and engineering who supported implementing my feature in the future.</p>
                 <p className="text-xl text-gray-900 mb-4">
@@ -59,7 +60,7 @@ function ApplePage(props) {
                     Family Sharing lets people share subscriptions, iCloud storage, device locations, and more with family.
                 </p>
                 <p className="text-xl text-gray-900 mb-4">
-                    I designed the “Add a Legacy Contact” suggestion in the Family Checklist, which is a great entry point for people who want to add their family members as legacy contacts.
+                    I designed the “Add a Legacy Contact” suggestion in the Family Checklist, a great entry point for people who want to pass down their data to family members.
                 </p>
                 <img className="sm:max-w-xs mx-auto rounded-[13%/10%] mt-4 mb-8" src={famchecklist} />
 
@@ -74,17 +75,27 @@ function ApplePage(props) {
                 <p className="text-xl text-gray-500 mt-16">Learnings</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Step back and consider the larger product and ecosystem.</p>
                 <p className="text-xl text-gray-900">
-                    Understanding how my feature relates to all of Apple’s products and services is important when designing an end-to-end experience that fits in the Apple ecosystem.
+                    Understanding my feature’s place in relation to Legacy Contact, iCloud, Family Sharing, and other Apple products and services is crucial for designing an experience that fits in the Apple ecosystem.
                 </p>
 
-                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Simplicity and effectiveness is key.</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Balance simplicity and clarity.</p>
                 <p className="text-xl text-gray-900">
                     Simplify to what is necessary and think about how many decisions users need to make. However, it’s ok to have a longer flow if it means clearer understanding for the user. The powerful nature of Legacy Contact should inform how easy it is for users to take certain actions.
                 </p>
 
                 <img className="my-12" src={applepark} />
 
-                <p className="text-xl text-gray-900 bg-gray-200 p-4">Thank you to the iCloud Human Interface team and many others for supporting me throughout my internship and giving me the opportunity to work on such a meaningful project. <br/><br/> Big thanks to <strong>Carmen</strong>, my manager, for helping me grow as a designer through feedback and encouragement, even beyond the summer.</p>
+                <p className="text-xl text-gray-900 bg-gray-200 p-4">
+                    Thank you to the iCloud Human Interface team for supporting me and giving me the chance to work on such a meaningful project.
+                    
+                    <br /><br />
+                    
+                    A special thanks to Carmen, my manager, for helping me grow as a designer through thoughtful feedback and encouragement.
+                </p>
+
+                <p className="text-xl text-right mt-16">
+                    <Link to="/south-side-weekly">Next project →</Link>
+                </p>
             </div>
         </FadeIn>
     );

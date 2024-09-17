@@ -106,7 +106,7 @@ class App extends React.Component {
   render() {
 
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="font-sans-serif">
           {/* <Navbar className="top-bar fixed" expand="lg">
             <Navbar.Brand><Link className="header-title default" to="/">Bryan Ge</Link></Navbar.Brand>
@@ -143,7 +143,7 @@ class App extends React.Component {
           <Footer />
 
         </div>
-      </BrowserRouter >
+      </HashRouter >
     );
   }
 }
