@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a525922.css",
-    "main.js": "/static/js/main.34a38419.js",
+    "main.css": "/static/css/main.f08b61fb.css",
+    "main.js": "/static/js/main.6d3fb4a8.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
     "static/media/solution.gif": "/static/media/solution.25a9ac4bc6bdd63b935d.gif",
+    "static/media/schwabacherend.png": "/static/media/schwabacherend.6944f9b7232e745affa6.png",
     "static/media/problem-claimpitch.gif": "/static/media/problem-claimpitch.c07d59872eca58c8e575.gif",
     "static/media/teamscall.png": "/static/media/teamscall.4013217fa8ae0acaada8.png",
+    "static/media/schwabacherstart.png": "/static/media/schwabacherstart.272e26439d8971489574.png",
+    "static/media/persephone.jpg": "/static/media/persephone.95f227d44b9a80b5fc11.jpg",
     "static/media/deltalake.png": "/static/media/deltalake.9e79e6d6f62f917e3959.png",
+    "static/media/galaxy.jpeg": "/static/media/galaxy.e26af7d6fd1621e64e22.jpeg",
     "static/media/fridge.png": "/static/media/fridge.c4387e7f5fb57bb17cf1.png",
     "static/media/shadowing.png": "/static/media/shadowing.ef3f729964fbb0fd55bf.png",
     "static/media/LoginQR.gif": "/static/media/LoginQR.e4f3ccfae3dea7d296ba.gif",
     "static/media/crazysunset.png": "/static/media/crazysunset.3a629bb9c56686bf1063.png",
     "static/media/storydetails.gif": "/static/media/storydetails.a215c0eee1c530c6719e.gif",
+    "static/media/oxbow.jpeg": "/static/media/oxbow.9b77507268e55294c613.jpeg",
     "static/media/apple-park.jpg": "/static/media/apple-park.dddfecb9a4e08f0069eb.jpg",
     "static/media/platforms.png": "/static/media/platforms.e40740afe6dabcba416d.png",
     "static/media/context.png": "/static/media/context.4261952605c6f3cf6711.png",
@@ -25,7 +30,7 @@
     "static/media/famchecklist.mp4": "/static/media/famchecklist.c2a92f51b7e75aeeaf57.mp4",
     "static/media/LoginIterations.png": "/static/media/LoginIterations.875e334465f6f0251130.png",
     "static/media/dollarshave.png": "/static/media/dollarshave.cf3447559e66caf057ae.png",
-    "static/media/mountains.png": "/static/media/mountains.6db0b96221ed8a418450.png",
+    "static/media/mountains.png": "/static/media/mountains.69308b544e7aa26ab0ea.png",
     "static/media/requeststoryiterations.png": "/static/media/requeststoryiterations.acb6fcebf5f37cf7ee7d.png",
     "static/media/merchantproblem.png": "/static/media/merchantproblem.f2bfe4ec9d35b3aa54fb.png",
     "static/media/apple.png": "/static/media/apple.47cb83667dc33a45af12.png",
@@ -60,12 +65,12 @@
     "static/media/email.png": "/static/media/email.4fd3e48b04a9efbaf14f.png",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.1a525922.css.map": "/static/css/main.1a525922.css.map",
-    "main.34a38419.js.map": "/static/js/main.34a38419.js.map",
+    "main.f08b61fb.css.map": "/static/css/main.f08b61fb.css.map",
+    "main.6d3fb4a8.js.map": "/static/js/main.6d3fb4a8.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a525922.css",
-    "static/js/main.34a38419.js"
+    "static/css/main.f08b61fb.css",
+    "static/js/main.6d3fb4a8.js"
   ]
 }
