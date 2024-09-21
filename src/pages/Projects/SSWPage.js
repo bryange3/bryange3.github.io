@@ -18,6 +18,7 @@ import reviewpitch from '../../assets/project/ssw/reviewpitch.png';
 import flow from '../../assets/project/ssw/flow.png';
 import shadowing from '../../assets/project/ssw/shadowing.png';
 import requeststoryiterations from '../../assets/project/ssw/requeststoryiterations.png';
+import reviewpitches from '../../assets/project/ssw/reviewpitches.png';
 import individualrequests from '../../assets/project/ssw/individualrequests.png';
 import reviewstories from '../../assets/project/ssw/reviewstories.png';
 import storydetails from '../../assets/project/ssw/storydetails.gif';
@@ -29,7 +30,7 @@ function SSWPage(props) {
     AOS.init();
     window.scrollTo(0, 0);
     return (
-        <FadeIn>
+        <FadeIn className="text-pretty">
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <Hero projectTitle={props.info.projectTitle} description={props.info.description} imgSrc={props.info.imgSrc} imgAlt={props.info.imgAlt} role={props.info.role} timeline={props.info.timeline} />
 
@@ -74,7 +75,7 @@ function SSWPage(props) {
                     Contributors discover and request to work on stories, pitch their own story ideas, and collaborate with others to cover stories. Admin review pitches, assign contributors to stories, and ensure issues are published on time.
                 </p>
             </div>
-            <img className="px-20 my-8 mx-auto" src={solution} />
+            <img className="px-6 my-8 lg:px-24 mx-auto" src={solution} />
 
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
@@ -230,8 +231,12 @@ function SSWPage(props) {
                         Table format is familiar to admin who previously used AirTable
                     </li>
                 </ul>
+            </div>
 
-                <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">How do admin review contributors’ requests to work on stories? How do they assign contributors?</p>
+            <img className="px-6 my-8 lg:px-20 mx-auto" src={reviewpitches} alt="Dashboard where admin can review pitches that contributors submit" />
+
+            <div className="mx-6 md:mx-auto max-w-2xl">
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-16">How do admin review contributors’ requests to work on stories? How do they assign contributors?</p>
                 <p className="text-xl text-gray-900 font-semibold mt-4">
                     Option 1 - Individual requests
                 </p>
@@ -266,7 +271,7 @@ function SSWPage(props) {
                 <p className="text-xl text-gray-900">
                     Grouping contributors into teams gives admin a clearer visualization of who is working on the story, which helps admin decide who else to assign.
                 </p>
-                <img className="px-12 my-4" src={teamsketch} />
+                <img className="md:px-12 my-4" src={teamsketch} />
 
                 <p className="text-xl text-gray-900 font-semibold mt-10">
                     I disagreed with engineering's proposal to split up the view of contributors by team into separate tabs.
@@ -281,7 +286,7 @@ function SSWPage(props) {
                     From my tech lead's proposal, I realized that we did not need every property to have auto-save. We compromised with this 2-section option which maintains context for admin, while also being feasible to implement.
                 </p>
             </div>
-            <img className="px-20 my-8 mx-auto" src={storydetails} />
+            <img className="my-8 px-6 lg:px-24 mx-auto" src={storydetails} />
 
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-xl text-gray-500 mt-16">Learnings</p>
@@ -292,20 +297,24 @@ function SSWPage(props) {
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Communication is key in a large cross-functional team, especially during handoff.</p>
                 <p className="text-xl text-gray-900">
-                    I learned how to hand off designs to developers effectively. This involved adding implementation notes, including screens that account for different states and edge cases, and highlighting which designs are ready for implementation versus ones that are in-progress.
+                    I learned how to hand off designs to developers effectively. This involved adding implementation notes, mentioning which components to use from the libraries engineering was utilizing, and including screens that account for different states and edge cases.
                 </p>
             </div>
 
-            <img className="px-20 my-8 mx-auto" src={figma} />
+            <img className="my-4 px-6 lg:px-20 mx-auto" src={figma} />
 
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-xl text-gray-900 bg-gray-200 p-4"><a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer" alt="Email">Email me</a> for a deeper dive and my reflection on how I would improve the visual design, UX writing, and information architecture.</p>
 
-                <p className="text-xl text-left mt-16">
-                    <Link to="/apple">← Previous project</Link>
-                </p>
+                <div className="sm:grid sm:grid-cols-2 gap-x-4 text-xl mt-16">
+                    <p className="text-left">
+                        <Link to="/apple">← Previous project</Link>
+                    </p>
+                    <p className="text-right">
+                        <Link to="/amazon">Next project →</Link>
+                    </p>
+                </div>
             </div>
-
         </FadeIn>
     );
 }

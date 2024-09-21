@@ -16,7 +16,7 @@ function Hero(props) {
 
                 {props.projectTitle && <p className="text-5xl font-semibold text-gray-900 font-serif mb-4">{props.projectTitle}</p>}
                 {props.description && <p className="text-xl text-gray-900 mb-4">{props.description}</p>}
-                <div className="sm:grid sm:grid-cols-2">
+                <div className="sm:grid sm:grid-cols-2 gap-x-4">
                     <div>
                         <p className="text-xl text-gray-500 mb-0">Role</p>
                         <p className="text-xl text-gray-900">{props.role}</p>

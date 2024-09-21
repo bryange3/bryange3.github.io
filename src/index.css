@@ -25,7 +25,7 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards; */
     color: #2E2E2E !important;
-    background-color: #f1f4f7 !important;
+    background-color: transparent !important;
 }
 
 .line-space {
