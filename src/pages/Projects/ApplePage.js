@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 import screenflow from '../../assets/project/apple/screen-flow.png';
 import icloud from '../../assets/project/apple/icloud.png';
 import icloudweb from '../../assets/project/apple/icloud-web.png';
-import entireflow from '../../assets/project/apple/entireflow.gif';
-import famchecklist from '../../assets/project/apple/fam-checklist.gif';
+import entireflow from '../../assets/project/apple/entireflow.mp4';
+import famchecklist from '../../assets/project/apple/famchecklist.mp4';
 import checklistvariations from '../../assets/project/apple/checklist-variations.png';
 import applepark from '../../assets/project/apple/apple-park.jpg';
 
@@ -18,34 +18,36 @@ function ApplePage(props) {
     return (
         <FadeIn className="text-pretty">
             <div className="mx-6 md:mx-auto max-w-2xl">
-                <Hero projectTitle={props.info.projectTitle} description={props.info.description} imgSrc={props.info.imgSrc} imgAlt={props.info.imgAlt} role={props.info.role} timeline={props.info.timeline} />
+                <Hero projectTitle={props.info.projectTitle} description={props.info.description} coverType={props.info.coverType} coverSrc={props.info.coverSrc} imgAlt={props.info.imgAlt} role={props.info.role} timeline={props.info.timeline} />
 
                 <p className="text-xl text-gray-500">Context</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">iCloud is Apple's cloud storage service.</p>
                 <p className="text-xl text-gray-900">
                     iCloud is designed to help users securely store and sync their photos, notes, messages, and more across devices such as iPhones, iPads, and Macs.
                 </p>
-                <img className="my-4 scale-[0.8]" src={icloud} alt="iCloud graphic illustrating how photos, notes, files, messages, and more are all synced through the cloud service"/>
+                <img className="my-4 scale-[0.8]" src={icloud} alt="iCloud graphic illustrating how photos, notes, files, messages, and more are all synced through the cloud service" />
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Legacy Contact empowers people to control what happens to their data after they pass away.</p>
                 <p className="text-xl text-gray-900 mb-4">
                     Apple users can designate trusted or loved ones as legacy contacts. These legacy contacts may be able to access memorable photos and videos, important files, notes, etc.
                 </p>
             </div>
-            <img className="px-4 my-4" src={screenflow} alt="Legacy Contact creation flow on iPhone"/>
+            <img className="px-4 my-4" src={screenflow} alt="Legacy Contact creation flow on iPhone" />
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-900">
                     After an Apple user passes away, their legacy contacts can request to view their data through the web, iOS, or macOS.
                 </p>
-                <img className="my-4" src={icloudweb} alt="Accessing deceased Apple user's data via iCloud web (as a legacy contact)"/>
+                <img className="my-4" src={icloudweb} alt="Accessing deceased Apple user's data via iCloud web (as a legacy contact)" />
 
                 <p className="text-xl text-gray-500 mt-16">Enhancement</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">I worked on an enhancement for Legacy Contact that spans the end-to-end flow.</p>
                 <p className="text-xl text-gray-900">
                     To ensure a meangingful experience for all users, I accounted for different scenarios and edge cases.
                 </p>
-                <img className="my-4" src={entireflow} alt="Different possible flows for legacy contact creation and management, highlighting potential edge cases that could result"/>
+                <video className="my-4" autoPlay muted loop>
+                    <source src={entireflow} type="video/mp4" alt="Different possible flows for legacy contact creation and management, highlighting potential edge cases that could result"/>
+                </video>
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">I reviewed my work with directors and VPs of design and engineering who supported implementing my feature in the future.</p>
                 <p className="text-xl text-gray-900 mb-4">
@@ -62,7 +64,10 @@ function ApplePage(props) {
                 <p className="text-xl text-gray-900 mb-4">
                     I designed the “Add a Legacy Contact” suggestion in the Family Checklist, a great entry point for people who want to pass down their data to family members.
                 </p>
-                <img className="sm:max-w-xs mx-auto rounded-[13%/10%] mt-4 mb-8" src={famchecklist} />
+
+                <video className="sm:max-w-xs mx-auto rounded-[15%/9%] mt-4 mb-8" autoPlay muted loop>
+                    <source src={famchecklist} type="video/mp4" alt=""/>
+                </video>
 
                 <p className="text-xl text-gray-900 bg-gray-200 p-4">This improvement launched in September 2023 and is now the <strong>primary driver behind adoption!</strong> 🥳</p>
 
@@ -87,9 +92,9 @@ function ApplePage(props) {
 
                 <p className="text-xl text-gray-900 bg-gray-200 p-4">
                     Thank you to the iCloud Human Interface team for supporting me and giving me the chance to work on such a meaningful project.
-                    
+
                     <br /><br />
-                    
+
                     A special thanks to Carmen, my manager, for helping me grow as a designer through thoughtful feedback and encouragement.
                 </p>
 

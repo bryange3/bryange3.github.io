@@ -15,7 +15,7 @@ import GrandTetonPage from './pages/GrandTetonPage.js';
 import cargill from './assets/project/cargill/cargill.png';
 import apple from './assets/project/apple/apple.png';
 import ssw from './assets/project/ssw/ssw.png';
-import amazon from './assets/project/amazon/amazon.gif';
+import amazon from './assets/project/amazon/amazon.mp4';
 import googlemaps from './assets/project/googlemaps/googlemaps.png';
 
 // projects
@@ -45,7 +45,8 @@ class App extends React.Component {
           id: 0,
           projectTitle: 'Apple, 2022',
           description: 'Enhancing Legacy Contact, a feature that helps people share account data after death. Also increasing discovery via Family Sharing.',
-          imgSrc: apple,
+          coverType: 'image',
+          coverSrc: apple,
           imgAlt: 'An iPhone on the add legacy contact screen and another on the family checklist screen',
           path: '/apple',
           role: 'Product Design Intern, iCloud',
@@ -56,7 +57,8 @@ class App extends React.Component {
           id: 1,
           projectTitle: 'South Side Weekly, 2021',
           description: 'Centralizing story management and collaboration between 250+ admin and contributors at a Chicago newspaper nonprofit.',
-          imgSrc: ssw,
+          coverType: 'image',
+          coverSrc: ssw,
           imgAlt: 'Desktop contributor and admin dashboards showcasing pitches a contributor can work on and a story that admin can assign contributors to',
           path: '/south-side-weekly',
           role: 'Product Designer',
@@ -67,7 +69,8 @@ class App extends React.Component {
           id: 2,
           projectTitle: 'Amazon, 2023',
           description: 'Helping shoppers discover Buy with Prime on direct-to-consumer websites. Educational elements shipped on Shopify and live on merchant sites.',
-          imgSrc: amazon,
+          coverType: 'video',
+          coverSrc: amazon,
           imgAlt: '',
           path: '/amazon',
           role: 'UX Design Intern, Buy with Prime',

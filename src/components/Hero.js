@@ -1,11 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// import Jumbotron from 'react-bootstrap/Jumbotron';
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-
 function Hero(props) {
     return (
         <div className="md:mx-auto max-w-2xl">
@@ -26,7 +21,16 @@ function Hero(props) {
                         <p className="text-xl text-gray-900">{props.timeline}</p>
                     </div>
                 </div>
-                <img className="my-4" src={props.imgSrc} alt={props.imgAlt} />
+
+                {props.coverType === 'image' ? (
+                    <img className="my-4" src={props.coverSrc} alt={props.imgAlt} />
+                ) : props.coverType === 'video' ? (
+                    <video autoPlay muted loop playsInline>
+                        <source src={props.coverSrc} type="video/mp4" />
+                    </video>
+                ) : (
+                    <p>Unsupported media type</p>
+                )}
             </div>
         </div>
     );

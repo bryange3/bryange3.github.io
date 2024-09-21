@@ -32,7 +32,7 @@ function SSWPage(props) {
     return (
         <FadeIn className="text-pretty">
             <div className="mx-6 md:mx-auto max-w-2xl">
-                <Hero projectTitle={props.info.projectTitle} description={props.info.description} imgSrc={props.info.imgSrc} imgAlt={props.info.imgAlt} role={props.info.role} timeline={props.info.timeline} />
+                <Hero projectTitle={props.info.projectTitle} description={props.info.description} coverType={props.info.coverType} coverSrc={props.info.coverSrc} imgAlt={props.info.imgAlt} role={props.info.role} timeline={props.info.timeline} />
 
                 <p className="text-xl text-gray-500">Overview</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">
