@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a7739ec.css",
-    "main.js": "/static/js/main.ac45b935.js",
+    "main.css": "/static/css/main.33167c5c.css",
+    "main.js": "/static/js/main.d1b2898b.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/amazon.gif": "/static/media/amazon.ff5396ff4e982477fc70.gif",
     "static/media/fam-checklist.gif": "/static/media/fam-checklist.1fb7b81072f7789cae2b.gif",
@@ -23,12 +23,13 @@
     "static/media/room-discovery.gif": "/static/media/room-discovery.f4c7d23efb94988f228e.gif",
     "static/media/NourRedesign.png": "/static/media/NourRedesign.e8e9fe7d82f647727ea0.png",
     "static/media/LoginIterations.png": "/static/media/LoginIterations.875e334465f6f0251130.png",
-    "static/media/bareminerals.png": "/static/media/bareminerals.4cee7e9265aa8a7764ff.png",
+    "static/media/dollarshave.png": "/static/media/dollarshave.cf3447559e66caf057ae.png",
     "static/media/mountains.png": "/static/media/mountains.6db0b96221ed8a418450.png",
     "static/media/requeststoryiterations.png": "/static/media/requeststoryiterations.acb6fcebf5f37cf7ee7d.png",
     "static/media/merchantproblem.png": "/static/media/merchantproblem.f2bfe4ec9d35b3aa54fb.png",
     "static/media/apple.png": "/static/media/apple.47cb83667dc33a45af12.png",
     "static/media/icloud-web.png": "/static/media/icloud-web.97f98c8c7df392563e2e.png",
+    "static/media/bareminerals.png": "/static/media/bareminerals.bcaef0399d4e74cf293e.png",
     "static/media/screen-flow.png": "/static/media/screen-flow.049c5f90c37a643cd9ea.png",
     "static/media/figma.png": "/static/media/figma.8f960e8780e97f31342e.png",
     "static/media/treeline.png": "/static/media/treeline.79097d41a9802e791f1e.png",
@@ -56,12 +57,12 @@
     "static/media/email.png": "/static/media/email.4fd3e48b04a9efbaf14f.png",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.0a7739ec.css.map": "/static/css/main.0a7739ec.css.map",
-    "main.ac45b935.js.map": "/static/js/main.ac45b935.js.map",
+    "main.33167c5c.css.map": "/static/css/main.33167c5c.css.map",
+    "main.d1b2898b.js.map": "/static/js/main.d1b2898b.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a7739ec.css",
-    "static/js/main.ac45b935.js"
+    "static/css/main.33167c5c.css",
+    "static/js/main.d1b2898b.js"
   ]
 }
