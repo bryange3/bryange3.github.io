@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.33167c5c.css",
-    "main.js": "/static/js/main.d1b2898b.js",
+    "main.css": "/static/css/main.1a525922.css",
+    "main.js": "/static/js/main.da6a4c98.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
-    "static/media/amazon.gif": "/static/media/amazon.ff5396ff4e982477fc70.gif",
-    "static/media/fam-checklist.gif": "/static/media/fam-checklist.1fb7b81072f7789cae2b.gif",
+    "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
+    "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
     "static/media/solution.gif": "/static/media/solution.25a9ac4bc6bdd63b935d.gif",
     "static/media/problem-claimpitch.gif": "/static/media/problem-claimpitch.c07d59872eca58c8e575.gif",
     "static/media/teamscall.png": "/static/media/teamscall.4013217fa8ae0acaada8.png",
+    "static/media/deltalake.png": "/static/media/deltalake.9e79e6d6f62f917e3959.png",
     "static/media/fridge.png": "/static/media/fridge.c4387e7f5fb57bb17cf1.png",
     "static/media/shadowing.png": "/static/media/shadowing.ef3f729964fbb0fd55bf.png",
     "static/media/LoginQR.gif": "/static/media/LoginQR.e4f3ccfae3dea7d296ba.gif",
     "static/media/crazysunset.png": "/static/media/crazysunset.3a629bb9c56686bf1063.png",
     "static/media/storydetails.gif": "/static/media/storydetails.a215c0eee1c530c6719e.gif",
     "static/media/apple-park.jpg": "/static/media/apple-park.dddfecb9a4e08f0069eb.jpg",
-    "static/media/entireflow.gif": "/static/media/entireflow.0281ceb3b88e66d89fd1.gif",
     "static/media/platforms.png": "/static/media/platforms.e40740afe6dabcba416d.png",
     "static/media/context.png": "/static/media/context.4261952605c6f3cf6711.png",
     "static/media/accessibilitypreferences.gif": "/static/media/accessibilitypreferences.c546c34043b71f59af7b.gif",
@@ -22,6 +22,7 @@
     "static/media/about.jpeg": "/static/media/about.ebd9f5450d7dbbd4cc9c.jpeg",
     "static/media/room-discovery.gif": "/static/media/room-discovery.f4c7d23efb94988f228e.gif",
     "static/media/NourRedesign.png": "/static/media/NourRedesign.e8e9fe7d82f647727ea0.png",
+    "static/media/famchecklist.mp4": "/static/media/famchecklist.c2a92f51b7e75aeeaf57.mp4",
     "static/media/LoginIterations.png": "/static/media/LoginIterations.875e334465f6f0251130.png",
     "static/media/dollarshave.png": "/static/media/dollarshave.cf3447559e66caf057ae.png",
     "static/media/mountains.png": "/static/media/mountains.6db0b96221ed8a418450.png",
@@ -30,6 +31,7 @@
     "static/media/apple.png": "/static/media/apple.47cb83667dc33a45af12.png",
     "static/media/icloud-web.png": "/static/media/icloud-web.97f98c8c7df392563e2e.png",
     "static/media/bareminerals.png": "/static/media/bareminerals.bcaef0399d4e74cf293e.png",
+    "static/media/amazon.mp4": "/static/media/amazon.f78143ee435fc73571c5.mp4",
     "static/media/screen-flow.png": "/static/media/screen-flow.049c5f90c37a643cd9ea.png",
     "static/media/figma.png": "/static/media/figma.8f960e8780e97f31342e.png",
     "static/media/treeline.png": "/static/media/treeline.79097d41a9802e791f1e.png",
@@ -40,6 +42,7 @@
     "static/media/checklist-variations.png": "/static/media/checklist-variations.f1d1b2647c4ddd658d52.png",
     "static/media/AccessibilityIterations.png": "/static/media/AccessibilityIterations.b15d0967036a6123bcda.png",
     "static/media/solution.png": "/static/media/solution.7596cbd190d29392f709.png",
+    "static/media/entireflow.mp4": "/static/media/entireflow.dea5d2bd3735f3758b23.mp4",
     "static/media/reviewstories.png": "/static/media/reviewstories.90b3b0e3d9216c3f3ad0.png",
     "static/media/individualrequests.png": "/static/media/individualrequests.8293a9c64d4754555a5d.png",
     "static/media/stats.png": "/static/media/stats.a9f158f2ccddec101e69.png",
@@ -57,12 +60,12 @@
     "static/media/email.png": "/static/media/email.4fd3e48b04a9efbaf14f.png",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.33167c5c.css.map": "/static/css/main.33167c5c.css.map",
-    "main.d1b2898b.js.map": "/static/js/main.d1b2898b.js.map",
+    "main.1a525922.css.map": "/static/css/main.1a525922.css.map",
+    "main.da6a4c98.js.map": "/static/js/main.da6a4c98.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33167c5c.css",
-    "static/js/main.d1b2898b.js"
+    "static/css/main.1a525922.css",
+    "static/js/main.da6a4c98.js"
   ]
 }
