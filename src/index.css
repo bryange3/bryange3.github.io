@@ -37,8 +37,9 @@ a {
 }
 
 a:hover {
-    color: #327cd6 !important;
+    color: #66a3ff !important;
     opacity: 0.7;
+    text-decoration: none !important;
 }
 
 .brat {
@@ -426,8 +427,6 @@ mark {
 }
 
 .hr-rounded-close {
-    margin-top: 10px;
-    margin-bottom: 10px;
     border-top: 1px solid #c2c2c2;
     border-radius: 5px;
 }

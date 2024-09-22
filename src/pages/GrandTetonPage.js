@@ -15,6 +15,7 @@ import oxbow from '../assets/other/tetons/oxbow.jpeg';
 import persephone from '../assets/other/tetons/persephone.jpg';
 import schwabacherstart from '../assets/other/tetons/schwabacherstart.png';
 import schwabacherend from '../assets/other/tetons/schwabacherend.png';
+import geologicalsurvey from '../assets/other/tetons/geologicalsurvey.png';
 
 function GrandTetonPage(props) {
     AOS.init();
@@ -228,6 +229,12 @@ function GrandTetonPage(props) {
                 <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">
                     These three months have been everything and I am forever grateful for all the mountains I climbed, alpine lakes I visited, vibrant sunsets I watched, and wildlife I spotted. I'm appreciative of the friends I met who came from all over the world, the Chinese I learned from them, the <span className='text-nowrap'>狼人杀</span> games, and the memories we made together.
                 </p>
+
+                <img
+                    className="my-16 px-24 sm:px-52 mx-auto"
+                    src={geologicalsurvey}
+                    alt=""
+                />
             </div>
         </FadeIn >
     );
