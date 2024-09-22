@@ -42,7 +42,7 @@ function SSWPage(props) {
                     This project was conducted at <a href="https://uiuc.hack4impact.org" target="_blank" rel="noopener noreferrer" className='secondary-link' alt="Hack4Impact">Hack4Impact</a>, a student organization at UIUC that builds software for nonprofits. I collaborated with 8 students, including a product manager, a technical lead, and software developers, to build the dashboard.
                 </p>
 
-                <p className="text-xl text-gray-900 bg-gray-200 p-4">We shipped the dashboard in February 2022 to 250+ admin and contributors at South Side Weekly! After usage, the managing director even stated he believed our dashboard could be scaled for use at other newspaper nonprofits. 😎</p>
+                <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">We shipped the dashboard in February 2022 to 250+ admin and contributors at South Side Weekly! After usage, the managing director even stated he believed our dashboard could be scaled for use at other newspaper nonprofits. 😎</p>
 
 
                 <p className="text-xl text-gray-500 mt-16">Context</p>
@@ -51,7 +51,7 @@ function SSWPage(props) {
                     Contributors volunteer on stories and admin manage them and their work. They are divided into teams based on their skills such as writing, editing, photography, fact-checking, and visual art.
                 </p>
 
-                <img className="my-4" src={context} />
+                <img className="my-4 rounded-md" src={context} />
 
 
                 <p className="text-xl text-gray-500 mt-16">Problem</p>
@@ -66,7 +66,7 @@ function SSWPage(props) {
                     For example, contributors view available stories in an AirTable and submit requests to work on them in a separate form. In fact, the existing process of contributors joining stories varies too: some join through Slack message and others join through email.
                 </p>
 
-                <img className="my-4" src={problem_claimpitch} />
+                <img className="my-4 rounded-md" src={problem_claimpitch} />
 
 
                 <p className="text-xl text-gray-500 mt-16">Solution</p>
@@ -75,7 +75,7 @@ function SSWPage(props) {
                     Contributors discover and request to work on stories, pitch their own story ideas, and collaborate with others to cover stories. Admin review pitches, assign contributors to stories, and ensure issues are published on time.
                 </p>
             </div>
-            <img className="px-6 my-8 lg:px-24 mx-auto" src={solution} />
+            <img className="px-6 my-8 max-w-6xl w-full mx-auto" src={solution} />
 
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
@@ -124,32 +124,39 @@ function SSWPage(props) {
                 <p className="text-xl text-gray-900 font-medium mt-4">
                     Find stories to work on that match your interests and skills.
                 </p>
-                <img className="mt-2" src={findstories} />
+            </div>
+            <img className="mt-2 px-6 max-w-6xl w-full mx-auto" src={findstories} />
 
+            <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-900 font-medium mt-4">
                     Pitch story ideas for tens of thousands to read.
                 </p>
-                <img className="mt-2" src={pitchideas} />
+            </div>
+            <img className="mt-2 px-6 max-w-6xl w-full mx-auto" src={pitchideas} />
 
+            <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-900 font-medium mt-4">
                     Receive automated emails so you know if your pitch or request to work on a story has been approved.
                 </p>
-                <img className="mt-2" src={email} />
-
+                <img className="mt-2 rounded-md" src={email} />
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">Admin</p>
 
                 <p className="text-xl text-gray-900 font-medium mt-4">
                     Assign contributors to stories.
                 </p>
-                <img className="mt-2" src={assigncontributors} alt="" />
+            </div>
+            <img className="mt-2 px-6 max-w-6xl w-full mx-auto" src={assigncontributors} alt="" />
 
+            <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-900 font-medium mt-4">
                     Review pitches that contributors submit.
                 </p>
-                <img className="mt-2" src={reviewpitch} alt="Screen admin sees when reviewing a pitch, includes pitch information, creator, ability to choose how many contributors of each team are needed" />
+            </div>
+            <img className="mt-2 px-6 max-w-6xl w-full mx-auto" src={reviewpitch} alt="Screen admin sees when reviewing a pitch, includes pitch information, creator, ability to choose how many contributors of each team are needed" />
 
 
+            <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-500 mt-16">Research</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Questions for Contributors</p>
                 <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5">
@@ -179,16 +186,20 @@ function SSWPage(props) {
                 </p>
             </div>
 
-            <img className="px-4 my-4" src={flow} alt="Flowchart showing how stories go from submitted pitch to publication, includes request and approval steps and collaboration" />
+            <img className="px-4 my-4 max-w-[90rem] w-full mx-auto" src={flow} alt="Flowchart showing how stories go from submitted pitch to publication, includes request and approval steps and collaboration" />
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">To understand how admin review pitches contributors submit, I sat in on their meeting.</p>
                 <p className="text-xl text-gray-900">
                     Admin spent around 5 minutes reading the pitch, understanding the submitter's background by switching to the directory tab to find and open the submitter's profile and LinkedIn, and discussing.
                 </p>
+            </div>
 
-                <img className="my-4" src={shadowing} alt="Screenshot of Zoom call where Bryan shadows SSW admin team making approval decisions regarding submitted pitches, AirTable of pitches" />
-
+            <div className="px-4 my-4 max-w-5xl w-full mx-auto">
+                <img className="w-full rounded-md" src={shadowing} alt="Screenshot of video call meeting where Bryan shadows SSW admin team making approval decisions regarding submitted pitches, AirTable of pitches" />
+            </div>
+            
+            <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-500 mt-16">Insights</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Contributors are looking for an opportunity to gain real world experience and improve their skills.</p>
                 <p className="text-xl text-gray-900 mb-4">
@@ -213,7 +224,7 @@ function SSWPage(props) {
                 </p>
             </div>
 
-            <img className="px-4 my-8" src={requeststoryiterations} alt="Iterations for modal that contributors see when viewing available stories to work on" />
+            <img className="px-4 my-8 max-w-[90rem] w-full mx-auto" src={requeststoryiterations} alt="Iterations for modal that contributors see when viewing available stories to work on" />
 
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-14">How do admin review pitches contributors submit?</p>
@@ -233,7 +244,7 @@ function SSWPage(props) {
                 </ul>
             </div>
 
-            <img className="px-6 my-8 lg:px-20 mx-auto" src={reviewpitches} alt="Dashboard where admin can review pitches that contributors submit" />
+            <img className="px-6 my-8 max-w-6xl w-full mx-auto" src={reviewpitches} alt="Dashboard where admin can review pitches that contributors submit" />
 
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-16">How do admin review contributors’ requests to work on stories? How do they assign contributors?</p>
@@ -286,7 +297,7 @@ function SSWPage(props) {
                     From my tech lead's proposal, I realized that we did not need every property to have auto-save. We compromised with this 2-section option which maintains context for admin, while also being feasible to implement.
                 </p>
             </div>
-            <img className="my-8 px-6 lg:px-24 mx-auto" src={storydetails} />
+            <img className="my-8 px-6 max-w-6xl w-full mx-auto" src={storydetails} />
 
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-xl text-gray-500 mt-16">Learnings</p>
@@ -301,10 +312,10 @@ function SSWPage(props) {
                 </p>
             </div>
 
-            <img className="my-4 px-6 lg:px-20 mx-auto" src={figma} />
+            <img className="my-4 px-2 sm:px-0 mb-4 max-w-6xl w-full mx-auto" src={figma} />
 
             <div className="mx-6 md:mx-auto max-w-2xl">
-                <p className="text-xl text-gray-900 bg-gray-200 p-4"><a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer" alt="Email">Email me</a> for a deeper dive and my reflection on how I would improve the visual design, UX writing, and information architecture.</p>
+                <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md"><a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer" alt="Email">Email me</a> for a deeper dive and my reflection on how I would improve the visual design, UX writing, and information architecture.</p>
 
                 <div className="grid grid-cols-2 text-xl mt-16">
                     <p className="text-left">

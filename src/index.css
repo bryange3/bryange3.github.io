@@ -34,13 +34,11 @@ body {
 
 a {
     color: #327cd6 !important;
-    transition-duration: 0.3s;
 }
 
 a:hover {
     color: #327cd6 !important;
     opacity: 0.7;
-    transition-duration: 0.3s;
 }
 
 .brat {
@@ -51,6 +49,8 @@ a:hover {
     background-color: #8ACE00;
     color: #000000;
     text-transform: lowercase;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
 }
 
 @keyframes fadeInAnimation {
@@ -106,7 +106,6 @@ ul.social-media-list li {
 }
 
 hr.rounded {
-    border-top: 1px solid #dbdbdb;
     border-radius: 5px;
 }
 
@@ -269,25 +268,6 @@ blockquote {
 .small-description {
     font-size: 21px;
     color: #8f8f8f;
-}
-
-.scrollTop {
-    position: fixed;
-    height: 40px;
-    width: 40px;
-    bottom: 40px;
-    right: 40px;
-    align-items: right;
-    justify-content: center;
-    z-index: 1000;
-    cursor: pointer;
-    animation: scrollFadeIn 0.3s;
-    opacity: 0.5;
-    transition: 0.3s;
-}
-
-.scrollTop:hover {
-    opacity: 1;
 }
 
 @keyframes scrollFadeIn {

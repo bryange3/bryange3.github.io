@@ -9,9 +9,9 @@ function Card(props) {
             <div className="hover:opacity-70">
                 <div className="mb-4">
                     {props.item.coverType === 'image' ? (
-                        <img src={props.item.coverSrc} alt={props.item.imgAlt} />
+                        <img className="rounded-md" src={props.item.coverSrc} alt={props.item.imgAlt} />
                     ) : props.item.coverType === 'video' ? (
-                        <video autoPlay muted loop>
+                        <video className="rounded-md" autoPlay muted loop>
                             <source src={props.item.coverSrc} type="video/mp4" />
                         </video>
                     ) : (

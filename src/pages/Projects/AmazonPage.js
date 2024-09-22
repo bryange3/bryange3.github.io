@@ -33,7 +33,7 @@ function AmazonPage(props) {
                     Merchants get to pick and choose which products to offer through Buy with Prime. For those products, Amazon takes care of the payment, processing, storage, delivery, and returns.
                 </p>
             </div>
-            <img className="px-6 mb-4 lg:px-24 mx-auto" src={dollarshave} />
+            <img className="px-2 sm:px-0 mb-4 max-w-6xl w-full mx-auto" src={dollarshave} />
 
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-xl text-gray-500 mt-16">Problem</p>
@@ -79,14 +79,14 @@ function AmazonPage(props) {
                     </li>
                 </ul>
 
-                <p className="text-xl text-gray-900 bg-gray-200 mt-4 p-4">
+                <p className="text-xl text-gray-900 bg-gray-200 mt-4 p-4 rounded-md">
                     My work <strong>launched on Shopify this year</strong> and will soon be available on Salesforce Commerce Cloud! 🚀
                     <br /><br />
                     To learn more about my explorations, research studies, and implementation considerations, please <a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer" alt="Email">email me</a>.
                 </p>
             </div>
 
-            <img className="mt-12 px-6 mb-4 lg:px-24 mx-auto" src={bareminerals} />
+            <img className="px-2 sm:px-0 mt-12 mb-4 max-w-6xl w-full mx-auto" src={bareminerals} />
 
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-xl text-gray-900">
@@ -110,9 +110,9 @@ function AmazonPage(props) {
                     Sometimes, I receive differing feedback from different stakeholders. I learned to make decisions and drive my project forward by refocusing on the main problems shoppers face.
                 </p>
 
-                <img className="my-12" src={team} />
+                <img className="my-12 rounded-md" src={team} />
 
-                <p className="text-xl text-gray-900 bg-gray-200 p-4">
+                <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">
                     Thank you to my team and partners for all the wonderful feedback, collaboration opportunities, and support — especially my manager, Kim, and my mentor, Sana!
                 </p>
 

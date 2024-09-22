@@ -53,34 +53,39 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <img
-                className="lg:hidden my-8"
-                src={crazysunset}
-                alt=""
-            />
+            <div className="px-4">
+                <img
+                    className="lg:hidden my-8 rounded-md"
+                    src={crazysunset}
+                    alt=""
+                />
+            </div>
 
-            <ParallaxBanner className="hidden lg:block aspect-[4/3] sm:aspect-[16/8] my-8">
-                <ParallaxBannerLayer speed={5}>
-                    <img
-                        src={crazysunset}
-                        alt=""
-                    />
-                </ParallaxBannerLayer>
-                <ParallaxBannerLayer speed={14}>
-                    <img
-                        className="mt-[29%]"
-                        src={mountains}
-                        alt=""
-                    />
-                </ParallaxBannerLayer>
-                <ParallaxBannerLayer speed={20}>
-                    <img
-                        className="mt-[41%]"
-                        src={treeline}
-                        alt=""
-                    />
-                </ParallaxBannerLayer>
-            </ParallaxBanner>
+            <div className='px-4 sm:px-8 mx-auto'>
+                <ParallaxBanner className="hidden lg:block aspect-[4/3] sm:aspect-[16/8] my-8 rounded-md overflow-hidden">
+                    <ParallaxBannerLayer speed={5}>
+                        <img
+                            className='rounded-md'
+                            src={crazysunset}
+                            alt=""
+                        />
+                    </ParallaxBannerLayer>
+                    <ParallaxBannerLayer speed={10}>
+                        <img
+                            className="mt-[29%] rounded-md"
+                            src={mountains}
+                            alt=""
+                        />
+                    </ParallaxBannerLayer>
+                    <ParallaxBannerLayer speed={17}>
+                        <img
+                            className="mt-[41%] rounded-md"
+                            src={treeline}
+                            alt=""
+                        />
+                    </ParallaxBannerLayer>
+                </ParallaxBanner>
+            </div>
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24">
                 <p className="text-lg text-gray-500">8.8.2024</p>
@@ -101,11 +106,13 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <img
-                className="my-8"
-                src={deltalake}
-                alt=""
-            />
+            <div className="px-4 sm:px-8 mx-auto">
+                <img
+                    className="my-8 rounded-md"
+                    src={deltalake}
+                    alt=""
+                />
+            </div>
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24 mb-8">
                 <p className="text-lg text-gray-500">8.20.2024</p>
@@ -126,17 +133,19 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row sm:gap-x-4 mt-8">
+            <div className="flex flex-col sm:flex-row gap-6 mt-8 px-4 sm:px-8 mx-auto">
                 <div>
                     <img
                         src={schwabacherstart}
                         alt=""
+                        className="rounded-md"
                     />
                 </div>
                 <div>
                     <img
                         src={schwabacherend}
                         alt=""
+                        className="rounded-md"
                     />
                 </div>
             </div>
@@ -154,26 +163,26 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row sm:gap-x-4 mt-8">
+            <div className="flex flex-col sm:flex-row gap-6 mt-8 px-4 sm:px-8 mx-auto">
                 <div>
                     <img
                         src={oxbow}
                         alt=""
-                        width="100%"
+                        className="rounded-md"
                     />
                 </div>
                 <div>
                     <img
                         src={galaxy}
                         alt=""
-                        width="100%"
+                        className="rounded-md"
                     />
                 </div>
                 <div>
                     <img
                         src={persephone}
                         alt=""
-                        height="100%"
+                        className="rounded-md"
                     />
                 </div>
             </div>
@@ -197,9 +206,11 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <video id="brecciacliff" className="my-8" autoPlay muted loop playsInline>
-                <source src={brecciacliff} type="video/mp4" />
-            </video>
+            <div className="px-4 sm:px-8 mx-auto">
+                <video id="brecciacliff" className="my-8 rounded-md" autoPlay muted loop playsInline>
+                    <source src={brecciacliff} type="video/mp4" />
+                </video>
+            </div>
 
             <div className="mx-6 md:mx-auto max-w-2xl my-8">
                 <p className="text-xl text-gray-900">
@@ -207,12 +218,14 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <video id="brecciasunset" className="my-8" autoPlay muted loop playsInline>
-                <source src={brecciasunset} type="video/mp4" />
-            </video>
+            <div className="px-4 sm:px-8 mx-auto">
+                <video id="brecciasunset" className="my-8 rounded-md" autoPlay muted loop playsInline>
+                    <source src={brecciasunset} type="video/mp4" />
+                </video>
+            </div>
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
-                <p className="text-xl text-gray-900 bg-gray-200 p-4">
+                <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">
                     These three months have been everything and I am forever grateful for all the mountains I climbed, alpine lakes I visited, vibrant sunsets I watched, and wildlife I spotted. I'm appreciative of the friends I met who came from all over the world, the Chinese I learned from them, the <span className='text-nowrap'>狼人杀</span> games, and the memories we made together.
                 </p>
             </div>

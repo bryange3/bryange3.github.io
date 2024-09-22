@@ -32,7 +32,7 @@ function ApplePage(props) {
                     Apple users can designate trusted or loved ones as legacy contacts. These legacy contacts may be able to access memorable photos and videos, important files, notes, etc.
                 </p>
             </div>
-            <img className="px-4 my-4" src={screenflow} alt="Legacy Contact creation flow on iPhone" />
+            <img className="px-4 my-4 max-w-[90rem] w-full mx-auto" src={screenflow} alt="Legacy Contact creation flow on iPhone" />
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-900">
@@ -45,7 +45,7 @@ function ApplePage(props) {
                 <p className="text-xl text-gray-900">
                     To ensure a meangingful experience for all users, I accounted for different scenarios and edge cases.
                 </p>
-                <video className="my-4" autoPlay muted loop playsInline>
+                <video className="my-4 rounded-md" autoPlay muted loop playsInline>
                     <source src={entireflow} type="video/mp4" alt="Different possible flows for legacy contact creation and management, highlighting potential edge cases that could result"/>
                 </video>
 
@@ -54,7 +54,7 @@ function ApplePage(props) {
                     I collaborated with senior designers, UX writers, project managers, and engineers across teams and created detailed design specifications for iOS, macOS, and web for handoff to engineering.
                 </p>
 
-                <p className="text-xl text-gray-900 bg-gray-200 p-4">I can’t share details about my enhancement until launch, but <a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer" alt="Email">email me</a> for more about my experience.</p>
+                <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">I can’t share details about my enhancement until launch, but <a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer" alt="Email">email me</a> for more about my experience.</p>
 
                 <p className="text-xl text-gray-500 mt-16">Discovery</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Beyond my main enhancement, I also improved discovery of Legacy Contact via Family Checklist.</p>
@@ -65,17 +65,17 @@ function ApplePage(props) {
                     I designed the “Add a Legacy Contact” suggestion in the Family Checklist, a great entry point for people who want to pass down their data to family members.
                 </p>
 
-                <video className="sm:max-w-xs mx-auto rounded-[15%/9%] mt-4 mb-8" autoPlay muted loop playsInline>
+                <video className="max-w-xs mx-auto rounded-[15%/9%] mt-4 mb-8" autoPlay muted loop playsInline>
                     <source src={famchecklist} type="video/mp4" alt=""/>
                 </video>
 
-                <p className="text-xl text-gray-900 bg-gray-200 p-4">This improvement launched in September 2023 and is now the <strong>primary driver behind adoption!</strong> 🥳</p>
+                <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">This improvement launched in September 2023 and is now the <strong>primary driver behind adoption!</strong> 🥳</p>
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">Relationships can change. Review legacy contacts from the Family Checklist and keep them updated.</p>
                 <p className="text-xl text-gray-900 mb-4">
                     Depending on if you have set up a legacy contact before, you will either see a suggestion to add a legacy contact or review your existing ones.
                 </p>
-                <img className="sm:max-w-xl mx-auto mt-4 mb-8" src={checklistvariations} />
+                <img className="w-full max-w-2xl mx-auto mt-4 mb-8" src={checklistvariations} />
 
                 <p className="text-xl text-gray-500 mt-16">Learnings</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Step back and consider the larger product and ecosystem.</p>
@@ -88,9 +88,9 @@ function ApplePage(props) {
                     Simplify to what is necessary and think about how many decisions users need to make. However, it’s ok to have a longer flow if it means clearer understanding for the user. The powerful nature of Legacy Contact should inform how easy it is for users to take certain actions.
                 </p>
 
-                <img className="my-12" src={applepark} />
+                <img className="my-12 rounded-md" src={applepark} />
 
-                <p className="text-xl text-gray-900 bg-gray-200 p-4">
+                <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">
                     Thank you to the iCloud Human Interface team for supporting me and giving me the chance to work on such a meaningful project.
 
                     <br /><br />
