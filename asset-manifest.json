@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b57be8f.css",
-    "main.js": "/static/js/main.b39d597f.js",
+    "main.css": "/static/css/main.2d1058f4.css",
+    "main.js": "/static/js/main.1e98a8e6.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
@@ -14,7 +14,7 @@
     "static/media/deltalake.png": "/static/media/deltalake.9e79e6d6f62f917e3959.png",
     "static/media/galaxy.jpeg": "/static/media/galaxy.e26af7d6fd1621e64e22.jpeg",
     "static/media/fridge.png": "/static/media/fridge.c4387e7f5fb57bb17cf1.png",
-    "static/media/shadowing.png": "/static/media/shadowing.ef3f729964fbb0fd55bf.png",
+    "static/media/shadowing.png": "/static/media/shadowing.88576246f79d30122858.png",
     "static/media/LoginQR.gif": "/static/media/LoginQR.e4f3ccfae3dea7d296ba.gif",
     "static/media/crazysunset.png": "/static/media/crazysunset.3a629bb9c56686bf1063.png",
     "static/media/storydetails.gif": "/static/media/storydetails.a215c0eee1c530c6719e.gif",
@@ -44,12 +44,12 @@
     "static/media/nycteam.jpg": "/static/media/nycteam.9edde2b2984b282d4316.jpg",
     "static/media/googlemaps.png": "/static/media/googlemaps.bb0e8637356578568918.png",
     "static/media/RoomDiscoveryVariations.png": "/static/media/RoomDiscoveryVariations.cc19e654137459716cf7.png",
-    "static/media/checklist-variations.png": "/static/media/checklist-variations.f1d1b2647c4ddd658d52.png",
+    "static/media/checklist-variations.png": "/static/media/checklist-variations.17bfaed04da43fbd54c3.png",
     "static/media/AccessibilityIterations.png": "/static/media/AccessibilityIterations.b15d0967036a6123bcda.png",
     "static/media/solution.png": "/static/media/solution.7596cbd190d29392f709.png",
     "static/media/entireflow.mp4": "/static/media/entireflow.dea5d2bd3735f3758b23.mp4",
-    "static/media/reviewstories.png": "/static/media/reviewstories.90b3b0e3d9216c3f3ad0.png",
-    "static/media/individualrequests.png": "/static/media/individualrequests.8293a9c64d4754555a5d.png",
+    "static/media/reviewstories.png": "/static/media/reviewstories.0932e767eb3d605a5d1c.png",
+    "static/media/individualrequests.png": "/static/media/individualrequests.0aced8fceb7cebeacb18.png",
     "static/media/stats.png": "/static/media/stats.a9f158f2ccddec101e69.png",
     "static/media/teamsketch.jpg": "/static/media/teamsketch.ebb47fefe553924f7a61.jpg",
     "static/media/pitchideas.png": "/static/media/pitchideas.2f2c098ab311cf9e6320.png",
@@ -65,12 +65,12 @@
     "static/media/email.png": "/static/media/email.4fd3e48b04a9efbaf14f.png",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.2b57be8f.css.map": "/static/css/main.2b57be8f.css.map",
-    "main.b39d597f.js.map": "/static/js/main.b39d597f.js.map",
+    "main.2d1058f4.css.map": "/static/css/main.2d1058f4.css.map",
+    "main.1e98a8e6.js.map": "/static/js/main.1e98a8e6.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b57be8f.css",
-    "static/js/main.b39d597f.js"
+    "static/css/main.2d1058f4.css",
+    "static/js/main.1e98a8e6.js"
   ]
 }
