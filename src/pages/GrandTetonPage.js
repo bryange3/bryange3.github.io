@@ -10,6 +10,11 @@ import crazysunset from '../assets/other/tetons/crazysunset.png';
 import brecciacliff from '../assets/other/tetons/brecciacliff.mp4';
 import brecciasunset from '../assets/other/tetons/brecciasunset.mp4';
 import deltalake from '../assets/other/tetons/deltalake.png';
+import galaxy from '../assets/other/tetons/galaxy.jpeg';
+import oxbow from '../assets/other/tetons/oxbow.jpeg';
+import persephone from '../assets/other/tetons/persephone.jpg';
+import schwabacherstart from '../assets/other/tetons/schwabacherstart.png';
+import schwabacherend from '../assets/other/tetons/schwabacherend.png';
 
 function GrandTetonPage(props) {
     AOS.init();
@@ -22,24 +27,21 @@ function GrandTetonPage(props) {
                     <Link to="/">← Back home</Link>
                 </p>
 
-                <p className="text-5xl font-semibold text-gray-900 mb-4 font-serif">Grand Teton Summer</p>
+                <p className="text-5xl font-semibold text-gray-900 mb-4 font-serif">Summer in the Tetons</p>
                 <p className="text-xl text-gray-900">
-                    My summer in the Bay Area in 2022 made me realize how much I love nature, especially since I grew up in Dallas, TX.
-                </p>
-                <p className="text-xl text-gray-900">
-                    I spent this summer in Grand Teton National Park and it's been everything! I got to hike to alpine lakes, witness the alpenglow on the mountains at sunrise, and even see the northern lights briefly when the moon was covered by clouds. Here are some of my favorite moments:
+                    My summer in the Bay Area in 2022 made me realize how much I love nature, especially since I grew up in Dallas, TX. I spent this summer in Grand Teton National Park and it's been everything! Here are some of my favorite moments.
                 </p>
             </div>
 
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-16">
-                <p className="text-xl text-gray-500 mt-16">7.3.2024</p>
-                <div className="flex flex-col sm:flex-row sm:gap-x-6 text-xl mt-8">
-                    <p className="text-3xl font-semibold text-gray-900 font-serif flex flex-col justify-end leading-none">
-                        Togwotee Overlook
+                <p className="text-lg text-gray-500 mt-16">7.3.2024</p>
+                <div className="grid sm:grid-cols-[1fr_auto] text-xl mt-4">
+                    <p className="text-3xl font-semibold text-gray-900 font-serif">
+                        Sunset at Togwotee Overlook
                     </p>
 
-                    <p className="flex flex-col justify-end">
+                    <p>
                         <a className="text-xl font-sans font-normal" href="https://maps.app.goo.gl/7qat7LMxLCTR5a6u8" target="_blank" rel="noopener noreferrer" alt="Togwotee Overlook location and Google Maps information">
                             Google Maps ↗
                         </a>
@@ -81,13 +83,13 @@ function GrandTetonPage(props) {
             </ParallaxBanner>
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24">
-                <p className="text-xl text-gray-500">8.8.2024</p>
-                <div className="flex flex-col sm:flex-row sm:gap-x-6 text-xl mt-8">
-                    <p className="text-3xl font-semibold text-gray-900 font-serif flex flex-col justify-end leading-none">
-                        Delta Lake
+                <p className="text-lg text-gray-500">8.8.2024</p>
+                <div className="grid sm:grid-cols-[1fr_auto] text-xl mt-4">
+                    <p className="text-3xl font-semibold text-gray-900 font-serif">
+                        Morning hike at Delta Lake
                     </p>
 
-                    <p className="flex flex-col justify-end">
+                    <p>
                         <a className="text-xl font-sans font-normal" href="https://www.alltrails.com/trail/us/wyoming/delta-lake-via-lupine-meadows-access" target="_blank" rel="noopener noreferrer" alt="Delta Lake AllTrails information">
                             AllTrails ↗
                         </a>
@@ -105,14 +107,85 @@ function GrandTetonPage(props) {
                 alt=""
             />
 
-            <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24">
-                <p className="text-xl text-gray-500">9.19.2024</p>
-                <div className="flex flex-col sm:flex-row sm:gap-x-6 text-xl mt-8">
-                    <p className="text-3xl font-semibold text-gray-900 font-serif flex flex-col justify-end leading-none">
-                        Breccia Cliffs
+            <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24 mb-8">
+                <p className="text-lg text-gray-500">8.20.2024</p>
+                <div className="grid sm:grid-cols-[1fr_auto] text-xl mt-4">
+                    <p className="text-3xl font-semibold text-gray-900 font-serif">
+                        Sunrise at Schwabacher Landing
                     </p>
 
-                    <p className="flex flex-col justify-end">
+                    <p>
+                        <a className="text-xl font-sans font-normal" href="https://maps.app.goo.gl/HzRgf2SxNqxnPuUL6" target="_blank" rel="noopener noreferrer" alt="Schwabacher Landing location and Google Maps information">
+                            Google Maps ↗
+                        </a>
+                    </p>
+                </div>
+
+                <p className="text-xl text-gray-900">
+                    It's crazy how much can change in 40 minutes! Glad I didn't leave even though it got cloudy.
+                </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row sm:gap-x-4 mt-8">
+                <div>
+                    <img
+                        src={schwabacherstart}
+                        alt=""
+                    />
+                </div>
+                <div>
+                    <img
+                        src={schwabacherend}
+                        alt=""
+                    />
+                </div>
+            </div>
+
+            <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24 mb-8">
+                <p className="text-lg text-gray-500">8.2024</p>
+                <div className="text-xl mt-4">
+                    <p className="text-3xl font-semibold text-gray-900 font-serif flex flex-col justify-end leading-none">
+                        Riya's visit to the Tetons
+                    </p>
+                </div>
+
+                <p className="text-xl text-gray-900">
+                    During the week my friend Riya visited, we took long-exposure shots of the galaxy above, saw fresh snowfall on the Tetons at Oxbow Bend, and enjoyed the loveliest outdoor brunch at Persephone Bakery in Jackson.
+                </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row sm:gap-x-4 mt-8">
+                <div>
+                    <img
+                        src={oxbow}
+                        alt=""
+                        width="100%"
+                    />
+                </div>
+                <div>
+                    <img
+                        src={galaxy}
+                        alt=""
+                        width="100%"
+                    />
+                </div>
+                <div>
+                    <img
+                        src={persephone}
+                        alt=""
+                        height="100%"
+                    />
+                </div>
+            </div>
+
+            <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24">
+                <p className="text-lg text-gray-500">9.19.2024</p>
+                <div className="grid sm:grid-cols-[1fr_auto] text-xl mt-4">
+                    <p className="text-3xl font-semibold text-gray-900 font-serif">
+                        Sunset hike at Breccia Cliffs
+                    </p>
+
+                    <p className="">
                         <a className="text-xl font-sans font-normal" href="https://www.alltrails.com/trail/us/wyoming/breccia-peak" target="_blank" rel="noopener noreferrer" alt="Breccia Peak AllTrails information">
                             AllTrails ↗
                         </a>
@@ -140,7 +213,7 @@ function GrandTetonPage(props) {
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-900 bg-gray-200 p-4">
-                    These three months have been everything and I am forever grateful for all the mountains I climbed, the vibrant sunsets I watched, and the wildlife I spotted. I'm appreciative of the friends I met who came from all over the world, the Chinese I learned from them, the 狼人杀 games, and the memories we made together.
+                    These three months have been everything and I am forever grateful for all the mountains I climbed, alpine lakes I visited, vibrant sunsets I watched, and wildlife I spotted. I'm appreciative of the friends I met who came from all over the world, the Chinese I learned from them, the <span className='text-nowrap'>狼人杀</span> games, and the memories we made together.
                 </p>
             </div>
         </FadeIn >

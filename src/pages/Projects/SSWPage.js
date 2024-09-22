@@ -306,7 +306,7 @@ function SSWPage(props) {
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-xl text-gray-900 bg-gray-200 p-4"><a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer" alt="Email">Email me</a> for a deeper dive and my reflection on how I would improve the visual design, UX writing, and information architecture.</p>
 
-                <div className="sm:grid sm:grid-cols-2 gap-x-4 text-xl mt-16">
+                <div className="grid grid-cols-2 text-xl mt-16">
                     <p className="text-left">
                         <Link to="/apple">← Previous project</Link>
                     </p>

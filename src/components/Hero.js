@@ -25,7 +25,7 @@ function Hero(props) {
                 {props.coverType === 'image' ? (
                     <img className="my-4" src={props.coverSrc} alt={props.imgAlt} />
                 ) : props.coverType === 'video' ? (
-                    <video autoPlay muted loop playsInline>
+                    <video className="my-4" autoPlay muted loop playsInline>
                         <source src={props.coverSrc} type="video/mp4" />
                     </video>
                 ) : (

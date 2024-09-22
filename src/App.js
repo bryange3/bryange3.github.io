@@ -43,7 +43,8 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
-          projectTitle: 'Apple, 2022',
+          projectTitle: 'Apple',
+          year: '2022',
           description: 'Enhancing Legacy Contact, a feature that helps people share account data after death. Also increasing discovery via Family Sharing.',
           coverType: 'image',
           coverSrc: apple,
@@ -55,7 +56,8 @@ class App extends React.Component {
         },
         {
           id: 1,
-          projectTitle: 'South Side Weekly, 2021',
+          projectTitle: 'South Side Weekly',
+          year: '2021',
           description: 'Centralizing story management and collaboration between 250+ admin and contributors at a Chicago newspaper nonprofit.',
           coverType: 'image',
           coverSrc: ssw,
@@ -67,7 +69,8 @@ class App extends React.Component {
         },
         {
           id: 2,
-          projectTitle: 'Amazon, 2023',
+          projectTitle: 'Amazon',
+          year: '2023',
           description: 'Helping shoppers discover Buy with Prime on direct-to-consumer websites. Educational elements shipped on Shopify and live on merchant sites.',
           coverType: 'video',
           coverSrc: amazon,

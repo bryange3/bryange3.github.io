@@ -20,7 +20,7 @@ function Card(props) {
                 </div>
 
                 <div className="mb-16">
-                    <CardInfo projectTitle={props.item.projectTitle} description={props.item.description} roles={props.item.roles} path={props.item.path} type={props.item.type} />
+                    <CardInfo projectTitle={props.item.projectTitle} year={props.item.year} description={props.item.description} roles={props.item.roles} path={props.item.path} type={props.item.type} />
                 </div>
             </div>
         </Link>

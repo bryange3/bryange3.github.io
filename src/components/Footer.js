@@ -14,6 +14,9 @@ function Footer() {
                     &nbsp; &nbsp;
                     <a href="https://www.linkedin.com/in/bryange/" target="_blank" rel="noopener noreferrer" className='secondary-link' alt="LinkedIn">LinkedIn ↗</a>
                 </p>
+                <p className="text-xl text-gray-500">
+                    Made with React and <span className='brat'>BRAT</span> playing in the background.
+                </p>
             </div>
         </FadeIn>
     )

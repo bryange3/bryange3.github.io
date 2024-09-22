@@ -25,7 +25,7 @@ function ApplePage(props) {
                 <p className="text-xl text-gray-900">
                     iCloud is designed to help users securely store and sync their photos, notes, messages, and more across devices such as iPhones, iPads, and Macs.
                 </p>
-                <img className="my-4 scale-[0.8]" src={icloud} alt="iCloud graphic illustrating how photos, notes, files, messages, and more are all synced through the cloud service" />
+                <img className="my-4 sm:scale-[0.8]" src={icloud} alt="iCloud graphic illustrating how photos, notes, files, messages, and more are all synced through the cloud service" />
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Legacy Contact empowers people to control what happens to their data after they pass away.</p>
                 <p className="text-xl text-gray-900 mb-4">
@@ -45,7 +45,7 @@ function ApplePage(props) {
                 <p className="text-xl text-gray-900">
                     To ensure a meangingful experience for all users, I accounted for different scenarios and edge cases.
                 </p>
-                <video className="my-4" autoPlay muted loop>
+                <video className="my-4" autoPlay muted loop playsInline>
                     <source src={entireflow} type="video/mp4" alt="Different possible flows for legacy contact creation and management, highlighting potential edge cases that could result"/>
                 </video>
 
@@ -65,7 +65,7 @@ function ApplePage(props) {
                     I designed the “Add a Legacy Contact” suggestion in the Family Checklist, a great entry point for people who want to pass down their data to family members.
                 </p>
 
-                <video className="sm:max-w-xs mx-auto rounded-[15%/9%] mt-4 mb-8" autoPlay muted loop>
+                <video className="sm:max-w-xs mx-auto rounded-[15%/9%] mt-4 mb-8" autoPlay muted loop playsInline>
                     <source src={famchecklist} type="video/mp4" alt=""/>
                 </video>
 

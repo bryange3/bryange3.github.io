@@ -34,11 +34,23 @@ body {
 
 a {
     color: #327cd6 !important;
+    transition-duration: 0.3s;
 }
 
 a:hover {
     color: #327cd6 !important;
     opacity: 0.7;
+    transition-duration: 0.3s;
+}
+
+.brat {
+
+}
+
+.brat:hover {
+    background-color: #8ACE00;
+    color: #000000;
+    text-transform: lowercase;
 }
 
 @keyframes fadeInAnimation {
@@ -80,10 +92,6 @@ code {
 .project-card {
     text-decoration: none !important;
 }
-
-.project-card-image {}
-
-.project-card-info {}
 
 ul.social-media-list {
     list-style-type: none;
@@ -436,15 +444,6 @@ mark {
     margin-top: 7em;
     margin-bottom: 1em;
 }
-
-/* .home-images {
-    position: relative;
-}
-
-.home-image {
-    max-width: 100%;
-    border-radius: 5px;
-} */
 
 .hr-rounded-close {
     margin-top: 10px;
