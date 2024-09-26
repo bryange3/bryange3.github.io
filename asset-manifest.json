@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd82719e.css",
-    "main.js": "/static/js/main.407bdd94.js",
+    "main.css": "/static/css/main.979bcdfb.css",
+    "main.js": "/static/js/main.041b887c.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
     "static/media/solution.gif": "/static/media/solution.25a9ac4bc6bdd63b935d.gif",
     "static/media/schwabacherend.png": "/static/media/schwabacherend.6944f9b7232e745affa6.png",
     "static/media/problem-claimpitch.gif": "/static/media/problem-claimpitch.c07d59872eca58c8e575.gif",
-    "static/media/teamscall.png": "/static/media/teamscall.4013217fa8ae0acaada8.png",
     "static/media/schwabacherstart.png": "/static/media/schwabacherstart.272e26439d8971489574.png",
     "static/media/persephone.jpg": "/static/media/persephone.95f227d44b9a80b5fc11.jpg",
     "static/media/deltalake.png": "/static/media/deltalake.9e79e6d6f62f917e3959.png",
     "static/media/galaxy.jpeg": "/static/media/galaxy.e26af7d6fd1621e64e22.jpeg",
-    "static/media/fridge.png": "/static/media/fridge.c4387e7f5fb57bb17cf1.png",
     "static/media/shadowing.png": "/static/media/shadowing.88576246f79d30122858.png",
     "static/media/geologicalsurvey.png": "/static/media/geologicalsurvey.c6a4e1b038fee24bd1ad.png",
     "static/media/LoginQR.gif": "/static/media/LoginQR.e4f3ccfae3dea7d296ba.gif",
@@ -60,18 +58,17 @@
     "static/media/ssw.png": "/static/media/ssw.73b2b93d21995990e5df.png",
     "static/media/reviewpitches.png": "/static/media/reviewpitches.04158559c55567b1cbb1.png",
     "static/media/icloud.png": "/static/media/icloud.bd87a1693e1e2f7f631d.png",
-    "static/media/cargill.png": "/static/media/cargill.0f3279f379094cb98ea6.png",
     "static/media/schwabacher.jpeg": "/static/media/schwabacher.daf2280ba55e2c9b1c10.jpeg",
-    "static/media/Timeline.png": "/static/media/Timeline.5beb587e6de358f78cf4.png",
+    "static/media/cargill.png": "/static/media/cargill.0a225c030bfa8eb30a5f.png",
     "static/media/email.png": "/static/media/email.4fd3e48b04a9efbaf14f.png",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.cd82719e.css.map": "/static/css/main.cd82719e.css.map",
-    "main.407bdd94.js.map": "/static/js/main.407bdd94.js.map",
+    "main.979bcdfb.css.map": "/static/css/main.979bcdfb.css.map",
+    "main.041b887c.js.map": "/static/js/main.041b887c.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd82719e.css",
-    "static/js/main.407bdd94.js"
+    "static/css/main.979bcdfb.css",
+    "static/js/main.041b887c.js"
   ]
 }
