@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0fde7c8.css",
-    "main.js": "/static/js/main.903d542b.js",
+    "main.css": "/static/css/main.e48c9774.css",
+    "main.js": "/static/js/main.e019f318.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
@@ -14,6 +14,7 @@
     "static/media/galaxy.jpeg": "/static/media/galaxy.e26af7d6fd1621e64e22.jpeg",
     "static/media/shadowing.png": "/static/media/shadowing.88576246f79d30122858.png",
     "static/media/geologicalsurvey.png": "/static/media/geologicalsurvey.c6a4e1b038fee24bd1ad.png",
+    "static/media/accelerometercard.mp4": "/static/media/accelerometercard.fd412393da7f1ba0ea91.mp4",
     "static/media/crazysunset.png": "/static/media/crazysunset.3a629bb9c56686bf1063.png",
     "static/media/storydetails.gif": "/static/media/storydetails.a215c0eee1c530c6719e.gif",
     "static/media/oxbow.jpeg": "/static/media/oxbow.9b77507268e55294c613.jpeg",
@@ -53,12 +54,12 @@
     "static/media/ringeranimation.mp4": "/static/media/ringeranimation.12e6a377539865ee2acd.mp4",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.e0fde7c8.css.map": "/static/css/main.e0fde7c8.css.map",
-    "main.903d542b.js.map": "/static/js/main.903d542b.js.map",
+    "main.e48c9774.css.map": "/static/css/main.e48c9774.css.map",
+    "main.e019f318.js.map": "/static/js/main.e019f318.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0fde7c8.css",
-    "static/js/main.903d542b.js"
+    "static/css/main.e48c9774.css",
+    "static/js/main.e019f318.js"
   ]
 }
