@@ -19,8 +19,8 @@ function HomePage(props) {
                     <div>
                         <Link to="/about">About me →</Link>
                     </div>
-                    <div className="col-span-3">
-                        <Link to="/grand-teton">Summer in the Tetons →</Link>
+                    <div>
+                        <Link to="/experiments">Experiments →</Link>
                     </div>
                 </div>
             </div>

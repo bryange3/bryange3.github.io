@@ -25,12 +25,12 @@ function GrandTetonPage(props) {
         <FadeIn>
             <div className="mx-6 md:mx-auto max-w-2xl text-pretty mt-12 sm:mt-20">
                 <p className="text-xl mt-4 mb-8 text-gray-500">
-                    <Link to="/">← Back home</Link>
+                    <Link to="/">← Back home</Link> / <Link to="/about">about me</Link> 
                 </p>
 
                 <p className="text-5xl font-semibold text-gray-900 mb-4 font-serif">Summer in the Tetons</p>
                 <p className="text-xl text-gray-900">
-                    My summer in the Bay Area in 2022 made me realize how much I love nature, especially since I grew up in Dallas, TX. I spent this summer in Grand Teton National Park and it's been everything! Here are some of my favorite moments.
+                    My summer in the Bay Area in 2022 made me realize how much I love nature, especially since I grew up in the very flat and nature-scarce Dallas, TX. I spent this past summer working and living in a lodge near Grand Teton National Park! Here are some of my favorite moments.
                 </p>
             </div>
 
@@ -58,7 +58,7 @@ function GrandTetonPage(props) {
                 <img
                     className="lg:hidden my-8 rounded-md"
                     src={crazysunset}
-                    alt=""
+                    alt="Grand Tetons sunset from Togwotee Overlook"
                 />
             </div>
 
@@ -111,7 +111,7 @@ function GrandTetonPage(props) {
                 <img
                     className="my-8 rounded-md"
                     src={deltalake}
-                    alt=""
+                    alt="Delta Lake"
                 />
             </div>
 
@@ -138,14 +138,14 @@ function GrandTetonPage(props) {
                 <div>
                     <img
                         src={schwabacherstart}
-                        alt=""
+                        alt="Schwabacher Landing when I first got there before sunrise"
                         className="rounded-md"
                     />
                 </div>
                 <div>
                     <img
                         src={schwabacherend}
-                        alt=""
+                        alt="Cloudy Schwabacher Landing with a vibrant rainbow at Grand Teton"
                         className="rounded-md"
                     />
                 </div>
@@ -160,7 +160,7 @@ function GrandTetonPage(props) {
                 </div>
 
                 <p className="text-xl text-gray-900">
-                    During the week my friend Riya visited, we took long-exposure shots of the galaxy above, saw fresh snowfall on the Tetons at Oxbow Bend, and enjoyed the loveliest outdoor brunch at Persephone Bakery in Jackson.
+                    During the week my friend Riya visited, we saw fresh snowfall on the Tetons at Oxbow Bend, took long-exposure shots of the galaxy above, and enjoyed the loveliest outdoor brunch at Persephone Bakery in Jackson.
                 </p>
             </div>
 
@@ -168,21 +168,21 @@ function GrandTetonPage(props) {
                 <div>
                     <img
                         src={oxbow}
-                        alt=""
+                        alt="Oxbow Bend Mount Moran and its reflection along the water"
                         className="rounded-md"
                     />
                 </div>
                 <div>
                     <img
                         src={galaxy}
-                        alt=""
+                        alt="Stars above, taken at Grand Teton"
                         className="rounded-md"
                     />
                 </div>
                 <div>
                     <img
                         src={persephone}
-                        alt=""
+                        alt="Brunch and coffee and Persephone Bakery"
                         className="rounded-md"
                     />
                 </div>
@@ -227,13 +227,13 @@ function GrandTetonPage(props) {
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">
-                    These three months have been everything and I am forever grateful for all the mountains I climbed, alpine lakes I visited, vibrant sunsets I watched, and wildlife I spotted. I'm appreciative of the friends I met who came from all over the world, the Chinese I learned from them, the <span className='text-nowrap'>狼人杀</span> games, and the memories we made together.
+                    These three months were everything and I am forever grateful for all the mountains I climbed, alpine lakes I visited, vibrant sunsets I watched, and wildlife I spotted. I'm appreciative of the friends I met who came from all over the world, the Chinese I learned from them, the <span className='text-nowrap'>狼人杀</span> games, and the memories we made together.
                 </p>
 
                 <img
                     className="my-16 px-24 sm:px-52 mx-auto"
                     src={geologicalsurvey}
-                    alt=""
+                    alt="Geological survey metal marker on Breccia Peak"
                 />
             </div>
         </FadeIn >

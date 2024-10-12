@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 html {
-    background-color: #f1f4f7;
+    background-color: #F1F4F7;
+    overflow-x: hidden;
 }
 
 .hero {
