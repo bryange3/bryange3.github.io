@@ -71,7 +71,7 @@ function GrandTetonPage(props) {
                             alt=""
                         />
                     </ParallaxBannerLayer>
-                    <ParallaxBannerLayer speed={10}>
+                    <ParallaxBannerLayer speed={12}>
                         <img
                             className="mt-[29%] rounded-md"
                             src={mountains}

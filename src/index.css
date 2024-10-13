@@ -55,6 +55,27 @@ a:hover {
     padding-right: 0.1rem;
 }
 
+.mytooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.mytooltip .tooltiptext {
+    visibility: hidden;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.mytooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
