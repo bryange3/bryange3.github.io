@@ -69,7 +69,7 @@ class App extends React.Component {
           description: 'Helping shoppers discover Buy with Prime on direct-to-consumer websites. Educational elements shipped on Shopify and live on merchant sites.',
           coverType: 'video',
           coverSrc: amazon,
-          imgAlt: '',
+          imgAlt: 'An iPhone on the home page of a kitchen appliance shopping website with a Buy with Prime banner that includes a Buy with Prime logo and text that says get fast, free shipping right here and look for the Prime logo and another iPhone on the catalog page with a Prime logo indicator on an eligible products',
           path: '/amazon',
           role: 'UX Design Intern, Buy with Prime',
           timeline: 'May - Aug 2023',

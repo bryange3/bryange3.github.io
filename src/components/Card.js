@@ -11,7 +11,7 @@ function Card(props) {
                     {props.item.coverType === 'image' ? (
                         <img className="rounded-md" src={props.item.coverSrc} alt={props.item.imgAlt} />
                     ) : props.item.coverType === 'video' ? (
-                        <video className="rounded-md" autoPlay muted loop playsInline>
+                        <video className="rounded-md" alt={props.item.imgAlt} autoPlay muted loop playsInline>
                             <source src={props.item.coverSrc} type="video/mp4" />
                         </video>
                     ) : (

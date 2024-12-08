@@ -33,7 +33,7 @@ function AmazonPage(props) {
                     Merchants get to pick and choose which products to offer through Buy with Prime. For those products, Amazon takes care of the payment, processing, storage, delivery, and returns.
                 </p>
             </div>
-            <img className="px-2 sm:px-0 mb-4 max-w-6xl w-full mx-auto" src={dollarshave} />
+            <img className="px-2 sm:px-0 mb-4 max-w-6xl w-full mx-auto" src={dollarshave} alt="Dollar Shave Club product detail page for trimmer/razor with Buy with Prime option"/>
 
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-xl text-gray-500 mt-16">Problem</p>
@@ -49,7 +49,7 @@ function AmazonPage(props) {
                         Confusion about whether they would be taken to Amazon.com for checkout
                     </li>
                 </ul>
-                <img className="my-4 sm:max-w-xl sm:mx-auto" src={shopperproblem} />
+                <img className="my-4 sm:max-w-xl sm:mx-auto" src={shopperproblem} alt="iPhone with catalog page of Livie & Luca merchant storefront and iPhone for one of their shoes with Buy with Prime option"/>
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">Merchants can’t effectively educate shoppers about Buy with Prime.</p>
                 <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5">
@@ -60,7 +60,7 @@ function AmazonPage(props) {
                         Inefficiency creating custom Buy with Prime elements
                     </li>
                 </ul>
-                <img className="my-4 sm:max-w-xl sm:mx-auto" src={merchantproblem} />
+                <img className="my-4 sm:max-w-xl sm:mx-auto" src={merchantproblem} alt="iPhone on merchant website catalog page with manually added Buy with Prime stickers on product images and iPhone with custom Buy with Prime educational banner"/>
 
                 <p className="text-xl text-gray-900">
                     These problems were discovered through the team’s regular unmoderated user tests and my conversations with branding.
@@ -69,7 +69,7 @@ function AmazonPage(props) {
 
                 <p className="text-xl text-gray-500 mt-16">Solution</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Discovery elements that educate shoppers earlier, offered to merchants through Shopify.</p>
-                <img className="my-4" src={solution} />
+                <img className="my-4" src={solution} alt="Mockup of merchant website using automated banner highlighting that you as a shopper can get fast and free delivery by looking for the Prime logo and Prime checkmark indicator on eligible products"/>
                 <ul className="text-xl text-gray-900 list-disc list-outside ml-3 space-y-1.5">
                     <li>
                         <strong>Educational banner</strong> merchants can add to home and catalog pages so shoppers learn about Buy with Prime earlier in the journey
@@ -86,7 +86,7 @@ function AmazonPage(props) {
                 </p>
             </div>
 
-            <img className="px-2 sm:px-0 mt-12 mb-4 max-w-6xl w-full mx-auto" src={bareminerals} />
+            <img className="px-2 sm:px-0 mt-12 mb-4 max-w-6xl w-full mx-auto" src={bareminerals} alt="Automated banner and Prime indicator elements on bareMinerals website"/>
 
             <div className="mx-6 md:mx-auto max-w-2xl">
                 <p className="text-xl text-gray-900">
@@ -110,7 +110,7 @@ function AmazonPage(props) {
                     Sometimes, I receive differing feedback from different stakeholders. I learned to make decisions and drive my project forward by refocusing on the main problems shoppers face.
                 </p>
 
-                <img className="my-12 rounded-md" src={team} />
+                <img className="my-12 rounded-md" src={team} alt="Part of the Buy with Prime team based in NYC at Central Park"/>
 
                 <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">
                     Thank you to my team and partners for all the wonderful feedback, collaboration opportunities, and support — especially my manager, Kim, and my mentor, Sana!

@@ -8,6 +8,7 @@ import ExperimentCard from '../components/ExperimentCard.js';
 import ringeranimation from '../assets/other/experiments/swiftui/ringeranimation.mp4';
 import accelerometercard from '../assets/other/experiments/swiftui/accelerometercard.mp4';
 import timezonemsg from '../assets/other/experiments/figma/timezonemsg.png';
+import photospetals from '../assets/other/experiments/other/photospetals.mp4';
 
 function ExperimentsPage(props) {
     AOS.init();
@@ -30,6 +31,8 @@ function ExperimentsPage(props) {
                     </FadeIn>
                     <FadeIn delay={300}>
                         <ExperimentCard title={"Interactive card using iPhone accelerometer"} type={'video'} src={accelerometercard} alt="Card and its shadow dynamically rotating based on iPhone accelerometer" tools={['SwiftUI']} description={"As you move your phone, the card and shadow dynamically rotate. This is a remix of @philipcdavis's fidget card tutorial."} />
+
+                        <ExperimentCard title={"Photos icon animation"} type={'video'} src={photospetals} tools={['Jitter']} alt="" />
                     </FadeIn>
                 </div>
             </div>

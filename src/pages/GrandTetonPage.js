@@ -4,6 +4,9 @@ import React from 'react';
 import FadeIn from 'react-fade-in';
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 
+import { useRef } from "react";
+import { motion, useScroll } from "framer-motion";
+
 import treeline from '../assets/other/tetons/treeline.png';
 import mountains from '../assets/other/tetons/mountains.png';
 import crazysunset from '../assets/other/tetons/crazysunset.png';
@@ -18,6 +21,9 @@ import schwabacherend from '../assets/other/tetons/schwabacherend.png';
 import geologicalsurvey from '../assets/other/tetons/geologicalsurvey.png';
 
 function GrandTetonPage(props) {
+    const ref = useRef(null);
+    const { scrollXProgress } = useScroll({ container: ref });
+
     AOS.init();
     window.scrollTo(0, 0);
 
@@ -25,7 +31,7 @@ function GrandTetonPage(props) {
         <FadeIn>
             <div className="mx-6 md:mx-auto max-w-2xl text-pretty mt-12 sm:mt-20">
                 <p className="text-xl mt-4 mb-8 text-gray-500">
-                    <Link to="/">← Back home</Link> / <Link to="/about">about me</Link> 
+                    <Link to="/">← Back home</Link> / <Link to="/about">about me</Link>
                 </p>
 
                 <p className="text-5xl font-semibold text-gray-900 mb-4 font-serif">Summer in the Tetons</p>
@@ -62,31 +68,43 @@ function GrandTetonPage(props) {
                 />
             </div>
 
-            <div className='px-4 sm:px-8 mx-auto'>
+            <div className='px-4 sm:px-0 mt-8 mb-4 max-w-7xl w-full mx-auto'>
                 <ParallaxBanner className="hidden lg:block aspect-[4/3] sm:aspect-[16/8] my-8 rounded-md overflow-hidden">
                     <ParallaxBannerLayer speed={5}>
                         <img
                             className='rounded-md'
                             src={crazysunset}
-                            alt=""
+                            alt="Sunset at Grand Teton from Togwotee Overlook"
                         />
                     </ParallaxBannerLayer>
                     <ParallaxBannerLayer speed={12}>
                         <img
                             className="mt-[29%] rounded-md"
                             src={mountains}
-                            alt=""
+                            alt="Grand Tetons mountain range"
                         />
                     </ParallaxBannerLayer>
-                    <ParallaxBannerLayer speed={17}>
+                    {/* <ParallaxBannerLayer speed={20}>
                         <img
                             className="mt-[41%] rounded-md"
                             src={treeline}
                             alt=""
                         />
-                    </ParallaxBannerLayer>
+                    </ParallaxBannerLayer> */}
                 </ParallaxBanner>
             </div>
+
+            {/* <svg id="progress" width="100" height="100" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="30" pathLength="1" className="bg" />
+                <motion.circle
+                    cx="50"
+                    cy="50"
+                    r="30"
+                    pathLength="1"
+                    className="indicator"
+                    style={{ pathLength: scrollXProgress }}
+                />
+            </svg> */}
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24">
                 <p className="text-lg text-gray-500">8.8.2024</p>
@@ -107,13 +125,42 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <div className="px-4 sm:px-8 mx-auto">
+            <div className="scrollable-images max-w-7xl mx-auto gap-6" id="scrollableimages" ref={ref}>
+                <img
+                    className="rounded-md"
+                    src={deltalake}
+                    alt="Delta Lake"
+                />
+                <img
+                    className="rounded-md"
+                    src={deltalake}
+                    alt="Delta Lake"
+                />
+
+                <img
+                    className="rounded-md"
+                    src={deltalake}
+                    alt="Delta Lake"
+                />
+                <img
+                    className="rounded-md"
+                    src={deltalake}
+                    alt="Delta Lake"
+                />
+                <img
+                    className="rounded-md"
+                    src={deltalake}
+                    alt="Delta Lake"
+                />
+            </div>
+
+            {/* <div className="px-4 sm:px-0 mt-8 mb-4 max-w-6xl w-full mx-auto">
                 <img
                     className="my-8 rounded-md"
                     src={deltalake}
                     alt="Delta Lake"
                 />
-            </div>
+            </div> */}
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24 mb-8">
                 <p className="text-lg text-gray-500">8.20.2024</p>
@@ -134,7 +181,7 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-6 mt-8 px-4 sm:px-8 mx-auto">
+            <div className="px-4 sm:px-0 mt-8 mb-4 max-w-7xl w-full mx-auto flex flex-col sm:flex-row gap-6">
                 <div>
                     <img
                         src={schwabacherstart}
@@ -164,7 +211,7 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-6 mt-8 px-4 sm:px-8 mx-auto">
+            <div className="px-4 sm:px-0 mt-8 mb-4 max-w-7xl w-full mx-auto flex flex-col sm:flex-row gap-6">
                 <div>
                     <img
                         src={oxbow}
@@ -207,7 +254,7 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <div className="px-4 sm:px-8 mx-auto">
+            <div className="px-4 sm:px-0 mt-8 mb-4 max-w-7xl w-full mx-auto">
                 <video id="brecciacliff" className="my-8 rounded-md" autoPlay muted loop playsInline>
                     <source src={brecciacliff} type="video/mp4" />
                 </video>
@@ -219,7 +266,7 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <div className="px-4 sm:px-8 mx-auto">
+            <div className="px-4 sm:px-0 mt-8 mb-4 max-w-7xl w-full mx-auto">
                 <video id="brecciasunset" className="my-8 rounded-md" autoPlay muted loop playsInline>
                     <source src={brecciasunset} type="video/mp4" />
                 </video>

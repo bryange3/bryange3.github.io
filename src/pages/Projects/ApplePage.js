@@ -66,7 +66,7 @@ function ApplePage(props) {
                 </p>
 
                 <video className="max-w-xs mx-auto rounded-[15%/9%] mt-4 mb-8" autoPlay muted loop playsInline>
-                    <source src={famchecklist} type="video/mp4" alt=""/>
+                    <source src={famchecklist} type="video/mp4" alt="iPhone user navigating through the settings app to set up a legacy contact from the Family Checklist in Family Sharing"/>
                 </video>
 
                 <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">This improvement launched in September 2023 and is now the <strong>primary driver behind adoption!</strong> 🥳</p>
@@ -75,7 +75,7 @@ function ApplePage(props) {
                 <p className="text-xl text-gray-900 mb-4">
                     Depending on if you have set up a legacy contact before, you will either see a suggestion to add a legacy contact or review your existing ones.
                 </p>
-                <img className="w-full max-w-2xl mx-auto mt-4 mb-8" src={checklistvariations} />
+                <img className="w-full max-w-2xl mx-auto mt-4 mb-8" src={checklistvariations} alt="Variations for the legacy contact tile in Family Checklist based on if you have a legacy contact set up: Add a Legacy Contact or Legacy Contacts Added"/>
 
                 <p className="text-xl text-gray-500 mt-16">Learnings</p>
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-8">Step back and consider the larger product and ecosystem.</p>
@@ -88,7 +88,7 @@ function ApplePage(props) {
                     Simplify to what is necessary and think about how many decisions users need to make. However, it’s ok to have a longer flow if it means clearer understanding for the user. The powerful nature of Legacy Contact should inform how easy it is for users to take certain actions.
                 </p>
 
-                <img className="my-12 rounded-md" src={applepark} />
+                <img className="my-12 rounded-md" src={applepark} alt="Apple Park green area with rainbow structure taken from inside the building"/>
 
                 <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">
                     Thank you to the iCloud Human Interface team for supporting me and giving me the chance to work on such a meaningful project.
