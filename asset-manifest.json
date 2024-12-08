@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.410b16e1.css",
-    "main.js": "/static/js/main.776e1a81.js",
+    "main.css": "/static/css/main.57b75983.css",
+    "main.js": "/static/js/main.4d394e0e.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
@@ -44,6 +44,7 @@
     "static/media/teamsketch.jpg": "/static/media/teamsketch.ebb47fefe553924f7a61.jpg",
     "static/media/pitchideas.png": "/static/media/pitchideas.2f2c098ab311cf9e6320.png",
     "static/media/timezonemsg.png": "/static/media/timezonemsg.f2a8d3434d259293c3de.png",
+    "static/media/photospetals.mp4": "/static/media/photospetals.282980c858bdff0e4e69.mp4",
     "static/media/findstories.png": "/static/media/findstories.89899ac0d2e13a9b8c14.png",
     "static/media/assigncontributors.png": "/static/media/assigncontributors.f9ac1685ec244dfc5962.png",
     "static/media/reviewpitch.png": "/static/media/reviewpitch.da1a5b44a92caeeb0973.png",
@@ -55,12 +56,12 @@
     "static/media/ringeranimation.mp4": "/static/media/ringeranimation.12e6a377539865ee2acd.mp4",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.410b16e1.css.map": "/static/css/main.410b16e1.css.map",
-    "main.776e1a81.js.map": "/static/js/main.776e1a81.js.map",
+    "main.57b75983.css.map": "/static/css/main.57b75983.css.map",
+    "main.4d394e0e.js.map": "/static/js/main.4d394e0e.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.410b16e1.css",
-    "static/js/main.776e1a81.js"
+    "static/css/main.57b75983.css",
+    "static/js/main.4d394e0e.js"
   ]
 }
