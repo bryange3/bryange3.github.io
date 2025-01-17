@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.57b75983.css",
-    "main.js": "/static/js/main.4d394e0e.js",
+    "main.css": "/static/css/main.c8d59358.css",
+    "main.js": "/static/js/main.9cf22eaa.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
@@ -33,7 +33,6 @@
     "static/media/amazon.mp4": "/static/media/amazon.f78143ee435fc73571c5.mp4",
     "static/media/screen-flow.png": "/static/media/screen-flow.049c5f90c37a643cd9ea.png",
     "static/media/figma.png": "/static/media/figma.8f960e8780e97f31342e.png",
-    "static/media/treeline.png": "/static/media/treeline.79097d41a9802e791f1e.png",
     "static/media/shopperproblem.png": "/static/media/shopperproblem.296d0622822be054aba1.png",
     "static/media/nycteam.jpg": "/static/media/nycteam.9edde2b2984b282d4316.jpg",
     "static/media/checklist-variations.png": "/static/media/checklist-variations.17bfaed04da43fbd54c3.png",
@@ -56,12 +55,12 @@
     "static/media/ringeranimation.mp4": "/static/media/ringeranimation.12e6a377539865ee2acd.mp4",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.57b75983.css.map": "/static/css/main.57b75983.css.map",
-    "main.4d394e0e.js.map": "/static/js/main.4d394e0e.js.map",
+    "main.c8d59358.css.map": "/static/css/main.c8d59358.css.map",
+    "main.9cf22eaa.js.map": "/static/js/main.9cf22eaa.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57b75983.css",
-    "static/js/main.4d394e0e.js"
+    "static/css/main.c8d59358.css",
+    "static/js/main.9cf22eaa.js"
   ]
 }
