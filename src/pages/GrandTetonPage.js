@@ -4,10 +4,7 @@ import React from 'react';
 import FadeIn from 'react-fade-in';
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 
-import { useRef } from "react";
-import { motion, useScroll } from "framer-motion";
-
-import treeline from '../assets/other/tetons/treeline.png';
+// import treeline from '../assets/other/tetons/treeline.png';
 import mountains from '../assets/other/tetons/mountains.png';
 import crazysunset from '../assets/other/tetons/crazysunset.png';
 import brecciacliff from '../assets/other/tetons/brecciacliff.mp4';
@@ -21,9 +18,6 @@ import schwabacherend from '../assets/other/tetons/schwabacherend.png';
 import geologicalsurvey from '../assets/other/tetons/geologicalsurvey.png';
 
 function GrandTetonPage(props) {
-    const ref = useRef(null);
-    const { scrollXProgress } = useScroll({ container: ref });
-
     AOS.init();
     window.scrollTo(0, 0);
 
@@ -125,7 +119,7 @@ function GrandTetonPage(props) {
                 </p>
             </div>
 
-            <div className="scrollable-images max-w-7xl mx-auto gap-6" id="scrollableimages" ref={ref}>
+            {/* <div className="scrollable-images max-w-7xl mx-auto gap-6" id="scrollableimages" ref={ref}>
                 <img
                     className="rounded-md"
                     src={deltalake}
@@ -152,15 +146,15 @@ function GrandTetonPage(props) {
                     src={deltalake}
                     alt="Delta Lake"
                 />
-            </div>
+            </div> */}
 
-            {/* <div className="px-4 sm:px-0 mt-8 mb-4 max-w-6xl w-full mx-auto">
+            <div className="px-4 sm:px-0 mt-8 mb-4 max-w-7xl w-full mx-auto">
                 <img
                     className="my-8 rounded-md"
                     src={deltalake}
                     alt="Delta Lake"
                 />
-            </div> */}
+            </div>
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-16 sm:mt-24 mb-8">
                 <p className="text-lg text-gray-500">8.20.2024</p>

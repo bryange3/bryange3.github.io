@@ -17,6 +17,7 @@ function AboutPage(props) {
                 </p>
 
                 <p className="text-5xl font-semibold text-gray-900 mb-8 font-serif">About Me</p>
+                
                 <img
                     class="mt-12 rounded-md"
                     src={about}
@@ -25,8 +26,14 @@ function AboutPage(props) {
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">I'm Bryan Ge, he/him.</p>
                 <p className="text-xl text-gray-900">
-                    I am a designer who loves solving meaningful and complex problems involving deep systems thinking, visual craft, and storytelling. I've led and shipped projects at large companies including Apple, Amazon, and Cargill, small startups, and nonprofits. Currently, I'm exploring prototyping and realizing my ideas through code. View my resume <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='secondary-link' alt="Resume">here</a>.
+                    I am a designer who loves solving meaningful and complex problems involving deep systems thinking, visual craft, and storytelling.
                 </p>
+
+                <p className="text-xl text-gray-900">
+                Currently, I am an Associate UX Designer on the platform team at Amplify. Previously, I've led and shipped projects at companies such as Apple, Amazon, and Cargill.
+                </p>
+
+                {/* View my resume <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='secondary-link' alt="Resume">here</a>. */}
 
                 <p className="text-xl text-gray-900 bg-gray-200 p-4 my-4 rounded-md">Shoutout to my design moms and biggest supporters — Carmen, Marcel, Takara, Kim, Sana! Their mentorship has been incredibly impactful and I’m extremely appreciative.</p>
 
