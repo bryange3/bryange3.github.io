@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.57b75983.css",
-    "main.js": "/static/js/main.11dd526c.js",
+    "main.js": "/static/js/main.b772cf4e.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
@@ -56,11 +56,11 @@
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
     "main.57b75983.css.map": "/static/css/main.57b75983.css.map",
-    "main.11dd526c.js.map": "/static/js/main.11dd526c.js.map",
+    "main.b772cf4e.js.map": "/static/js/main.b772cf4e.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57b75983.css",
-    "static/js/main.11dd526c.js"
+    "static/js/main.b772cf4e.js"
   ]
 }
