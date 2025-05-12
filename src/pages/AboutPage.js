@@ -26,16 +26,20 @@ function AboutPage(props) {
 
                 <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">I'm Bryan Ge, he/him.</p>
                 <p className="text-xl text-gray-900">
-                    I am a designer who loves solving meaningful and complex problems involving deep systems thinking, visual craft, and storytelling.
+                    I am a designer who loves solving problems through systems thinking, visual craft, storytelling, and collaboration. Currently based in Seattle, WA.
                 </p>
 
                 <p className="text-xl text-gray-900">
-                Currently, I am an Associate UX Designer on the platform team at Amplify. Previously, I've led and shipped projects at companies such as Apple, Amazon, and Cargill.
+                Recently at Amplify Education, I built activity assignment enhancements and account migration notifications. Previously, I've led and shipped projects at companies such as Apple, Amazon, and Cargill.
+                </p>
+
+                <p className="text-xl text-gray-900">
+                    Please <a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer">email me</a> for my resume.
                 </p>
 
                 {/* View my resume <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='secondary-link' alt="Resume">here</a>. */}
 
-                <p className="text-xl text-gray-900 bg-gray-200 p-4 my-4 rounded-md">Shoutout to my design moms and biggest supporters — Carmen, Marcel, Takara, Kim, Sana! Their mentorship has been incredibly impactful and I’m extremely appreciative.</p>
+                <p className="text-xl text-gray-900 bg-gray-200 p-4 my-4 rounded-md">Shoutout to my design moms and biggest supporters — Carmen, Marcel, Takara, Kim, Sana, Lianna! I'm extremely appreciative of their mentorship and support.</p>
 
                 <img
                     class="mt-16 mb-12 rounded-md"
@@ -43,11 +47,11 @@ function AboutPage(props) {
                     alt="Schwabacher Landing sunrise at Grand Teton National Park"
                 />
 
-                <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">I recently completed a side quest, spending my summer at Grand Teton National Park.</p>
+                <p className="text-3xl font-semibold text-gray-900 font-serif mt-12">Last summer, I completed a side quest and spent my summer at Grand Teton National Park.</p>
                 <p className="text-xl text-gray-900">
                     It was a personal dream come true getting to live on a mountain, hike to alpine lakes, and witness unreal sunrises and sunsets.
                 </p>
-                <Link className="text-xl mt-4" to="/grand-teton">Check out my favorite memories →</Link>
+                <Link className="text-xl mt-4" to="/grand-teton">Check out some pics →</Link>
             </div>
         </FadeIn >
     );

@@ -95,7 +95,7 @@ function ApplePage(props) {
 
                     <br /><br />
 
-                    A special thanks to Carmen, my manager, for helping me grow as a designer through thoughtful feedback and encouragement.
+                    A special thanks to Carmen, my manager, for supporting me through thoughtful feedback and encouragement.
                 </p>
 
                 <p className="text-xl text-right mt-16">

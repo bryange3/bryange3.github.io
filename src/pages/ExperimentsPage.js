@@ -5,6 +5,7 @@ import FadeIn from 'react-fade-in';
 
 import ExperimentCard from '../components/ExperimentCard.js';
 
+import googlemaps from '../assets/other/experiments/figma/googlemaps.png';
 import ringeranimation from '../assets/other/experiments/swiftui/ringeranimation.mp4';
 import accelerometercard from '../assets/other/experiments/swiftui/accelerometercard.mp4';
 import timezonemsg from '../assets/other/experiments/figma/timezonemsg.png';
@@ -22,6 +23,8 @@ function ExperimentsPage(props) {
 
                 <p className="text-5xl font-semibold text-gray-900 font-serif mb-4">Experiments</p>
                 <p className="text-xl text-gray-900 mb-14">Interactions, ideas, and fleeting thoughts.</p>
+
+                <ExperimentCard title={"What if your saved places in Google Maps showed up in Search?"} type={'image'} src={googlemaps} alt="iPhones on Google Maps displaying saved places showing up in search results while typing and on the map view" tools={['Figma']} description={"Saving places is powerful. But finding them again when you need them can be hard, especially if you've saved hundreds of restaurants like me. What if your saved spots surfaced when using Search, when it makes sense?"}/>
 
                 <div className="sm:grid sm:grid-cols-2 gap-x-10">
                     <FadeIn delay={300}>

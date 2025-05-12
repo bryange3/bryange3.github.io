@@ -13,8 +13,6 @@ function Footer() {
                     <p className="text-md font-sans font-normal sm:text-right">
                         <a href="mailto:bryange3@gmail.com" target="_blank" rel="noopener noreferrer">Email ↗</a>
                         <br/>
-                        {/* <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='secondary-link'>Resume ↗</a>
-                        <br/> */}
                         <a href="https://www.linkedin.com/in/bryange/" target="_blank" rel="noopener noreferrer" className='secondary-link'>LinkedIn ↗</a>
                     </p>
                 </p>

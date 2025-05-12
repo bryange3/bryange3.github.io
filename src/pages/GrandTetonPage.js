@@ -30,7 +30,7 @@ function GrandTetonPage(props) {
 
                 <p className="text-5xl font-semibold text-gray-900 mb-4 font-serif">Summer in the Tetons</p>
                 <p className="text-xl text-gray-900">
-                    My summer in the Bay Area in 2022 made me realize how much I love nature, especially since I grew up in the very flat and nature-scarce Dallas, TX. I spent this past summer working and living in a lodge near Grand Teton National Park! Here are some of my favorite moments.
+                    My summer in the Bay Area in 2022 made me realize how much I love nature, especially since I grew up in the very flat and nature-scarce Dallas, TX. I spent last summer working and living in a lodge at Grand Teton National Park! Here are some of my favorite moments.
                 </p>
             </div>
 
@@ -50,7 +50,7 @@ function GrandTetonPage(props) {
                 </div>
 
                 <p className="text-xl text-gray-900">
-                    This was one of the most amazing sunsets I've ever seen. The ones after storms are always insanely beautiful!
+                    This was probably the most amazing sunset I've ever seen. They're always so beautiful after a storm.
                 </p>
             </div>
 
@@ -115,7 +115,7 @@ function GrandTetonPage(props) {
                 </div>
 
                 <p className="text-xl text-gray-900">
-                    This is one of the most popular hikes in the park and I can see why! There's quite some elevation gain and a few rock scrambles, but it's worth it for the views of the lake and seeing Grand Teton up close. The turqoise water is stunning, but freezing.
+                    This is one of the most popular hikes in the park and I can see why! There's quite some elevation gain and a few rock scrambles, but it's worth it for the views of the lake and seeing Grand Teton up close. The turqoise water was stunning, but freezing.
                 </p>
             </div>
 
@@ -171,7 +171,7 @@ function GrandTetonPage(props) {
                 </div>
 
                 <p className="text-xl text-gray-900">
-                    It's crazy how much can change in 40 minutes! Glad I didn't leave even though it got cloudy.
+                    Another popular spot! It's crazy how much can change in 40 minutes. Glad I didn't leave even though it got cloudy.
                 </p>
             </div>
 
@@ -201,7 +201,7 @@ function GrandTetonPage(props) {
                 </div>
 
                 <p className="text-xl text-gray-900">
-                    During the week my friend Riya visited, we saw fresh snowfall on the Tetons at Oxbow Bend, took long-exposure shots of the galaxy above, and enjoyed the loveliest outdoor brunch at Persephone Bakery in Jackson.
+                    During the week my friend Riya visited, we saw fresh snowfall on the Tetons at Oxbow Bend, took long-exposure shots of the stars, and enjoyed the loveliest outdoor brunch at Persephone Bakery in Jackson.
                 </p>
             </div>
 
@@ -244,7 +244,7 @@ function GrandTetonPage(props) {
                 </div>
 
                 <p className="text-xl text-gray-900">
-                    This was one of my favorite hikes this summer. The scale of these mountains and the feeling at the summit are hard to put into words. I had hiked this trail a few months earlier, and it was so cool to see how much changed with the fresh snowfall!
+                    This was one of my favorite hikes in the area. The scale of these mountains and the feeling at the summit are hard to put into words. I had hiked this trail a few months earlier, and it was so cool to see how much changed with the fresh snowfall!
                 </p>
             </div>
 
@@ -268,7 +268,11 @@ function GrandTetonPage(props) {
 
             <div className="mx-6 md:mx-auto max-w-2xl mt-12">
                 <p className="text-xl text-gray-900 bg-gray-200 p-4 rounded-md">
-                    These three months were everything and I am forever grateful for all the mountains I climbed, alpine lakes I visited, vibrant sunsets I watched, and wildlife I spotted. I'm appreciative of the friends I met who came from all over the world, the Chinese I learned from them, the <span className='text-nowrap'>狼人杀</span> games, and the memories we made together.
+                    These three months were everything and I am forever grateful for all the mountains I climbed, alpine lakes I visited, vibrant sunsets I watched, and wildlife I spotted.
+
+                    <br /><br />
+                    
+                    I'm appreciative of the friends I met from around the world, the Chinese I learned, the <span className='text-nowrap'>狼人杀</span> games, and the memories we made together. Missing my besties, Merida & Wilson!
                 </p>
 
                 <img
