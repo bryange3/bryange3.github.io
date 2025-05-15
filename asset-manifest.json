@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.048a100b.css",
-    "main.js": "/static/js/main.a8a46225.js",
+    "main.css": "/static/css/main.b703f789.css",
+    "main.js": "/static/js/main.36a14c19.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
@@ -56,12 +56,12 @@
     "static/media/ringeranimation.mp4": "/static/media/ringeranimation.12e6a377539865ee2acd.mp4",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.048a100b.css.map": "/static/css/main.048a100b.css.map",
-    "main.a8a46225.js.map": "/static/js/main.a8a46225.js.map",
+    "main.b703f789.css.map": "/static/css/main.b703f789.css.map",
+    "main.36a14c19.js.map": "/static/js/main.36a14c19.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.048a100b.css",
-    "static/js/main.a8a46225.js"
+    "static/css/main.b703f789.css",
+    "static/js/main.36a14c19.js"
   ]
 }
