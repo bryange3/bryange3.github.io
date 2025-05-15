@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.729f4d20.css",
-    "main.js": "/static/js/main.97a8acd5.js",
+    "main.css": "/static/css/main.048a100b.css",
+    "main.js": "/static/js/main.a8a46225.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
@@ -12,13 +12,13 @@
     "static/media/persephone.jpg": "/static/media/persephone.95f227d44b9a80b5fc11.jpg",
     "static/media/deltalake.png": "/static/media/deltalake.9e79e6d6f62f917e3959.png",
     "static/media/galaxy.jpeg": "/static/media/galaxy.e26af7d6fd1621e64e22.jpeg",
+    "static/media/googlemaps.png": "/static/media/googlemaps.bab0525ba97574c59de1.png",
     "static/media/shadowing.png": "/static/media/shadowing.88576246f79d30122858.png",
     "static/media/geologicalsurvey.png": "/static/media/geologicalsurvey.c6a4e1b038fee24bd1ad.png",
     "static/media/accelerometercard.mp4": "/static/media/accelerometercard.fd412393da7f1ba0ea91.mp4",
     "static/media/crazysunset.png": "/static/media/crazysunset.3a629bb9c56686bf1063.png",
     "static/media/storydetails.gif": "/static/media/storydetails.a215c0eee1c530c6719e.gif",
     "static/media/oxbow.jpeg": "/static/media/oxbow.9b77507268e55294c613.jpeg",
-    "static/media/googlemaps.png": "/static/media/googlemaps.8dc51b5cd632a9f97b7d.png",
     "static/media/apple-park.jpg": "/static/media/apple-park.dddfecb9a4e08f0069eb.jpg",
     "static/media/platforms.png": "/static/media/platforms.e40740afe6dabcba416d.png",
     "static/media/context.png": "/static/media/context.4261952605c6f3cf6711.png",
@@ -56,12 +56,12 @@
     "static/media/ringeranimation.mp4": "/static/media/ringeranimation.12e6a377539865ee2acd.mp4",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.729f4d20.css.map": "/static/css/main.729f4d20.css.map",
-    "main.97a8acd5.js.map": "/static/js/main.97a8acd5.js.map",
+    "main.048a100b.css.map": "/static/css/main.048a100b.css.map",
+    "main.a8a46225.js.map": "/static/js/main.a8a46225.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.729f4d20.css",
-    "static/js/main.97a8acd5.js"
+    "static/css/main.048a100b.css",
+    "static/js/main.a8a46225.js"
   ]
 }
