@@ -17,14 +17,28 @@ function ExperimentsPage(props) {
     return (
         <FadeIn className="mx-6 md:mx-auto max-w-2xl">
             <div className="mt-12 sm:mt-20 mb-20">
-                <p className="text-xl mt-4 mb-8">
+                <p className="text-lg mt-4 mb-8">
                     <Link to="/">← Back home</Link>
                 </p>
 
                 <p className="text-5xl font-semibold text-gray-900 font-serif mb-4">Experiments</p>
-                <p className="text-xl text-gray-900 mb-14">Interactions, ideas, and fleeting thoughts.</p>
+                <p className="text-lg text-gray-900 mb-14">Interactions, ideas, and fleeting thoughts.</p>
 
-                <ExperimentCard title={"What if your saved places in Google Maps showed up in Search?"} type={'image'} src={googlemaps} alt="iPhones on Google Maps displaying saved places showing up in search results while typing and on the map view" tools={['Figma']} description={"Saving places is powerful. But finding them again when you need them can be hard, especially if you've saved hundreds of restaurants like me. What if your saved spots surfaced when using Search, when it makes sense?"}/>
+                <ExperimentCard title={"What if your saved places in Google Maps showed up in Search?"} type={'image'} src={googlemaps} alt="iPhones on Google Maps displaying saved places showing up in search results while typing and on the map view" tools={['Figma']}
+                    description={
+                        <>
+                            Saving places is powerful. But finding them again when you need them can be hard. What if your saved spots surfaced when using Search, when it makes sense?
+                            <ul className="list-disc list-outside ml-3 my-2">
+                                <li className="my-0.5">
+                                    What if you finally got to try out that sushi place you've been meaning to go to?
+                                </li>
+                                <li className="my-0.5">
+                                    What if you could find that James Beard restaurant that you had noted a while back?
+                                </li>
+                            </ul>
+                        </>
+                    }
+                />
 
                 <div className="sm:grid sm:grid-cols-2 gap-x-10">
                     <FadeIn delay={300}>

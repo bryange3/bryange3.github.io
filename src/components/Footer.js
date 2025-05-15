@@ -7,7 +7,7 @@ function Footer() {
             <div className="sticky-footer max-w-2xl mx-6 md:mx-auto mb-10 md:mb-20">
                 <hr className="border-gray-300 rounded my-12"></hr>
                 <p className="grid sm:grid-cols-[1fr_auto] sm:gap-x-12 md:gap-x-28">
-                    <p className="text-xl text-gray-500 mt-0">
+                    <p className="text-lg text-gray-500 mt-0">
                         Thanks for scrolling! I made this site with React, Tailwind CSS, and <span className='brat'>BRAT</span> playing in the background.
                     </p>
                     <p className="text-md font-sans font-normal sm:text-right">

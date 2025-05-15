@@ -9,7 +9,7 @@ module.exports = {
     fontFamily: {
       'sans': ['Inter','ui-sans-serif', 'system-ui'],
       'serif': ['Newsreader', 'ui-serif'],
-      'mono': ['IBM Plex Mono', 'ui-monospace', 'system-ui'],
+      'mono': ['IBM Plex Mono', 'ui-monospace', 'Inter', 'system-ui'],
     }
   }
 }
