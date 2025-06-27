@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b703f789.css",
+    "main.css": "/static/css/main.c74678d8.css",
     "main.js": "/static/js/main.36a14c19.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
@@ -56,12 +56,12 @@
     "static/media/ringeranimation.mp4": "/static/media/ringeranimation.12e6a377539865ee2acd.mp4",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.b703f789.css.map": "/static/css/main.b703f789.css.map",
+    "main.c74678d8.css.map": "/static/css/main.c74678d8.css.map",
     "main.36a14c19.js.map": "/static/js/main.36a14c19.js.map",
     "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b703f789.css",
+    "static/css/main.c74678d8.css",
     "static/js/main.36a14c19.js"
   ]
 }
