@@ -1,16 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8f4ac92.css",
-    "main.js": "/static/js/main.1f0afe10.js",
-    "static/js/154.889a7bb6.chunk.js": "/static/js/154.889a7bb6.chunk.js",
-    "static/js/64.6c3faa36.chunk.js": "/static/js/64.6c3faa36.chunk.js",
-    "static/js/544.318752cb.chunk.js": "/static/js/544.318752cb.chunk.js",
-    "static/js/165.b6970648.chunk.js": "/static/js/165.b6970648.chunk.js",
-    "static/js/991.17bae620.chunk.js": "/static/js/991.17bae620.chunk.js",
-    "static/js/16.38a58244.chunk.js": "/static/js/16.38a58244.chunk.js",
-    "static/js/271.45548440.chunk.js": "/static/js/271.45548440.chunk.js",
+    "main.css": "/static/css/main.0ed3a0a0.css",
+    "main.js": "/static/js/main.eb49f87c.js",
     "static/js/422.7d2be351.chunk.js": "/static/js/422.7d2be351.chunk.js",
-    "static/js/956.27cfcbda.chunk.js": "/static/js/956.27cfcbda.chunk.js",
     "static/media/brecciacliff.mp4": "/static/media/brecciacliff.511b5218ccdbb341c2a4.mp4",
     "static/media/brecciasunset.mp4": "/static/media/brecciasunset.4193d50299f319915157.mp4",
     "static/media/solution.gif": "/static/media/solution.25a9ac4bc6bdd63b935d.gif",
@@ -64,20 +56,12 @@
     "static/media/ringeranimation.mp4": "/static/media/ringeranimation.12e6a377539865ee2acd.mp4",
     "static/media/flow.png": "/static/media/flow.00765face511a98df57e.png",
     "index.html": "/index.html",
-    "main.d8f4ac92.css.map": "/static/css/main.d8f4ac92.css.map",
-    "main.1f0afe10.js.map": "/static/js/main.1f0afe10.js.map",
-    "154.889a7bb6.chunk.js.map": "/static/js/154.889a7bb6.chunk.js.map",
-    "64.6c3faa36.chunk.js.map": "/static/js/64.6c3faa36.chunk.js.map",
-    "544.318752cb.chunk.js.map": "/static/js/544.318752cb.chunk.js.map",
-    "165.b6970648.chunk.js.map": "/static/js/165.b6970648.chunk.js.map",
-    "991.17bae620.chunk.js.map": "/static/js/991.17bae620.chunk.js.map",
-    "16.38a58244.chunk.js.map": "/static/js/16.38a58244.chunk.js.map",
-    "271.45548440.chunk.js.map": "/static/js/271.45548440.chunk.js.map",
-    "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map",
-    "956.27cfcbda.chunk.js.map": "/static/js/956.27cfcbda.chunk.js.map"
+    "main.0ed3a0a0.css.map": "/static/css/main.0ed3a0a0.css.map",
+    "main.eb49f87c.js.map": "/static/js/main.eb49f87c.js.map",
+    "422.7d2be351.chunk.js.map": "/static/js/422.7d2be351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8f4ac92.css",
-    "static/js/main.1f0afe10.js"
+    "static/css/main.0ed3a0a0.css",
+    "static/js/main.eb49f87c.js"
   ]
 }
