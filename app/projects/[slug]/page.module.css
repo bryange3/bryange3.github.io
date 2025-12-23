@@ -1,0 +1,151 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.project {
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.companyAndYear {
+  display: inline-block;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: #f0f0f0;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.featuredImage {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.featuredImage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.description {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.caseStudy {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.caseStudy h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.caseStudyContent {
+  line-height: 1.8;
+  color: #444;
+}
+
+.caseStudyContent p {
+  margin-bottom: 1rem;
+}
+
+.imageGallery {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.imageGallery h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.images {
+  display: grid;
+  gap: 2rem;
+}
+
+.imageWrapper {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.link {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.projectLink {
+  display: inline-block;
+  font-size: 1.125rem;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.projectLink:hover {
+  color: #0052a3;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.125rem;
+  }
+
+  .caseStudy h2,
+  .imageGallery h2 {
+    font-size: 1.5rem;
+  }
+}
+

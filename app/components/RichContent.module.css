@@ -1,0 +1,88 @@
+.richContent {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+/* Style headings that you'll use in your content */
+.richContent h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.richContent h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem 0;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.richContent h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.25rem 0 0.5rem 0;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.richContent h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem 0;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.richContent p {
+  margin: 0 0 1rem 0;
+  color: var(--text-primary);
+}
+
+.richContent img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+}
+
+.richContent video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+}
+
+.richContent ul,
+.richContent ol {
+  margin: 0 0 1rem 0;
+  padding-left: 1.5rem;
+  color: var(--text-primary);
+}
+
+.richContent li {
+  margin: 0.5rem 0;
+}
+
+.richContent a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.richContent a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .richContent p,
+  .richContent li {
+    color: #fff;
+  }
+}
+

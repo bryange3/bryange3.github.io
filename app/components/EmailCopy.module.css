@@ -1,0 +1,71 @@
+.emailContainer {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #0063CD;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.emailText {
+  color: #0063CD;
+}
+
+.emailContainer:hover .emailText {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.2em;
+}
+
+.copyIcon {
+  width: 14px;
+  height: 14px;
+  color: #0063CD;
+  flex-shrink: 0;
+}
+
+.tooltip {
+  position: fixed;
+  pointer-events: none;
+  background-color: #222222;
+  color: #fff;
+  padding: 0.375rem 0.625rem;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  white-space: nowrap;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.checkIcon {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .emailContainer {
+    color: #5BA3FF;
+  }
+
+  .emailText {
+    color: #5BA3FF;
+  }
+
+  .copyIcon {
+    color: #5BA3FF;
+  }
+
+  .tooltip {
+    background-color: #333;
+    color: #fff;
+  }
+}
+

@@ -1,66 +1,104 @@
-import Image from "next/image";
+import { getAllProjects } from "@/lib/projects";
 import styles from "./page.module.css";
+import EmailCopy from "./components/EmailCopy";
+import ProjectsAccordion from "./components/ProjectsAccordion";
 
-export default function Home() {
+const workHistory = [
+  { company: "Amplify Education", role: "UX Design", year: "Now" },
+  { company: "Togwotee Mountain Lodge", role: "Front Desk", year: "2024" },
+  { company: "Nice Handwriting", role: "Product Design", year: "2024" },
+  { company: "Amazon", role: "UX Design", year: "2023" },
+  { company: "Particle Health", role: "Product Design", year: "2022-23" },
+  { company: "Apple", role: "Product Design", year: "2022" },
+  { company: "Cargill", role: "UX Design", year: "2021-22" },
+  { company: "State Farm", role: "Software Engineering", year: "2021" },
+];
+
+export default async function Home() {
+  const projects = await getAllProjects();
+
   return (
     <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      <div className={styles.container}>
+        {/* Left Column */}
+        <aside className={styles.sidebar}>
+          <div className={styles.bio}>
+            <h1 className={styles.greeting}>Hi, I&apos;m Bryan!</h1>
+            <p className={styles.bioText}>
+              I am a software designer at{" "}
+              <a
+                href="https://www.amplify.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                Amplify Education
+              </a>{" "}
+              creating tools that support K–12 teachers and enable internal authors to build high-quality digital learning programs.
+            </p>
+            <p className={styles.bioText}>
+              Outside of work, I enjoy baking brown butter pumpkin bread and
+              {" "}
+              <a
+                href="https://fav-hikes.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                hiking
+              </a>.
+            </p>
+          </div>
+
+          <nav className={styles.workHistory}>
+            <ul className={styles.workList}>
+              {workHistory.map((job, index) => (
+                <li key={index} className={styles.workItem}>
+                  <div className={styles.workContent}>
+                    <div className={styles.workCompany}>{job.company}</div>
+                    <div className={styles.workRole}>{job.role}</div>
+                  </div>
+                  <div className={styles.workYear}>{job.year}</div>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <div className={styles.footer}>
+            <div className={styles.footerText}>
+              <EmailCopy />
+              <a
+                href="https://linkedin.com/in/bryange"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </aside>
+
+        {/* Column Divider */}
+        <div className={styles.divider} aria-hidden="true" />
+
+        {/* Mobile Horizontal Divider */}
+        <div className={styles.mobileDivider} aria-hidden="true" />
+
+        {/* Right Column */}
+        <main className={styles.main}>
+          <ProjectsAccordion projects={projects} />
+
+          {projects.length === 0 && (
+            <div className={styles.emptyState}>
+              <p>
+                No projects yet. Add your projects in{" "}
+                <code>lib/projects.ts</code>.
+              </p>
+            </div>
+          )}
+        </main>
+      </div>
     </div>
   );
 }
