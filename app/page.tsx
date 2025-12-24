@@ -83,7 +83,7 @@ export default async function Home() {
         <div className={styles.divider} aria-hidden="true" />
 
         {/* Mobile Horizontal Divider */}
-        <div className={styles.mobileDivider} aria-hidden="true" />
+        <div className={styles.mobileDivider} data-mobile-divider aria-hidden="true" />
 
         {/* Right Column */}
         <main className={styles.main}>

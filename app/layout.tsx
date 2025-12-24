@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Mona_Sans } from "next/font/google";
 import "./globals.css";
+import AnimationController from "./components/AnimationController";
 
 const monaSans = Mona_Sans({
   variable: "--font-mona-sans",
@@ -45,6 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={monaSans.variable}>
+        <AnimationController />
         {children}
       </body>
     </html>
