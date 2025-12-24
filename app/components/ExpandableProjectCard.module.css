@@ -65,6 +65,11 @@
 
 /* Mobile - ensure equal padding on all sides */
 @media (max-width: 900px) {
+  /* First project card should animate after the mobile divider */
+  .projectCard:nth-child(1) {
+    animation-delay: 0.4s;
+  }
+
   .projectHeader {
     padding: var(--page-padding);
   }
